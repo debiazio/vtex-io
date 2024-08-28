@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(assets/fonts/Rubik-Regular.woff),
+    url(assets/fonts/Rubik-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik bold";
+  src: url(assets/fonts/Rubik-Bold.woff),
+    url(assets/fonts/Rubik-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik semibold";
+  src: url(assets/fonts/Rubik-SemiBold.woff),
+    url(assets/fonts/Rubik-SemiBold.ttf);
+    font-display: swap; /*melhora pagespeed*/
+}

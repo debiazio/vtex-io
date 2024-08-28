@@ -1,0 +1,684 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+  height: 90px;
+}
+
+
+@media screen and (min-width: 40em) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: white;
+  position: relative;
+  padding-bottom: 10px;
+
+}
+
+/* .flexRowContent--main-header::after {
+  /* content: ""; */
+/* position: absolute; */
+/* bottom: 0; */
+/* left: 50%; */
+/* width: 90vw; */
+
+
+/* margin-left: 100px;
+  margin-right: 100PX;
+} */
+
+
+
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexRow--deals {
+  background-color: #FC87FC;
+  padding: 14px 0px;
+  padding: 10px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+
+}
+
+
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+/* MENU PRINCIPAL */
+.flexRow--menu-itens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pink);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  height: 48px;
+  box-shadow: 8px 8px 12px var(--sombra);
+}
+
+/* menu principal */
+.flexRowContent--menu-itens {
+  display: flex;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+  display: flex;
+}
+
+:global(.vtex-menu-2-x-menuContainer) {
+  width: 100%;
+}
+
+
+
+/* .flexRow--menu-itens :global(.vtex-store-components-3-x-container){
+  display: flex;
+  margin: 0;
+  padding: 0;
+} */
+
+/* fonte menu superior */
+:global(.vtex-menu-2-x-styledLinkContent--menu-itens) {
+  color: white;
+  font-weight: bold;
+}
+
+/* .flexRowContent--menu-itens{
+  flex: 1
+} */
+
+
+.menuItem--menu-itens {
+  text-align: center;
+}
+
+/* spacer */
+.flexCol--spacer {
+  min-width: 50px;
+  max-width: 200px;
+  padding: 0;
+  height: 0;
+}
+
+.flexCol--teste-spacer {
+  height: 200px;
+}
+
+/* rodapé */
+.flexRow--newsletter-row {
+  background: var(--pink);
+  padding: 43px 0 50px;
+  padding: 50px;
+  margin-top: 20PX;
+
+}
+
+.flexRow--credits {
+  border-top: 4px solid var(--pink);
+}
+
+/* .flexRow--footer-2-desktop {
+  padding: 32px 0 36px;
+} */
+
+.flexRow--footer-2-desktop {
+  background: black;
+  padding: 40px;
+}
+
+.flexColChild--footer-2-desktop {
+  height: auto !important;
+}
+
+.stretchChildrenWidth {
+  align-items: center;
+  padding: 10px;
+  align-items: flex-start
+}
+
+.flexColChild--imagens-payments-desktop:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.flexColChild--imagens-payments-desktop {
+  transition: all 0.5s ease;
+}
+
+/* .flexColChild--footer-2-desktop {
+  transition: all 0.5s ease;
+}
+
+.flexColChild--footer-2-desktop:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+} */
+
+/* produtos pdp */
+/* .flexColChild :global(.vtex-product-price-1-x-spotPriceSavings){
+  color: green;
+} */
+.flexColChild :global(.vtex-product-price-1-x-newSpotPriceValue--summary) {
+  color: var(--pink);
+  font-weight: 600;
+}
+
+/* coluna direita pdp */
+.flexRow--product-main {
+  overflow: visible;
+  gap: 15px;
+  /* margin-left: 80px;
+  margin-right: 80px; */
+}
+
+
+
+:global(.vtex-store-components-3-x-container) {
+  overflow: visible;
+  /* margin-left: 0px;
+  margin-right: 0px; */
+}
+
+/* @media only screen and (min-width: 300px) {
+  :global(.vtex-store-components-3-x-container) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent) {
+  overflow: visible;
+
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  overflow: visible;
+}
+
+/* coluna esquerda */
+/* imagens */
+:global(.vtex-stack-layout-0-x-stackContainer--product-image) {
+  margin-bottom: 0px;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem) {
+  position: unset;
+}
+
+/* coluna direita pdp */
+:global(.vtex-flex-layout-0-x-flexCol--coluna-direita) {
+  position: sticky;
+  height: 8.5%;
+  top: 140px;
+  padding: 20px;
+}
+
+/* teste */
+.flexCol--teste {
+  width: 100%;
+  height: 100%;
+}
+
+/* pagina de busca  */
+/* painnel de filtros  */
+.flexCol--filterCol {
+  padding: 40px;
+}
+
+/* INSTITUCIONAIS */
+/* QUEM SOMOS */
+.flexRow--pagina-institucional {
+  padding: 20px;
+}
+
+.flexCol--conteudo-institucionais {
+  padding: 40px;
+}
+
+
+
+.menuContainerNav .menuContainer.list {
+  flex: 1;
+}
+
+/* quantidade */
+.numeric-stepper-container {
+  background-color: #e80e7b;
+}
+
+.numeric-stepper__plus-button {
+  background-color: transparent;
+  border: none;
+}
+
+
+.quantitySelectorContainer {
+  background-color: #f21b63;
+}
+
+.quantitySelectorStepper--seletor-quantidade {
+  background-color: var(--violeta);
+}
+
+
+/* botao comprar */
+.flexRowContent--botao-de-comprar .vtex-button {
+  background-color: var(--pink);
+}
+
+
+/* campo cep */
+
+
+.flexRow--linha-cep {
+  background-color: #03044e;
+}
+
+.flexRow--linha-cep .flexCol--input-cep {
+  background-color: yellow;
+}
+
+
+
+/* Institucional menu lateral */
+.flexRowContent--pagina-institucional {
+  display: flex;
+  gap: 20px;
+}
+
+.flexRowContent--secao-quem-somos {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol--menu-institucionais {
+  background-color: var(--pink);
+  max-height: 600px;
+  /* width: 100%; */
+}
+
+.flexColChild--menu-institucionais {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.flexColChild--menu-institucionais:hover {
+  background-color: var(--violeta);
+}
+
+.flexCol--menu-esquerdo {
+  width: 40%;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  margin: 0;
+  padding: 0;
+  /* width: 100%!important; */
+}
+
+
+
+/* produtos relacionados (idealine indica) */
+.flexRow--related-products {
+  gap: 15px;
+  margin: 20px;
+  padding: 20px 20px 30px 20px;
+  border: 1px groove var(--magnolia);
+  border-top: 10px solid var(--pink);
+}
+
+.flexRowContent--product-main {
+  gap: 20px;
+}
+
+.flexRow--reviews-and-ratings {
+  border: 1px groove var(--magnolia);
+  margin-top: 20px;
+  border-top: 10px solid var(--pink);
+  margin: 20px;
+  font-size: small;
+  padding: 20px;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  margin: 10px;
+}
+
+.flexRow--breadcrumb {
+  padding: 20px;
+  margin-left: 20px;
+  /*margin-right: 80px; */
+}
+
+/* texto vantagens pgto a vista  */
+.flexRow--pgto_a_vista {
+  padding: 20px;
+  margin: 20px;
+  border: 1px groove var(--magnolia);
+  border: 10px solid var(--pink);
+}
+
+
+/* linha botao comprar e buscar cep  */
+.flexRow--linha-botoes-comprar-buscarCep {
+  display: flex;
+}
+
+
+/* buscar cep */
+.flexRow--linha-resultados-frete {
+  display: flex;
+  margin-left: -100%;
+  margin-top: 10px;
+}
+
+.flexRowContent--resultados-cep :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flexRowContent--linha-botoes-comprar-buscarCep {
+  display: flex;
+  gap: 15px;
+}
+
+/* resultados cep */
+.flexRowContent--resultados-cep {
+  margin-top: 10px;
+}
+
+/* login */
+.flexRow--linha-login {
+  display: flex;
+}
+
+.flexRowContent--linha-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MOBILE */
+.flexRow--payment-methods {
+  border-top: 5px solid var(--pink);
+  /* margin: 20px; */
+}
+
+/* imagens por produto: BRNCO PEROLA */
+.flexRow--conteiner-pai-imagens-extras {
+  padding-bottom: 40px;
+}
+
+.flexCol--imagens-extras {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 100px;
+  margin: 20px;
+  border: 1px groove var(--magnolia);
+  border-top: 10px solid var(--pink);
+}
+
+
+
+.flexRowContent--header-mobile {
+  display: flex;
+  padding: 0;
+  background-color: var(--pink);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexRowContent--footer-mobile-principal {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.flexRow--container-footer-mobile {
+  width: 100%;
+}
+
+
+.flexRowContent--metodos-mobile {
+  display: flex;
+  align-items: center;
+}
+
+/* .flexRowContent--conteiner-footer-mobile-seguranca, */
+.flexRowContent--conteiner-footer-mobile-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRow--conteiner-footer-mobile-seguranca {
+  display: flex;
+}
+
+.flexRow--conteiner-footer-mobile-redes {
+  width: 100%;
+}
+
+.flexRow--certificados {
+  margin-bottom: 30px;
+  padding: 18px;
+}
+
+/* linha prateleira madu */
+.flexRow--linha-mobiliario-madu,
+.flexRowContent--linha-mobiliario-madu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* LINHA DO BANNER DE INFORMAÇÕES HOME  */
+.flexRow--linha-informacoes {
+  padding: 20px;
+  background-color: var(--violeta);
+  margin-top: -5px;
+}
+
+.flexRow--banner-principal {
+  display: flex;
+}
+
+.flexRowContent--banner-principal {
+  height: 100%;
+}
+
+.flexCol--container-banner-principal {
+  display: flex;
+}
+
+.flexRowContent--linha-informacoes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.flexCol--coluna-informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexColChild--container-banner-principal {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* LINHA DOS MINIBANNERS HOME  */
+.flexRow--section-mini-banners {
+  display: flex;
+  margin: 40px;
+}
+
+.flexRowContent--section-mini-banners {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.flexRowContent--section-mini-banners {
+  display: flex;
+
+}
+
+.flexRowContent--linha1-mini-banner {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  gap: 30px;
+
+}
+
+.flexRowContent--linha2-mini-banner {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--section-mini-banners {
+    display: none;
+  }
+
+
+  .flexRowContent--barra-pesquisa-mobile {
+    border-top: 1px solid #D8D4D7;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    background-color: white;
+  }
+
+  .flexRow--linha-login-mobile {
+    height: 80px;
+    background-color: #e90b91;
+    width: 100%;
+    display: flex;
+  }
+
+  .flexRowContent--linha-login-mobile {
+    display: flex;
+    margin-left: 15%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .flexRow--breadcrumb {
+    display: none;
+  }
+
+  .flexRow--certificados {
+    margin-bottom: 30px;
+    padding: 18px;
+  }
+
+  .flexCol--menu-institucionais {
+    display: none;
+  }
+
+  .flexRowContent--pagina-institucional {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .flexRow--footer-mobile-principal {
+    padding: 0;
+  }
+
+}

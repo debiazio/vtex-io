@@ -1,0 +1,132 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name", //nome
+      "flex-layout.col#productRating", //avaliações
+      "product-summary-space",
+      "product-list-price#summary", //preco de: quanto custava
+      "product-spot-price-savings",
+      "flex-layout.row#selling-price-savings", //economia
+      "product-installments#summary", // parcelamento
+      //"flex-layout.row#sku-selector", //seletor de sku
+      "flex-layout.row#add-to-cart-summary" //linha botão comprar
+    ]
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "add-to-list-btn", //fav button
+      "product-summary-image#shelf",
+      "product-price-savings#summary-shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "badgeText": "de desconto",
+
+      "width": {
+        "desktop": "302",
+        "mobile": "157"
+      },
+      "height": {
+        "desktop": "362",
+        "mobile": "187"
+      }
+
+    }
+  },
+  "product-price-savings#summary-shelf": {
+    "props": {
+      "markers": ["discount"],
+      "message": "-{savingsPercentage} OFF"
+    }
+  },
+
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  // "product-highlight-text": {
+  //   "props": {
+  //     "message": "{highlightName}"
+  //   }
+  // },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "de {listPriceValue}"
+    }
+  },
+  "product-spot-price-savings": {
+    "props": {
+      "blockClass": "summary",
+      "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO ({spotPriceSavingsPercentage} DE DESCONTO)"
+    }
+  },
+
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão ou {installmentsTotalValue}} false { }}"
+    }
+  },
+
+  //linha adicionada para teste - botao comprar
+  "flex-layout.row#add-to-cart-summary":{
+    "children": [
+      "add-to-cart-button" // botao de comprar add ao carrinho
+    ],
+    "props": {
+      "blockClass": "add-to-cart-summary"
+    }
+  },
+
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "Por {sellingPriceValue}"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary",
+      "message": "- {savingsValue}"
+    }
+  }
+}

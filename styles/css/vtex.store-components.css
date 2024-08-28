@@ -1,0 +1,483 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+
+
+.flexRowContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #03034e;
+}
+
+
+
+.newsletter-form {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter-form .container {
+  padding: 60px 10px;
+}
+
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+
+/* icone de favoritos */
+/* .imageElementLink--heart-icon {
+  margin-top: 65px;
+} */
+
+/* .imageElementLink--heart-icon:hover{
+  background:url(assets/teste-coracao.svg) no-repeat ;
+} */
+
+
+
+
+
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.sizeDesktop {
+  max-width: 343;
+  max-height: 144;
+  min-width: 343;
+  padding: 0;
+}
+
+/* logo */
+.logoImage {
+  margin-left: -35px;
+  margin-top: 0;
+}
+
+/* barra de pesquisa */
+.searchBarContainer {
+  width: 500px;
+  margin-right: 10px;
+  display: flex;
+}
+
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid #2F2B2D;
+  height: 3.5rem;
+  align-items: center;
+}
+
+/* input da pesquisa */
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  color: #e80e7b;
+  font-size: 1.1rem;
+  font-weight: 200;
+  background-color: transparent;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: rgba(47, 43, 45, 0.21);
+
+}
+
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  background-color: transparent;
+}
+
+.searchBarIcon--search-bar--search {
+  background-color: transparent;
+  color: #2F2B2D;
+}
+
+
+/* INSTITUCIONAIS */
+/* QUEM SOMOS */
+.imageElement--imagem-quem-somos {
+  display: block;
+  margin: 0 0 30;
+}
+
+
+/* teste */
+/* CSS para criar o ícone de coração */
+.imageElementLink--heart-icon {
+  margin-top: 1.913rem;
+  background-color: pink;
+  height: 1.563rem;
+  width: 1.563rem;
+  transform: rotate(-45deg);
+  position: relative;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+
+}
+
+.imageElementLink--heart-icon::before,
+.imageElementLink--heart-icon::after {
+  content: "";
+  background-color: PINK;
+  /* Cor original do coração */
+  border-radius: 50%;
+  height: 1.563rem;
+  width: 1.563rem;
+  position: absolute;
+  transition: background-color 0.3s ease;
+
+
+}
+
+.imageElementLink--heart-icon::before {
+  top: -0.938rem;
+  left: 0;
+}
+
+.imageElementLink--heart-icon::after {
+  top: 0px;
+  left: 0.938rem;
+}
+
+/* Efeito de hover para preenchimento rosa */
+.imageElementLink--heart-icon:hover {
+  background-color: #f21b63;
+}
+
+.imageElementLink--heart-icon:hover::before,
+.imageElementLink--heart-icon:hover::after {
+  background-color: #f21b63;
+}
+
+
+/* voltagem pdp */
+.skuSelectorName {
+  display: none;
+}
+
+.skuSelectorItem {
+  height: 60px;
+}
+
+/* botoes seletoes de sku */
+.skuSelectorInternalBox {
+  background-color: transparent;
+  border-bottom: 8px solid black;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.skuSelectorItem--selected {
+  background-color: #EDE7EB;
+}
+
+.frameAround {
+  display: none;
+}
+
+/* descriçao conteiner */
+:global(.vtex-store-components-3-x-productDescriptionTitle) {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+/* descrição do produto */
+.productDescriptionContainer {
+  align-items: left;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px groove var(--magnolia);
+  border-top: 10px solid var(--pink);
+  margin: 20px;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+/* seletor do texto da descrição */
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  text-align: justify;
+  padding: 15px;
+}
+
+
+/* CERTIFICADOS */
+/* titulo */
+:global(.vtex-rich-text-0-x-container--titulo-certificadoes) {
+  display: flex;
+  justify-content: center;
+  margin-top: 600px; /*teste sticky*/
+}
+
+/* imagens */
+:global(.vtex-flex-layout-0-x-flexRowContent--certificados) {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  transition: all 0.5s ease;
+  gap: 50px;
+}
+
+/* pega todas as imagens */
+/* :global(.vtex-flex-layout-0-x-flexRowContent--certificados):hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+} */
+
+/* pega separadamente */
+:global(.vtex-flex-layout-0-x-flexRowContent--certificados) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--certificados) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  transition: all 0.5s ease;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--certificados) {
+  display: flex;
+  justify-content: center;
+}
+
+/* botão ver mais pdp */
+.showMoreButton {
+  background-color: transparent;
+}
+
+
+/* imagem pdp */
+.productImagesGallerySwiperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* imagem produto: BRANCO PEROLA */
+.imageElement--branco-perola-child{
+  width: 100%;
+}
+
+.productImagesThumb {
+  width: 65px;
+}
+
+/* cep botao de busca */
+.shippingContainer :global(.vtex-button__label) {
+  color: var(--preto-raisin);
+  margin: 0;
+  padding: 0;
+}
+
+/* cep botao de busca */
+.shippingContainer :global(.vtex-button__label):hover {
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+
+/* footer seguranca */
+.imageElementLink--seguranca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+
+.imageElementLink--seguranca-mobile{
+  display: grid;
+}
+
+/* footer mobile */
+.imageElement--master-mobile,
+.imageElement--visa-mobile,
+.imageElement--boleto-mobile {
+  width: 50%;
+}
+
+.imageElement--paymee-mobile {
+  width: 90%;
+}
+
+.imageElementLink--seguranca-mobile,
+.imageElementLink--paymee-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageElementLink--redes-footer-mobile{
+  display: contents;
+  padding: 0 30px 0 30px;
+}
+
+/* imagens minibanners home  */
+.imageElement--imagens-maiores-mini-banners,
+.imageElement--imagens-menores-mini-banners{
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imageElement--imagens-maiores-mini-banners:hover,
+.imageElement--imagens-menores-mini-banners:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .searchBarContainer {
+    width: 100vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    border: none;
+
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 18px;
+    padding: 5px;
+
+  }
+
+  .logoImage--logo-mobile {
+    padding: 0px 20px;
+    margin-top: 10px;
+    width: max-content;
+  }
+
+  .swiperCaretNext, .swiperCaret{
+    display: none;
+  }
+
+  .swiper-pagination{
+    bottom: 0px;
+  }
+
+  .carouselGaleryCursor{
+    height: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 340px) {
+  .newsletter-form .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+
+  .logoImage {
+    margin-left: 0px;
+  }
+
+  :global(.vtex-store-components-3-x-container){
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}

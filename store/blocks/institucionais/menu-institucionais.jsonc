@@ -1,0 +1,71 @@
+{
+  "rich-text#titulo-menu-institucionais": {
+    "props": {
+      "text": "## Institucional",
+      "blockClass": "titulo-menu-instituicionais"
+    }
+  },
+
+  "rich-text#titulo-item-menu-quem-somos": {
+    "props": {
+      "text": "[Quem Somos](/institucional/quem-somos)",
+      "blockClass": "item-menu-institucionais"
+    }
+  },
+  "rich-text#titulo-item-menu-envio-de-produtos": {
+    "props": {
+      "text": "[Envio de Produtos](/institucional/envio-de-produtos)",
+      "blockClass": "item-menu-institucionais"
+    }
+  },
+  "rich-text#titulo-item-menu-formas-pagamento": {
+    "props": {
+      "text": "[Formas de Pagamento](/institucional/formas-pagamento)",
+      "blockClass": "item-menu-institucionais"
+    }
+  },
+  "rich-text#titulo-item-menu-politica-privacidade": {
+    "props": {
+      "text": "[Política de Privacidade](/institucional/politica-privacidade)",
+      "blockClass": "item-menu-institucionais"
+    }
+  },
+  "rich-text#titulo-item-menu-trocas-e-devolucoes": {
+    "props": {
+      "text": "[Trocas e Devoluções](/institucional/trocas-e-devolucoes)",
+      "blockClass": "item-menu-institucionais"
+    }
+  },
+
+//   teste
+  "rich-text#titulo-item-menu-quem-somos-active": {
+    "props": {
+      "text": "[Quem Somos](/institucional/quem-somos)",
+      "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  },
+  "rich-text#titulo-item-menu-envio-de-produtos-active": {
+    "props": {
+      "text": "[Envio de Produtos](/institucional/envio-de-produtos)",
+      "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  },
+  "rich-text#titulo-item-menu-formas-pagamento-active": {
+    "props": {
+      "text": "[Formas de Pagamento](/institucional/formas-pagamento)",
+      "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  },
+  "rich-text#titulo-item-menu-politica-privacidade-active": {
+    "props": {
+      "text": "[Política de Privacidade](/institucional/politica-privacidade)",
+      "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  },
+  "rich-text#titulo-item-menu-trocas-e-devolucoes-active": {
+    "props": {
+      "text": "[Trocas e Devoluções](/institucional/trocas-e-devolucoes)",
+      "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  }
+}

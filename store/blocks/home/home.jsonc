@@ -1,0 +1,515 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text#titulo-pagina",
+      // "flex-layout.row#deals",
+      // "image#imagem-teste",
+      // "flex-layout.row#video",
+
+      "list-context.image-list#banner-principal",
+      "flex-layout.row#banner-informacoes",
+      "flex-layout.row#mini_banners",
+
+
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+
+      "rich-text#prateleira-maior-capacidade",
+      "flex-layout.row#shelf2",
+
+
+      "rich-text#prateleira-madu",
+      "flex-layout.row#shelf3",
+
+
+      "__fold__"
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link",
+      // "sandbox#home.rdstation-button"
+    ]
+  },
+
+
+  // faixa rosa
+  "rich-text#titulo-pagina": {
+    "props": {
+      "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
+      "blockClass": "tituloHome"
+    },
+    "title": "Titulo inicial"
+  },
+  // "flex-layout.row#video": {
+  //   "children": [
+  //     "video#background"
+  //   ]
+  // },
+  // "video#background": {
+  //   "props": {
+  //     "width": "100%",
+  //     "height": "400px",
+  //     "loop": true,
+  //     "autoPlay": true,
+  //     "src": "assets/video-teste.mp4",
+  //     "blockClass": "videoexemplo",
+  //     "muted": true
+  //   }
+  // },
+
+
+  "list-context.image-list#banner-principal": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+          "image": "assets/banner-1.gif",
+          "mobileImage": "assets/banner-mobile-1.gif",
+          "alt": "Banner da beauty fair",
+          "link": {
+            "url": "https://beleza.beautyfair.com.br/credenciamento-beauty-fair-2024",
+            "title": "Beauty Fair 2024"
+          }
+        },
+        {
+          "image": "assets/banner-2.gif",
+          "mobileImage": "assets/banner-mobile-2.gif",
+          "alt": "Banner com link para autoclaves",
+          "link": {
+            "url": "/Autoclave%20Idealclave?_q=autoclave%20idealclave&map=ft",
+            "title": "Autoclave Idealclave"
+          }
+        },
+        {
+          "image": "assets/banner-4.gif",
+          "mobileImage": "assets/banner-mobile.gif",
+          "alt": "Banner com link para autoclaves",
+          "link": {
+            "url": "/autoclave?_q=AUTOCLAVE&map=ft",
+            "title": "AUTOCLAVE"
+          }
+        },
+        {
+          "image": "assets/banner-5-entrega-fabrica.webp",
+          "mobileImage": "assets/banner_mobile_prontaentrega.gif",
+          "alt": "Banner com opções de pronta entrega direto da fábrica",
+          "link": {
+            "url": "/pronta%20entrega?_q=pronta%20entrega&map=ft"
+          }
+        },
+        {
+          "image": "assets/banner-5-pronta-entrega.gif",
+          "mobileImage": "assets/banner-mobile-pronta-entrega.gif",
+          "alt": "Banner com link para autoclaves horizontais a pronta entrega",
+          "link": {
+            "url": "/pronta-entrega-horizontalD"
+          }
+        },
+        {
+          "image": "assets/banner-promo-agosto.webp",
+          "alt": "Banner com promoção na compra de qualquer altoclave 8l ganhe 4 brindes",
+          "mobileImage": "assets/banner_mobile_promo.webp",
+          "link": {
+            "url": "/la%20belle?_q=la%20belle&map=ft"
+          }
+        }
+
+
+      ]
+    }
+  },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "usePagination": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "blockClass": "carousel"
+    }
+  },
+
+
+  "flex-layout.row#banner-informacoes": {
+    "props": {
+      "blockClass": "linha-informacoes"
+    },
+    "children": [
+      "flex-layout.col#coluna1-informacoes",
+      "flex-layout.col#coluna2-informacoes",
+      "flex-layout.col#coluna3-informacoes",
+      "flex-layout.col#coluna4-informacoes"
+    ]
+  },
+  // COLUNA 1 DA BARRA DE INFORMACOES
+  "flex-layout.col#coluna1-informacoes": {
+    "props": {
+      "blockClass": "coluna-informacoes"
+    },
+    "children": [
+      "flex-layout.row#linha1-informacoes",
+      "rich-text#titulo-coluna1-informacoes",
+      "rich-text#subtitulo-coluna1-informacoes"
+    ]
+  },
+  "rich-text#titulo-coluna1-informacoes": {
+    "props": {
+      "text": "**ENTREGAS PARA TODO O BRASIL**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes coluna"
+  },
+  "rich-text#subtitulo-coluna1-informacoes": {
+    "props": {
+      "text": "Nós entregamos onde for melhor para você e o seu negócio!",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "flex-layout.row#linha1-informacoes": {
+    "props": {
+      "blockClass": "imagem-informacoes"
+    },
+    "children": [
+      "image#imagem-informações1"
+    ]
+  },
+  "image#imagem-informações1": {
+    "props": {
+      "src": "assets/frete-icon-caminhao-branco.svg",
+      "alt": "Ícone de caminhão de entrega",
+      "blockClass": "imagem-informacoes"
+    }
+  },
+  // COLUNA 2 DA BARRA DE INFORMACOES
+  "flex-layout.col#coluna2-informacoes": {
+    "props": {
+      "blockClass": "coluna-informacoes"
+    },
+    "children": [
+      "flex-layout.row#linha2-informacoes",
+      "rich-text#titulo-coluna2-informacoes",
+      "rich-text#subtitulo-coluna2-informacoes"
+    ]
+  },
+  "rich-text#titulo-coluna2-informacoes": {
+    "props": {
+      "text": "**GARANTIA DE FÁBRICA**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  "rich-text#subtitulo-coluna2-informacoes": {
+    "props": {
+      "text": "Garantia de 12 meses oferecida pelo fabricante",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "flex-layout.row#linha2-informacoes": {
+    "props": {
+      "blockClass": "imagem-informacoes"
+    },
+    "children": [
+      "image#imagem-informacoes2"
+    ]
+  },
+  "image#imagem-informacoes2": {
+    "props": {
+      "src": "assets/icon-check-branco.svg",
+      "alt": "Ícone de garantia de fábrica",
+      "blockClass": "imagem-informacoes"
+    }
+  },
+  // COLUNA 3 DA BARRA DE INFORMACOES
+  "flex-layout.col#coluna3-informacoes": {
+    "props": {
+      "blockClass": "coluna-informacoes"
+    },
+    "children": [
+      "flex-layout.row#linha3-informacoes",
+      "rich-text#titulo-coluna3-informacoes",
+      "rich-text#subtitulo-coluna3-informacoes"
+    ]
+  },
+  "rich-text#titulo-coluna3-informacoes": {
+    "props": {
+      "text": "**PARCELE EM ATÉ 10X**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  "rich-text#subtitulo-coluna3-informacoes": {
+    "props": {
+      "text": "Com a gente você pode parcelar em até 10x sem juros no cartão de crédito",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "flex-layout.row#linha3-informacoes": {
+    "props": {
+      "blockClass": "imagem-informacoes"
+    },
+    "children": [
+      "image#imagem-informacoes3"
+    ]
+  },
+  "image#imagem-informacoes3": {
+    "props": {
+      "src": "assets/icon-cartao-credito-branco.svg",
+      "alt": "Ícone de garantia de fábrica",
+      "blockClass": "imagem-informacoes"
+    }
+  },
+  // COLUNA 4 DA BARRA DE INFORMACOES
+  "flex-layout.col#coluna4-informacoes": {
+    "props": {
+      "blockClass": "coluna-informacoes"
+    },
+    "children": [
+      "flex-layout.row#linha4-informacoes",
+      "rich-text#titulo-coluna4-informacoes",
+      "rich-text#subtitulo-coluna4-informacoes"
+    ]
+  },
+  "rich-text#titulo-coluna4-informacoes": {
+    "props": {
+      "text": "**BOLETO PARCELADO**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  "rich-text#subtitulo-coluna4-informacoes": {
+    "props": {
+      "text": "Consulte as condições em Formas de Pagamento",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "flex-layout.row#linha4-informacoes": {
+    "props": {
+      "blockClass": "imagem-informacoes"
+    },
+    "children": [
+      "image#imagem-informacoes4"
+    ]
+  },
+  "image#imagem-informacoes4": {
+    "props": {
+      "src": "assets/icon-barcode-branco.svg",
+      "alt": "Ícone de garantia de fábrica",
+      "blockClass": "imagem-informacoes"
+    }
+  },
+  // SECAO DOS MINI BANNERS
+  "flex-layout.row#mini_banners": {
+    "props": {
+      "blockClass": "section-mini-banners"
+    },
+    "children": [
+      "flex-layout.row#linha1-mini-banners",
+      "flex-layout.row#linha2-mini-banners"
+    ]
+  },
+  // LINHA MAIS ALTA DA SECAO DE MINI BANNERS
+  "flex-layout.row#linha1-mini-banners": {
+    "props": {
+      "blockClass": "linha1-mini-banner"
+    },
+    "children": [
+      "image#mini-banner-linha1-image1",
+      "image#mini-banner-linha1-image2"
+    ]
+  },
+  "image#mini-banner-linha1-image1": {
+    "props": {
+      "blockClass": "imagens-maiores-mini-banners",
+      "src": "assets/Big Banner 1- 616 x 400 px copy.webp",
+      "alt": "Líder no mercado de biossegurança"
+    }
+  },
+  "image#mini-banner-linha1-image2": {
+    "props": {
+      "blockClass": "imagens-maiores-mini-banners",
+      "src": "assets/Big Banner 1- 616 x 400 px.webp",
+      "alt": "Parcelamento em até 10x sem juros"
+    }
+  },
+
+  // LINHA MENOR DA SECAO DE MINI BANNERS
+  "flex-layout.row#linha2-mini-banners": {
+    "props": {
+      "blockClass": "linha2-mini-banner"
+    },
+    "children": [
+      "image#mini-banner-linha2-image1",
+      "image#mini-banner-linha2-image2",
+      "image#mini-banner-linha2-image3"
+    ]
+  },
+
+  "image#mini-banner-linha2-image1": {
+    "props": {
+      "blockClass": "imagens-menores-mini-banners",
+      "src": "assets/Small Banner 3 - 404 x 283 px-1.webp",
+      "alt": "Loja oficial da fábrica"
+    }
+  },
+  "image#mini-banner-linha2-image2": {
+    "props": {
+      "blockClass": "imagens-menores-mini-banners",
+      "src": "assets/Small Banner 3 - 404 x 283 px.webp",
+      "alt": "Compra segura com nota fiscal original"
+    }
+  },
+  "image#mini-banner-linha2-image3": {
+    "props": {
+      "blockClass": "imagens-menores-mini-banners",
+      "src": "assets/Small Banner 3 - 404 x 283 px copy.webp",
+      "alt": "Diversas opções de pagamento"
+    }
+  },
+
+
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## **AUTOCLAVES DE 8 LITROS**",
+      "blockClass": "shelfTitle"
+    },
+    "title": "Título prateleira"
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#prateleira-8litros"]
+  },
+  // "image#imagem-teste":{
+  //   "props": {
+  //     "alt": "imagem de exemplo",
+  //     "src": "assets/Component 2.webp"
+  //   }
+  // },
+
+
+  "list-context.product-list#prateleira-8litros": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleira-8litros"],
+    "props": {
+      "collection": "207"
+    },
+    "title": "Prateleira 8 litros"
+  },
+  "slider-layout#prateleira-8litros": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#prateleira-maior-capacidade"
+    ]
+  },
+
+  // linha da prateleira de maior capacidade
+  "rich-text#prateleira-maior-capacidade": {
+    "props": {
+      "text": "## **AUTOCLAVES DE MAIOR CAPACIDADE**",
+      "blockClass": "shelfTitle"
+    },
+    "title": "Título prateleira maior capacidade"
+  },
+  "list-context.product-list#prateleira-maior-capacidade": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleira-maior-capacidade"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "208"
+    }
+  },
+  "slider-layout#prateleira-maior-capacidade": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+  "flex-layout.row#shelf3": {
+    "children": [
+      "list-context.product-list#prateleira-madu"
+    ]
+  },
+  // linha da prateleira de mobiliario técnico
+  "rich-text#prateleira-madu": {
+    "props": {
+      "text": "## **MOBILIÁRIO TÉCNICO MAD.U**",
+      "blockClass": "shelfTitle"
+    },
+    "title": "Título prateleira MAD.U"
+  },
+  "list-context.product-list#prateleira-madu": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleira-madu"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "category": "19"
+    }
+  },
+  "slider-layout#prateleira-madu": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+
+
+
+
+
+
+  // teste
+  // "sandbox#home.rdstation-button": {
+  //   "props": {
+  //     "width": "200px",
+  //     "height": "500px",
+  //     "initialContent": "<script>window.rwbp={email:'teste@s.com',phone:'5541985360075',message:'Idealine',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>",
+  //     "allowCookies": true,
+  //     "sandbox": "allow-modals"
+  //   }
+  // }
+  // teste
+
+}

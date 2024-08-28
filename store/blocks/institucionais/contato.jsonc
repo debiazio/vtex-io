@@ -1,0 +1,106 @@
+{
+  "store.custom#contato": {
+    "blocks": [
+      "flex-layout.row#contato"
+    ]
+  },
+
+  "flex-layout.row#contato": {
+    "props": {
+      "blockClass": "pagina-institucional"
+    },
+    "children": [
+      // "flex-layout.col#menu-institucionais-contato",
+      "flex-layout.col#contato"
+    ]
+  },
+
+  "flex-layout.col#contato": {
+    "children": [
+      "rich-text#contato",
+      "form#contato"
+    ]
+  },
+  "rich-text#contato": {
+    "props": {
+      "text": "## Fale Conosco"
+    }
+  },
+
+  "form#contato": {
+    "props": {
+      "entity": "contact",
+      "schema": "contact"
+    },
+    "blocks": [
+      "form-success#contato"
+    ],
+    "children": [
+      "form-input.text#nome",
+      "form-input.text#email",
+      "form-input.text#telefone",
+      "form-input.text#assunto",
+      "form-input.textarea#mensagem",
+      "form-submit#contact"  //botão submit
+    ]
+  },
+
+  "form-success#contato": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "Thanks for reaching out! We will come back shortly.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#nome": {
+    "props": {
+      "pointer": "#/properties/nome",
+      "placeholder": "Seu nome",
+      "label": "Nome"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Seu e-mail",
+      "label": "E-mail"
+    }
+  },
+  "form-input.text#telefone": {
+    "props": {
+      "pointer": "#/properties/telefone",
+      "placeholder": "Seu telefone",
+      "label": "Telefone"
+    }
+  },
+
+  "form-input.text#assunto": {
+    "props": {
+      "pointer": "#/properties/assunto",
+      "uiSchema": "Select",
+      "label": "Assunto"
+    }
+  },
+
+
+
+  "form-input.textarea#mensagem": {
+    "props": {
+      "pointer": "#/properties/mensagem",
+      "placeholder": "Sua mensagem",
+      "label": "Mensagem"
+    }
+  },
+
+  "form-submit#contact": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.newsletterForm {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.nameInputContainer :global(.vtex-input-prefix__group),
+.emailInputContainer :global(.vtex-input-prefix__group) {
+  height: auto;
+  border: 0;
+}
+
+.nameInputContainer :global(.vtex-styleguide-9-x-input),
+.emailInputContainer :global(.vtex-styleguide-9-x-input) {
+  padding: 10px 10px 10px;
+  background: transparent;
+  border: 1px solid #ffff;
+  color: #ffff;
+}
+
+.nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
+.emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #ffff;
+}
+
+.defaultErrorMessage,
+.defaultSuccessMessage,
+.newsletterForm :global(.vtex-input__error){
+    color: #ffff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .newsletterForm {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+}

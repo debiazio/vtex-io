@@ -1,0 +1,1385 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "product-gifts",
+      "rich-text#certificacoes-titulo",
+      "flex-layout.row#certificacoes"
+    ]
+  },
+
+
+  // linha que mostra o caminho até o conteúdo
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": "breadcrumb"
+    },
+    "children": ["breadcrumb"]
+  },
+  // avalia se o produto tem estoque
+  "condition-layout.product#availability": {
+    "props": {
+      "conditions": [{
+        "subject": "isProductAvailable"
+      }],
+      "Then": "flex-layout.row#product-main",
+      "Else": "flex-layout.row#product-availability"
+    }
+  },
+  // linha do produto
+  "flex-layout.row#product-main": {
+    "props": {
+      "blockClass": "product-main"
+    },
+    "children": [
+      "flex-layout.col#product-left-col",
+      "flex-layout.col#product-right-col"
+    ]
+  },
+  // coluna da esquerda
+  "flex-layout.col#product-left-col": {
+    "children": [
+      "stack-layout",
+      // "product-gifts",
+      // "product-questions-and-answers",
+      // "flex-layout.row#video",
+      "condition-layout.product#branco-perola",
+      "condition-layout.product#rosa",
+      "condition-layout.product#rosa-gold",
+
+      "condition-layout.product#rose-gold-laBelle-8l",
+      "condition-layout.product#rose-gold-labelle-8l-padrao2",
+      "condition-layout.product#rose-gold-idealclave-8l",
+      "condition-layout.product#rose-gold-idealclave-8l-padrao2",
+      "condition-layout.product#perola-idealclave-8l",
+      "condition-layout.product#perola-idealclave-8l-padrao2",
+      "condition-layout.product#perola-8l-labelle",
+      "condition-layout.product#perola-8l-labelle-padrao2",
+      "condition-layout.product#rosa-idealclave-8l",
+      "condition-layout.product#rosa-idealclave-8l-padrao2",
+      "condition-layout.product#rosa-laBelle-8l",
+      "condition-layout.product#rosa-laBelle-8l-padrao2",
+      "flex-layout.row#description",
+      // "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "flex-layout.row#reviews-and-ratings",
+      "flex-layout.row#relatedProducts"
+
+    ],
+    "props": {
+      "width": "60%"
+    }
+  },
+  // condicional branco
+  "condition-layout.product#branco-perola": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Pérola"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "5L"
+          }
+        }
+      ],
+
+      "Then": "flex-layout.row#custom-pdp-layout-perola"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-perola": {
+    "props": {
+      "blockClass": "conteiner-pai-imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#fotos-branco-perola"
+    ]
+  },
+  "flex-layout.col#fotos-branco-perola": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#branco-perola-5l",
+      "image#branco-perola-1",
+      "image#branco-perola-2",
+      "image#branco-perola-3",
+      "image#branco-perola-4",
+      "image#branco-perola-5",
+      "image#branco-perola-6",
+      "image#branco-perola-7",
+      "image#branco-perola-8",
+      "image#branco-perola-9"
+    ]
+  },
+  "video#branco-perola-5l":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/labell_5l_perola.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 5 litros Pérola LABELLE"
+  },
+  "image#branco-perola-1": {
+    "props": {
+      "src": "assets/branco-perola-1.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-2": {
+    "props": {
+      "src": "assets/branco-perola-2.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-3": {
+    "props": {
+      "src": "assets/branco-perola-3.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-4": {
+    "props": {
+      "src": "assets/branco-perola-4.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-5": {
+    "props": {
+      "src": "assets/branco-perola-5.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-6": {
+    "props": {
+      "src": "assets/branco-perola-6.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-7": {
+    "props": {
+      "src": "assets/branco-perola-7.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-8": {
+    "props": {
+      "src": "assets/branco-perola-8.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  "image#branco-perola-9": {
+    "props": {
+      "src": "assets/branco-perola-9.webp",
+      "alt": "Imagem autoclave branco pérola",
+      "width": "100%"
+    }
+  },
+  // condicional rosa
+  "condition-layout.product#rosa": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rosa"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "5L"
+          }
+        }
+      ],
+
+      "Then": "flex-layout.row#custom-pdp-layout-rosa"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-rosa": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#fotos-branco-rosa"
+    ]
+  },
+  "flex-layout.col#fotos-branco-rosa": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rosa-5l",
+      "image#rosa-1",
+      "image#rosa-2",
+      "image#rosa-3",
+      "image#rosa-4",
+      "image#rosa-5",
+      "image#rosa-6",
+      "image#rosa-7",
+      "image#rosa-8",
+      "image#rosa-9",
+      "image#rosa-10",
+      "image#rosa-11",
+      "image#rosa-12"
+    ]
+  },
+  "video#rosa-5l":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/labell_5l_rosa.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 5 litros Rosa LABELLE"
+  },
+  "image#rosa-1": {
+    "props": {
+      "src": "assets/rosa-1.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-2": {
+    "props": {
+      "src": "assets/rosa-2.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-3": {
+    "props": {
+      "src": "assets/rosa-3.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-4": {
+    "props": {
+      "src": "assets/rosa-4.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-5": {
+    "props": {
+      "src": "assets/rosa-5.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-6": {
+    "props": {
+      "src": "assets/rosa-6.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-7": {
+    "props": {
+      "src": "assets/rosa-7.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-8": {
+    "props": {
+      "src": "assets/rosa-8.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-9": {
+    "props": {
+      "src": "assets/rosa-9.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-10": {
+    "props": {
+      "src": "assets/rosa-10.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-11": {
+    "props": {
+      "src": "assets/rosa-11.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  "image#rosa-12": {
+    "props": {
+      "src": "assets/rosa-12.webp",
+      "alt": "Imagem autoclave rosa",
+      "width": "100%"
+    }
+  },
+  // rosa-gold 5l condicional
+  "condition-layout.product#rosa-gold": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "5L"
+          }
+        }
+      ],
+
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-rosa-gold": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#fotos-rosa-gold"
+    ]
+  },
+  "flex-layout.col#fotos-rosa-gold": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rose-gold-5l",
+      "image#rosa-gold-1",
+      "image#rosa-gold-2",
+      "image#rosa-gold-3",
+      "image#rosa-gold-4",
+      "image#rosa-gold-5",
+      "image#rosa-gold-6",
+      "image#rosa-gold-7",
+      "image#rosa-gold-8",
+      "image#rosa-gold-9",
+      "image#rosa-gold-10",
+      "image#rosa-gold-11",
+      "image#rosa-gold-12"
+    ]
+  },
+  "video#rose-gold-5l":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/labell_5l_rose_gold.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 5 litros Pérola LABELLE"
+  },
+  "image#rosa-gold-1": {
+    "props": {
+      "src": "assets/rosa-gold-1.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-2": {
+    "props": {
+      "src": "assets/rosa-gold-2.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-3": {
+    "props": {
+      "src": "assets/rosa-gold-3.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-4": {
+    "props": {
+      "src": "assets/rosa-gold-4.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-5": {
+    "props": {
+      "src": "assets/rosa-gold-5.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-6": {
+    "props": {
+      "src": "assets/rosa-gold-6.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-7": {
+    "props": {
+      "src": "assets/rosa-gold-7.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-8": {
+    "props": {
+      "src": "assets/rosa-gold-8.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-9": {
+    "props": {
+      "src": "assets/rosa-gold-9.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-10": {
+    "props": {
+      "src": "assets/rosa-gold-10.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-11": {
+    "props": {
+      "src": "assets/rosa-gold-11.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+  "image#rosa-gold-12": {
+    "props": {
+      "src": "assets/rosa-gold-12.webp",
+      "alt": "Imagem autoclave rosa-gold",
+      "width": "100%"
+    }
+  },
+
+  // ideaclave rose gold 8 litros
+  "condition-layout.product#rose-gold-laBelle-8l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l"
+    }
+  },
+  // LABELLE 8 LITROS ROSE GOLD ESPEC 2
+  "condition-layout.product#rose-gold-labelle-8l-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l"
+    }
+  },
+
+
+  "flex-layout.row#custom-pdp-layout-rosa-gold-8l": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#fotos-rosa-gold-8l"
+    ]
+  },
+  "flex-layout.col#fotos-rosa-gold-8l": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rosegold8l"
+    ]
+  },
+  "video#rosegold8l": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.3538.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litros Rose Gold LaBelle"
+  },
+
+  // IDEALCLAVE rose gold 8 litros
+  "condition-layout.product#rose-gold-idealclave-8l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave"
+    }
+  },
+  // IDEALCLAVE rose gold 8 litros ESPEC PADRAO 2
+  "condition-layout.product#rose-gold-idealclave-8l-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#fotos-rosa-gold-8l-idealclave"
+    ]
+  },
+  "flex-layout.col#fotos-rosa-gold-8l-idealclave": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rosegold8l-idealclave"
+    ]
+  },
+  "video#rosegold8l-idealclave": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.2497.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litros Rose Gold Idealclave"
+  },
+
+  // labelle 8 litros BRANCO PEROLA
+  "condition-layout.product#perola-8l-labelle": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Pérola"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
+    }
+  },
+    // labelle 8 litros BRANCO PEROLA alternativo padrao
+    "condition-layout.product#perola-8l-labelle-padrao2": {
+      "props": {
+        "conditions": [{
+            "subject": "specificationProperties",
+            "arguments": {
+              "name": "Cores",
+              "value": "Pérola"
+            }
+          },
+          {
+            "subject": "specificationProperties",
+            "arguments": {
+              "name": "Capacidade",
+              "value": "8 Litros"
+            }
+          },
+          {
+            "subject": "specificationProperties",
+            "arguments": {
+              "name": "Modelo",
+              "value": "LaBelle"
+            }
+          }
+        ],
+        "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
+      }
+    },
+  "flex-layout.row#custom-pdp-layout-perola-8l": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#labelle-branco-perola-8l"
+    ]
+  },
+  "flex-layout.col#labelle-branco-perola-8l": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#brancoPerola8lLabelle"
+    ]
+  },
+  "video#brancoPerola8lLabelle": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.3537.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litros Pérola Labelle"
+  },
+
+  // BRANCO PEROLA 8 LITROS IDEALCLAVE
+  "condition-layout.product#perola-idealclave-8l": {
+    "props": {
+      "conditions": [{
+        "subject": "specificationProperties",
+        "arguments": {
+          "name": "Cor",
+          "value": "Pérola"
+        }
+      },
+      {
+        "subject": "specificationProperties",
+        "arguments": {
+          "name": "Capacidade",
+          "value": "8L"
+        }
+      },
+      {
+        "subject": "specificationProperties",
+        "arguments": {
+          "name": "Modelo",
+          "value": "Idealclave"
+        }
+      }
+    ],
+      "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
+    }
+  },
+    // BRANCO PEROLA 8 LITROS IDEALCLAVE padrao ALTERNATIVO
+    "condition-layout.product#perola-idealclave-8l-padrao2": {
+      "props": {
+        "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Pérola"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
+        }
+      ],
+        "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
+      }
+    },
+
+  "flex-layout.row#custom-pdp-layout-perola-8l-idealclave": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#branco-perola-8l"
+    ]
+  },
+  "flex-layout.col#branco-perola-8l": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#brancoPerola8l"
+    ]
+  },
+  "video#brancoPerola8l": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.2598.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litro idealclave"
+  },
+
+  // CONDICIONAL ROSA IDEALCLAVE 8 LITROS ;
+  "condition-layout.product#rosa-idealclave-8l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Rosa"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-rosa-idealclave-8l"
+    }
+  },
+  // idealclave rosa 8 litros epec alternativas
+  "condition-layout.product#rosa-idealclave-8l-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rosa"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-rosa-idealclave-8l"
+    }
+  },
+  "flex-layout.row#custom-pdp-rosa-idealclave-8l": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#video-rosa-idealclave-8l"
+    ]
+  },
+  "flex-layout.col#video-rosa-idealclave-8l": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rosaIdealclave8l"
+    ]
+  },
+  "video#rosaIdealclave8l": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.2821.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litros Rosa Idealclave"
+  },
+  // CONDICIONAL 8 LITROS LABELLE ROSA
+  "condition-layout.product#rosa-laBelle-8l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Rosa"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-rosa-laBelle-8l"
+    }
+  },
+  "flex-layout.row#custom-pdp-rosa-laBelle-8l": {
+    "props": {
+      "blockClass": "conteiner-pai--imagens-extras"
+    },
+    "children": [
+      "flex-layout.col#video-rosa-laBelle-8l"
+    ]
+  },
+  "flex-layout.col#video-rosa-laBelle-8l": {
+    "props": {
+      "blockClass": "imagens-extras"
+    },
+    "children": [
+      "video#rosalaBelle8l"
+    ]
+  },
+  "video#rosalaBelle8l": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/IDEALCLAVE 8L_12.3536.mp4",
+      "blockClass": "videoexemplo",
+      "muted": true
+    },
+    "title": "Vídeo Autoclave 8 litros Rosa LABELLE"
+  },
+  // labelle 8 litros rosa espec alternativa
+  "condition-layout.product#rosa-laBelle-8l-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Rosa"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-rosa-laBelle-8l"
+    }
+  },
+
+
+
+
+  // "flex-layout.row#default": {
+  //   "children": [
+  //     "rich-text#teste-conditional-default"
+  //   ]
+  // },
+
+  // "rich-text#teste-conditional-default": {
+  //   "props": {
+  //     "text": "produto padrão"
+  //   }
+  // },
+
+  // "flex-layout.row#video": {
+  //   "props": {
+  //     "blockClass": "video"
+  //   },
+  //   "children": [
+  //     "teste"
+  //   ]
+  // },
+  "flex-layout.row#reviews-and-ratings": {
+    "props": {
+      "blockClass": "reviews-and-ratings"
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+
+  // imagens - coluna da esquerda
+  "stack-layout": {
+    "props": {
+      "blockClass": "product-image"
+    },
+    "children": [
+      "flex-layout.row#product-image"
+    ]
+  },
+  // imagem  - coluna da esquerda
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "4:3",
+        "phone": "16:9"
+      },
+      "maxheight": "800px",
+      "contentType": "all",
+      "displayMode": "carousel",
+      "zoomMode": "in-place-click",
+      "displayThumbnailsArrows": true
+    }
+  },
+
+  // coluna da direita
+  "flex-layout.col#product-right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "40%",
+      "blockClass": "coluna-direita"
+    },
+    "children": [
+      "flex-layout.row#product-name", // nome
+      "add-to-list-btn",
+      "product-rating-summary", // avaliações
+      "flex-layout.row#list-price-savings", // preco sem desconto, riscado
+      "flex-layout.row#selling-price", // preco a vista
+      "product-installments", // preco parcelas
+      "product-spot-price-savings",
+      // "product-separator", //espaçamento
+      // "product-identifier.product", //código do produto
+      "sku-selector",
+      "product-quantity",
+      "product-assembly-options",
+      "availability-subscriber", // avise-me disponibilidade
+      "flex-layout.row#botoes-comprar-bucarcep",
+      "flex-layout.row#vantagens-pgto-a-vista",
+      "share#default" //compartilhar,
+
+    ]
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3,
+      "blockClass": "product-name",
+      "colSizing": "auto"
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+
+
+  // "flex-layout.row#specifications-title": {
+  //   "children": ["rich-text#specifications"]
+  // },
+  // "rich-text#specifications": {
+  //   "props": {
+  //     "text": "",
+  //     "blockClass": "especificacoes"
+  //   }
+  // },
+
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "descricao"
+    },
+    "children": ["product-description"]
+  },
+  "product-description": {
+    "props": {
+      "showTitle": true,
+      "collapseContent": true
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": false
+    }
+  },
+
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 5,
+      "showUnit": true,
+      "showLabel": false,
+      "blockClass": "seletor-quantidade"
+    }
+  },
+  //linha do botão comprar e botão busca cep
+  "flex-layout.row#botoes-comprar-bucarcep": {
+    "props": {
+      "blockClass": "linha-botoes-comprar-buscarCep"
+    },
+    "children": [
+      "flex-layout.col#buy-button_tela-de-produto",
+      "flex-layout.col#botao-buscarCep"
+
+    ]
+  },
+  "flex-layout.col#buy-button_tela-de-produto": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "botao-de-comprar"
+    },
+    "children": ["add-to-cart-button"]
+  },
+  //buca cep
+  "flex-layout.col#botao-buscarCep": {
+    "props": {
+      "blockClass": "coluna-buscar-cep"
+    },
+    "children": [
+      "disclosure-layout-group#bucar-cep"
+    ]
+  },
+  "disclosure-layout-group#bucar-cep": {
+    "children": ["disclosure-layout#first-cep"]
+  },
+  "disclosure-layout#first-cep": {
+    "children": ["disclosure-trigger#first-cep", "disclosure-content#first-cep"]
+  },
+  "disclosure-trigger#first-cep": {
+    "children": ["rich-text#texto-botao-frete"]
+  },
+  "disclosure-content#first-cep": {
+    "children": ["flex-layout.row#linha-resultados-frete"]
+  },
+  "rich-text#texto-botao-frete": {
+    "props": {
+      "blockClass": "texto-botao-frete",
+      "text": "Calcular Frete"
+    }
+  },
+  "flex-layout.row#linha-resultados-frete": {
+    "props": {
+      "blockClass": "linha-resultados-frete"
+    },
+    "children": [
+      "flex-layout.row#cep"
+    ]
+  },
+  "flex-layout.row#cep": {
+    "props": {
+      "blockClass": "resultados-cep"
+    },
+    "children": [
+      "shipping-simulator" //calculo de frete
+    ]
+  },
+  "shipping-simulator": {
+    "props": {
+      "shouldUpdateOrderForm": true,
+      "pricingMode": "grouped"
+    }
+  },
+
+
+
+
+  "flex-layout.row#product-availability": {
+    "props": {
+      "colGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7
+    },
+    "children": [
+      "flex-layout.col#product-left-col",
+      "flex-layout.col#product-right-col-availability"
+    ]
+  },
+  "flex-layout.col#product-right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#availability"
+    ]
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": ["availability-subscriber"]
+  },
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+
+
+
+  "flex-layout.row#vantagens-pgto-a-vista": {
+    "props": {
+      "blockClass": "pgto_a_vista"
+    },
+    "children": [
+      "rich-text#vantagens-pgto-a-vista"
+    ],
+    "title": "Vantagens pgto à vista"
+  },
+  "rich-text#vantagens-pgto-a-vista": {
+    "props": {
+      "text": "Pague com pix ou boleto e **ganhe 3% de desconto!**\nEscolha sua forma de pagamento e aproveite ;)\nOfertas promocionais, cupons, brindes e descontos não são acumulativos e estão sujeitos à disponibilidade (verifique na finalização da compra).",
+      "blockClass": "texto-vantagens"
+    }
+  },
+
+
+  // PRODUTOS RELACIONADOS
+  "flex-layout.row#relatedProducts": {
+    "props": {
+      "blockClass": "related-products"
+    },
+    "children": [
+      "flex-layout.col#relatedProducts"
+    ],
+    "title": "Protudos Relacionados"
+  },
+  "flex-layout.col#relatedProducts": {
+    "children": [
+      "rich-text#produtos-relacionados",
+      "shelf.relatedProducts#produtos-relacionados"
+    ]
+  },
+  "rich-text#produtos-relacionados": {
+    "props": {
+      "text": "Idealine Indica",
+      "blockClass": "produtos-relacionados"
+    }
+  },
+  "shelf.relatedProducts#produtos-relacionados": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "recommendation": "view",
+      "blockClass": "related-shelf",
+      "productList": {
+        "showTitle": false,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "maxItems": 16,
+        "arrows": true
+      }
+    }
+  },
+  "rich-text#certificacoes-titulo": {
+    "props": {
+      "text": "## **Certificações**",
+      "blockClass": "titulo-certificadoes"
+    }
+  },
+
+
+  // CERTIFICADOS
+  "flex-layout.row#certificacoes": {
+    "props": {
+      "blockClass": "certificados"
+    },
+    "children": [
+      "flex-layout.col#coluna-certificado",
+      "flex-layout.col#coluna-certificado1",
+      "flex-layout.col#coluna-certificado2",
+      "flex-layout.col#coluna-certificado3"
+    ]
+  },
+  "flex-layout.col#coluna-certificado": {
+    "props": {
+      "blockClass": "coluna-certificado"
+    },
+    "children": [
+      "image#certificado1"
+    ]
+  },
+  "image#certificado1": {
+    "props": {
+      "src": "assets/certificado1.svg",
+      "alt": "Líder em vendas"
+    }
+  },
+  "flex-layout.col#coluna-certificado1": {
+    "props": {
+      "blockClass": "coluna-certificado"
+    },
+    "children": [
+      "image#certificado2"
+    ]
+  },
+  "image#certificado2": {
+    "props": {
+      "src": "assets/certificado2.svg",
+      "alt": "ISO"
+    }
+  },
+  "flex-layout.col#coluna-certificado2": {
+    "props": {
+      "blockClass": "coluna-certificado"
+    },
+    "children": [
+      "image#certificado3"
+    ]
+  },
+  "image#certificado3": {
+    "props": {
+      "src": "assets/certificado3.svg",
+      "alt": "Anvisa"
+    }
+  },
+  "flex-layout.col#coluna-certificado3": {
+    "props": {
+      "blockClass": "coluna-certificado"
+    },
+    "children": [
+      "image#certificado4"
+    ]
+  },
+
+  "image#certificado4": {
+    "props": {
+      "src": "assets/certificado4.svg",
+      "alt": "Desde 1991"
+    }
+  }
+}
