@@ -1105,8 +1105,8 @@
       "product-assembly-options",
       "availability-subscriber", // avise-me disponibilidade
       "flex-layout.row#botoes-comprar-bucarcep",
-      "flex-layout.row#vantagens-pgto-a-vista",
-      "share#default" //compartilhar,
+      "flex-layout.row#vantagens-pgto-a-vista"
+      // "share#default" //compartilhar,
 
     ]
   },

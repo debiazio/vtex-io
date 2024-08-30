@@ -54,12 +54,12 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "blockClass": "spacer",
-      "width": "grow"
-    }
-  },
+  // "flex-layout.col#spacer": {
+  //   "props": {
+  //     "blockClass": "spacer",
+  //     "width": "grow"
+  //   }
+  // },
   "search-bar": {
     "blocks": [
       "autocomplete-result-list.v2"

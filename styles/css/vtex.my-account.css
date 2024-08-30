@@ -15,7 +15,11 @@
 }
 
 
-
+:global(.vtex-textarea__label),
+:global(.vtex-input__label){
+  padding: 10px;
+  padding-top: 20px;
+}
 
 /* RESET */
 *,
@@ -144,7 +148,7 @@ input:-webkit-autofill {
 
 /*
   @media screen and (max-width: 1024px) {
-  
+
     } */
 
 
