@@ -46,11 +46,12 @@
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudo-beleza-estetica",
-      "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
       "menu-item#submenuVerTudo-mobiliario-tecnico",
-      "menu-item#submenuVerTudo-promocoes",
+      "menu-item#submenuVerTudo-odontologia",
+      "menu-item#submenuVerTudo-pronta-entrega",
+      "menu-item#submenuVerTudo-pronta-entrega-horizontal",
       "menu-item#submenuVerTudo-veterinaria"
 
 
@@ -97,6 +98,36 @@
         "noFollow": false,
         "tagTitle": "Odontologia",
         "text": "Odontologia"
+      },
+      "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuVerTudo-pronta-entrega": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pronta-entrega#",
+        "noFollow": false,
+        "tagTitle": "Pronta Entrega",
+        "text": "Pronta Entrega"
+      },
+      "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuVerTudo-pronta-entrega-horizontal": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pronta-entrega-horizontal",
+        "noFollow": false,
+        "tagTitle": "Pronta Entrega Horizontal",
+        "text": "Pronta Entrega Horizontal"
       },
       "blockClass": "menu-dropdown"
     }
@@ -209,7 +240,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#submenuBelezaEstetica-autoclaves-body-piercing",
       "menu-item#submenuBelezaEstetica-autoclaves-home-care",
       "menu-item#submenuBelezaEstetica-autoclaves-manicure",
       "menu-item#submenuBelezaEstetica-autoclaves-podologia",
@@ -238,7 +268,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/autoclaves-para-home-care",
+        "href": "/beleza-e-estetica/autoclaves-para-home-care",
         "noFollow": false,
         "tagTitle": "Autoclaves para Home Care",
         "text": "Autoclaves para Home Care"
@@ -253,7 +283,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/autoclaves-para-manicure",
+        "href": "/beleza-e-estetica/autoclaves-para-manicure",
         "noFollow": false,
         "tagTitle": "Autoclaves para Manicure",
         "text": "Autoclaves para Manicure"
@@ -268,7 +298,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/autoclaves-para-podologia",
+        "href": "/beleza-e-estetica/autoclaves-para-podologia",
         "noFollow": false,
         "tagTitle": "Autoclaves para Podologia",
         "text": "Autoclaves para Podologia"
@@ -283,7 +313,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/autoclaves-para-salao-de-beleza",
+        "href": "/beleza-e-estetica/autoclaves-para-salao-de-beleza",
         "noFollow": false,
         "tagTitle": "Autoclaves para Salão de Beleza",
         "text": "Autoclaves para Salão de Beleza"
@@ -349,7 +379,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/odontologia/autoclaves-para-home-care",
+        "href": "/odontologia/autoclaves-para-odontologia",
         "noFollow": false,
         "tagTitle": "Autoclaves para Odontologia",
         "text": "Autoclaves para Odontologia"
@@ -555,29 +585,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#submenuMobiliarioTecnico-mob-madu-expand",
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
-      "menu-item#submenuMobiliarioTecnico-mob-madu-one",
-      "menu-item#submenuMobiliarioTecnico-mob-clinicas-consultorios",
-      "menu-item#submenuMobiliarioTecnico-mob-hospitalar",
-      "menu-item#submenuMobiliarioTecnico-mob-pediatrico",
-      "menu-item#submenuMobiliarioTecnico-mob-laboratorio"
+      "menu-item#submenuMobiliarioTecnico-mob-madu-one"
     ]
-  },
-  "menu-item#submenuMobiliarioTecnico-mob-madu-expand": {
-    "props": {
-      "id": "menu-item-submenuMobiliarioTecnico",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mobiliario-tecnico/linha-expand-mad-u",
-        "noFollow": false,
-        "tagTitle": "Linha Expand Mad.u",
-        "text": "Linha Expand Mad.u"
-      },
-      "blockClass": "menu-dropdown"
-    }
   },
   "menu-item#submenuMobiliarioTecnico-mob-madu-extra": {
     "props": {
@@ -586,10 +596,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico/linha-extra-mad-u",
+        "href": "mobiliario-tecnico/mad-u-extra",
         "noFollow": false,
-        "tagTitle": "Linha Extra Mad.u",
-        "text": "Linha Extra Mad.u"
+        "tagTitle": "Mad.u Extra",
+        "text": "MAD.U EXTRA"
       },
       "blockClass": "menu-dropdown"
     }
@@ -601,10 +611,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico/linha-one-mad-u",
+        "href": "/mobiliario-tecnico/mad-u-one",
         "noFollow": false,
         "tagTitle": "Linha One Mad.u",
-        "text": "Linha One Mad.u"
+        "text": "MAD.U ONE"
       },
       "blockClass": "menu-dropdown"
     }
@@ -787,7 +797,6 @@
   },
   "flex-layout.col#beleza-estetica-mobile": {
     "children": [
-      "menu-item#submenuBelezaEstetica-autoclaves-body-piercing",
       "menu-item#submenuBelezaEstetica-autoclaves-home-care",
       "menu-item#submenuBelezaEstetica-autoclaves-manicure",
       "menu-item#submenuBelezaEstetica-autoclaves-podologia",
@@ -946,7 +955,6 @@
   },
   "flex-layout.col#mobiliario-tecnico-mobile":{
     "children": [
-      "menu-item#submenuMobiliarioTecnico-mob-madu-expand",
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
       "menu-item#submenuMobiliarioTecnico-mob-madu-one",
       "menu-item#submenuMobiliarioTecnico-mob-clinicas-consultorios",
