@@ -34,4 +34,11 @@
   margin-bottom: 0.25rem
 }
 
+.flexRow--banner-departamento{
+  width: 100%;
+}
+
+.flexColChild--filterCol{
+  height: 10px;
+}
 

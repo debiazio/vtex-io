@@ -6,7 +6,7 @@
     border:0;
     background:transparent;
     min-height:auto;
-    z-index: 9999;
+    z-index: 600;
     transition: all 0.5s ease;
 }
 .wishlistIconContainer :global(.vtex-button):hover{

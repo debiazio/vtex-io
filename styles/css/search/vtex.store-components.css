@@ -10,3 +10,9 @@
   color: #0067C7;
   font-size: .875rem;
 }
+
+:global(.vtex-search-result-3-x-searchResultContainer){
+  padding-top: 0;
+
+}
+

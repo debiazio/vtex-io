@@ -1,6 +1,8 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#banner-superior-desktop",
+      "rich-text#titulo-pagina",
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "product-gifts",
@@ -9,7 +11,31 @@
     ]
   },
 
+  //linha do banner(gif)
+  "flex-layout.row#banner-superior-desktop": {
+    "props": {
+      "blockClass": "gif-animado"
+    },
+    "children": [
+      "image#banner-image"
+    ]
+  },
+  "image#banner-image": {
+    "props": {
+      "src": "assets/banner_10x.gif",
+      "alt": "Banner Image",
+      "width": 700,
+      "height": 50
+    }
+  },
 
+  "rich-text#titulo-pagina": {
+    "props": {
+      "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
+      "blockClass": "tituloHome"
+    },
+    "title": "Titulo inicial"
+  },
   // linha que mostra o caminho até o conteúdo
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -118,7 +144,7 @@
       "image#branco-perola-9"
     ]
   },
-  "video#branco-perola-5l":{
+  "video#branco-perola-5l": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -243,7 +269,7 @@
       "image#rosa-12"
     ]
   },
-  "video#rosa-5l":{
+  "video#rosa-5l": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -389,7 +415,7 @@
       "image#rosa-gold-12"
     ]
   },
-  "video#rose-gold-5l":{
+  "video#rose-gold-5l": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -686,34 +712,34 @@
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
     }
   },
-    // labelle 8 litros BRANCO PEROLA alternativo padrao
-    "condition-layout.product#perola-8l-labelle-padrao2": {
-      "props": {
-        "conditions": [{
-            "subject": "specificationProperties",
-            "arguments": {
-              "name": "Cores",
-              "value": "Pérola"
-            }
-          },
-          {
-            "subject": "specificationProperties",
-            "arguments": {
-              "name": "Capacidade",
-              "value": "8 Litros"
-            }
-          },
-          {
-            "subject": "specificationProperties",
-            "arguments": {
-              "name": "Modelo",
-              "value": "LaBelle"
-            }
+  // labelle 8 litros BRANCO PEROLA alternativo padrao
+  "condition-layout.product#perola-8l-labelle-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "value": "Pérola"
           }
-        ],
-        "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
-      }
-    },
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "LaBelle"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
+    }
+  },
   "flex-layout.row#custom-pdp-layout-perola-8l": {
     "props": {
       "blockClass": "conteiner-pai--imagens-extras"
@@ -747,34 +773,34 @@
   "condition-layout.product#perola-idealclave-8l": {
     "props": {
       "conditions": [{
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Cor",
-          "value": "Pérola"
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cor",
+            "value": "Pérola"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Modelo",
+            "value": "Idealclave"
+          }
         }
-      },
-      {
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Capacidade",
-          "value": "8L"
-        }
-      },
-      {
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Modelo",
-          "value": "Idealclave"
-        }
-      }
-    ],
+      ],
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
     }
   },
-    // BRANCO PEROLA 8 LITROS IDEALCLAVE padrao ALTERNATIVO
-    "condition-layout.product#perola-idealclave-8l-padrao2": {
-      "props": {
-        "conditions": [{
+  // BRANCO PEROLA 8 LITROS IDEALCLAVE padrao ALTERNATIVO
+  "condition-layout.product#perola-idealclave-8l-padrao2": {
+    "props": {
+      "conditions": [{
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -796,9 +822,9 @@
           }
         }
       ],
-        "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
-      }
-    },
+      "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
+    }
+  },
 
   "flex-layout.row#custom-pdp-layout-perola-8l-idealclave": {
     "props": {

@@ -13,28 +13,11 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#cabecalho-desktop",
-      "flex-layout.row#banner-superior-desktop"
+      "sticky-layout#cabecalho-desktop"
     ]
   },
 
-  //linha do banner(gif)
-  "flex-layout.row#banner-superior-desktop": {
-    "props": {
-      "blockClass": "gif-animado"
-    },
-    "children": [
-      "image#banner-image"
-    ]
-  },
-  "image#banner-image": {
-    "props": {
-      "src": "assets/banner_10x.gif",
-      "alt": "Banner Image",
-      "width": 700,
-      "height": 50
-    }
-  },
+
 
   "sticky-layout#cabecalho-desktop": {
     "props": {

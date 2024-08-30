@@ -25,11 +25,12 @@
     padding:10px 0;
     display:flex;
     align-items:center;
-    padding: 40px;
+    padding: 20px;
 }
 .caretIcon{
     display:none;
 }
+
 
 /* vtex-breadcrumb-1-x-container */
 

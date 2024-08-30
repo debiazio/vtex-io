@@ -78,12 +78,6 @@
 }
 
 
-
-.flexCol--filterCol {
-  max-width: 500px;
-  min-width: 230px;
-}
-
 .flexCol--productCountCol {
   align-items: flex-start;
 }
@@ -302,7 +296,11 @@
 /* pagina de busca  */
 /* painnel de filtros  */
 .flexCol--filterCol {
-  padding: 40px;
+  padding: 0px;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: 40px;
+  color: white;
 }
 
 /* INSTITUCIONAIS */

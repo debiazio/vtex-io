@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#titulo-pagina",
+      // "rich-text#titulo-pagina",
       // "flex-layout.row#deals",
       // "image#imagem-teste",
       // "flex-layout.row#video",
@@ -32,13 +32,13 @@
 
 
   // faixa rosa
-  "rich-text#titulo-pagina": {
-    "props": {
-      "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
-      "blockClass": "tituloHome"
-    },
-    "title": "Titulo inicial"
-  },
+  // "rich-text#titulo-pagina": {
+  //   "props": {
+  //     "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
+  //     "blockClass": "tituloHome"
+  //   },
+  //   "title": "Titulo inicial"
+  // },
   // "flex-layout.row#video": {
   //   "children": [
   //     "video#background"

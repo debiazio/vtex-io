@@ -1,34 +1,25 @@
-.galleryLayoutOptionButton {
-  background-color: #F0F0F0;
-  color: #3F3F40;
-  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
-}
-
-.galleryLayoutOptionButton--selected {
-  background-color: #3F3F40;
-  color: #FFFFFF;
-}
-
-.galleryLayoutSwitcher {
-  border-radius: 4px 4px 4px 4px;
-  justify-content: center;
-  overflow: hidden;
-  width: auto !important;
-  align-self: center
-}
-
-.galleryItem--list {
-  border-bottom: 1px #E7E9EE solid;
+.filter__container--title,
+.filter__container--priceRange{
+  display: none;
 }
 
 
-.galleryTitle--layout{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+/* vtex-search-result-3-x- */
+
+.filterAvailable{
+  background-color: var(--pink);
 }
 
-.buttonShowMore--layout{
-  padding: 40px;
+.filterTitleSpan{
+  margin: 5px 10px;
 }
+
+
+.filterTemplateOverflow{
+  padding: 10px;
+}
+
+.caretIcon{
+  color: white;
+}
+/* vtex-search-result-3-x-filterIsOpen */
