@@ -1,12 +1,12 @@
 :global(.vtex-wish-list-1-x-wishlistIconContainer){
-    z-index: 9999;
+    z-index: 1;
 }
 
 .wishlistIconContainer :global(.vtex-button){
     border:0;
     background:transparent;
     min-height:auto;
-    z-index: 600;
+    z-index: 1;
     transition: all 0.5s ease;
 }
 .wishlistIconContainer :global(.vtex-button):hover{
@@ -25,7 +25,7 @@
         position:absolute;
         right:0;
         bottom: -70px;
-        z-index: 9;
+        z-index: 1;
         text-align: right;
     }
 
