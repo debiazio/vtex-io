@@ -152,3 +152,7 @@ input:-webkit-autofill {
     } */
 
 
+  :global(.vtex-numeric-stepper-container){
+    display: flex;
+    justify-content: center;
+  }

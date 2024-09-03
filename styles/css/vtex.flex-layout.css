@@ -478,6 +478,9 @@
   align-items: center;
 }
 
+.flexCol--coluna-da-esquerda{
+  display: flex;
+}
 /* MOBILE */
 .flexRow--payment-methods {
   border-top: 5px solid var(--pink);
@@ -627,7 +630,31 @@
   gap: 30px;
 }
 
+.flexRow--parcelas-mobile{
+  padding: 20px;
+  text-align: center;
+}
+
+.flexRow--mobile-qtde-cep{
+  padding: 20px;
+  text-align: center;
+}
+
+.flexRow--favoritos-mobile{
+  padding: 20px;
+  display: flex;
+}
+
 @media screen and (max-width: 1024px) {
+.flexRowContent--product-name{
+  padding: 20px;
+  text-align: center;
+}
+
+  .flexCol--imagens-extras {
+    padding: 0;
+  }
+
   .flexRow--section-mini-banners {
     display: none;
   }
@@ -677,6 +704,11 @@
 
   .flexRow--footer-mobile-principal {
     padding: 0;
+  }
+
+  .flexRow--selling-price{
+    padding: 20px;
+    text-align: center;
   }
 
 }

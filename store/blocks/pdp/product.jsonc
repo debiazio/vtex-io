@@ -2,9 +2,11 @@
   "store.product": {
     "children": [
       "flex-layout.row#banner-superior-desktop",
-      "rich-text#titulo-pagina",
+      // "rich-text#titulo-pagina",
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
+      "responsive-layout.desktop#availability",
+      "responsive-layout.mobile#availability",
+
       "product-gifts",
       "rich-text#certificacoes-titulo",
       "flex-layout.row#certificacoes"
@@ -17,10 +19,10 @@
       "blockClass": "gif-animado"
     },
     "children": [
-      "image#banner-image"
+      "image#banner-gif"
     ]
   },
-  "image#banner-image": {
+  "image#banner-gif": {
     "props": {
       "src": "assets/banner_10x.gif",
       "alt": "Banner Image",
@@ -28,20 +30,34 @@
       "height": 50
     }
   },
-
-  "rich-text#titulo-pagina": {
-    "props": {
-      "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
-      "blockClass": "tituloHome"
-    },
-    "title": "Titulo inicial"
-  },
   // linha que mostra o caminho até o conteúdo
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "blockClass": "breadcrumb"
     },
     "children": ["breadcrumb"]
+  },
+  // LAYOUT DESKTOP
+  "responsive-layout.desktop#availability": {
+    "children": [
+      "condition-layout.product#availability"
+    ]
+  },
+  // LAYOUT MOBILE
+  "responsive-layout.mobile#availability": {
+    "children": [
+      "condition-layout.product#mobile-availability"
+    ]
+  },
+  // avalia se o produto tem estoque
+  "condition-layout.product#mobile-availability": {
+    "props": {
+      "conditions": [{
+        "subject": "isProductAvailable"
+      }],
+      "Then": "flex-layout.row#mobile-product-main",
+      "Else": "flex-layout.row#product-availability"
+    }
   },
   // avalia se o produto tem estoque
   "condition-layout.product#availability": {
@@ -61,6 +77,91 @@
     "children": [
       "flex-layout.col#product-left-col",
       "flex-layout.col#product-right-col"
+    ]
+  },
+  // linha do produto
+  "flex-layout.row#mobile-product-main": {
+    "props": {
+      "blockClass": "product-main"
+    },
+    "children": [
+      "flex-layout.col#mobile-product-left-col"
+      // "flex-layout.col#product-right-col"
+    ]
+  },
+  // coluna da esquerda MOBILE
+  "flex-layout.col#mobile-product-left-col": {
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#add-to-list-btn",
+      "stack-layout",
+      "product-rating-summary", // avaliações
+      "flex-layout.row#list-price-savings", // preco sem desconto, riscado
+      "flex-layout.row#selling-price", // preco a vista
+      "flex-layout.row#linha-parcelas",
+
+      "sku-selector",
+      "flex-layout.row#mobile-quantidade-cep",
+      "flex-layout.row#vantagens-pgto-a-vista",
+      // "product-gifts",
+      // "product-questions-and-answers",
+      // "flex-layout.row#video",
+      "condition-layout.product#branco-perola",
+      "condition-layout.product#rosa",
+      "condition-layout.product#rosa-gold",
+
+      "condition-layout.product#rose-gold-laBelle-8l",
+      "condition-layout.product#rose-gold-labelle-8l-padrao2",
+      "condition-layout.product#rose-gold-idealclave-8l",
+      "condition-layout.product#rose-gold-idealclave-8l-padrao2",
+      "condition-layout.product#perola-idealclave-8l",
+      "condition-layout.product#perola-idealclave-8l-padrao2",
+      "condition-layout.product#perola-8l-labelle",
+      "condition-layout.product#perola-8l-labelle-padrao2",
+      "condition-layout.product#rosa-idealclave-8l",
+      "condition-layout.product#rosa-idealclave-8l-padrao2",
+      "condition-layout.product#rosa-laBelle-8l",
+      "condition-layout.product#rosa-laBelle-8l-padrao2",
+      "flex-layout.row#description",
+      // "flex-layout.row#specifications-title",
+      "product-specification-group#table",
+      "flex-layout.row#reviews-and-ratings",
+      "flex-layout.row#relatedProducts"
+
+    ],
+    "props": {
+      "width": "60%"
+    }
+  },
+  // LINHA DE PREÇO PARCELADO MOBILE
+  "flex-layout.row#linha-parcelas": {
+    "props": {
+      "blockClass": "parcelas-mobile"
+    },
+    "children": [
+      "product-installments", // preco parcelas
+      "product-spot-price-savings"
+    ]
+  },
+  "flex-layout.row#mobile-quantidade-cep": {
+    "props": {
+      "blockClass": "mobile-qtde-cep"
+    },
+    "children": [
+      "product-quantity",
+      "product-assembly-options",
+      "availability-subscriber", // avise-me disponibilidade
+      "flex-layout.row#botoes-comprar-bucarcep"
+    ]
+
+  },
+  // linha favoritos mobile
+  "flex-layout.row#add-to-list-btn": {
+    "props": {
+      "blockClass": "favoritos-mobile"
+    },
+    "children": [
+      "add-to-list-btn"
     ]
   },
   // coluna da esquerda
@@ -138,10 +239,10 @@
       "image#branco-perola-3",
       "image#branco-perola-4",
       "image#branco-perola-5",
-      "image#branco-perola-6",
-      "image#branco-perola-7",
-      "image#branco-perola-8",
-      "image#branco-perola-9"
+      "image#branco-perola-6"
+      // "image#branco-perola-7",
+      // "image#branco-perola-8",
+      // "image#branco-perola-9"
     ]
   },
   "video#branco-perola-5l": {
@@ -263,10 +364,10 @@
       "image#rosa-6",
       "image#rosa-7",
       "image#rosa-8",
-      "image#rosa-9",
-      "image#rosa-10",
-      "image#rosa-11",
-      "image#rosa-12"
+      "image#rosa-9"
+      // "image#rosa-10",
+      // "image#rosa-11",
+      // "image#rosa-12"
     ]
   },
   "video#rosa-5l": {
@@ -409,10 +510,10 @@
       "image#rosa-gold-6",
       "image#rosa-gold-7",
       "image#rosa-gold-8",
-      "image#rosa-gold-9",
-      "image#rosa-gold-10",
-      "image#rosa-gold-11",
-      "image#rosa-gold-12"
+      "image#rosa-gold-9"
+      // "image#rosa-gold-10",
+      // "image#rosa-gold-11",
+      // "image#rosa-gold-12"
     ]
   },
   "video#rose-gold-5l": {

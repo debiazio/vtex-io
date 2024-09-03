@@ -60,21 +60,21 @@
 
   "form-input.text#nome": {
     "props": {
-      "pointer": "#/properties/nome",
+      "pointer": "#/properties/Nome",
       "placeholder": "Seu nome",
       "label": "Nome"
     }
   },
   "form-input.text#email": {
     "props": {
-      "pointer": "#/properties/email",
+      "pointer": "#/properties/Email",
       "placeholder": "Seu e-mail",
       "label": "E-mail"
     }
   },
   "form-input.text#telefone": {
     "props": {
-      "pointer": "#/properties/telefone",
+      "pointer": "#/properties/Telefone",
       "placeholder": "Seu telefone",
       "label": "Telefone"
     }
@@ -82,7 +82,7 @@
 
   "form-input.text#assunto": {
     "props": {
-      "pointer": "#/properties/assunto",
+      "pointer": "#/properties/Assunto",
       "uiSchema": "Select",
       "label": "Assunto"
     }
@@ -92,7 +92,7 @@
 
   "form-input.textarea#mensagem": {
     "props": {
-      "pointer": "#/properties/mensagem",
+      "pointer": "#/properties/Mensagem",
       "placeholder": "Sua mensagem",
       "label": "Mensagem"
     }

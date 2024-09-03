@@ -84,7 +84,7 @@
 :global(.vtex-numeric-stepper__minus-button-container) {
   background-color: var(--violeta);
   border-radius: 50%;
-  width: 30px; 
+  width: 30px;
   height: 30px;
   /* display: flex;
   align-items: center;
@@ -93,10 +93,10 @@
 
 /* botao adicionar ou tirar itens do carrinho */
 :global(.vtex-numeric-stepper__plus-button),
-:global(.vtex-numeric-stepper__minus-button){
+:global(.vtex-numeric-stepper__minus-button) {
   display: flex;
   background-color: transparent;
-  border: none;  
+  border: none;
   color: #FFFFFF;
   margin-left: -20.5px;
   margin-top: -1px;
@@ -104,6 +104,7 @@
   font-size: 1.5rem;
 }
 
-:global(.vtex-numeric-stepper__input){
+:global(.vtex-numeric-stepper__input) {
   border: none;
 }
+

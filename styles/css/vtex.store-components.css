@@ -113,7 +113,7 @@
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .image {
@@ -407,6 +407,15 @@
 
 
 @media screen and (max-width: 1024px) {
+  .skuSelectorContainer{
+    justify-content: center;
+    display: flex;
+  }
+
+  :global(.vtex-rich-text-0-x-container--titulo-certificadoes){
+    margin-top: 50px;
+  }
+
   .searchBarContainer {
     width: 100vw;
     display: flex;

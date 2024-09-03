@@ -151,23 +151,22 @@
   // mobile config
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#1-mobile",
-      "flex-layout.row#1-banner-mobile"
+      "sticky-layout#1-mobile"
     ]
   },
   //linha do banner(gif)
-  "flex-layout.row#1-banner-mobile": {
-    "children": [
-      "image#banner-image-mobile"
-    ]
-  },
-  "image#banner-image-mobile": {
-    "props": {
-      "src": "assets/banner_10x.gif",
-      "alt": "Banner Image",
-      "blockClass": "banner-mobile"
-    }
-  },
+  // "flex-layout.row#1-banner-mobile": {
+  //   "children": [
+  //     "image#banner-image-mobile"
+  //   ]
+  // },
+  // "image#banner-image-mobile": {
+  //   "props": {
+  //     "src": "assets/banner_10x.gif",
+  //     "alt": "Banner Image",
+  //     "blockClass": "banner-mobile"
+  //   }
+  // },
 
 
   // menu fixo (stick)
