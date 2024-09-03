@@ -125,8 +125,8 @@
       "flex-layout.row#description",
       // "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "flex-layout.row#reviews-and-ratings",
-      "flex-layout.row#relatedProducts"
+      "flex-layout.row#relatedProducts",
+      "flex-layout.row#reviews-and-ratings"
 
     ],
     "props": {
@@ -299,27 +299,6 @@
       "width": "100%"
     }
   },
-  "image#branco-perola-7": {
-    "props": {
-      "src": "assets/branco-perola-7.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-8": {
-    "props": {
-      "src": "assets/branco-perola-8.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
-  "image#branco-perola-9": {
-    "props": {
-      "src": "assets/branco-perola-9.webp",
-      "alt": "Imagem autoclave branco pérola",
-      "width": "100%"
-    }
-  },
   // condicional rosa
   "condition-layout.product#rosa": {
     "props": {
@@ -441,27 +420,6 @@
   "image#rosa-9": {
     "props": {
       "src": "assets/rosa-9.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-10": {
-    "props": {
-      "src": "assets/rosa-10.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-11": {
-    "props": {
-      "src": "assets/rosa-11.webp",
-      "alt": "Imagem autoclave rosa",
-      "width": "100%"
-    }
-  },
-  "image#rosa-12": {
-    "props": {
-      "src": "assets/rosa-12.webp",
       "alt": "Imagem autoclave rosa",
       "width": "100%"
     }
@@ -591,28 +549,6 @@
       "width": "100%"
     }
   },
-  "image#rosa-gold-10": {
-    "props": {
-      "src": "assets/rosa-gold-10.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-11": {
-    "props": {
-      "src": "assets/rosa-gold-11.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-  "image#rosa-gold-12": {
-    "props": {
-      "src": "assets/rosa-gold-12.webp",
-      "alt": "Imagem autoclave rosa-gold",
-      "width": "100%"
-    }
-  },
-
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
@@ -1364,20 +1300,6 @@
     },
     "children": ["availability-subscriber"]
   },
-
-  "share#default": {
-    "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
-    }
-  },
-
-
-
   "flex-layout.row#vantagens-pgto-a-vista": {
     "props": {
       "blockClass": "pgto_a_vista"
@@ -1428,7 +1350,7 @@
         "itemsPerPage": 3,
         "minItemsPerPage": 2,
         "maxItems": 16,
-        "arrows": true
+        "arrows": false
       }
     }
   },
