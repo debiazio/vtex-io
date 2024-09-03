@@ -218,7 +218,8 @@
       ],
 
       "Then": "flex-layout.row#custom-pdp-layout-perola"
-    }
+    },
+    "title": "Condicional Branco pérola 5l"
   },
   "flex-layout.row#custom-pdp-layout-perola": {
     "props": {
@@ -226,7 +227,8 @@
     },
     "children": [
       "flex-layout.col#fotos-branco-perola"
-    ]
+    ],
+    "title": "Fotos branco pérola"
   },
   "flex-layout.col#fotos-branco-perola": {
     "props": {
@@ -319,7 +321,8 @@
       ],
 
       "Then": "flex-layout.row#custom-pdp-layout-rosa"
-    }
+    },
+    "title": "Condicional Rosa 5l"
   },
   "flex-layout.row#custom-pdp-layout-rosa": {
     "props": {
@@ -327,7 +330,8 @@
     },
     "children": [
       "flex-layout.col#fotos-branco-rosa"
-    ]
+    ],
+    "title": "Fotos Rosa 5l"
   },
   "flex-layout.col#fotos-branco-rosa": {
     "props": {
@@ -444,7 +448,8 @@
       ],
 
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
-    }
+    },
+    "title": "Condicional Rose Gold 5l"
   },
   "flex-layout.row#custom-pdp-layout-rosa-gold": {
     "props": {
@@ -452,7 +457,8 @@
     },
     "children": [
       "flex-layout.col#fotos-rosa-gold"
-    ]
+    ],
+    "title": "Fotos Rose Gold 5l"
   },
   "flex-layout.col#fotos-rosa-gold": {
     "props": {
@@ -575,7 +581,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l"
-    }
+    },
+    "title": "Condicional Rose Gold 8l"
   },
   // LABELLE 8 LITROS ROSE GOLD ESPEC 2
   "condition-layout.product#rose-gold-labelle-8l-padrao2": {
@@ -603,7 +610,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l"
-    }
+    },
+    "title": "Condicional Rose gold 8l"
   },
 
 
@@ -613,7 +621,8 @@
     },
     "children": [
       "flex-layout.col#fotos-rosa-gold-8l"
-    ]
+    ],
+    "title": "Fotos Rose Gold 8l"
   },
   "flex-layout.col#fotos-rosa-gold-8l": {
     "props": {
@@ -621,7 +630,8 @@
     },
     "children": [
       "video#rosegold8l"
-    ]
+    ],
+    "title": "Vídeo Rose Gold 8l"
   },
   "video#rosegold8l": {
     "props": {
@@ -662,7 +672,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave"
-    }
+    },
+    "title": "Condicional Rose Gold 8l Idealclave"
   },
   // IDEALCLAVE rose gold 8 litros ESPEC PADRAO 2
   "condition-layout.product#rose-gold-idealclave-8l-padrao2": {
@@ -690,7 +701,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave"
-    }
+    },
+    "title": "Condicional Rose Gold 8l Idealclave"
   },
   "flex-layout.row#custom-pdp-layout-rosa-gold-8l-idealclave": {
     "props": {
@@ -747,7 +759,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
-    }
+    },
+    "title": "Condicional branco pérola 8l labelle"
   },
   // labelle 8 litros BRANCO PEROLA alternativo padrao
   "condition-layout.product#perola-8l-labelle-padrao2": {
@@ -775,7 +788,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l"
-    }
+    },
+    "title": "Condicional branco pérola 8l labelle"
   },
   "flex-layout.row#custom-pdp-layout-perola-8l": {
     "props": {
@@ -832,7 +846,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
-    }
+    },
+    "title": "Condicional branco pérola 8l idealclave"
   },
   // BRANCO PEROLA 8 LITROS IDEALCLAVE padrao ALTERNATIVO
   "condition-layout.product#perola-idealclave-8l-padrao2": {
@@ -860,7 +875,8 @@
         }
       ],
       "Then": "flex-layout.row#custom-pdp-layout-perola-8l-idealclave"
-    }
+    },
+    "title": "BRANCO PEROLA 8 LITROS IDEALCLAVE"
   },
 
   "flex-layout.row#custom-pdp-layout-perola-8l-idealclave": {
@@ -869,7 +885,8 @@
     },
     "children": [
       "flex-layout.col#branco-perola-8l"
-    ]
+    ],
+    "title": "Imagens Idealclave branco perola 8L"
   },
   "flex-layout.col#branco-perola-8l": {
     "props": {

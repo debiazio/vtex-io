@@ -63,7 +63,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "orderByField": "OrderByReleaseDateDESC",
+        "orderByField": "OrderByPriceDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 25,
         "skusFilter": "ALL_AVAILABLE",
