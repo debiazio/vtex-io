@@ -108,7 +108,10 @@
       // "flex-layout.row#video",
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
+      "condition-layout.product#rosa-padrao2",
+
       "condition-layout.product#rosa-gold",
+      "condition-layout.product#rosa-gold-padrao2",
 
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
@@ -321,8 +324,21 @@
       ],
 
       "Then": "flex-layout.row#custom-pdp-layout-rosa"
-    },
-    "title": "Condicional Rosa 5l"
+    }
+  },
+  // condicional rosa padrao 2
+  "condition-layout.product#rosa-padrao2": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "Id": "2765"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-layout-rosa"
+    }
   },
   "flex-layout.row#custom-pdp-layout-rosa": {
     "props": {
@@ -448,8 +464,29 @@
       ],
 
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
-    },
-    "title": "Condicional Rose Gold 5l"
+    }
+  },
+  // rosa-gold 5l condicional padrao 2
+  "condition-layout.product#rosa-gold-padrao2": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Cores",
+            "text": "Rose Gold"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "text": "5 Litros"
+          }
+        }
+      ],
+
+      "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
+    }
   },
   "flex-layout.row#custom-pdp-layout-rosa-gold": {
     "props": {
@@ -1401,7 +1438,7 @@
   },
   "image#certificado1": {
     "props": {
-      "src": "assets/certificado1.svg",
+      "src": "assets/Mais de 250 mil @4x.webp",
       "alt": "Líder em vendas"
     }
   },
@@ -1429,7 +1466,7 @@
   },
   "image#certificado3": {
     "props": {
-      "src": "assets/certificado3.svg",
+      "src": "assets/ID-LINE_SELOS_ANVISA-01.webp",
       "alt": "Anvisa"
     }
   },
@@ -1444,7 +1481,7 @@
 
   "image#certificado4": {
     "props": {
-      "src": "assets/certificado4.svg",
+      "src": "assets/ID-LINE_SELOS_33_ANOS-01.webp",
       "alt": "Desde 1991"
     }
   }
