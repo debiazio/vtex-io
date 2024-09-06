@@ -51,8 +51,7 @@
       "menu-item#submenuVerTudo-mobiliario-tecnico",
       "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-pronta-entrega",
-      "menu-item#submenuVerTudo-pronta-entrega-horizontal",
-      "menu-item#submenuVerTudo-veterinaria"
+      "menu-item#submenuVerTudo-pronta-entrega-horizontal"
 
 
     ]
@@ -177,37 +176,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#submenuVerTudo-promocoes": {
-    "props": {
-      "id": "menu-dropdown",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Promoções",
-        "text": "Promoções"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuVerTudo-veterinaria": {
-    "props": {
-      "id": "menu-dropdown",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/veterinaria",
-        "noFollow": false,
-        "tagTitle": "Veterinária",
-        "text": "Veterinária"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-
 
   "menu-item#beleza-estetica": {
     "props": {
@@ -245,21 +213,6 @@
       "menu-item#submenuBelezaEstetica-autoclaves-podologia",
       "menu-item#submenuBelezaEstetica-autoclaves-salao-beleza"
     ]
-  },
-  "menu-item#submenuBelezaEstetica-autoclaves-body-piercing": {
-    "props": {
-      "id": "menu-item-submenuBelezaEstetica",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/beleza-e-estetica/autoclaves-para-home-care",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Body Piercing",
-        "text": "Autoclaves para Body Piercing"
-      },
-      "blockClass": "menu-dropdown"
-    }
   },
   "menu-item#submenuBelezaEstetica-autoclaves-home-care": {
     "props": {
@@ -619,67 +572,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#submenuMobiliarioTecnico-mob-hospitalar": {
-    "props": {
-      "id": "menu-item-submenuMobiliarioTecnico",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mobiliario-tecnico/mobiliario-hospitalar",
-        "noFollow": false,
-        "tagTitle": "Mobiliário Hospitalar",
-        "text": "Mobiliário Hospitalar"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuMobiliarioTecnico-mob-clinicas-consultorios": {
-    "props": {
-      "id": "menu-item-submenuMobiliarioTecnico",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mobiliario-tecnico/mobiliario-clinicas-e-consultorios",
-        "noFollow": false,
-        "tagTitle": "Mobiliário Clínicas e Consultórios",
-        "text": "Mobiliário Clínicas e Consultórios"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuMobiliarioTecnico-mob-pediatrico": {
-    "props": {
-      "id": "menu-item-submenuMobiliarioTecnico",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mobiliario-tecnico/mobiliario-pediatrico",
-        "noFollow": false,
-        "tagTitle": "Mobiliário Pediátrico",
-        "text": "Mobiliário Pediátrico"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuMobiliarioTecnico-mob-laboratorio": {
-    "props": {
-      "id": "menu-item-submenuMobiliarioTecnico",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/mobiliario-tecnico/mobiliario-para-laboratorio",
-        "noFollow": false,
-        "tagTitle": "Mobiliário para Laboratório",
-        "text": "Mobiliário para Laboratório"
-      },
-      "blockClass": "menu-dropdown"
-    }
-
-  },
 
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "props": {
@@ -757,9 +649,7 @@
       "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
-      "menu-item#submenuVerTudo-mobiliario-tecnico",
-      "menu-item#submenuVerTudo-promocoes",
-      "menu-item#submenuVerTudo-veterinaria"
+      "menu-item#submenuVerTudo-mobiliario-tecnico"
     ]
   },
 
@@ -956,11 +846,7 @@
   "flex-layout.col#mobiliario-tecnico-mobile":{
     "children": [
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
-      "menu-item#submenuMobiliarioTecnico-mob-madu-one",
-      "menu-item#submenuMobiliarioTecnico-mob-clinicas-consultorios",
-      "menu-item#submenuMobiliarioTecnico-mob-hospitalar",
-      "menu-item#submenuMobiliarioTecnico-mob-pediatrico",
-      "menu-item#submenuMobiliarioTecnico-mob-laboratorio"
+      "menu-item#submenuMobiliarioTecnico-mob-madu-one"
     ]
   }
 }

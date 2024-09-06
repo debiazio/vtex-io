@@ -29,33 +29,6 @@
     ]
   },
 
-
-  // faixa rosa
-  // "rich-text#titulo-pagina": {
-  //   "props": {
-  //     "text": "COMPRE **AUTOCLAVE DIGITAL 8L** E **GANHE** SEPARADOR + HASTE DESPRESSURIZADORA",
-  //     "blockClass": "tituloHome"
-  //   },
-  //   "title": "Titulo inicial"
-  // },
-  // "flex-layout.row#video": {
-  //   "children": [
-  //     "video#background"
-  //   ]
-  // },
-  // "video#background": {
-  //   "props": {
-  //     "width": "100%",
-  //     "height": "400px",
-  //     "loop": true,
-  //     "autoPlay": true,
-  //     "src": "assets/video-teste.mp4",
-  //     "blockClass": "videoexemplo",
-  //     "muted": true
-  //   }
-  // },
-
-
   "list-context.image-list#banner-principal": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -274,64 +247,6 @@
     },
     "title": "Subtitulo informacoes coluna"
   },
-
-
-  // // COLUNA 1 DA BARRA DE INFORMACOES
-  // "flex-layout.col#coluna1-informacoes": {
-  //   "props": {
-  //     "blockClass": "coluna-informacoes"
-  //   },
-  //   "children": [
-  //     "flex-layout.row#linha1-informacoes",
-  //     "rich-text#titulo-coluna1-informacoes",
-  //     "rich-text#subtitulo-coluna1-informacoes"
-  //   ]
-  // },
-
-  // // COLUNA 2 DA BARRA DE INFORMACOES
-  // "flex-layout.col#coluna2-informacoes": {
-  //   "props": {
-  //     "blockClass": "coluna-informacoes"
-  //   },
-  //   "children": [
-  //     "flex-layout.row#linha2-informacoes",
-  //     "rich-text#titulo-coluna2-informacoes",
-  //     "rich-text#subtitulo-coluna2-informacoes"
-  //   ]
-  // },
-
-
-
-
-  // // COLUNA 3 DA BARRA DE INFORMACOES
-  // "flex-layout.col#coluna3-informacoes": {
-  //   "props": {
-  //     "blockClass": "coluna-informacoes"
-  //   },
-  //   "children": [
-  //     "flex-layout.row#linha3-informacoes",
-  //     "rich-text#titulo-coluna3-informacoes",
-  //     "rich-text#subtitulo-coluna3-informacoes"
-  //   ]
-  // },
-
-
-
-
-  // // COLUNA 4 DA BARRA DE INFORMACOES
-  // "flex-layout.col#coluna4-informacoes": {
-  //   "props": {
-  //     "blockClass": "coluna-informacoes"
-  //   },
-  //   "children": [
-  //     "flex-layout.row#linha4-informacoes",
-  //     "rich-text#titulo-coluna4-informacoes",
-  //     "rich-text#subtitulo-coluna4-informacoes"
-  //   ]
-  // },
-
-
-
   // SECAO DOS MINI BANNERS
   "flex-layout.row#mini_banners": {
     "props": {
@@ -413,14 +328,6 @@
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#prateleira-8litros"]
   },
-  // "image#imagem-teste":{
-  //   "props": {
-  //     "alt": "imagem de exemplo",
-  //     "src": "assets/Component 2.webp"
-  //   }
-  // },
-
-
   "list-context.product-list#prateleira-8litros": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#prateleira-8litros"],
@@ -514,22 +421,5 @@
       "showNavigationArrows": "desktopOnly"
     }
   }
-
-
-
-
-
-
-  // teste
-  // "sandbox#home.rdstation-button": {
-  //   "props": {
-  //     "width": "200px",
-  //     "height": "500px",
-  //     "initialContent": "<script>window.rwbp={email:'teste@s.com',phone:'5541985360075',message:'Idealine',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>",
-  //     "allowCookies": true,
-  //     "sandbox": "allow-modals"
-  //   }
-  // }
-  // teste
 
 }
