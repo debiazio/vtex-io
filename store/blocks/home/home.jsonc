@@ -2,12 +2,11 @@
   "store.home": {
     "blocks": [
       // "rich-text#titulo-pagina",
-      // "flex-layout.row#deals",
       // "image#imagem-teste",
       // "flex-layout.row#video",
 
       "list-context.image-list#banner-principal",
-      "flex-layout.row#banner-informacoes",
+      "flex-layout.row#deals",
       "flex-layout.row#mini_banners",
 
 
@@ -143,46 +142,26 @@
 
   "flex-layout.row#banner-informacoes": {
     "props": {
-      "blockClass": "linha-informacoes"
+      "blockClass": "linha-informacoes",
+      "fullWidth": true
     },
     "children": [
-      "flex-layout.col#coluna1-informacoes",
-      "flex-layout.col#coluna2-informacoes",
-      "flex-layout.col#coluna3-informacoes",
-      "flex-layout.col#coluna4-informacoes"
+      "flex-layout.col#linha1-imagens-informacoes",
+      "flex-layout.col#linha2-titulo-informacoes",
+      "flex-layout.col#linha3-texto-informacoes"
     ]
   },
-  // COLUNA 1 DA BARRA DE INFORMACOES
-  "flex-layout.col#coluna1-informacoes": {
+  // LINHA DAS IMAGENS
+  "flex-layout.col#linha1-imagens-informacoes": {
     "props": {
-      "blockClass": "coluna-informacoes"
+      "blockClass": "imagens-banner-informacoes",
+      "fullWidth": true
     },
     "children": [
-      "flex-layout.row#linha1-informacoes",
-      "rich-text#titulo-coluna1-informacoes",
-      "rich-text#subtitulo-coluna1-informacoes"
-    ]
-  },
-  "rich-text#titulo-coluna1-informacoes": {
-    "props": {
-      "text": "**ENTREGAS PARA TODO O BRASIL**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes coluna"
-  },
-  "rich-text#subtitulo-coluna1-informacoes": {
-    "props": {
-      "text": "Nós entregamos onde for melhor para você e o seu negócio!",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "flex-layout.row#linha1-informacoes": {
-    "props": {
-      "blockClass": "imagem-informacoes"
-    },
-    "children": [
-      "image#imagem-informações1"
+      "image#imagem-informações1",
+      "image#imagem-informacoes2",
+      "image#imagem-informacoes3",
+      "image#imagem-informacoes4"
     ]
   },
   "image#imagem-informações1": {
@@ -192,78 +171,12 @@
       "blockClass": "imagem-informacoes"
     }
   },
-  // COLUNA 2 DA BARRA DE INFORMACOES
-  "flex-layout.col#coluna2-informacoes": {
-    "props": {
-      "blockClass": "coluna-informacoes"
-    },
-    "children": [
-      "flex-layout.row#linha2-informacoes",
-      "rich-text#titulo-coluna2-informacoes",
-      "rich-text#subtitulo-coluna2-informacoes"
-    ]
-  },
-  "rich-text#titulo-coluna2-informacoes": {
-    "props": {
-      "text": "**GARANTIA DE FÁBRICA**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  "rich-text#subtitulo-coluna2-informacoes": {
-    "props": {
-      "text": "Garantia de 12 meses oferecida pelo fabricante",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "flex-layout.row#linha2-informacoes": {
-    "props": {
-      "blockClass": "imagem-informacoes"
-    },
-    "children": [
-      "image#imagem-informacoes2"
-    ]
-  },
   "image#imagem-informacoes2": {
     "props": {
       "src": "assets/icon-check-branco.svg",
       "alt": "Ícone de garantia de fábrica",
       "blockClass": "imagem-informacoes"
     }
-  },
-  // COLUNA 3 DA BARRA DE INFORMACOES
-  "flex-layout.col#coluna3-informacoes": {
-    "props": {
-      "blockClass": "coluna-informacoes"
-    },
-    "children": [
-      "flex-layout.row#linha3-informacoes",
-      "rich-text#titulo-coluna3-informacoes",
-      "rich-text#subtitulo-coluna3-informacoes"
-    ]
-  },
-  "rich-text#titulo-coluna3-informacoes": {
-    "props": {
-      "text": "**PARCELE EM ATÉ 10X**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  "rich-text#subtitulo-coluna3-informacoes": {
-    "props": {
-      "text": "Com a gente você pode parcelar em até 10x sem juros no cartão de crédito",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "flex-layout.row#linha3-informacoes": {
-    "props": {
-      "blockClass": "imagem-informacoes"
-    },
-    "children": [
-      "image#imagem-informacoes3"
-    ]
   },
   "image#imagem-informacoes3": {
     "props": {
@@ -272,39 +185,6 @@
       "blockClass": "imagem-informacoes"
     }
   },
-  // COLUNA 4 DA BARRA DE INFORMACOES
-  "flex-layout.col#coluna4-informacoes": {
-    "props": {
-      "blockClass": "coluna-informacoes"
-    },
-    "children": [
-      "flex-layout.row#linha4-informacoes",
-      "rich-text#titulo-coluna4-informacoes",
-      "rich-text#subtitulo-coluna4-informacoes"
-    ]
-  },
-  "rich-text#titulo-coluna4-informacoes": {
-    "props": {
-      "text": "**BOLETO PARCELADO**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  "rich-text#subtitulo-coluna4-informacoes": {
-    "props": {
-      "text": "Consulte as condições em Formas de Pagamento",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "flex-layout.row#linha4-informacoes": {
-    "props": {
-      "blockClass": "imagem-informacoes"
-    },
-    "children": [
-      "image#imagem-informacoes4"
-    ]
-  },
   "image#imagem-informacoes4": {
     "props": {
       "src": "assets/icon-barcode-branco.svg",
@@ -312,6 +192,146 @@
       "blockClass": "imagem-informacoes"
     }
   },
+  // LINHAS DOS TITULOS DOS BANNERS DE INFO
+  "flex-layout.col#linha2-titulo-informacoes": {
+    "props": {
+      "blockClass": "titulo-banner-informacoes",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo1-banner-informacoes",
+      "rich-text#titulo2-banner-informacoes",
+      "rich-text#titulo3-banner-informacoes",
+      "rich-text#titulo4-banner-informacoes"
+    ]
+  },
+  "rich-text#titulo1-banner-informacoes": {
+    "props": {
+      "text": "**ENTREGAS PARA TODO O BRASIL**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes coluna"
+  },
+  "rich-text#titulo2-banner-informacoes": {
+    "props": {
+      "text": "**GARANTIA DE FÁBRICA**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  "rich-text#titulo3-banner-informacoes": {
+    "props": {
+      "text": "**PARCELE EM ATÉ 10X**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  "rich-text#titulo4-banner-informacoes": {
+    "props": {
+      "text": "**BOLETO PARCELADO**",
+      "blockClass": "titulo-informacoes"
+    },
+    "title": "Titulo informacoes colunA"
+  },
+  // LINHA DOS SUBTITULOS BANNER INFO
+  "flex-layout.col#linha3-texto-informacoes": {
+    "props": {
+      "blockClass": "subtitulo-banner-informacoes",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#subtitulo1-banner-informacoes",
+      "rich-text#subtitulo2-banner-informacoes",
+      "rich-text#subtitulo3-banner-informacoes",
+      "rich-text#subtitulo4-banner-informacoes"
+    ]
+  },
+  "rich-text#subtitulo1-banner-informacoes": {
+    "props": {
+      "text": "Nós entregamos onde for melhor para você e o seu negócio!",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "rich-text#subtitulo2-banner-informacoes": {
+    "props": {
+      "text": "Garantia de 12 meses oferecida pelo fabricante",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "rich-text#subtitulo3-banner-informacoes": {
+    "props": {
+      "text": "Com a gente você pode parcelar em até 10x sem juros no cartão de crédito",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+  "rich-text#subtitulo4-banner-informacoes": {
+    "props": {
+      "text": "Consulte as condições em Formas de Pagamento",
+      "blockClass": "subtitulo-informacoes"
+    },
+    "title": "Subtitulo informacoes coluna"
+  },
+
+
+  // // COLUNA 1 DA BARRA DE INFORMACOES
+  // "flex-layout.col#coluna1-informacoes": {
+  //   "props": {
+  //     "blockClass": "coluna-informacoes"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#linha1-informacoes",
+  //     "rich-text#titulo-coluna1-informacoes",
+  //     "rich-text#subtitulo-coluna1-informacoes"
+  //   ]
+  // },
+
+  // // COLUNA 2 DA BARRA DE INFORMACOES
+  // "flex-layout.col#coluna2-informacoes": {
+  //   "props": {
+  //     "blockClass": "coluna-informacoes"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#linha2-informacoes",
+  //     "rich-text#titulo-coluna2-informacoes",
+  //     "rich-text#subtitulo-coluna2-informacoes"
+  //   ]
+  // },
+
+
+
+
+  // // COLUNA 3 DA BARRA DE INFORMACOES
+  // "flex-layout.col#coluna3-informacoes": {
+  //   "props": {
+  //     "blockClass": "coluna-informacoes"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#linha3-informacoes",
+  //     "rich-text#titulo-coluna3-informacoes",
+  //     "rich-text#subtitulo-coluna3-informacoes"
+  //   ]
+  // },
+
+
+
+
+  // // COLUNA 4 DA BARRA DE INFORMACOES
+  // "flex-layout.col#coluna4-informacoes": {
+  //   "props": {
+  //     "blockClass": "coluna-informacoes"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#linha4-informacoes",
+  //     "rich-text#titulo-coluna4-informacoes",
+  //     "rich-text#subtitulo-coluna4-informacoes"
+  //   ]
+  // },
+
+
+
   // SECAO DOS MINI BANNERS
   "flex-layout.row#mini_banners": {
     "props": {

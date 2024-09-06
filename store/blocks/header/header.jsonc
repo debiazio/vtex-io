@@ -218,9 +218,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo-idealine.svg",
-      "width": "90.5",
-      "height": "47.5",
+      "url": "assets/logo-branco.png",
+      "width": "180.41",
+      "height": "77.5",
       "blockClass": "logo-mobile"
     }
   }

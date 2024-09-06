@@ -153,6 +153,7 @@
   font-size: 1.1rem;
   font-weight: 200;
   background-color: transparent;
+  margin-left: 15px;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
@@ -407,6 +408,10 @@
 
 
 @media screen and (max-width: 1024px) {
+  .imageElement--imagem-informacoes{
+    display: flex;
+  }
+
   .skuSelectorContainer{
     justify-content: center;
     display: flex;
@@ -439,8 +444,8 @@
   }
 
   .logoImage--logo-mobile {
-    padding: 0px 20px;
-    margin-top: 10px;
+    /* padding: 0px 20px;
+    margin-top: 10px; */
     width: max-content;
   }
 

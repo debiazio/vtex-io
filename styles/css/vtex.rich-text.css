@@ -2,12 +2,13 @@
   color: #ffffff;
   text-align: center;
   justify-content: center;
+  padding: 0px 10px;
 }
 
 .container--shelfTitle {
   color: black;
-  justify-content: left;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   padding: 40px;
 
 }
@@ -97,26 +98,26 @@
   font-size: 25px;
 }
 
-.container--footer{
+.container--footer {
   justify-content: center;
-  }
+}
 
-.paragraph--footer{
+.paragraph--footer {
   margin: 9px 0 13px;
 }
 
 
-.paragraph--title-footer{
+.paragraph--title-footer {
   margin: 0 0 14px;
   font-weight: 800;
   color: #ffffff;
 }
 
-.container--title-footer{
+.container--title-footer {
   transition: all 0.5s ease;
 }
 
-.container--title-footer:hover{
+.container--title-footer:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
@@ -125,7 +126,7 @@
 /* rodape mobile  */
 
 
-.container--titulo-menus-footer-mobile{
+.container--titulo-menus-footer-mobile {
   margin-left: 35px;
   width: 100%;
   color: #ffffff;
@@ -134,22 +135,23 @@
 }
 
 /* INSTITUCIONAIS */
-.container--conteudo-institucionais{
+.container--conteudo-institucionais {
   text-align: justify;
   display: block;
 }
 
 /* QUEM SOMOS */
-.heading--titulo-institucionais{
+.heading--titulo-institucionais {
   color: #3A3434;
-  font-size:28px;
-  font-weight:400;
-  margin:0 0 25px;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 25px;
 }
-.paragraph--conteudo-institucionais{
-  font-size:15px;
+
+.paragraph--conteudo-institucionais {
+  font-size: 15px;
   color: #3A3434;
-  margin:0;
+  margin: 0;
 }
 
 @media only screen and (min-width: 640px) {
@@ -182,30 +184,31 @@
 
 
 
-.container--titulo-menu-instituicionais{
+.container--titulo-menu-instituicionais {
   color: white;
 }
 
 
-.link--item-menu-institucionais{
+.link--item-menu-institucionais {
   color: white;
   text-decoration: none;
 }
 
-.link--item-menu-institucionais-active{
+.link--item-menu-institucionais-active {
   color: black;
 
-  border-left:5px solid transparent;
-  display:flex;
-  align-items:center;
-  gap:16px;
+  border-left: 5px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.container--item-menu-institucionais{
+.container--item-menu-institucionais {
 
   align-items: center;
 }
-.container--item-menu-institucionais-active{
+
+.container--item-menu-institucionais-active {
   background-color: #FC87FC;
   width: 100%;
   justify-content: center;
@@ -215,12 +218,12 @@
 
 
 /* texto vantagens pgto a vista  */
-.container--texto-vantagens{
+.container--texto-vantagens {
   text-align: center;
 }
 
 /* produtos relacionados */
-.paragraph--produtos-relacionados{
+.paragraph--produtos-relacionados {
   font-weight: bold;
   padding: 20px;
   font-size: 1.5rem;
@@ -228,29 +231,42 @@
 }
 
 /* botao cep */
-.paragraph--texto-botao-frete{
+.paragraph--texto-botao-frete {
   color: var(--preto-raisin);
   margin: 0;
   padding: 7px;
   align-items: center;
   text-align: center;
 }
-.paragraph--texto-botao-frete:hover{
+
+.paragraph--texto-botao-frete:hover {
   color: white;
 }
 
-.wrapper--texto-botao-frete{
+.wrapper--texto-botao-frete {
   width: 100%;
 }
 
 /* BANNER INFORMAÇÕES HOME  */
 .wrapper--titulo-informacoes,
-.wrapper--subtitulo-informacoes{
+.wrapper--subtitulo-informacoes {
   text-align: center;
   color: white;
 }
 
 @media only screen and (max-width: 1024px) {
+  .container--deals {
+    padding: 0;
+  }
+
+  .wrapper--deals {
+    font-size: 10px;
+  }
+
+  .wrapper--sub-mobile-deals {
+    display: none;
+  }
+
   .container--tituloHome {
     font-size: 12px;
   }
@@ -259,15 +275,15 @@
     font-size: 20px;
   }
 
-  .heading--titulo-certificadoes{
+  .heading--titulo-certificadoes {
     font-size: 18px;
   }
 
-  .wrapper--subtitulo-informacoes{
+  .wrapper--subtitulo-informacoes {
     display: none;
   }
 
-  .wrapper--titulo-informacoes{
+  .wrapper--titulo-informacoes {
     font-size: smaller;
   }
 }

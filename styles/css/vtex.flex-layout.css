@@ -562,36 +562,11 @@
 
 
 /* LINHA DO BANNER DE INFORMAÇÕES HOME  */
-.flexRow--linha-informacoes {
-  padding: 20px;
-  background-color: var(--violeta);
-  margin-top: -5px;
+.flexRow--deals{
+  margin-top: -4px;
 }
 
-.flexRow--banner-principal {
-  display: flex;
-}
-
-.flexRowContent--banner-principal {
-  height: 100%;
-}
-
-.flexCol--container-banner-principal {
-  display: flex;
-}
-
-.flexRowContent--linha-informacoes {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-
-}
-
-.flexCol--coluna-informacoes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* BANNER INFORMAÇÕES */
 
 .flexColChild--container-banner-principal {
   width: 100%;
@@ -651,6 +626,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--mobile-deals{
+    display: flex;
+    flex-direction: row;
+  }
 
   .flexColChild--coluna-certificado {
     width: 50px;
