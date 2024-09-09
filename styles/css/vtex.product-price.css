@@ -31,7 +31,7 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: var(--violeta);
   border-radius: 1000px;
   align-items: center;
   display: flex;
@@ -109,7 +109,7 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: var(--violeta);
   border-radius: 1000px;
   align-items: center;
   display: flex;
@@ -120,7 +120,7 @@
   color: #FFFFFF;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 10px 2px rgba(139, 195, 74, 0.7);
+  box-shadow: 0 0 10px 2px var(--violeta);
   animation: vtex-product-price-1-x-pulse 2s infinite;
   padding: 5px;
 }
@@ -131,7 +131,7 @@
 
 @media only screen and (max-width: 1024px) {
   .savings--summary {
-    background: #8BC34A;
+    background: var(purple);
     border-radius: 1000px;
     align-items: center;
     display: flex;
@@ -142,7 +142,7 @@
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 10px 2px rgba(139, 195, 74, 0.7);
+    box-shadow: 0 0 10px 2px var(--violeta);
     animation: vtex-product-price-1-x-pulse 2s infinite;
     padding: 5px;
     margin: 10px;
