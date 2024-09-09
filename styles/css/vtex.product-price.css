@@ -108,6 +108,26 @@
   border: none;
 }
 
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px 2px rgba(139, 195, 74, 0.7);
+  animation: vtex-product-price-1-x-pulse 2s infinite;
+  padding: 5px;
+}
+
+.savingsValue--summary{
+  width: 100%;
+}
 
 @media only screen and (max-width: 1024px) {
   .savings--summary {
@@ -115,17 +135,17 @@
     border-radius: 1000px;
     align-items: center;
     display: flex;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: 0.500rem;
+
+    font-size: 1rem;
     font-weight: 600;
     vertical-align: baseline;
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px 2px rgba(139, 195, 74, 0.7);
-    /* Sombra menor */
-    animation: pulse 2s infinite;
+    animation: vtex-product-price-1-x-pulse 2s infinite;
+    padding: 5px;
+    margin: 10px;
   }
 
   @keyframes pulse {

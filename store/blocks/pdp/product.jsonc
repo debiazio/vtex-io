@@ -9,7 +9,8 @@
 
       "product-gifts",
       "rich-text#certificacoes-titulo",
-      "flex-layout.row#certificacoes"
+      "flex-layout.row#certificacoes",
+      "flex-layout.row#whatsapp"
     ]
   },
 

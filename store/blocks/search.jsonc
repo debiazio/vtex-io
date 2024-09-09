@@ -87,7 +87,8 @@
     "children": [
       // "flex-layout.row#searchtitle",
       "flex-layout.row#banner-dpto",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "flex-layout.row#whatsapp"
     ],
     "props": {
       "pagination": "show-more",
@@ -213,7 +214,8 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#whatsapp"
     ],
     "props": {
       "pagination": "show-more",
