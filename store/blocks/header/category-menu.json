@@ -507,6 +507,36 @@
     }
   },
 
+  "menu-item#dr-marcelo-brito": {
+    "props": {
+      "id": "menu-principal",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
+      },
+      "blockClass": "menu-superior"
+    }
+  },
+  "menu-item#idealclave-bellinha": {
+    "props": {
+      "id": "menu-principal",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-bellinha",
+        "noFollow": false,
+        "tagTitle": "Idealclave Bellinha",
+        "text": "Idealclave Bellinha"
+      },
+      "blockClass": "menu-superior"
+    }
+  },
   "menu-item#mobiliario-tecnico": {
     "props": {
       "id": "menu-principal",

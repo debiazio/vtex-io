@@ -117,7 +117,7 @@
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "Por {sellingPriceValue}"
+      "message": "{sellingPriceValue}"
     }
   },
   "product-price-savings#summary": {
