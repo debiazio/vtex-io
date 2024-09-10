@@ -21,6 +21,10 @@
   border: 0;
 }
 
+.drawer{
+  z-index: 9999;
+}
+
 
 @media screen  and (max-width: 1024px){
   .minicartContainer :global(.vtex-button__label) {
