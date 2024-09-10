@@ -19,6 +19,15 @@
 :global(.vtex-input__label){
   padding: 10px;
   padding-top: 20px;
+  font-size: 1.1rem;
+}
+
+:global(.vtex-address-form__postalCode-forgottenURL){
+  font-size: 1.1rem;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) h2{
+  text-align: left;
 }
 
 /* RESET */

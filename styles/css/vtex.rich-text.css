@@ -96,6 +96,7 @@
   color: white;
   margin: 0 0 35px;
   font-size: 25px;
+  text-align: center;
 }
 
 .container--footer {
@@ -255,6 +256,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+  .container--titulo-menus-footer-mobile{
+    font-weight: 800;
+  } 
+
   .container--deals {
     padding: 0;
   }
@@ -276,7 +282,7 @@
   }
 
   .heading--titulo-certificadoes {
-    font-size: 18px;
+    font-size: 2rem;
   }
 
   .wrapper--subtitulo-informacoes {

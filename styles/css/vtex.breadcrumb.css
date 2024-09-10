@@ -1,7 +1,7 @@
 
 .link,
 .term{
-    font-size:13px;
+    font-size:1.2rem;
     color:#7B7979;
     padding:0;
     line-height:1;
@@ -26,6 +26,7 @@
     display:flex;
     align-items:center;
     padding: 20px 0 20px 0;
+    flex-wrap: wrap;
 }
 .caretIcon{
     display:none;

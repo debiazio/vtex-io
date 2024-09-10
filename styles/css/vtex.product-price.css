@@ -30,20 +30,6 @@
   color: #2E2E2E;
 }
 
-.savings--summary {
-  background: var(--violeta);
-  border-radius: 1000px;
-  align-items: center;
-  display: flex;
-
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  vertical-align: baseline;
-  color: #FFFFFF;
-}
-
 .savings-discount--summary {
   font-size: 0.875rem;
   font-weight: 600;
@@ -113,7 +99,7 @@
   border-radius: 1000px;
   align-items: center;
   display: flex;
-  margin: 10px 0;
+  margin: 5px -15px 0px 0px;
   font-size: 1rem;
   font-weight: 600;
   vertical-align: baseline;

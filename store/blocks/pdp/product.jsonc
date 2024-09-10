@@ -1,7 +1,9 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#banner-superior-desktop",
+      "responsive-layout.desktop#gif-animado-parcelamento",
+      "responsive-layout.mobile#gif-animado-parcelamento",
+      
       // "rich-text#titulo-pagina",
       "flex-layout.row#product-breadcrumb",
       "responsive-layout.desktop#availability",
@@ -13,8 +15,13 @@
       "flex-layout.row#whatsapp"
     ]
   },
-
-  //linha do banner(gif)
+    // LAYOUT DO DESKTOP LINHA DO GIF
+  "responsive-layout.desktop#gif-animado-parcelamento":{
+    "children": [
+      "flex-layout.row#banner-superior-desktop"
+    ]
+  },
+  //linha do banner(gif) DESKTOP
   "flex-layout.row#banner-superior-desktop": {
     "props": {
       "blockClass": "gif-animado"
@@ -25,12 +32,39 @@
   },
   "image#banner-gif": {
     "props": {
+      "blockClass": "gif-animado-parcelas-img",
       "src": "assets/banner_10x.gif",
       "alt": "Banner Image",
-      "width": 700,
-      "height": 50
+      "width": 1120,
+      "height": 80
     }
   },
+  // LAYOUT DO MOBILE LINHA DO GIF
+  "responsive-layout.mobile#gif-animado-parcelamento":{
+    "children": [
+      "flex-layout.row#banner-superior-mobile"
+    ]
+  },
+  //linha do banner(gif) MOBILE
+  "flex-layout.row#banner-superior-mobile": {
+    "props": {
+      "blockClass": "gif-animado"
+    },
+    "children": [
+      "image#mobile-banner-gif"
+    ]
+  },
+  "image#mobile-banner-gif": {
+    "props": {
+      "blockClass": "gif-animado-parcelas-img",
+      "src": "assets/banner_10x.gif",
+      "alt": "Banner Image",
+      "width": 1600,
+      "height": 40
+    }
+  },
+
+
   // linha que mostra o caminho até o conteúdo
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -1295,7 +1329,7 @@
   "rich-text#texto-botao-frete": {
     "props": {
       "blockClass": "texto-botao-frete",
-      "text": "Calcular Frete"
+      "text": "CALCULAR FRETE"
     }
   },
   "flex-layout.row#linha-resultados-frete": {
