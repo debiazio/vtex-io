@@ -6,7 +6,6 @@
     },
     "children": [
       "menu-item#quem-somos",
-      "menu-item#Departamentos",
       "menu-item#Politica-privacidade",
       "menu-item#Contato",
       "menu-item#Formas-Pagamento",
@@ -211,7 +210,6 @@
     },
     "children": [
       "menu-item#quem-somos",
-      "menu-item#Departamentos",
       "menu-item#Politica-privacidade",
       "menu-item#Contato",
       "menu-item#Formas-Pagamento",

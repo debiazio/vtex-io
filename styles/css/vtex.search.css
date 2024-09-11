@@ -14,3 +14,8 @@
 .biggy-autocomplete{
   top:64px;
 }
+
+
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher){
+  display: none;
+}

@@ -301,12 +301,12 @@
             "tablet": 2,
             "phone": 2
           }
-        },
-        {
-          "name": "list",
-          "component": "ListSummary",
-          "itemsPerRow": 1
         }
+        // {
+        //   "name": "list",
+        //   "component": "ListSummary",
+        //   "itemsPerRow": 1
+        // }
       ],
       "ListSummary": "product-summary.shelf#listLayout",
       "GridSummary": "product-summary.shelf"
