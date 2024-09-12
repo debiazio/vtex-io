@@ -1,38 +1,67 @@
 {
   "store.custom#quem-somos": {
-    "blocks": [
-      "flex-layout.row#quem-somos"
-    ]
+    "blocks": ["flex-layout.row#quem-somos"]
   },
   "flex-layout.row#quem-somos": {
     "props": {
       "blockClass": "pagina-institucional"
     },
     "children": [
-      "flex-layout.col#menu-institucionais-envio-produtos",
+      "flex-layout.col#menu-institucionais-quem-somos",
       "flex-layout.col#conteudo-quem-somos"
     ],
     "title": "Página Envio de Produtos"
   },
-  "flex-layout.col#menu-institucionais-envio-produtos": {
+  "flex-layout.col#menu-institucionais-quem-somos": {
     "props": {
       "width": "22%",
       "blockClass": "menu-institucionais"
     },
     "children": [
       "rich-text#titulo-menu-institucionais",
-      "flex-layout.row#quem-somos-active",
-      "flex-layout.row#envio-de-produtos",
-      "rich-text#titulo-item-menu-formas-pagamento",
-      "rich-text#titulo-item-menu-politica-privacidade",
-      "rich-text#titulo-item-menu-trocas-e-devolucoes"
+      "flex-layout.row#institucionais-quem-somos-active",
+      "link#institucionais-politica-privacidade",
+      "link#institucionais-formas-pgto",
+      "link#institucionais-envio",
+      "link#institucionais-trocas-e-devolucoes"
     ],
     "title": "Menu institucionais - Página Quem Somos"
   },
+
+  "flex-layout.row#institucionais-quem-somos-active": {
+    "props": {
+      "blockClass": "menu-institucionais"
+    },
+    "children": [
+      "flex-layout.col#spacer-quem-somos",
+      "rich-text#titulo-item-menu-quem-somos-active",
+      "image#icon-menu-institucionais-active"
+    ]
+  },
+  "flex-layout.col#spacer-quem-somos": {
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
+
+  "rich-text#titulo-item-menu-quem-somos-active": {
+    "props": {
+      "text": "[Quem Somos](/institucional/quem-somos)",
+      "blockClass": "item-menu-institucionais-active"
+    }
+  },
+  "image#icon-menu-institucionais-active": {
+    "props": {
+      "blockClass": "icone-institucionais-active",
+      "src": "assets/seta-para-direita.svg",
+      "alt": "Ícone seta para direita"
+    }
+  },
+
   "flex-layout.col#conteudo-quem-somos": {
     "children": [
       "rich-text#titulo-quem-somos",
-      "flex-layout.row#quem-somos-img",
+      "flex-layout.col#imagem-quem-somos", 
       "rich-text#texto-quem-somos"
     ],
     "props": {
@@ -49,7 +78,7 @@
     },
     "title": "Titulo - Quem somos"
   },
-  "flex-layout.row#quem-somos-img":{
+  "flex-layout.col#imagem-quem-somos":{
     "props": {
       "blockClass": "container-imagem-quem-somos"
     },
@@ -64,11 +93,10 @@
       "alt": "Imagem timeline Idealine"
     }
   },
-
   "rich-text#texto-quem-somos": {
     "props": {
       "text": "Criada em 2004, a **Idealine** iniciou suas atividades como uma revendedora especializada em produtos de higiene e esterilização para a área de beleza e estética.\n\n Com o passar dos anos e a crescente demanda de novos mercados, ampliamos a área de atuação, buscando oferecer produtos testados e aprovados, de qualidade e preços acessíveis também para os segmentos: médico, odontológico, veterinário, hospitalar, clínico, laboratorial, hoteleiro, alimentação, escolar, limpeza, e escritório, além do público em geral.\n\n Em constante crescimento desde o seu surgimento, no ano de 2020, chegou o momento de uma reformulação total da loja on-line, com investimentos em uma nova plataforma, branding e marketing, posicionando e consolidando a marca como uma das maiores do seguimento.\n\n Visando atender as regulamentações vigentes, possuímos todas as autorizações necessárias junto aos órgãos competentes, dentre elas destacamos a **Autorização de Funcionamento da Agência Nacional de Vigilância Sanitária (ANVISA)**. \n\n Tudo isso para proporcionar maior segurança, praticidade e respeito aos seus clientes.\n\n **Foco no Cliente**: Nossos clientes são a razão da nossa existência.\n\n **Segurança:** Somos rigorosos no cumprimento dos nossos padrões, prezando pela segurança dos nossos clientes e colaboradores;\n\n **Transparência:** Atuar e informar de forma clara e verdadeira;\n\n **Ética:** Agir de acordo com valores que norteiam uma conduta íntegra, transparente e honesta;\n\n **Resultados com Qualidade:** Buscamos maximizar os resultados, valorizando a qualidade em cada detalhe de nossa operação;\n\n **Trabalho em Equipe:** Juntos alcançamos nossos objetivos, confiamos uns nos outros, compartilhando conquistas e resultados;",
-      "blockClass": "conteudo-institucionais"
+      "blockClass": ["conteudo-institucionais", "quem-somos-texto"]
     },
     "title": "conteúdo - Quem Somos"
   }

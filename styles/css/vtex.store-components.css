@@ -414,7 +414,7 @@
 }
 
 .imageElement--icone-institucionais-active{
-  height: 30px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 1024px) {

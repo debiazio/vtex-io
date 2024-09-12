@@ -384,6 +384,10 @@
 .flexColChild--menu-institucionais:hover {
   background-color: var(--violeta);
 }
+.flexColChild--menu-institucionais{
+  background-color: var(--violeta);
+}
+
 
 .flexCol--menu-esquerdo {
   width: 40%;
@@ -676,6 +680,10 @@
   width: 200px;
 }
 
+.menu-institucionais-active{
+  background-color: var(--violeta);
+}
+
 .flexRowContent--menu-institucionais{
   display: flex;
   flex-direction: row;
@@ -685,7 +693,7 @@
 }
 
 .flexRow--menu-institucionais{
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   background-color: transparent;
 }

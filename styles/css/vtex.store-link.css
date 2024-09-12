@@ -1,6 +1,24 @@
 .link--texto-linha-login-mobile,
-.label--texto-linha-login-mobile{
+.label--texto-linha-login-mobile {
   color: white;
   text-decoration: none;
 
+}
+
+
+.link--link-menu-institucionais {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.childrenContainer--link-menu-institucionais {
+  text-decoration: none;
+  display: flex;
+}
+
+.childrenContainer--link-menu-institucionais .link--item-menu-institucionais{
+  text-decoration: none;
 }

@@ -14,7 +14,6 @@
   --sombra: #70809038;
 }
 
-
 :global(.vtex-textarea__label),
 :global(.vtex-input__label){
   padding: 10px;

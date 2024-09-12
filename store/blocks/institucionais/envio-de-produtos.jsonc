@@ -21,14 +21,30 @@
     },
     "children": [
       "rich-text#titulo-menu-institucionais",
-      "flex-layout.row#institucionais-quem-somos",
-      "rich-text#titulo-item-menu-envio-de-produtos-active",
-      "rich-text#titulo-item-menu-formas-pagamento",
-      "rich-text#titulo-item-menu-politica-privacidade",
-      "rich-text#titulo-item-menu-trocas-e-devolucoes"
+      "link#instituicionais-quem-somos",
+      "link#institucionais-politica-privacidade",
+      "link#institucionais-formas-pgto",
+      "flex-layout.row#institucionais-envio",
+      "link#institucionais-trocas-e-devolucoes"
     ],
     "title": "Menu institucionais - Página Quem Somos"
   },
+  "flex-layout.row#institucionais-envio": {
+    "props": {
+      "blockClass": "menu-institucionais"
+    },
+    "children": [
+      "flex-layout.col#spacer-quem-somos",
+      "flex-layout.col#titulo-envio",
+      "image#icon-menu-institucionais-active"
+    ]
+  },
+  "flex-layout.col#titulo-envio": {
+    "children": [
+      "rich-text#titulo-item-menu-envio-de-produtos-active"
+    ]
+  },
+
   "flex-layout.col#conteudo-envio-de-produtos": {
     "children": [
       "rich-text#titulo-envio-de-produtos",
