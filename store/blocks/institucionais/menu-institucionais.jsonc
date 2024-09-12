@@ -6,18 +6,50 @@
     }
   },
 
+  "flex-layout.row#institucionais-quem-somos":{
+    "props": {
+      "blockClass": "menu-institucionais"
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "rich-text#titulo-item-menu-quem-somos",
+      "image#icon-menu-institucionais"
+    ]
+  },
+
   "rich-text#titulo-item-menu-quem-somos": {
     "props": {
       "text": "[Quem Somos](/institucional/quem-somos)",
       "blockClass": "item-menu-institucionais"
     }
   },
+  "image#icon-menu-institucionais":{
+    "props": {
+      "blockClass": "icone-institucionais-active",
+      "src": "assets/seta-para-direita-branca.svg",
+      "alt": "Ícone seta para direita"
+    }
+  },
+
+  "flex-layout.row#envio-de-produtos":{
+    "props": {
+      "blockClass": "menu-institucionais"
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "rich-text#titulo-item-menu-envio-de-produtos",
+      "image#icon-menu-institucionais"
+    ]
+  },
   "rich-text#titulo-item-menu-envio-de-produtos": {
     "props": {
       "text": "[Envio de Produtos](/institucional/envio-de-produtos)",
       "blockClass": "item-menu-institucionais"
     }
+
   },
+
+
   "rich-text#titulo-item-menu-formas-pagamento": {
     "props": {
       "text": "[Formas de Pagamento](/institucional/formas-pagamento)",
@@ -36,12 +68,33 @@
       "blockClass": "item-menu-institucionais"
     }
   },
-
-//   teste
+  // LINHA DO QUEM SOMOS COM ÍCONE
+  "flex-layout.row#quem-somos-active":{
+    "props": {
+      "blockClass": "menu-institucionais"
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "rich-text#titulo-item-menu-quem-somos-active",
+      "image#icon-menu-institucionais-active"
+    ]
+  },
+  "flex-layout.col#spacer":{
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
   "rich-text#titulo-item-menu-quem-somos-active": {
     "props": {
       "text": "[Quem Somos](/institucional/quem-somos)",
       "blockClass": ["item-menu-institucionais", "item-menu-institucionais-active" ]
+    }
+  },
+  "image#icon-menu-institucionais-active":{
+    "props": {
+      "blockClass": "icone-institucionais-active",
+      "src": "assets/seta-para-direita.svg",
+      "alt": "Ícone seta para direita"
     }
   },
   "rich-text#titulo-item-menu-envio-de-produtos-active": {

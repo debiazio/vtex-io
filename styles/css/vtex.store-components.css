@@ -413,6 +413,10 @@
   height: 46px;
 }
 
+.imageElement--icone-institucionais-active{
+  height: 30px;
+}
+
 @media screen and (max-width: 1024px) {
   /* imagens */
 :global(.vtex-flex-layout-0-x-flexRowContent--certificados) {

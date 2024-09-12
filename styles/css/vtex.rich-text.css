@@ -209,14 +209,17 @@
   align-items: center;
 }
 
-.container--item-menu-institucionais-active {
+/* .container--item-menu-institucionais-active {
   background-color: #FC87FC;
   width: 100%;
   justify-content: center;
   align-items: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
+} */
 
+.paragraph--item-menu-institucionais-active{
+  width: max-content;
+}
 
 /* texto vantagens pgto a vista  */
 .container--texto-vantagens {
@@ -259,7 +262,7 @@
 
   .container--titulo-menus-footer-mobile{
     font-weight: 800;
-  } 
+  }
 
   .container--deals {
     padding: 0;

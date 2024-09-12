@@ -676,6 +676,20 @@
   width: 200px;
 }
 
+.flexRowContent--menu-institucionais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.flexRow--menu-institucionais{
+  flex: 1;
+  display: flex;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1024px) {
   .flexRowContent--linha-preco-a-vista-e-desconto{
     width: 100%;

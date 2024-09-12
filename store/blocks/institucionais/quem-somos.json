@@ -21,8 +21,8 @@
     },
     "children": [
       "rich-text#titulo-menu-institucionais",
-      "rich-text#titulo-item-menu-quem-somos-active",
-      "rich-text#titulo-item-menu-envio-de-produtos",
+      "flex-layout.row#quem-somos-active",
+      "flex-layout.row#envio-de-produtos",
       "rich-text#titulo-item-menu-formas-pagamento",
       "rich-text#titulo-item-menu-politica-privacidade",
       "rich-text#titulo-item-menu-trocas-e-devolucoes"
@@ -32,7 +32,7 @@
   "flex-layout.col#conteudo-quem-somos": {
     "children": [
       "rich-text#titulo-quem-somos",
-
+      "flex-layout.row#quem-somos-img",
       "rich-text#texto-quem-somos"
     ],
     "props": {
@@ -48,6 +48,21 @@
       "blockClass": "titulo-institucionais"
     },
     "title": "Titulo - Quem somos"
+  },
+  "flex-layout.row#quem-somos-img":{
+    "props": {
+      "blockClass": "container-imagem-quem-somos"
+    },
+    "children": [
+      "image#quem-somos"
+    ]
+  },
+  "image#quem-somos":{
+    "props": {
+      "blockClass": "imagem-quem-somos",
+      "src": "assets/Esquema_timeline.webp",
+      "alt": "Imagem timeline Idealine"
+    }
   },
 
   "rich-text#texto-quem-somos": {

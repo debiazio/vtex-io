@@ -21,7 +21,7 @@
       },
       "children": [
         "rich-text#titulo-menu-institucionais",
-        "rich-text#titulo-item-menu-quem-somos",
+        "flex-layout.row#institucionais-quem-somos",
         "rich-text#titulo-item-menu-envio-de-produtos",
         "rich-text#titulo-item-menu-formas-pagamento",
         "rich-text#titulo-item-menu-politica-privacidade-active",
