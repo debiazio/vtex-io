@@ -31,15 +31,17 @@
     },
     "flex-layout.row#institucionais-form-pagto-active": {
       "props": {
-        "blockClass": "menu-institucionais"
+        "blockClass": "menu-institucionais-active"
       },
       "children": [
-        "flex-layout.col#spacer-quem-somos",
         "flex-layout.col#titulo-form-pgto",
-        "image#icon-menu-institucionais-active"
+        "flex-layout.col#institucional-icon-active"
       ]
     },
     "flex-layout.col#titulo-form-pgto": {
+      "props": {
+        "blockClass": "col-titulo-inst"
+      },
       "children": [
         "rich-text#titulo-item-menu-formas-pagamento-active"
       ]

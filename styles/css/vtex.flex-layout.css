@@ -384,11 +384,35 @@
 .flexColChild--menu-institucionais:hover {
   background-color: var(--violeta);
 }
-.flexColChild--menu-institucionais{
+
+.flexRow--menu-institucionais-active{
+  display: flex;
+  width: 100%;
+}
+
+.flexRowContent--menu-institucionais-active{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: var(--violeta);
 }
 
 
+.flexCol--col-titulo-inst{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.flexCol--col-icon-inst{
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.flexCol--container-imagem-mobile-quem-somos{
+  display: none;
+}
 .flexCol--menu-esquerdo {
   width: 40%;
 }
@@ -699,6 +723,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexCol--conteudo-institucionais{
+    padding: 0;
+  }
+
+  .flexCol--container-imagem-mobile-quem-somos{
+    display: flex;
+  }
+
   .flexRowContent--linha-preco-a-vista-e-desconto{
     width: 100%;
   }

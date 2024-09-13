@@ -30,15 +30,17 @@
     },
     "flex-layout.row#institucional-trocas-active": {
       "props": {
-        "blockClass": "menu-institucionais"
+        "blockClass": "menu-institucionais-active"
       },
       "children": [
-        "flex-layout.col#spacer-quem-somos",
         "flex-layout.col#titulo-trocas",
-        "image#icon-menu-institucionais-active"
+        "flex-layout.col#institucional-icon-active"
       ]
     },
     "flex-layout.col#titulo-trocas":{
+      "props": {
+        "blockClass": "col-titulo-inst"
+      },
       "children": [
         "rich-text#titulo-item-menu-trocas-e-devolucoes-active"
       ]

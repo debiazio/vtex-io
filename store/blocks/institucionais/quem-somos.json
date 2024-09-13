@@ -30,25 +30,34 @@
 
   "flex-layout.row#institucionais-quem-somos-active": {
     "props": {
-      "blockClass": "menu-institucionais"
+      "blockClass": "menu-institucionais-active"
     },
     "children": [
-      "flex-layout.col#spacer-quem-somos",
-      "rich-text#titulo-item-menu-quem-somos-active",
-      "image#icon-menu-institucionais-active"
+      "flex-layout.col#titulo-quem-somos-active",
+      "flex-layout.col#institucional-icon-active"
     ]
   },
-  "flex-layout.col#spacer-quem-somos": {
+  "flex-layout.col#titulo-quem-somos-active": {
     "props": {
-      "blockClass": "spacer"
-    }
+      "blockClass": "col-titulo-inst"
+    },
+    "children": [
+      "rich-text#titulo-item-menu-quem-somos-active"
+    ]
   },
-
   "rich-text#titulo-item-menu-quem-somos-active": {
     "props": {
       "text": "[Quem Somos](/institucional/quem-somos)",
       "blockClass": "item-menu-institucionais-active"
     }
+  },
+  "flex-layout.col#institucional-icon-active": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais-active"
+    ]
   },
   "image#icon-menu-institucionais-active": {
     "props": {
@@ -61,8 +70,8 @@
   "flex-layout.col#conteudo-quem-somos": {
     "children": [
       "rich-text#titulo-quem-somos",
-      "flex-layout.col#imagem-quem-somos", 
-      "rich-text#texto-quem-somos"
+      "flex-layout.col#imagem-quem-somos",
+      "flex-layout.col#imagem-mobile-quem-somos"
     ],
     "props": {
       "width": "78%",
@@ -78,7 +87,7 @@
     },
     "title": "Titulo - Quem somos"
   },
-  "flex-layout.col#imagem-quem-somos":{
+  "flex-layout.col#imagem-quem-somos": {
     "props": {
       "blockClass": "container-imagem-quem-somos"
     },
@@ -86,18 +95,67 @@
       "image#quem-somos"
     ]
   },
-  "image#quem-somos":{
+  "image#quem-somos": {
     "props": {
       "blockClass": "imagem-quem-somos",
       "src": "assets/Esquema_timeline.webp",
       "alt": "Imagem timeline Idealine"
     }
   },
-  "rich-text#texto-quem-somos": {
+  "flex-layout.col#imagem-mobile-quem-somos":{
     "props": {
-      "text": "Criada em 2004, a **Idealine** iniciou suas atividades como uma revendedora especializada em produtos de higiene e esterilização para a área de beleza e estética.\n\n Com o passar dos anos e a crescente demanda de novos mercados, ampliamos a área de atuação, buscando oferecer produtos testados e aprovados, de qualidade e preços acessíveis também para os segmentos: médico, odontológico, veterinário, hospitalar, clínico, laboratorial, hoteleiro, alimentação, escolar, limpeza, e escritório, além do público em geral.\n\n Em constante crescimento desde o seu surgimento, no ano de 2020, chegou o momento de uma reformulação total da loja on-line, com investimentos em uma nova plataforma, branding e marketing, posicionando e consolidando a marca como uma das maiores do seguimento.\n\n Visando atender as regulamentações vigentes, possuímos todas as autorizações necessárias junto aos órgãos competentes, dentre elas destacamos a **Autorização de Funcionamento da Agência Nacional de Vigilância Sanitária (ANVISA)**. \n\n Tudo isso para proporcionar maior segurança, praticidade e respeito aos seus clientes.\n\n **Foco no Cliente**: Nossos clientes são a razão da nossa existência.\n\n **Segurança:** Somos rigorosos no cumprimento dos nossos padrões, prezando pela segurança dos nossos clientes e colaboradores;\n\n **Transparência:** Atuar e informar de forma clara e verdadeira;\n\n **Ética:** Agir de acordo com valores que norteiam uma conduta íntegra, transparente e honesta;\n\n **Resultados com Qualidade:** Buscamos maximizar os resultados, valorizando a qualidade em cada detalhe de nossa operação;\n\n **Trabalho em Equipe:** Juntos alcançamos nossos objetivos, confiamos uns nos outros, compartilhando conquistas e resultados;",
-      "blockClass": ["conteudo-institucionais", "quem-somos-texto"]
+      "blockClass": "container-imagem-mobile-quem-somos"
     },
-    "title": "conteúdo - Quem Somos"
+    "children": [
+      "image#mobile1-quem-somos",
+      "image#mobile2-quem-somos",
+      "image#mobile3-quem-somos",
+      "image#mobile4-quem-somos",
+      "image#mobile5-quem-somos",
+      "image#mobile6-quem-somos"
+    ]
+  },
+  "image#mobile1-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/01-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
+  },
+  "image#mobile2-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/02-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
+  },
+  "image#mobile3-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/03-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
+  },
+  "image#mobile4-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/04-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
+  },
+  "image#mobile5-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/05-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
+  },
+
+  "image#mobile6-quem-somos":{
+    "props": {
+      "blockClass": "imagem-mobile-quem-somos",
+      "src": "assets/06-.webp",
+      "alt": "Imagem timeline Idealine"
+    }
   }
 }

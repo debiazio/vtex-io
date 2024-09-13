@@ -31,20 +31,22 @@
     },
     "flex-layout.row#institucionais-pol-priv-active": {
       "props": {
-        "blockClass": "menu-institucionais"
+        "blockClass": "menu-institucionais-active"
       },
       "children": [
-        "flex-layout.col#spacer-quem-somos",
         "flex-layout.col#titulo-pol-priv",
-        "image#icon-menu-institucionais-active"
+        "flex-layout.col#institucional-icon-active"
       ]
     },
     "flex-layout.col#titulo-pol-priv":{
+      "props": {
+        "blockClass": "col-titulo-inst"
+      },
       "children": [
         "rich-text#titulo-item-menu-politica-privacidade-active"
       ]
     },
-    
+
     "flex-layout.col#conteudo-politica-privacidade": {
       "children": [
         "rich-text#titulo-politica-privacidade",

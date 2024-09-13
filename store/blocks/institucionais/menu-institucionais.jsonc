@@ -6,19 +6,22 @@
     }
   },
   //quem somos abaixo
-  "link#instituicionais-quem-somos":{
+  "link#instituicionais-quem-somos": {
     "props": {
       "href": "/institucional/quem-somos",
       "blockClass": "link-menu-institucionais",
       "displayMode": "button"
     },
     "children": [
-      "flex-layout.col#spacer-quem-somos",
+      // "flex-layout.col#spacer-quem-somos",
       "flex-layout.col#titulo-quem-somos",
-      "image#icon-menu-institucionais"
+      "flex-layout.col#institucional-quem-somos"
     ]
   },
-  "flex-layout.col#titulo-quem-somos":{
+  "flex-layout.col#titulo-quem-somos": {
+    "props": {
+      "blockClass": "col-titulo-inst"
+    },
     "children": [
       "rich-text#titulo-item-menu-quem-somos"
     ]
@@ -29,7 +32,15 @@
       "blockClass": "item-menu-institucionais"
     }
   },
-  // envio de produtos 
+  "flex-layout.col#institucional-quem-somos": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais"
+    ]
+  },
+  // envio de produtos
   "link#institucionais-envio": {
     "props": {
       "href": "/institucional/envio-de-produtos",
@@ -37,12 +48,15 @@
       "displayMode": "button"
     },
     "children": [
-      "flex-layout.col#spacer-quem-somos",
+      // "flex-layout.col#spacer-quem-somos",
       "flex-layout.col#titulo-menu-envio",
-      "image#icon-menu-institucionais"
+      "flex-layout.col#institucional-icon-envio"
     ]
   },
-  "flex-layout.col#titulo-menu-envio":{
+  "flex-layout.col#titulo-menu-envio": {
+    "props": {
+      "blockClass": "col-titulo-inst"
+    },
     "children": [
       "rich-text#titulo-item-menu-envio-de-produtos"
     ]
@@ -53,6 +67,14 @@
       "blockClass": "item-menu-institucionais"
     }
   },
+  "flex-layout.col#institucional-icon-envio": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais"
+    ]
+  },
   "image#icon-menu-institucionais": {
     "props": {
       "blockClass": "icone-institucionais-active",
@@ -62,19 +84,21 @@
   },
   // envio de produtos acima
   // FORMAS ENVIO ABAIXO
-  "link#institucionais-formas-pgto":{
+  "link#institucionais-formas-pgto": {
     "props": {
       "href": "/institucional/formas-pagamento",
       "blockClass": "link-menu-institucionais",
       "displayMode": "button"
     },
     "children": [
-      "flex-layout.col#spacer-quem-somos",
       "flex-layout.col#titulo-formas-pagamento",
-      "image#icon-menu-institucionais"
+      "flex-layout.col#institucional-icon-formas-pgto"
     ]
   },
-  "flex-layout.col#titulo-formas-pagamento":{
+  "flex-layout.col#titulo-formas-pagamento": {
+    "props": {
+      "blockClass": "col-titulo-inst"
+    },
     "children": [
       "rich-text#titulo-item-menu-formas-pagamento"
     ]
@@ -85,21 +109,31 @@
       "blockClass": "item-menu-institucionais"
     }
   },
+  "flex-layout.col#institucional-icon-formas-pgto": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais"
+    ]
+  },
   //FORMAS DE ENVIO ACIMA
   //POL PRIVACIDADE ABAIXO
-  "link#institucionais-politica-privacidade":{
+  "link#institucionais-politica-privacidade": {
     "props": {
       "href": "/institucional/politica-privacidade",
       "blockClass": "link-menu-institucionais",
       "displayMode": "button"
     },
     "children": [
-      "flex-layout.col#spacer-quem-somos",
       "flex-layout.col#titulo-pol-pri",
-      "image#icon-menu-institucionais"
+      "flex-layout.col#institucional-icon-pol-priv"
     ]
   },
-  "flex-layout.col#titulo-pol-pri":{
+  "flex-layout.col#titulo-pol-pri": {
+    "props": {
+      "blockClass": "col-titulo-inst"
+    },
     "children": [
       "rich-text#titulo-item-menu-politica-privacidade"
     ]
@@ -110,31 +144,50 @@
       "blockClass": "item-menu-institucionais"
     }
   },
-//POL PRIVACIDADE ACIMA
-//TROCAS E DEVOLUCOES ABAIXO
-"link#institucionais-trocas-e-devolucoes":{
-  "props": {
-    "href": "/institucional/trocas-e-devolucoes",
-    "blockClass": "link-menu-institucionais",
-    "displayMode": "button"
+  "flex-layout.col#institucional-icon-pol-priv": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais"
+    ]
   },
-  "children": [
-    "flex-layout.col#spacer-quem-somos",
-    "flex-layout.col#titulo-troca-devolucoes",
-    "image#icon-menu-institucionais"
-  ]
-},
-"flex-layout.col#titulo-troca-devolucoes":{
-  "children": [
-    "rich-text#titulo-item-menu-trocas-e-devolucoes"
-  ]
-},
+  //POL PRIVACIDADE ACIMA
+  //TROCAS E DEVOLUCOES ABAIXO
+  "link#institucionais-trocas-e-devolucoes": {
+    "props": {
+      "href": "/institucional/trocas-e-devolucoes",
+      "blockClass": "link-menu-institucionais",
+      "displayMode": "button"
+    },
+    "children": [
+      "flex-layout.col#titulo-troca-devolucoes",
+      "flex-layout.col#institucional-icon-trocas"
+    ]
+  },
+  "flex-layout.col#titulo-troca-devolucoes": {
+    "props": {
+      "blockClass": "col-titulo-inst"
+    },
+    "children": [
+      "rich-text#titulo-item-menu-trocas-e-devolucoes"
+    ]
+  },
   "rich-text#titulo-item-menu-trocas-e-devolucoes": {
     "props": {
       "text": "[Trocas e Devoluções](/institucional/trocas-e-devolucoes)",
       "blockClass": "item-menu-institucionais"
     }
   },
+  "flex-layout.col#institucional-icon-trocas": {
+    "props": {
+      "blockClass": "col-icon-inst"
+    },
+    "children": [
+      "image#icon-menu-institucionais"
+    ]
+  },
+
   //TROCAS E DEVOLUCOES Acima
   "rich-text#titulo-item-menu-envio-de-produtos-active": {
     "props": {

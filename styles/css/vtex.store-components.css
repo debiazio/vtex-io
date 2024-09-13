@@ -177,7 +177,8 @@
 /* QUEM SOMOS */
 .imageElement--imagem-quem-somos {
   display: block;
-  margin: 0 0 30;
+  width: 80%;
+  margin-top: -146px;
 }
 
 
@@ -418,6 +419,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--imagem-mobile-quem-somos{
+    width: 100%;
+  }
+
+  .imageElement--imagem-quem-somos {
+    display: none;
+  }
   /* imagens */
 :global(.vtex-flex-layout-0-x-flexRowContent--certificados) {
   gap: 10px;
