@@ -211,6 +211,8 @@
 
   "search-result-layout.mobile": {
     "children": [
+      // "condition-layout.category#bellinha",
+      "flex-layout.row#searchtitle",
       "flex-layout.row#banner-dpto",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
@@ -229,6 +231,39 @@
       "defaultGalleryLayout": "grid"
     }
   },
+  // "condition-layout.category#bellinha": {
+  //   "props":{
+  //   "conditions": [{
+  //     "subject": "category",
+  //     "arguments": {
+  //       "ids": ["73", "75"]
+  //     }
+  //   }],
+  //   "Then": "flex-layout.row#teste-titulo-bellinha"
+  // }
+  // },
+  // "flex-layout.row#teste-titulo-bellinha":{
+  //   "props": {
+  //     "blockClass": "linha-teste-bellinha"
+  //   },
+  //   "children": [
+  //     "rich-text#teste-bellinha",
+  //     "rich-text#teste-sub-bellinha"
+  //   ]
+  // },
+  // "rich-text#teste-bellinha":{
+  //   "props": {
+  //     "blockClass": "texto-titulo-bellinha",
+  //     "text": "# **IDEAL**CLAVE"
+  //   }
+  // },
+  // "rich-text#teste-sub-bellinha":{
+  //   "props": {
+  //     "blockClass": "texto-sub-bellinha",
+  //     "text": "# Bellinha"
+  //   }
+  // },
+
   "flex-layout.row#contentmobile": {
     "children": ["search-content"],
     "props": {

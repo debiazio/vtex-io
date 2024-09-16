@@ -161,7 +161,7 @@
   text-wrap: nowrap;
 }
 
-.paragraph--item-menu-institucionais{
+.paragraph--item-menu-institucionais {
   color: white;
 }
 
@@ -201,7 +201,7 @@
 
 }
 
-.heading--titulo-menu-instituicionais{
+.heading--titulo-menu-instituicionais {
   font-weight: bold;
 }
 
@@ -284,12 +284,12 @@
   user-select: none;
 }
 
-.paragraph--texto-cookies-aviso{
+.paragraph--texto-cookies-aviso {
   text-align: center;
   margin: 20px 20px 0 20px;
 }
 
-.container--texto-obrigatorio-modal{
+.container--texto-obrigatorio-modal {
   display: none;
 }
 
@@ -330,4 +330,34 @@
   .wrapper--titulo-informacoes {
     font-size: smaller;
   }
+}
+
+
+/* teste titulo bellinha */
+.wrapper--texto-titulo-bellinha {
+  color: white;
+  /* font-weight: 400; */
+
+}
+
+.wrapper--texto-sub-bellinha {
+  /* color: #e90b91; */
+  color: white;
+}
+
+
+.wrapper--texto-sub-bellinha :global(.vtex-rich-text-0-x-heading-level-1),
+.wrapper--texto-titulo-bellinha :global(.vtex-rich-text-0-x-heading-level-1) {
+  font-size: 15px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.wrapper--texto-sub-bellinha :global(.vtex-rich-text-0-x-heading-level-1) {
+  font-family: Scrivano;
+}
+
+.container--texto-sub-bellinha {
+  display: flex;
+  justify-content: flex-end;
 }

@@ -385,12 +385,12 @@
   background-color: var(--violeta);
 }
 
-.flexRow--menu-institucionais-active{
+.flexRow--menu-institucionais-active {
   display: flex;
   width: 100%;
 }
 
-.flexRowContent--menu-institucionais-active{
+.flexRowContent--menu-institucionais-active {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -398,21 +398,22 @@
 }
 
 
-.flexCol--col-titulo-inst{
+.flexCol--col-titulo-inst {
   display: flex;
   flex-direction: row;
   margin-left: 15px;
 }
 
-.flexCol--col-icon-inst{
+.flexCol--col-icon-inst {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 20px;
 }
 
-.flexCol--container-imagem-mobile-quem-somos{
+.flexCol--container-imagem-mobile-quem-somos {
   display: none;
 }
+
 .flexCol--menu-esquerdo {
   width: 40%;
 }
@@ -590,7 +591,7 @@
 
 
 /* LINHA DO BANNER DE INFORMAÇÕES HOME  */
-.flexRow--deals{
+.flexRow--deals {
   margin-top: -4px;
 }
 
@@ -652,6 +653,7 @@
 .flexColChild--coluna-certificado {
   width: 100px;
 }
+
 /* BOTAO WHATSAPP  */
 .flexRow--whatsapp {
   position: fixed;
@@ -698,17 +700,17 @@
   visibility: visible;
 }
 
-.flexRowContent--linha-preco-a-vista-e-desconto{
+.flexRowContent--linha-preco-a-vista-e-desconto {
   display: flex;
   flex-direction: column;
   width: 200px;
 }
 
-.menu-institucionais-active{
+.menu-institucionais-active {
   background-color: var(--violeta);
 }
 
-.flexRowContent--menu-institucionais{
+.flexRowContent--menu-institucionais {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -716,30 +718,30 @@
   flex-wrap: nowrap;
 }
 
-.flexRow--menu-institucionais{
+.flexRow--menu-institucionais {
   /* flex: 1; */
   display: flex;
   background-color: transparent;
 }
 
-.flexRow--titulo-categorias{
+.flexRow--titulo-categorias {
   display: none;
 }
 
 @media screen and (max-width: 1024px) {
-  .flexCol--conteudo-institucionais{
+  .flexCol--conteudo-institucionais {
     padding: 0;
   }
 
-  .flexCol--container-imagem-mobile-quem-somos{
+  .flexCol--container-imagem-mobile-quem-somos {
     display: flex;
   }
 
-  .flexRowContent--linha-preco-a-vista-e-desconto{
+  .flexRowContent--linha-preco-a-vista-e-desconto {
     width: 100%;
   }
 
-  .flexRowContent--mobile-deals{
+  .flexRowContent--mobile-deals {
     display: flex;
     flex-direction: row;
   }
@@ -813,4 +815,20 @@
     text-align: center;
   }
 
+}
+
+/* TESTE TITULO BELLINHA */
+.flexRow--linha-teste-bellinha {
+  position: absolute;
+  width: 50%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linha-teste-bellinha {
+  display: flex;
+  flex-direction: column;
 }

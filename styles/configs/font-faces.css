@@ -18,3 +18,10 @@
     url(assets/fonts/Rubik-SemiBold.ttf);
     font-display: swap; /*melhora pagespeed*/
 }
+
+@font-face{
+  font-family: "Scrivano";
+  src: url(assets/fonts/Scrivano.woff),
+  url(assets/fonts/Scrivano.ttf);
+  font-display: swap;
+}
