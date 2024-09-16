@@ -9,6 +9,7 @@
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
       "menu-item#clinicas-hospitais",
+      "menu-item#idealclave-bellinha",
       "menu-item#mobiliario-tecnico"
     ]
   },
@@ -529,7 +530,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/idealclave-bellinha",
+        "href": "/idealclave-bellinha/idealclave-bellinha-5l",
         "noFollow": false,
         "tagTitle": "Idealclave Bellinha",
         "text": "Idealclave Bellinha"
