@@ -617,6 +617,7 @@
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
       "menu-item#clinicas-hospitais-mobile",
+      "menu-item#idealclave-bellinha-mobile",
       "menu-item#mobiliario-tecnico-mobile"
     ]
   },
@@ -841,6 +842,21 @@
       "menu-item#submenuclinicas-hospitais-autoclaves-hospitais",
       "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
     ]
+  },
+  "menu-item#idealclave-bellinha-mobile":{
+    "props": {
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-bellinha/idealclave-bellinha-5l",
+        "noFollow": false,
+        "tagTitle": "Idealclave Bellinha",
+        "text": "Idealclave Bellinha"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
   },
   "menu-item#mobiliario-tecnico-mobile": {
     "props": {
