@@ -20,6 +20,7 @@
         "blockClass": "menu-institucionais"
       },
       "children": [
+        "rich-text#titulo-menu-institucionais",
         "link#instituicionais-quem-somos",
         "link#institucionais-politica-privacidade",
         "link#institucionais-formas-pgto",

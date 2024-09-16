@@ -281,6 +281,16 @@
 .wrapper--subtitulo-informacoes {
   text-align: center;
   color: white;
+  user-select: none;
+}
+
+.paragraph--texto-cookies-aviso{
+  text-align: center;
+  margin: 20px 20px 0 20px;
+}
+
+.container--texto-obrigatorio-modal{
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {

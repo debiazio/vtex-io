@@ -88,3 +88,25 @@
   padding: 1.5rem;
 }
 
+/* MODAL DE COOKIES  */
+.container--modal-cookies {
+  background-color: #fc87fc63;
+  backdrop-filter: blur(5px); /* Efeito de vidro */
+  -webkit-backdrop-filter: blur(5px); /* Compatibilidade com navegadores Webkit */
+}
+
+.paper--modal-cookies{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton--botao-modal-cookies{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
