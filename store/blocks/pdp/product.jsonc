@@ -3,7 +3,7 @@
     "children": [
       "responsive-layout.desktop#gif-animado-parcelamento",
       "responsive-layout.mobile#gif-animado-parcelamento",
-      
+
       // "rich-text#titulo-pagina",
       "flex-layout.row#product-breadcrumb",
       "responsive-layout.desktop#availability",

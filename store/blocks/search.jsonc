@@ -85,7 +85,7 @@
   // PAGINA PESQUISA DESKTOP
   "search-result-layout.desktop": {
     "children": [
-      // "flex-layout.row#searchtitle",
+      "flex-layout.row#searchtitle",
       "flex-layout.row#banner-dpto",
       "flex-layout.row#result",
       "flex-layout.row#whatsapp"
@@ -105,6 +105,9 @@
     }
   },
   "flex-layout.row#searchtitle": {
+    "props": {
+      "blockClass": "titulo-categorias"
+    },
     "children": ["search-title.v2"]
   },
   "flex-layout.row#banner-dpto":{

@@ -722,6 +722,10 @@
   background-color: transparent;
 }
 
+.flexRow--titulo-categorias{
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .flexCol--conteudo-institucionais{
     padding: 0;
