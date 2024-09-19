@@ -7,6 +7,9 @@
 
       "list-context.image-list#banner-principal",
       "flex-layout.row#deals",
+
+      // "roleta", //teste roleta
+
       "flex-layout.row#mini_banners",
       "modal-trigger#aviso-cookies",
 

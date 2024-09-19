@@ -5,11 +5,13 @@
     },
     "children": [
       "menu-item#ver-tudo",
+      "menu-item#submenuPronta-entrega",
+      "menu-item#idealclave-bellinha",
+      "menu-item#dr-marcelo-brito",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
       "menu-item#clinicas-hospitais",
-      "menu-item#idealclave-bellinha",
       "menu-item#mobiliario-tecnico"
     ]
   },
@@ -46,6 +48,7 @@
     },
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
+      "menu-item#submenuVerTudoBellinha",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
@@ -68,6 +71,36 @@
         "noFollow": false,
         "tagTitle": "Acessórios para Esterilização",
         "text": "Acessórios para Esterilização"
+      },
+      "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuPronta-entrega": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pronta-entrega",
+        "noFollow": false,
+        "tagTitle": "Pronta Entrega",
+        "text": "Pronta Entrega"
+      },
+      "blockClass": "menu-superior"
+    }
+  },
+  "menu-item#submenuVerTudoBellinha": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-bellinha/idealclave-bellinha-5l",
+        "noFollow": false,
+        "tagTitle": "Idealclave Bellinha",
+        "text": "Idealclave Bellinha"
       },
       "blockClass": "menu-dropdown"
     }
@@ -515,7 +548,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
         "noFollow": false,
         "tagTitle": "Dr. Marcelo Brito",
         "text": "Dr. Marcelo Brito"
