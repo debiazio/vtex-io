@@ -49,6 +49,7 @@
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudoBellinha",
+      "menu-item#submenuVerTudoDrMarcelo",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
@@ -88,6 +89,21 @@
         "text": "Pronta Entrega"
       },
       "blockClass": "menu-superior"
+    }
+  },
+  "menu-item#submenuVerTudoDrMarcelo": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
+      },
+      "blockClass": "menu-dropdown"
     }
   },
   "menu-item#submenuVerTudoBellinha": {
@@ -646,15 +662,17 @@
     "children": [
       "flex-layout.row#linha-login-mobile",
       "menu-item#ver-tudo-mobile",
+      "menu-item#pronta-entrega-mobile",
+      "menu-item#idealclave-bellinha-mobile",
+      "menu-item#dr-marcelo-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
       "menu-item#clinicas-hospitais-mobile",
-      "menu-item#idealclave-bellinha-mobile",
       "menu-item#mobiliario-tecnico-mobile"
     ]
   },
-  "flex-layout.row#linha-login-mobile":{
+  "flex-layout.row#linha-login-mobile": {
     "props": {
       "blockClass": "linha-login-mobile"
     },
@@ -663,7 +681,7 @@
       "login"
     ]
   },
-  "link#linha-login-mobile-texto":{
+  "link#linha-login-mobile-texto": {
     "props": {
       "href": "/login",
       "label": "Oie! Vem fazer seu login ;)",
@@ -718,6 +736,36 @@
     ]
   },
 
+  "menu-item#pronta-entrega-mobile": {
+    "props": {
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pronta-entrega",
+        "noFollow": false,
+        "tagTitle": "Pronta Entrega",
+        "text": "Pronta Entrega"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
+  },
+  "menu-item#dr-marcelo-mobile": {
+    "props": {
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
+  },
   "menu-item#beleza-estetica-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -826,11 +874,11 @@
     ]
   },
   "vtex.menu@2.x:menu#categorias-veterinaria-mobile": {
-    "children" : [
+    "children": [
       "flex-layout.col#veterinaria-mobile"
     ]
   },
-  "flex-layout.col#veterinaria-mobile":{
+  "flex-layout.col#veterinaria-mobile": {
     "children": [
       "menu-item#submenuVeterinaria-autoclaves-home-care",
       "menu-item#submenuVeterinaria-autoclaves-veterinaria"
@@ -864,11 +912,11 @@
     ]
   },
   "vtex.menu@2.x:menu#categorias-clinicas-e-hospitais-mobile": {
-    "children" : [
+    "children": [
       "flex-layout.col#clinicas-e-hospitais-mobile"
     ]
   },
-  "flex-layout.col#clinicas-e-hospitais-mobile":{
+  "flex-layout.col#clinicas-e-hospitais-mobile": {
     "children": [
       "menu-item#submenuclinicas-hospitais-autoclaves-clinicas",
       "menu-item#submenuclinicas-hospitais-autoclaves-home-care",
@@ -876,7 +924,7 @@
       "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
     ]
   },
-  "menu-item#idealclave-bellinha-mobile":{
+  "menu-item#idealclave-bellinha-mobile": {
     "props": {
       "id": "menu-principal-mobile",
       "type": "custom",
@@ -919,11 +967,11 @@
     ]
   },
   "vtex.menu@2.x:menu##categorias-mobiliario-tecnico-mobile": {
-    "children" : [
+    "children": [
       "flex-layout.col#mobiliario-tecnico-mobile"
     ]
   },
-  "flex-layout.col#mobiliario-tecnico-mobile":{
+  "flex-layout.col#mobiliario-tecnico-mobile": {
     "children": [
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
       "menu-item#submenuMobiliarioTecnico-mob-madu-one"
