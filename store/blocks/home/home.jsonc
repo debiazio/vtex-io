@@ -12,7 +12,7 @@
 
 
       "flex-layout.row#mini_banners",
-      "modal-trigger#aviso-cookies",
+      // "modal-trigger#aviso-cookies",
 
 
       "rich-text#shelf-title",
@@ -25,7 +25,7 @@
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
 
-      "flex-layout.row#whatsapp",
+      // "flex-layout.row#whatsapp",
       // "sandbox#home.rdstation",
       "__fold__"
       //"info-card#home",
