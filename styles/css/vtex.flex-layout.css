@@ -4,6 +4,10 @@
   height: 90px;
 }
 
+.flexRow--script_rd{
+  display: none;
+}
+
 
 @media screen and (min-width: 40em) {
 

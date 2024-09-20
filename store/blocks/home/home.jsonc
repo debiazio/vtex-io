@@ -6,9 +6,10 @@
       // "flex-layout.row#video",
 
       "list-context.image-list#banner-principal",
+      "flex-layout.row#script_rd",
       "flex-layout.row#deals",
-
       // "roleta", //teste roleta
+
 
       "flex-layout.row#mini_banners",
       "modal-trigger#aviso-cookies",
@@ -25,12 +26,20 @@
       "flex-layout.row#shelf3",
 
       "flex-layout.row#whatsapp",
-      "sandbox#home.rdstation",
+      // "sandbox#home.rdstation",
       "__fold__"
       //"info-card#home",
       //"rich-text#question",
       //"rich-text#link",
       // "sandbox#home.rdstation-button"
+    ]
+  },
+  "flex-layout.row#script_rd":{
+    "props": {
+      "blockClass": "script_rd"
+    },
+    "children": [
+      "scriptrd" //teste rd
     ]
   },
   "flex-layout.row#whatsapp": {

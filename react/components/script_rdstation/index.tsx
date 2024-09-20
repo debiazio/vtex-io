@@ -1,7 +1,9 @@
 import React from 'react'
 
-const teste = () => {
-  return <p></p>
+const script_rdstation = () => {
+  return (<p>
+    teste
+  </p>)
 }
 
-export default teste
+export default script_rdstation
