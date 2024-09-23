@@ -25,7 +25,6 @@
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
 
-      // "flex-layout.row#whatsapp",
       // "sandbox#home.rdstation",
       "__fold__"
       //"info-card#home",
@@ -42,35 +41,6 @@
       "scriptrd" //teste rd
     ]
   },
-  "flex-layout.row#whatsapp": {
-    "props": {
-      "blockClass": "whatsapp"
-    },
-    "children": [
-      "image#whatsapp"
-    ]
-  },
-  "image#whatsapp": {
-    "props": {
-      "src": "assets/Digital_Glyph_Green.svg",
-      "alt": "Ícone do whatsapp",
-      "blockClass": "imagem-whats",
-      "link": {
-        "label": "Entre em contato",
-        "openNewTab": true,
-        "url": "https://api.whatsapp.com/send?phone=5541998516332&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos%20da%20Idealine."
-      }
-    }
-  },
-
-  "sandbox#home.rdstation": {
-    "props": {
-      "initialContent": "<script type='text/javascript' async src='https://d335luupugsy2.cloudfront.net/js/loader-scripts/e8d24cad-4801-4cd9-a235-77843cb75a89-loader.js'></script>",
-      "allowCookies": true
-    }
-  },
-
-
   "list-context.image-list#banner-principal": {
     "children": ["slider-layout#demo-images"],
     "props": {

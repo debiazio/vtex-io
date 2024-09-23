@@ -658,52 +658,6 @@
   width: 100px;
 }
 
-/* BOTAO WHATSAPP  */
-.flexRow--whatsapp {
-  position: fixed;
-  bottom: 18px;
-  right: 20px;
-  z-index: 1000;
-  border-radius: 50%;
-  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
-  transition: box-shadow 0.3s ease;
-}
-
-.flexRowContent--whatsapp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-}
-
-.flexRow--whatsapp:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.flexRow--whatsapp::before {
-  content: "Fale com nossas consultoras";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  transform: translateY(-50%);
-  background-color: var(--violeta);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  font-size: 14px;
-  margin-right: 10px;
-}
-
-.flexRow--whatsapp:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
-
 .flexRowContent--linha-preco-a-vista-e-desconto {
   display: flex;
   flex-direction: column;

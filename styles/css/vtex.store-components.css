@@ -408,12 +408,6 @@
   box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
 }
 
-/* imagem BOTAO WHATSAPP  */
-.imageElement--imagem-whats {
-  width: 60px;
-  height: 46px;
-}
-
 .imageElement--icone-institucionais-active{
   padding-left: 20px;
 }
