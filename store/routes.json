@@ -19,5 +19,8 @@
   },
   "store.custom#trocas-e-devolucoes": {
     "path": "/institucional/trocas-e-devolucoes"
+  },
+  "store.custom#black-friday": {
+    "path": "/black-friday"
   }
 }

@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "Rubik light";
+  src: url(assets/fonts/Rubik-Light.woff),
+    url(assets/fonts/Rubik-Light.ttf);
+    font-display: swap;
+}
+@font-face {
   font-family: "Rubik";
   src: url(assets/fonts/Rubik-Regular.woff),
     url(assets/fonts/Rubik-Regular.ttf);

@@ -124,141 +124,6 @@
     }
   },
 
-
-  // "flex-layout.row#banner-informacoes": {
-  //   "props": {
-  //     "blockClass": "linha-informacoes",
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "flex-layout.col#linha1-imagens-informacoes",
-  //     "flex-layout.col#linha2-titulo-informacoes",
-  //     "flex-layout.col#linha3-texto-informacoes"
-  //   ]
-  // },
-  // LINHA DAS IMAGENS
-  "flex-layout.col#linha1-imagens-informacoes": {
-    "props": {
-      "blockClass": "imagens-banner-informacoes",
-      "fullWidth": true
-    },
-    "children": [
-      "image#imagem-informações1",
-      "image#imagem-informacoes2",
-      "image#imagem-informacoes3",
-      "image#imagem-informacoes4"
-    ]
-  },
-  "image#imagem-informações1": {
-    "props": {
-      "src": "assets/frete-icon-caminhao-branco.svg",
-      "alt": "Ícone de caminhão de entrega",
-      "blockClass": "imagem-informacoes"
-    }
-  },
-  "image#imagem-informacoes2": {
-    "props": {
-      "src": "assets/icon-check-branco.svg",
-      "alt": "Ícone de garantia de fábrica",
-      "blockClass": "imagem-informacoes"
-    }
-  },
-  "image#imagem-informacoes3": {
-    "props": {
-      "src": "assets/icon-cartao-credito-branco.svg",
-      "alt": "Ícone de garantia de fábrica",
-      "blockClass": "imagem-informacoes"
-    }
-  },
-  "image#imagem-informacoes4": {
-    "props": {
-      "src": "assets/icon-barcode-branco.svg",
-      "alt": "Ícone de garantia de fábrica",
-      "blockClass": "imagem-informacoes"
-    }
-  },
-  // LINHAS DOS TITULOS DOS BANNERS DE INFO
-  "flex-layout.col#linha2-titulo-informacoes": {
-    "props": {
-      "blockClass": "titulo-banner-informacoes",
-      "fullWidth": true
-    },
-    "children": [
-      "rich-text#titulo1-banner-informacoes",
-      "rich-text#titulo2-banner-informacoes",
-      "rich-text#titulo3-banner-informacoes",
-      "rich-text#titulo4-banner-informacoes"
-    ]
-  },
-  "rich-text#titulo1-banner-informacoes": {
-    "props": {
-      "text": "**ENTREGAS PARA TODO O BRASIL**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes coluna"
-  },
-  "rich-text#titulo2-banner-informacoes": {
-    "props": {
-      "text": "**GARANTIA DE FÁBRICA**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  "rich-text#titulo3-banner-informacoes": {
-    "props": {
-      "text": "**PARCELE EM ATÉ 10X**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  "rich-text#titulo4-banner-informacoes": {
-    "props": {
-      "text": "**BOLETO PARCELADO**",
-      "blockClass": "titulo-informacoes"
-    },
-    "title": "Titulo informacoes colunA"
-  },
-  // LINHA DOS SUBTITULOS BANNER INFO
-  "flex-layout.col#linha3-texto-informacoes": {
-    "props": {
-      "blockClass": "subtitulo-banner-informacoes",
-      "fullWidth": true
-    },
-    "children": [
-      "rich-text#subtitulo1-banner-informacoes",
-      "rich-text#subtitulo2-banner-informacoes",
-      "rich-text#subtitulo3-banner-informacoes",
-      "rich-text#subtitulo4-banner-informacoes"
-    ]
-  },
-  "rich-text#subtitulo1-banner-informacoes": {
-    "props": {
-      "text": "Nós entregamos onde for melhor para você e o seu negócio!",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "rich-text#subtitulo2-banner-informacoes": {
-    "props": {
-      "text": "Garantia de 12 meses oferecida pelo fabricante",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "rich-text#subtitulo3-banner-informacoes": {
-    "props": {
-      "text": "Com a gente você pode parcelar em até 10x sem juros no cartão de crédito",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
-  "rich-text#subtitulo4-banner-informacoes": {
-    "props": {
-      "text": "Consulte as condições em Formas de Pagamento",
-      "blockClass": "subtitulo-informacoes"
-    },
-    "title": "Subtitulo informacoes coluna"
-  },
   // SECAO DOS MINI BANNERS
   "flex-layout.row#mini_banners": {
     "props": {
@@ -453,9 +318,8 @@
   "modal-layout#aviso-cookies": {
     "props": {
       "blockClass": "modal-cookies",
-      "scroll": "content",
-      "disableEscapeKeyDown": true,
-      "backdrop": "none"
+      "scroll":"content",
+      "disableEscapeKeyDown": false
     },
     "children": [
       "rich-text#modal-content",

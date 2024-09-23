@@ -90,9 +90,8 @@
 
 /* MODAL DE COOKIES  */
 .container--modal-cookies {
-  background-color: #fc87fc63;
-  backdrop-filter: blur(5px); /* Efeito de vidro */
-  -webkit-backdrop-filter: blur(5px); /* Compatibilidade com navegadores Webkit */
+  background-color: transparent;
+  /* backdrop-filter: blur(5px);  */
 }
 
 .paper--modal-cookies{

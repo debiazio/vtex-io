@@ -361,3 +361,83 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* TEXTO BLACK FRIDAY  */
+.wrapper--texto-disclosure {
+  display: flex;
+  width: 100%;
+}
+
+.heading--titulo-bf-head {
+  color: white;
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: 29px;
+  font-family: "Rubik";
+  margin: 0;
+}
+
+.container--titulo-bf-head {
+  text-align: center;
+}
+
+.wrapper--titulo-bf-head {
+  text-align: center;
+}
+
+.paragraph--subtitulo-bf {
+  font-size: 20px;
+  font-family: "Rubik light";
+  text-align: center;
+  color: white;
+  margin: 5px 20px 55px;
+}
+
+.container--subtitulo-bf-faq {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.headingLevel3--subtitulo-bf-faq {
+  color: white;
+  margin: 0;
+  font-family: "Rubik semibold";
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.paragraph--subSubtitulo-bf-faq {
+  font-family: "Rubik light";
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.wrapper--subSubtitulo-bf-faq {
+  width: 555px;
+}
+
+.container--subSubtitulo-bf-faq {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--texto-disclosure {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paragraph--texto-disclosure-resposta {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 125px;
+
+}

@@ -4,7 +4,7 @@
   height: 90px;
 }
 
-.flexRow--script_rd{
+.flexRow--script_rd {
   display: none;
 }
 
@@ -182,7 +182,7 @@
   background: var(--pink);
   padding: 43px 0 50px;
   padding: 50px;
-  margin-top: 20PX;
+  /* margin-top: 20PX; */
 
 }
 
@@ -790,3 +790,104 @@
   display: flex;
   flex-direction: column;
 }
+
+
+/* BLACK FRIDAY LP */
+.flexRow--black-friday-coluna {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.flexRowContent--black-friday-coluna {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.flexRowContent--black-friday-coluna :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 954px!important;
+}
+
+
+.flexCol--black-friday-container-titulo{
+  display: flex;
+  width: 100%!important;
+}
+
+.flexCol--black-friday-titulo{
+  margin-top: 79px;
+}
+
+.flexColChild--black-friday-titulo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--black-friday-container-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexCol--black-friday-conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--pink);
+  border-radius: 20px;
+  padding: 39px;
+}
+
+.flexColChild--black-friday-conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.flexCol--black-friday-subtitulo{
+  padding: 0;
+}
+
+.flexCol--titulo-subtitulo-blackfriday {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.flexColChild--titulo-subtitulo-blackfriday {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.flexCol--black-friday-faq-listagem{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.flexColChild--black-friday-faq-listagem{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
