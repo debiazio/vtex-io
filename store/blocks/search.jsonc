@@ -211,6 +211,7 @@
   "search-result-layout.mobile": {
     "children": [
       // "condition-layout.category#bellinha",
+      "flex-layout.row#script_rd",
       "flex-layout.row#searchtitle",
       "flex-layout.row#banner-dpto",
       "flex-layout.row#searchinfomobile",

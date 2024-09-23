@@ -1,6 +1,8 @@
 {
   "store.custom#quem-somos": {
-    "blocks": ["flex-layout.row#quem-somos"]
+    "blocks": [
+      "flex-layout.row#script_rd",
+      "flex-layout.row#quem-somos"]
   },
   "flex-layout.row#quem-somos": {
     "props": {

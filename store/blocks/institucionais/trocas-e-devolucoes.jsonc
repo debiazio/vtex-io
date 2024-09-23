@@ -1,6 +1,7 @@
 {
     "store.custom#trocas-e-devolucoes": {
       "blocks": [
+        "flex-layout.row#script_rd",
         "flex-layout.row#trocas-e-devolucoes"
       ]
     },

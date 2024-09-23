@@ -1,6 +1,7 @@
 {
     "store.custom#politica-privacidade": {
       "blocks": [
+        "flex-layout.row#script_rd",
         "flex-layout.row#politica-privacidade"
       ]
     },

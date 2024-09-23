@@ -1,6 +1,7 @@
 {
     "store.custom#formas-pagamento": {
       "blocks": [
+        "flex-layout.row#script_rd",
         "flex-layout.row#formas-pagamento"
       ]
     },

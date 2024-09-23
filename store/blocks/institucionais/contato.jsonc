@@ -1,6 +1,7 @@
 {
   "store.custom#contato": {
     "blocks": [
+      "flex-layout.row#script_rd",
       "flex-layout.row#contato"
     ]
   },

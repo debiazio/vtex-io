@@ -1,6 +1,7 @@
 {
   "store.custom#envio-de-produtos": {
     "blocks": [
+      "flex-layout.row#script_rd",
       "flex-layout.row#envio-de-produtos"
     ]
   },
