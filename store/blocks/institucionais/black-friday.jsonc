@@ -114,8 +114,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#quando-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#quando-pergunta"
     ]
   },
 
@@ -153,8 +152,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#prazo-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#prazo-pergunta"
     ]
   },
   "rich-text#prazo-pergunta": {
@@ -189,8 +187,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#formas-pgto-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#formas-pgto-pergunta"
     ]
   },
   "rich-text#formas-pgto-pergunta": {
@@ -225,8 +222,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#pol-trocas-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#pol-trocas-pergunta"
     ]
   },
   "rich-text#pol-trocas-pergunta": {
@@ -261,8 +257,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#seguro-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#seguro-pergunta"
     ]
   },
   "rich-text#seguro-pergunta": {
@@ -297,8 +292,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#produtos-promo-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#produtos-promo-pergunta"
     ]
   },
   "rich-text#produtos-promo-pergunta": {
@@ -333,8 +327,7 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#como-aproveitar-pergunta",
-      "disclosure-state-indicator"
+      "rich-text#como-aproveitar-pergunta"
     ]
   },
   "rich-text#como-aproveitar-pergunta": {
@@ -357,12 +350,7 @@
       "blockClass": "texto-disclosure-resposta"
     }
   },
-  "disclosure-state-indicator": {
-    "props": {
-      "Show": "icon-angle--down",
-      "Hide": "icon-angle--up"
-    }
-  },
+
   // SEÇÃO INSCREVA-SE
   "flex-layout.row#black-friday-inscricao": {
     "props": {

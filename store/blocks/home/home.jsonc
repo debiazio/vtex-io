@@ -1,36 +1,18 @@
 {
   "store.home": {
     "blocks": [
-      // "rich-text#titulo-pagina",
-      // "image#imagem-teste",
-      // "flex-layout.row#video",
-
       "list-context.image-list#banner-principal",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       // "roleta", //teste roleta
-
-
       "flex-layout.row#mini_banners",
-      // "modal-trigger#aviso-cookies",
-
-
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
-
-
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
-
-      // "sandbox#home.rdstation",
       "__fold__"
-      //"info-card#home",
-      //"rich-text#question",
-      //"rich-text#link",
-      // "sandbox#home.rdstation-button"
     ]
   },
   "flex-layout.row#script_rd":{
@@ -38,7 +20,7 @@
       "blockClass": "script_rd"
     },
     "children": [
-      "scriptrd" //teste rd
+      "scriptrd" // script do RD
     ]
   },
   "list-context.image-list#banner-principal": {
@@ -299,16 +281,6 @@
     }
   },
 
-
-  "modal-trigger#aviso-cookies": {
-    "props": {
-      "trigger": "load"
-    },
-    "children": [
-      "rich-text#texto-padrao",
-      "modal-layout#aviso-cookies"
-    ]
-  },
   "rich-text#texto-padrao": {
     "props": {
       "text": "Click me",

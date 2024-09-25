@@ -212,7 +212,7 @@
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
-
+      "condition-layout.product#rosa-gold-padrao2",
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
       "condition-layout.product#rose-gold-idealclave-8l",
@@ -507,15 +507,15 @@
       "conditions": [{
           "subject": "specificationProperties",
           "arguments": {
-            "name": "Cores",
-            "text": "Rose Gold"
+            "name": "Cor",
+            "value": "Rose Gold"
           }
         },
         {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Capacidade",
-            "text": "5 Litros"
+            "value": "5L"
           }
         }
       ],
