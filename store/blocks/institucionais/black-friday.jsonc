@@ -114,7 +114,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#quando-pergunta"
+      "rich-text#quando-pergunta",
+      "disclosure-state-indicator#quando"
     ]
   },
 
@@ -152,7 +153,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#prazo-pergunta"
+      "rich-text#prazo-pergunta",
+      "disclosure-state-indicator#prazo"
     ]
   },
   "rich-text#prazo-pergunta": {
@@ -187,7 +189,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#formas-pgto-pergunta"
+      "rich-text#formas-pgto-pergunta",
+      "disclosure-state-indicator#pgto"
     ]
   },
   "rich-text#formas-pgto-pergunta": {
@@ -222,7 +225,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#pol-trocas-pergunta"
+      "rich-text#pol-trocas-pergunta",
+      "disclosure-state-indicator#trocas"
     ]
   },
   "rich-text#pol-trocas-pergunta": {
@@ -247,6 +251,9 @@
   },
   // É SEGURO COMPRAR - BLACK FRIDAY
   "disclosure-layout#black-friday-seguro": {
+    "props": {
+      "animated": true
+    },
     "children": [
       "disclosure-trigger#seguro-pergunta",
       "disclosure-content#seguro-resposta"
@@ -257,7 +264,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#seguro-pergunta"
+      "rich-text#seguro-pergunta",
+      "disclosure-state-indicator#seguro"
     ]
   },
   "rich-text#seguro-pergunta": {
@@ -292,7 +300,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#produtos-promo-pergunta"
+      "rich-text#produtos-promo-pergunta",
+      "disclosure-state-indicator#promocao"
     ]
   },
   "rich-text#produtos-promo-pergunta": {
@@ -327,7 +336,8 @@
       "blockClass": "disclosure-blackfriday"
     },
     "children": [
-      "rich-text#como-aproveitar-pergunta"
+      "rich-text#como-aproveitar-pergunta",
+      "disclosure-state-indicator#aproveitar"
     ]
   },
   "rich-text#como-aproveitar-pergunta": {

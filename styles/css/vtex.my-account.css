@@ -15,17 +15,17 @@
 }
 
 :global(.vtex-textarea__label),
-:global(.vtex-input__label){
+:global(.vtex-input__label) {
   padding: 10px;
   padding-top: 20px;
   font-size: 1.1rem;
 }
 
-:global(.vtex-address-form__postalCode-forgottenURL){
+:global(.vtex-address-form__postalCode-forgottenURL) {
   font-size: 1.1rem;
 }
 
-:global(.vtex-store-components-3-x-productDescriptionText) h2{
+:global(.vtex-store-components-3-x-productDescriptionText) h2 {
   text-align: left;
 }
 
@@ -140,14 +140,15 @@ input:-webkit-autofill {
   background-color: #e90b91;
 }
 
-.container :global(.vtex-button__label) span{
+.container :global(.vtex-button__label) span {
   display: flex;
   flex-direction: column-reverse;
-  }
+}
 
-  :global(.vtex-toast){
-    background-color: var(--rosa-pink-escuro);
-  }
+:global(.vtex-toast) {
+  background-color: var(--rosa-pink-escuro);
+}
+
 /*
   :global(.vtex-menu-2-x-styledLinkContent){
     color: #ede7eb;
@@ -160,7 +161,13 @@ input:-webkit-autofill {
     } */
 
 
-  :global(.vtex-numeric-stepper-container){
-    display: flex;
-    justify-content: center;
-  }
+:global(.vtex-numeric-stepper-container) {
+  display: flex;
+  justify-content: center;
+}
+
+
+.vflexColChild--black-friday-faq-listagem[aria-expanded="true"] .caretIcon {
+  transform: translateY(10px); /* Move o ícone 10px para baixo */
+  transition: transform 0.3s ease-in-out; /* Transição suave */
+}

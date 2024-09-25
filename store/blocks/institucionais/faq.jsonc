@@ -158,6 +158,132 @@
   },
 
 
+  "disclosure-state-indicator#quando": {
+    "props": {
+      "Show": "icon-caret#down-quando",
+      "Hide": "icon-caret#up-quando"
+    }
+  },
+  "icon-caret#down-quando": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-quando": {
+    "props": {
+      "blockClass": "cima",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#prazo": {
+    "props": {
+      "Show": "icon-caret#down-prazo",
+      "Hide": "icon-caret#up-prazo"
+    }
+  },
+  "icon-caret#down-prazo": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-prazo": {
+    "props": {
+      "blockClass": "cima-prazo",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#pgto": {
+    "props": {
+      "Show": "icon-caret#down-pgto",
+      "Hide": "icon-caret#up-pgto"
+    }
+  },
+  "icon-caret#down-pgto": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-pgto": {
+    "props": {
+      "blockClass": "cima-pgto",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#trocas": {
+    "props": {
+      "Show": "icon-caret#down-trocas",
+      "Hide": "icon-caret#up-trocas"
+    }
+  },
+  "icon-caret#down-trocas": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-trocas": {
+    "props": {
+      "blockClass": "cima-trocas",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#seguro": {
+    "props": {
+      "Show": "icon-caret#down-seguro",
+      "Hide": "icon-caret#up-seguro"
+    }
+  },
+  "icon-caret#down-seguro": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-seguro": {
+    "props": {
+      "blockClass": "cima-seguro",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#promocao": {
+    "props": {
+      "Show": "icon-caret#down-promocao",
+      "Hide": "icon-caret#up-promocao"
+    }
+  },
+  "icon-caret#down-promocao": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-promocao": {
+    "props": {
+      "blockClass": "cima-promocao",
+      "orientation": "up"
+    }
+  },
+  "disclosure-state-indicator#aproveitar": {
+    "props": {
+      "Show": "icon-caret#down-aproveitar",
+      "Hide": "icon-caret#up-aproveitar"
+    }
+  },
+  "icon-caret#down-aproveitar": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-aproveitar": {
+    "props": {
+      "blockClass": "cima-aproveitar",
+      "orientation": "up"
+    }
+  },
   "disclosure-state-indicator": {
     "props": {
       "Show": "icon-caret#down",
@@ -166,6 +292,7 @@
   },
   "icon-caret#down": {
     "props": {
+
       "orientation": "down"
     }
   },

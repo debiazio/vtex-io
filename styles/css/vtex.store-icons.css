@@ -10,3 +10,29 @@
   position: absolute;
   margin-top: 75px;
 }
+
+.caretIcon--cima{
+  margin-top: 210px;
+}
+
+.caretIcon--cima-prazo{
+  margin-top: 740px;
+}
+
+.caretIcon--cima-pgto{
+  margin-top: 280px;
+}
+.caretIcon--cima-trocas{
+  margin-top: 408px;
+}
+.caretIcon--cima-seguro{
+  margin-top: 372px;
+}
+.caretIcon--cima-promocao{
+  margin-top: 242px;
+}
+
+.caretIcon--cima-aproveitar{
+  margin-top: 276px;
+}
+
