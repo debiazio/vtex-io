@@ -17,6 +17,9 @@
   },
 
   "flex-layout.col#contato": {
+    "props": {
+      "blockClass": "fale-conosco-campos"
+    },
     "children": [
       "rich-text#contato",
       "form#contato"
@@ -40,7 +43,7 @@
       "form-input.text#nome",
       "form-input.text#email",
       "form-input.text#telefone",
-      "form-input.text#assunto",
+      "form-field-group#assunto",
       "form-input.textarea#mensagem",
       "form-submit#contact"  //botão submit
     ]
@@ -53,38 +56,37 @@
   },
   "rich-text#success-submit": {
     "props": {
-      "text": "Thanks for reaching out! We will come back shortly.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "text": "Obrigado por entrar em contato, em breve retornaremos",
+      "blockClass": ""
     }
   },
 
   "form-input.text#nome": {
     "props": {
-      "pointer": "#/properties/Nome",
+      "pointer": "#/properties/nome",
       "placeholder": "Seu nome",
       "label": "Nome"
     }
   },
   "form-input.text#email": {
     "props": {
-      "pointer": "#/properties/Email",
+      "pointer": "#/properties/email",
       "placeholder": "Seu e-mail",
       "label": "E-mail"
     }
   },
   "form-input.text#telefone": {
     "props": {
-      "pointer": "#/properties/Telefone",
+      "pointer": "#/properties/telefone",
       "placeholder": "Seu telefone",
       "label": "Telefone"
     }
   },
 
-  "form-input.text#assunto": {
+  "form-field-group#assunto": {
     "props": {
-      "pointer": "#/properties/Assunto",
-      "uiSchema": "Select",
+      "pointer": "#/properties/assunto",
+      "uiSchema": "select",
       "label": "Assunto"
     }
   },
@@ -93,7 +95,7 @@
 
   "form-input.textarea#mensagem": {
     "props": {
-      "pointer": "#/properties/Mensagem",
+      "pointer": "#/properties/mensagem",
       "placeholder": "Sua mensagem",
       "label": "Mensagem"
     }

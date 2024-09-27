@@ -891,3 +891,12 @@
 }
 
 
+
+.flexCol--fale-conosco-campos :global(.vtex-dropdown__label){
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+
+
