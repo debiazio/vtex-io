@@ -12,8 +12,8 @@
     },
     "children": [
       "flex-layout.col#black-friday-container-titulo",
-      "flex-layout.col#black-friday-faq"
-      // "flex-layout.row#black-friday-inscricao"
+      "flex-layout.col#black-friday-faq",
+      "flex-layout.row#black-friday-inscricao"
     ]
   },
   // CONTAINER PRIMEIRA LINHA -TITULO
@@ -367,12 +367,113 @@
       "blockClass": "conteiner-newsletter"
     },
     "children": [
-      "flex-layout.row#conteiner-black-friday-titulo-newsletter",
-      "flex-layout.row#conteiner-black-friday-campos-newsletter",
-      "flex-layout.row#conteiner-black-friday-checkboxes-newsletter",
-      "flex-layout.row#conteiner-black-friday-botao-newsletter"
+      "flex-layout.col#blackfriday-inscricao"
     ]
   },
+  "flex-layout.col#blackfriday-inscricao":{
+    "props": {
+      "blockClass": "coluna-newsletter"
+    },
+    "children": [
+      "flex-layout.row#conteiner-black-friday-titulo-newsletter",
+      "form#black-friday"
+    ]
+  },
+  "form#black-friday":{
+    "props": {
+      "entity": "blackfriday",
+      "schema": "blackfriday",
+      "blockClass": "formulario-bf"
+    },
+    "blocks": [
+      "form-success#blackfriday"
+    ],
+    "children": [
+      "flex-layout.row#bfnome",
+      // "flex-layout.row#bfDatanasc",
+      "flex-layout.row#bfEmail",
+      "flex-layout.row#bfTelefone",
+      "flex-layout.row#bfCpf",
+      // "form-input.checkbox#bfQualproduto",
+      "form-submit#blackfriday"
+
+    ]
+  },
+  "form-success#blackfriday":{
+    "children":[
+      "rich-text#sucess-submit-bf"
+    ]
+  },
+  "rich-text#sucess-submit-bf":{
+    "props": {
+      "text": "Obrigado"
+    }
+  },
+  "flex-layout.row#bfnome":{
+    "props": {"blockClass": "bf-nome"},
+    "children": ["form-input.text#bfNome","form-input.text#bfDatanasc"]
+  },
+  "form-input.text#bfNome": {
+    "props": {
+      "pointer": "#/properties/bfNome",
+      "placeholder": "Seu nome",
+      "label": "Nome",
+      "blockClass": "formulario-bf-campos"
+    }
+  },
+  // "flex-layout.row#bfDatanasc":{
+  //   "props": {"blockClass": "bf-datanasc"},
+  //   "children": ["form-input.text#bfDatanasc"]
+  // },
+  "form-input.text#bfDatanasc": {
+    "props": {
+      "pointer": "#/properties/bfDatanasc",
+      "placeholder": "Sua data de nascimento",
+      "label": "Data de nascimento"
+    }
+  },
+  "flex-layout.row#bfEmail":{
+    "props": {"blockClass": "bf-email"},
+    "children": ["form-input.text#bfEmail"]
+  },
+  "form-input.text#bfEmail": {
+    "props": {
+      "pointer": "#/properties/bfEmail",
+      "placeholder": "Seu e-mail",
+      "label": "E-mail"
+    }
+  },
+  "flex-layout.row#bfTelefone":{
+    "props": {"blockClass": "bf-telefone"},
+    "children": ["form-input.text#bfTelefone"]
+  },
+  "form-input.text#bfTelefone": {
+    "props": {
+      "pointer": "#/properties/bfTelefone",
+      "placeholder": "Seu telefone",
+      "label": "Telefone"
+    }
+  },
+  "flex-layout.row#bfCpf":{
+    "props": {"blockClass": "bf-cpf"},
+    "children": ["form-input.text#bfCpf"]
+  },
+  "form-input.text#bfCpf": {
+    "props": {
+      "pointer": "#/properties/bfCpf",
+      "placeholder": "Seu CPF",
+      "label": "CPF"
+    }
+  },
+  // "form-input.checkbox#bfQualproduto": {
+  //   "props": {
+  //     "pointer": "#/properties/bfQualproduto",
+  //     "placeholder": "Produto",
+
+  //     "uiSchema": "checkbox"
+  //   }
+  // },
+
   "flex-layout.row#conteiner-black-friday-titulo-newsletter": {
     "props": {
       "blockClass": "black-friday-container-titulo-newsletter"
@@ -383,8 +484,8 @@
   },
   "rich-text#balck-fridaytitulo-newsletter": {
     "props": {
-      "blockClass": "black-friday-titulo-newsletter",
-      "text": "#### Não perca as promoções e novidade da Idealine na Black Friday 2024!"
+      "blockClass": "titulo-newsletter-bf",
+      "text": "Não perca as promoções e novidade da Idealine na Black Friday 2024!"
     }
   },
   "flex-layout.row#conteiner-black-friday-campos-newsletter": {
@@ -416,6 +517,12 @@
       "placeholderText": "E-mail"
     }
   },
+  "form-submit#blackfriday":{
+    "props": {
+      "label": "Enviar"
+    }
+  },
+
   "flex-layout.row#conteiner-black-friday-checkboxes-newsletter": {
     "props": {
       "blockClass": "container-black-friday-checkboxes"
@@ -441,11 +548,8 @@
   },
   "flex-layout.row#black-friday-checkboxes": {
 
-  },
-  // BOTAO SUBMIT DA NEWSLETTER BLACK FRIDAY
-  "flex-layout.row#conteiner-black-friday-botao-newsletter": {
-
   }
+
 
 
 

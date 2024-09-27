@@ -808,21 +808,21 @@
   align-items: center;
 }
 
-.flexRowContent--black-friday-coluna :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-  width: 954px!important;
+.flexRowContent--black-friday-coluna :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 954px !important;
 }
 
 
-.flexCol--black-friday-container-titulo{
+.flexCol--black-friday-container-titulo {
   display: flex;
-  width: 100%!important;
+  width: 100% !important;
 }
 
-.flexCol--black-friday-titulo{
+.flexCol--black-friday-titulo {
   margin-top: 79px;
 }
 
-.flexColChild--black-friday-titulo{
+.flexColChild--black-friday-titulo {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -853,7 +853,7 @@
   justify-content: center;
 }
 
-.flexCol--black-friday-subtitulo{
+.flexCol--black-friday-subtitulo {
   padding: 0;
 }
 
@@ -873,7 +873,7 @@
   justify-content: center;
 }
 
-.flexCol--black-friday-faq-listagem{
+.flexCol--black-friday-faq-listagem {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -882,7 +882,7 @@
   color: white;
 }
 
-.flexColChild--black-friday-faq-listagem{
+.flexColChild--black-friday-faq-listagem {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -890,13 +890,39 @@
   justify-content: center;
 }
 
-
-
-.flexCol--fale-conosco-campos :global(.vtex-dropdown__label){
+.flexCol--fale-conosco-campos :global(.vtex-dropdown__label) {
   padding: 10px;
   font-size: 18px;
   margin-top: 5px;
 }
 
+.flexRow--conteiner-newsletter {
+  margin-top: 154px;
+}
+
+.flexRowContent--bf-nome :global(.vtex-input__label),
+.flexRowContent--bf-nome :global(.vtex-input-prefix__group) {
+  display: flex;
+  width: 430px;
+}
+
+.flexRowContent--bf-datanasc :global(.vtex-input__label),
+.flexRowContent--bf-datanasc :global(.vtex-input-prefix__group) {
+  display: flex;
+  width: 250px;
+}
+
+.flexColChild--coluna-newsletter {
+  display: flex;
+}
 
 
+.flexRowContent--bf-nome :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: fit-content!important;
+}
+
+.flexRowContent--bf-nome{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
