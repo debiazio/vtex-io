@@ -1,25 +1,30 @@
 .filter__container--title,
-.filter__container--priceRange{
+.filter__container--priceRange {
   display: none;
 }
 
 
 /* vtex-search-result-3-x- */
 
-.filterAvailable{
+.filterAvailable {
   background-color: var(--pink);
 }
 
-.filterTitleSpan{
+.filterTitleSpan {
   margin: 5px 10px;
 }
 
 
-.filterTemplateOverflow{
+.filterTemplateOverflow {
   padding: 10px;
 }
 
-.caretIcon{
+.caretIcon {
   color: white;
 }
+
 /* vtex-search-result-3-x-filterIsOpen */
+
+.searchNotFoundOops {
+  display: none!important;
+}
