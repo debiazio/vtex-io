@@ -433,12 +433,13 @@
 }
 
 .paragraph--texto-disclosure-resposta {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 65px;
   margin-bottom: 30px;
   text-align: center;
-  padding: 0 125px;
+  width: 864px;
+  padding: 0 30px 0 30px;
 }
 
 .paragraph--titulo-newsletter-bf {

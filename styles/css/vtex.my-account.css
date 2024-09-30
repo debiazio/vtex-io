@@ -16,7 +16,7 @@
 
 :global(.vtex-textarea__label),
 :global(.vtex-input__label) {
-  padding: 10px;
+  /* padding: 10px; */
   padding-top: 20px;
   font-size: 1.1rem;
 }

@@ -11,11 +11,22 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#black-friday-container-titulo",
-      "flex-layout.col#black-friday-faq",
-      "flex-layout.row#black-friday-inscricao"
+
+      "flex-layout.col#black-friday-geral"
+
     ]
   },
+  "flex-layout.col#black-friday-geral": {
+    "props": {
+      "blockClass": "bf-coluna-secundaria"
+    },
+    "children": [
+      "flex-layout.col#black-friday-container-titulo",
+      "flex-layout.col#black-friday-faq",
+      "flex-layout.col#black-friday-inscricao"
+    ]
+  },
+
   // CONTAINER PRIMEIRA LINHA -TITULO
   "flex-layout.col#black-friday-container-titulo": {
     "props": {
@@ -251,9 +262,6 @@
   },
   // É SEGURO COMPRAR - BLACK FRIDAY
   "disclosure-layout#black-friday-seguro": {
-    "props": {
-      "animated": true
-    },
     "children": [
       "disclosure-trigger#seguro-pergunta",
       "disclosure-content#seguro-resposta"
@@ -362,7 +370,7 @@
   },
 
   // SEÇÃO INSCREVA-SE
-  "flex-layout.row#black-friday-inscricao": {
+  "flex-layout.col#black-friday-inscricao": {
     "props": {
       "blockClass": "conteiner-newsletter"
     },
@@ -370,7 +378,7 @@
       "flex-layout.col#blackfriday-inscricao"
     ]
   },
-  "flex-layout.col#blackfriday-inscricao":{
+  "flex-layout.col#blackfriday-inscricao": {
     "props": {
       "blockClass": "coluna-newsletter"
     },
@@ -379,7 +387,7 @@
       "form#black-friday"
     ]
   },
-  "form#black-friday":{
+  "form#black-friday": {
     "props": {
       "entity": "blackfriday",
       "schema": "blackfriday",
@@ -389,42 +397,55 @@
       "form-success#blackfriday"
     ],
     "children": [
-      "flex-layout.row#bfnome",
-      // "flex-layout.row#bfDatanasc",
-      "flex-layout.row#bfEmail",
-      "flex-layout.row#bfTelefone",
-      "flex-layout.row#bfCpf",
+      "flex-layout.row#primeira-linha-bf-newsletter",
+      "flex-layout.row#segunda-linha-bf-newsletter",
+
       // "form-input.checkbox#bfQualproduto",
       "form-submit#blackfriday"
 
     ]
   },
-  "form-success#blackfriday":{
-    "children":[
+  "form-success#blackfriday": {
+    "children": [
       "rich-text#sucess-submit-bf"
     ]
   },
-  "rich-text#sucess-submit-bf":{
+  "rich-text#sucess-submit-bf": {
     "props": {
       "text": "Obrigado"
     }
   },
-  "flex-layout.row#bfnome":{
-    "props": {"blockClass": "bf-nome"},
-    "children": ["form-input.text#bfNome","form-input.text#bfDatanasc"]
+
+  "flex-layout.row#primeira-linha-bf-newsletter": {
+    "props": {
+      "blockClass": "primeira-linha-vf-newsletter"
+    },
+    "children": [
+      "flex-layout.row#campos-bfnome",
+      "flex-layout.row#bfDatanasc"
+    ]
+  },
+  "flex-layout.row#campos-bfnome": {
+    "props": {
+      "blockClass": "campos-nome"
+    },
+    "children": [
+      "form-input.text#bfNome"
+    ]
   },
   "form-input.text#bfNome": {
     "props": {
       "pointer": "#/properties/bfNome",
       "placeholder": "Seu nome",
-      "label": "Nome",
-      "blockClass": "formulario-bf-campos"
+      "label": "Nome"
     }
   },
-  // "flex-layout.row#bfDatanasc":{
-  //   "props": {"blockClass": "bf-datanasc"},
-  //   "children": ["form-input.text#bfDatanasc"]
-  // },
+  "flex-layout.row#bfDatanasc": {
+    "props": {
+      "blockClass": "bf-datanasc"
+    },
+    "children": ["form-input.text#bfDatanasc"]
+  },
   "form-input.text#bfDatanasc": {
     "props": {
       "pointer": "#/properties/bfDatanasc",
@@ -432,8 +453,20 @@
       "label": "Data de nascimento"
     }
   },
-  "flex-layout.row#bfEmail":{
-    "props": {"blockClass": "bf-email"},
+  "flex-layout.row#segunda-linha-bf-newsletter":{
+    "props": {
+      "blockClass": "segunda-linha-bf"
+    },
+    "children": [
+      "flex-layout.row#bfEmail",
+      "flex-layout.row#bfTelefone",
+      "flex-layout.row#bfCpf"
+    ]
+  },
+  "flex-layout.row#bfEmail": {
+    "props": {
+      "blockClass": "bf-email"
+    },
     "children": ["form-input.text#bfEmail"]
   },
   "form-input.text#bfEmail": {
@@ -443,8 +476,10 @@
       "label": "E-mail"
     }
   },
-  "flex-layout.row#bfTelefone":{
-    "props": {"blockClass": "bf-telefone"},
+  "flex-layout.row#bfTelefone": {
+    "props": {
+      "blockClass": "bf-telefone"
+    },
     "children": ["form-input.text#bfTelefone"]
   },
   "form-input.text#bfTelefone": {
@@ -454,8 +489,10 @@
       "label": "Telefone"
     }
   },
-  "flex-layout.row#bfCpf":{
-    "props": {"blockClass": "bf-cpf"},
+  "flex-layout.row#bfCpf": {
+    "props": {
+      "blockClass": "bf-cpf"
+    },
     "children": ["form-input.text#bfCpf"]
   },
   "form-input.text#bfCpf": {
@@ -517,7 +554,7 @@
       "placeholderText": "E-mail"
     }
   },
-  "form-submit#blackfriday":{
+  "form-submit#blackfriday": {
     "props": {
       "label": "Enviar"
     }
