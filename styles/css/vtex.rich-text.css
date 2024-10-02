@@ -330,6 +330,15 @@
   .wrapper--titulo-informacoes {
     font-size: smaller;
   }
+
+  /* BRINDES */
+.container--titulo-brindes {
+  text-wrap: wrap;
+}
+
+.container--texto-brindes {
+  text-wrap: wrap;
+}
 }
 
 
