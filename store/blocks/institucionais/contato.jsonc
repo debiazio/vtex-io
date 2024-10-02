@@ -33,7 +33,7 @@
 
   "form#contato": {
     "props": {
-      "entity": "CO",
+      "entity": "contact",
       "schema": "contact"
     },
     "blocks": [
