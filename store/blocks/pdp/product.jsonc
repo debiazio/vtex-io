@@ -10,13 +10,13 @@
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
 
-      "product-gifts",
+      // "product-gifts",
       "rich-text#certificacoes-titulo",
       "flex-layout.row#certificacoes"
     ]
   },
-    // LAYOUT DO DESKTOP LINHA DO GIF
-  "responsive-layout.desktop#gif-animado-parcelamento":{
+  // LAYOUT DO DESKTOP LINHA DO GIF
+  "responsive-layout.desktop#gif-animado-parcelamento": {
     "children": [
       "flex-layout.row#banner-superior-desktop"
     ]
@@ -40,7 +40,7 @@
     }
   },
   // LAYOUT DO MOBILE LINHA DO GIF
-  "responsive-layout.mobile#gif-animado-parcelamento":{
+  "responsive-layout.mobile#gif-animado-parcelamento": {
     "children": [
       "flex-layout.row#banner-superior-mobile"
     ]
@@ -94,7 +94,7 @@
       "Else": "flex-layout.row#product-availability"
     }
   },
-  // avalia se o produto tem estoque
+  // avalia se o produto tem estoque desktop
   "condition-layout.product#availability": {
     "props": {
       "conditions": [{
@@ -209,6 +209,10 @@
       // "product-gifts",
       // "product-questions-and-answers",
       // "flex-layout.row#video",
+      "condition-layout.product#brinde-autoclaves-5l",
+      "condition-layout.product#brinde-autoclaves-5litros",
+      "condition-layout.product#brinde-autoclaves-8l",
+      "condition-layout.product#brinde-autoclaves-8litros",
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
@@ -236,6 +240,98 @@
       "width": "60%"
     }
   },
+  "condition-layout.product#brinde-autoclaves-5l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "5L"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-brindes-5l-8l"
+    }
+  },
+  "condition-layout.product#brinde-autoclaves-5litros": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "5 Litros"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-brindes-5l-8l"
+    }
+  },
+  "condition-layout.product#brinde-autoclaves-8l": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8L"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-brindes-5l-8l"
+    }
+  },
+  "condition-layout.product#brinde-autoclaves-8litros": {
+    "props": {
+      "conditions": [{
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "8 Litros"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-pdp-brindes-5l-8l"
+    }
+  },
+  // CONDICIONAL DO BRINDE
+  "flex-layout.row#custom-pdp-brindes-5l-8l": {
+    "props": {
+      "blockClass": "condicional-brinde-5l-8l"
+    },
+    "children": [
+      "image#brinde-5l-8l",
+      "flex-layout.row#titulo-brindes-5l-8l"
+    ]
+  },
+  "image#brinde-5l-8l":{
+    "props": {
+      "src": "assets/Porta Esmalte.webp",
+      "alt": "Brinde autoclaves 5l e 8l",
+      "blockClass": "img-brindes-5l-8l"
+    }
+  },
+  "flex-layout.row#titulo-brindes-5l-8l":{
+    "props": {
+      "blockClass": "textos-brindes"
+    },
+    "children": [
+      "rich-text#titulo-brindes",
+      "rich-text#texto-brindes"
+
+    ]
+  },
+  "rich-text#titulo-brindes":{
+    "props": {
+      "text": "COMPRE E GANHE",
+      "blockClass": "titulo-brindes"
+    }
+  },
+  "rich-text#texto-brindes":{
+    "props": {
+      "text": "Brinde: **Porta esmaltes Idealovers By MAD.U.**\nEsmaltes não estão incluídos* ",
+      "blockClass": "texto-brindes"
+    }
+  },
+
   // condicional branco
   "condition-layout.product#branco-perola": {
     "props": {
@@ -364,14 +460,12 @@
   // condicional rosa padrao 2
   "condition-layout.product#rosa-padrao2": {
     "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "Id": "2765"
-          }
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "Id": "2765"
         }
-      ],
+      }],
       "Then": "flex-layout.row#custom-pdp-layout-rosa"
     }
   },

@@ -412,6 +412,11 @@
   padding-left: 20px;
 }
 
+/* brindes 5l e 8l */
+.imageElement--img-brindes-5l-8l{
+  width: 200px;
+}
+
 @media screen and (max-width: 1024px) {
   .imageElement--imagem-mobile-quem-somos{
     width: 100%;

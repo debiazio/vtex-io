@@ -920,10 +920,10 @@
 
 .flexColChild--coluna-newsletter {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 954px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 954px;
 }
 
 
@@ -939,10 +939,11 @@
   width: 419px;
 }
 
-.stretchChildrenWidth .flexRow--bf-datanasc{
+.stretchChildrenWidth .flexRow--bf-datanasc {
   width: 236px;
   margin-left: 85px;
 }
+
 .flexRowContent--campos-datanasc {
   width: 219px;
 }
@@ -980,6 +981,45 @@
 
 .flexRowContent--bf-email,
 .flexRowContent--bf-telefone,
-.flexRowContent--bf-cpf{
+.flexRowContent--bf-cpf {
   padding: 0 15px 0 0;
+}
+
+
+/* BRINDE 5L E 8L */
+.flexRowContent--condicional-brinde-5l-8l .stretchChildrenWidth {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+.flexRowContent--condicional-brinde-5l-8l{
+  width: 60%;
+}
+
+.flexRow--condicional-brinde-5l-8l {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px groove var(--magnolia);
+  border-top: 10px solid var(--pink);
+  margin: 20px;
+  padding-top: 20px;
+  padding: 0 0px 0 70px;
+}
+
+.flexRow--textos-brindes{
+  width: 100%;
+}
+
+.flexRow--textos-brindes .stretchChildrenWidth{
+  width: 100%;
+}
+
+.flexRowContent--textos-brindes {
+  display: flex;
+  flex-direction: column;
+  width: 519px;
+  justify-content: center;
+  margin-top: 30px;
 }
