@@ -506,7 +506,7 @@
     "props": {
       "pointer": "#/properties/bfQualproduto",
       "placeholder": "Produto",
-
+      "label": "teste",
       "uiSchema": "checkbox"
     }
   },
