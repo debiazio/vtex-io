@@ -772,21 +772,6 @@
     padding: 20px;
     text-align: center;
   }
-
-  .flexRow--condicional-brinde-5l-8l {
-    padding: 0 0px 0 10px!important;
-    align-items: center;
-  }
-  
-  .flexRowContent--condicional-brinde-5l-8l {
-    width: 100%;
-  }
-  
-
-  .flexRowContent--condicional-brinde-5l-8l .stretchChildrenWidth {
-    display: flex;
-  }
-
 }
 
 /* TESTE TITULO BELLINHA */
@@ -1036,4 +1021,24 @@
   width: 519px;
   justify-content: center;
   margin-top: 30px;
+}
+
+/* BRINDES MOBILE  */
+.flexCol--mobile-container-textos-brindes{
+  display: flex;
+}
+.flexColChild--mobile-container-textos-brindes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--mobile-condicional-brinde-5l-8l {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px groove var(--magnolia);
+  border-top: 10px solid var(--pink);
+  margin: 20px;
+  padding-top: 20px;
 }

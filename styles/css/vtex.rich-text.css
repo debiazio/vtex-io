@@ -331,21 +331,7 @@
     font-size: smaller;
   }
 
-  /* BRINDES */
-.container--titulo-brindes {
-  text-wrap: wrap;
-}
-
-.container--texto-brindes {
-  text-wrap: wrap;
-}
-
-.paragraph--texto-brindes {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-bottom: 20px;
+  
 }
 
 
@@ -353,7 +339,7 @@
 .wrapper--texto-titulo-bellinha {
   color: white;
   /* font-weight: 400; */
-
+  
 }
 
 .wrapper--texto-sub-bellinha {
@@ -491,4 +477,11 @@
 
 .container--texto-brindes {
   text-wrap: nowrap;
+}
+
+/* BRINDES mobile*/
+.container--mobile-titulo-brindes {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--pink);
 }
