@@ -773,6 +773,20 @@
     text-align: center;
   }
 
+  .flexRow--condicional-brinde-5l-8l {
+    padding: 0 0px 0 10px!important;
+    align-items: center;
+  }
+  
+  .flexRowContent--condicional-brinde-5l-8l {
+    width: 100%;
+  }
+  
+
+  .flexRowContent--condicional-brinde-5l-8l .stretchChildrenWidth {
+    display: flex;
+  }
+
 }
 
 /* TESTE TITULO BELLINHA */

@@ -418,6 +418,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--img-brindes-5l-8l{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .imageElement--imagem-mobile-quem-somos{
     width: 100%;
   }
