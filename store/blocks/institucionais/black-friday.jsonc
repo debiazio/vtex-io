@@ -560,15 +560,15 @@
     }
   },
 
-  "flex-layout.row#conteiner-black-friday-checkboxes-newsletter": {
-    "props": {
-      "blockClass": "container-black-friday-checkboxes"
-    },
-    "children": [
-      "flex-layout.row#black-friday-titulo-checkboxes",
-      "flex-layout.row#black-friday-checkboxes"
-    ]
-  },
+  // "flex-layout.row#conteiner-black-friday-checkboxes-newsletter": {
+  //   "props": {
+  //     "blockClass": "container-black-friday-checkboxes"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#black-friday-titulo-checkboxes",
+  //     "flex-layout.row#black-friday-checkboxes"
+  //   ]
+  // },
   "flex-layout.row#black-friday-titulo-checkboxes": {
     "props": {
       "blockClass": "container-titulo-checkboxes-black-friday"

@@ -430,7 +430,7 @@
       "blockClass": "shelf",
       "showNavigationArrows": "desktopOnly"
     }
-  },
+  }
 
   // "rich-text#texto-padrao": {
   //   "props": {
@@ -449,18 +449,18 @@
   //     "modal-actions.close"
   //   ]
   // },
-  "rich-text#modal-content": {
-    "props": {
-      "text": "UTILIZAMOS COOKIES PARA MELHORAR NOSSO SITE E SUA EXPERIÊNCIA DE COMPRA. AO CONTINUAR NAVEGANDO EM NOSSO SITE, **VOCÊ ESTÁ DE ACORDO CONFORME NOSSA POLÍTICA DE PRIVACIDADE E TERMOS DE USO, E NOSSA POLÍTICA QUANTO À UTILIZAÇÃO DE COOKIES.**",
-      "blockClass": "texto-cookies-aviso"
-    }
-  },
-  "modal-actions.close": {
-    "props": {
-      "label": "Aceitar e continuar",
-      "blockClass": "botao-modal-cookies"
-    }
-  }
+  // "rich-text#modal-content": {
+  //   "props": {
+  //     "text": "UTILIZAMOS COOKIES PARA MELHORAR NOSSO SITE E SUA EXPERIÊNCIA DE COMPRA. AO CONTINUAR NAVEGANDO EM NOSSO SITE, **VOCÊ ESTÁ DE ACORDO CONFORME NOSSA POLÍTICA DE PRIVACIDADE E TERMOS DE USO, E NOSSA POLÍTICA QUANTO À UTILIZAÇÃO DE COOKIES.**",
+  //     "blockClass": "texto-cookies-aviso"
+  //   }
+  // },
+  // "modal-actions.close": {
+  //   "props": {
+  //     "label": "Aceitar e continuar",
+  //     "blockClass": "botao-modal-cookies"
+  //   }
+  // }
 
 
 }
