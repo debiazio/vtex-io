@@ -1,22 +1,47 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#banner-principal",
+      "responsive-layout.desktop#banner-principal",
+      "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "list-context.image-list#banner-secundario",
+      "responsive-layout.mobile#banners-mobile",
       //  "roleta", //teste roleta
       "flex-layout.row#mini_banners",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
-      "rich-text#prateleira-madu",
-      "flex-layout.row#shelf3",
+      "responsive-layout.desktop#prateleira-madu",
       "__fold__"
     ]
   },
-  "flex-layout.row#script_rd":{
+  "responsive-layout.desktop#banner-principal": {
+    "children": [
+      "list-context.image-list#banner-principal"
+    ]
+  },
+  "responsive-layout.mobile#banner-topo-mobile": {
+    "children": [
+      "list-context.image-list#banner-mobile5"
+    ]
+  },
+  "responsive-layout.mobile#banners-mobile": {
+    "children": [
+      "list-context.image-list#banner-mobile1",
+      "list-context.image-list#banner-mobile2",
+      "list-context.image-list#banner-mobile3",
+      "list-context.image-list#banner-mobile4"
+    ]
+  },
+  "responsive-layout.desktop#prateleira-madu": {
+    "children": [
+      "rich-text#prateleira-madu",
+      "flex-layout.row#shelf3"
+    ]
+  },
+  "flex-layout.row#script_rd": {
     "props": {
       "blockClass": "script_rd"
     },
@@ -108,7 +133,7 @@
   },
 
   // SECAO BANNER SECUNDÁRIO
-  "list-context.image-list#banner-secundario":{
+  "list-context.image-list#banner-secundario": {
     "children": [
       "slider-layout#sec-banner"
     ],
@@ -116,35 +141,121 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "image": "assets/02.Banner_site_outubro_Rosa.webp",
-          "mobileImage": "assets/outubro-rosa-mobile.webp",
-          "alt": "Banner outubro rosa",
-          "link": {
-            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
-          }
+      "images": [{
+        "image": "assets/02.Banner_site_outubro_Rosa.webp",
+        "mobileImage": "assets/outubro-rosa-mobile.webp",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
         }
-      ]
+      }]
     },
     "title": "Banner secundário"
 
-},
-"slider-layout#sec-banner": {
-  "props": {
-    "itemsPerPage": {
-      "desktop": 1,
-      "tablet": 1,
-      "phone": 1
+  },
+  "slider-layout#sec-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "usePagination": true,
+      "blockClass": "carousel"
+    }
+  },
+  // secao banner mobile topo
+  "list-context.image-list#banner-mobile5": {
+    "children": ["slider-layout#sec-banner"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+        "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
+        "alt": "Banner pronta entrega",
+        "link": {
+          "url": "/pronta-entrega"
+        }
+      }]
     },
-    "fullWidth": true,
-    "infinite": true,
-    "showNavigationArrows": "never",
-    "showPaginationDots": "never",
-    "usePagination": true,
-    "blockClass": "carousel"
-  }
-},
+    "title": "Banner mobile topo"
+  },
+  // secao banner mobile 1
+  "list-context.image-list#banner-mobile1": {
+    "children": ["slider-layout#sec-banner"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+        "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+        }
+      }]
+    },
+    "title": "Banner mobile 1"
+
+  },
+  // secao banner mobile 2
+  "list-context.image-list#banner-mobile2": {
+    "children": ["slider-layout#sec-banner"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+        "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave%208l"
+        }
+      }]
+    },
+    "title": "Banner mobile 2"
+
+  },
+  // secao banner mobile 3
+  "list-context.image-list#banner-mobile3": {
+    "children": ["slider-layout#sec-banner"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+        "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
+        }
+      }]
+    },
+    "title": "Banner mobile 3"
+  },
+  // secao banner mobile 4
+  "list-context.image-list#banner-mobile4": {
+    "children": ["slider-layout#sec-banner"],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [{
+        "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
+        "alt": "Banner pronta entrega",
+        "link": {
+          "url": "/pronta-entrega"
+        }
+      }]
+    },
+    "title": "Banner mobile 4"
+  },
+
 
   // SECAO DOS MINI BANNERS
   "flex-layout.row#mini_banners": {
@@ -259,7 +370,7 @@
   // linha da prateleira de maior capacidade
   "rich-text#prateleira-maior-capacidade": {
     "props": {
-      "text": "## **AUTOCLAVES DE MAIOR CAPACIDADE**",
+      "text": "## **AUTOCLAVES HORIZONTAIS**",
       "blockClass": "shelfTitle"
     },
     "title": "Título prateleira maior capacidade"
