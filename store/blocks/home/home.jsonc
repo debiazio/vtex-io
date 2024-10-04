@@ -30,8 +30,8 @@
       "fullWidth": true,
       "preload": true,
       "images": [{
-          "image": "assets/banner-1.gif",
-          "mobileImage": "assets/banner-mobile-1.gif",
+          "image": "assets/banner-5-entrega-fabrica.webp",
+          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
           "alt": "Banner da beauty fair",
           "link": {
             "url": "https://beleza.beautyfair.com.br/credenciamento-beauty-fair-2024",
@@ -39,8 +39,8 @@
           }
         },
         {
-          "image": "assets/banner-2.gif",
-          "mobileImage": "assets/banner-mobile-2.gif",
+          "image": "assets/banner-5-entrega-fabrica.webp",
+          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
           "alt": "Banner com link para autoclaves",
           "link": {
             "url": "/Autoclave%20Idealclave?_q=autoclave%20idealclave&map=ft",
@@ -48,8 +48,8 @@
           }
         },
         {
-          "image": "assets/banner-4.gif",
-          "mobileImage": "assets/banner-mobile.gif",
+          "image": "assets/banner-5-entrega-fabrica.webp",
+          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
           "alt": "Banner com link para autoclaves",
           "link": {
             "url": "/autoclave?_q=AUTOCLAVE&map=ft",
@@ -58,15 +58,15 @@
         },
         {
           "image": "assets/banner-5-entrega-fabrica.webp",
-          "mobileImage": "assets/banner_mobile_prontaentrega.gif",
+          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
           "alt": "Banner com opções de pronta entrega direto da fábrica",
           "link": {
             "url": "/pronta%20entrega?_q=pronta%20entrega&map=ft"
           }
         },
         {
-          "image": "assets/banner-5-pronta-entrega.gif",
-          "mobileImage": "assets/banner-mobile-pronta-entrega.gif",
+          "image": "assets/banner-5-entrega-fabrica.webp",
+          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
           "alt": "Banner com link para autoclaves horizontais a pronta entrega",
           "link": {
             "url": "/pronta-entrega-horizontalD"
