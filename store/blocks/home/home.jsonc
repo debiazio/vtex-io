@@ -4,7 +4,8 @@
       "list-context.image-list#banner-principal",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
-      // "roleta", //teste roleta
+      "list-context.image-list#banner-secundario",
+      //  "roleta", //teste roleta
       "flex-layout.row#mini_banners",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -105,6 +106,45 @@
       "blockClass": "carousel"
     }
   },
+
+  // SECAO BANNER SECUNDÁRIO
+  "list-context.image-list#banner-secundario":{
+    "children": [
+      "slider-layout#sec-banner"
+    ],
+    "props": {
+      "height": 650,
+      "fullWidth": true,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/02.Banner_site_outubro_Rosa.webp",
+          "mobileImage": "assets/outubro-rosa-mobile.webp",
+          "alt": "Banner outubro rosa",
+          "link": {
+            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+          }
+        }
+      ]
+    },
+    "title": "Banner secundário"
+
+},
+"slider-layout#sec-banner": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "fullWidth": true,
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "showPaginationDots": "never",
+    "usePagination": true,
+    "blockClass": "carousel"
+  }
+},
 
   // SECAO DOS MINI BANNERS
   "flex-layout.row#mini_banners": {
@@ -281,23 +321,23 @@
     }
   },
 
-  "rich-text#texto-padrao": {
-    "props": {
-      "text": "Click me",
-      "blockClass": "texto-obrigatorio-modal"
-    }
-  },
-  "modal-layout#aviso-cookies": {
-    "props": {
-      "blockClass": "modal-cookies",
-      "scroll":"content",
-      "disableEscapeKeyDown": false
-    },
-    "children": [
-      "rich-text#modal-content",
-      "modal-actions.close"
-    ]
-  },
+  // "rich-text#texto-padrao": {
+  //   "props": {
+  //     "text": "Click me",
+  //     "blockClass": "texto-obrigatorio-modal"
+  //   }
+  // },
+  // "modal-layout#aviso-cookies": {
+  //   "props": {
+  //     "blockClass": "modal-cookies",
+  //     "scroll":"content",
+  //     "disableEscapeKeyDown": false
+  //   },
+  //   "children": [
+  //     "rich-text#modal-content",
+  //     "modal-actions.close"
+  //   ]
+  // },
   "rich-text#modal-content": {
     "props": {
       "text": "UTILIZAMOS COOKIES PARA MELHORAR NOSSO SITE E SUA EXPERIÊNCIA DE COMPRA. AO CONTINUAR NAVEGANDO EM NOSSO SITE, **VOCÊ ESTÁ DE ACORDO CONFORME NOSSA POLÍTICA DE PRIVACIDADE E TERMOS DE USO, E NOSSA POLÍTICA QUANTO À UTILIZAÇÃO DE COOKIES.**",
