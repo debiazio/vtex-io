@@ -63,8 +63,16 @@
 }
 
 .flexRow--deals {
-  background-color: #FC87FC;
-  padding: 14px 0px;
+
+  background-image: linear-gradient(to bottom,
+                      rgb(209, 86, 209, 0.884) 0%,
+                      var(--violeta) 15%,
+                      var(--violeta) 25%,
+                      var(--violeta) 50%,
+                      var(--violeta) 75%,
+                      var(--violeta) 85%,
+                      rgba(209, 86, 209, 0.884) 100%);
+  padding: 14px 0;
   padding: 10px;
 }
 
