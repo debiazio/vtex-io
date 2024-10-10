@@ -9,8 +9,7 @@
       "responsive-layout.mobile#banners-mobile",
       //  "roleta", //teste roleta
       "flex-layout.row#mini_banners",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "responsive-layout.desktop#carrossel-5l-8l",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
       "responsive-layout.desktop#prateleira-madu",
@@ -30,6 +29,8 @@
   "responsive-layout.mobile#banners-mobile": {
     "children": [
       "list-context.image-list#banner-mobile1",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
       "list-context.image-list#banner-mobile2",
       "list-context.image-list#banner-mobile3",
       "list-context.image-list#banner-mobile4"
@@ -39,6 +40,12 @@
     "children": [
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3"
+    ]
+  },
+  "responsive-layout.desktop#carrossel-5l-8l": {
+    "children": [
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
     ]
   },
   "flex-layout.row#script_rd": {
@@ -56,54 +63,49 @@
       "fullWidth": true,
       "preload": true,
       "images": [{
-          "image": "assets/banner-5-entrega-fabrica.webp",
-          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner da beauty fair",
+          "image": "assets/01.Banner_20anos 1.webp",
+          "alt": "Banner 20 anos Idealine",
           "link": {
-            "url": "https://beleza.beautyfair.com.br/credenciamento-beauty-fair-2024",
-            "title": "Beauty Fair 2024"
+            "url": "/idealclave-bellinha/idealclave-bellinha-5l",
+            "title": "20 ano Idealine"
           }
         },
         {
-          "image": "assets/banner-5-entrega-fabrica.webp",
-          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner com link para autoclaves",
+          "image": "assets/Banner03_b.gif",
+          "alt": "Banner tecnologia DVM",
           "link": {
-            "url": "/Autoclave%20Idealclave?_q=autoclave%20idealclave&map=ft",
-            "title": "Autoclave Idealclave"
+            "url": "/idealclave-bellinha/idealclave-bellinha-5l",
+            "title": "Tecnologia DVM"
           }
         },
         {
-          "image": "assets/banner-5-entrega-fabrica.webp",
+          "image": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-desktop.gif",
           "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner com link para autoclaves",
+          "alt": "Banner autoclaves Dr. MArcelo",
           "link": {
-            "url": "/autoclave?_q=AUTOCLAVE&map=ft",
-            "title": "AUTOCLAVE"
+            "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
+            "title": "Autoclave Marcelo Brito"
           }
         },
         {
-          "image": "assets/banner-5-entrega-fabrica.webp",
-          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner com opções de pronta entrega direto da fábrica",
+          "image": "assets/Banner_04.gif",
+          "alt": "Banner 10x sem juros",
           "link": {
-            "url": "/pronta%20entrega?_q=pronta%20entrega&map=ft"
+            "url": "/idealclave%208l"
           }
         },
         {
-          "image": "assets/banner-5-entrega-fabrica.webp",
-          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner com link para autoclaves horizontais a pronta entrega",
+          "image": "assets/05.Banner_site_pronta_entrega.gif",
+          "alt": "Banner pronta entrega",
           "link": {
-            "url": "/pronta-entrega-horizontalD"
+            "url": "/pronta-entrega"
           }
         },
         {
-          "image": "assets/banner-promo-agosto.webp",
-          "alt": "Banner com promoção na compra de qualquer altoclave 8l ganhe 4 brindes",
-          "mobileImage": "assets/banner_mobile_promo.webp",
+          "image": "assets/05-Banner_Autoclaves_Pornta_Entrega.gif",
+          "alt": "Banner pronta entrega horizontal",
           "link": {
-            "url": "/la%20belle?_q=la%20belle&map=ft"
+            "url": "/pronta-entrega-horizontal"
           }
         }
 
@@ -330,7 +332,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## **AUTOCLAVES DE 8 LITROS**",
+      "text": "## **AUTOCLAVES DE 5 E 8 LITROS**",
       "blockClass": "shelfTitle"
     },
     "title": "Título prateleira"
@@ -342,9 +344,11 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#prateleira-8litros"],
     "props": {
-      "collection": "207"
+      "collection": "210",
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems": 18
     },
-    "title": "Prateleira 8 litros"
+    "title": "Prateleira 5 e 8 litros"
   },
   "slider-layout#prateleira-8litros": {
     "props": {

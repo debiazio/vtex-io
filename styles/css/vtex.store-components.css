@@ -289,7 +289,7 @@
 :global(.vtex-rich-text-0-x-container--titulo-certificadoes) {
   display: flex;
   justify-content: center;
-  margin-top: 600px; /*teste sticky*/
+  margin-top: 10px
 }
 
 /* imagens */

@@ -1563,7 +1563,7 @@
     ]
   },
   "flex-layout.col#product-right-col-availability": {
-    "props": {
+    "props": {    
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "info-availability"
