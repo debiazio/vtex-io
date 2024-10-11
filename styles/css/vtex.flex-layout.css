@@ -65,13 +65,13 @@
 .flexRow--deals {
 
   background-image: linear-gradient(to bottom,
-                      rgb(209, 86, 209, 0.884) 0%,
-                      var(--violeta) 15%,
-                      var(--violeta) 25%,
-                      var(--violeta) 50%,
-                      var(--violeta) 75%,
-                      var(--violeta) 85%,
-                      rgba(209, 86, 209, 0.884) 100%);
+      rgb(209, 86, 209, 0.884) 0%,
+      var(--violeta) 15%,
+      var(--violeta) 25%,
+      var(--violeta) 50%,
+      var(--violeta) 75%,
+      var(--violeta) 85%,
+      rgba(209, 86, 209, 0.884) 100%);
   padding: 14px 0;
   padding: 10px;
 }
@@ -318,7 +318,7 @@
 /* INSTITUCIONAIS */
 /* QUEM SOMOS */
 .flexRow--pagina-institucional {
-  padding: 20px;
+  padding: 21px;
 }
 
 .flexCol--conteudo-institucionais {
@@ -1000,7 +1000,7 @@
   width: 100%;
 }
 
-.flexRowContent--condicional-brinde-5l-8l{
+.flexRowContent--condicional-brinde-5l-8l {
   width: 60%;
 }
 
@@ -1015,11 +1015,11 @@
   padding: 0 0px 0 70px;
 }
 
-.flexRow--textos-brindes{
+.flexRow--textos-brindes {
   width: 100%;
 }
 
-.flexRow--textos-brindes .stretchChildrenWidth{
+.flexRow--textos-brindes .stretchChildrenWidth {
   width: 100%;
 }
 
@@ -1032,10 +1032,11 @@
 }
 
 /* BRINDES MOBILE  */
-.flexCol--mobile-container-textos-brindes{
+.flexCol--mobile-container-textos-brindes {
   display: flex;
 }
-.flexColChild--mobile-container-textos-brindes{
+
+.flexColChild--mobile-container-textos-brindes {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1049,4 +1050,18 @@
   border-top: 10px solid var(--pink);
   margin: 20px;
   padding-top: 20px;
+}
+
+.flexRowContent--linha-prateleira-duas-colunas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
+  width: 100% !important;
+}
+
+.flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-savings--desconto) {
+  width: 40% !important;
 }

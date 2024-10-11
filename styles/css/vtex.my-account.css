@@ -47,6 +47,7 @@ html {
   touch-action: pan-y;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -171,3 +172,7 @@ input:-webkit-autofill {
   transform: translateY(10px); /* Move o ícone 10px para baixo */
   transition: transform 0.3s ease-in-out; /* Transição suave */
 }
+
+
+
+

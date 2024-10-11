@@ -44,8 +44,9 @@
   font-size: .875rem;
 }
 
+
 .installments--summary {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   font-size: 0.875rem;
 }
 
@@ -149,4 +150,17 @@
     }
   }
 
+}
+
+.stretchChildrenWidth .savings--desconto{
+  width: 40px;
+}
+
+.savings--desconto{
+  font-weight: 500;
+  color: white;
+  background-color: var(--violeta);
+  padding: 10px 0;
+  border-radius: 50%;
+  text-align: center;
 }

@@ -6,73 +6,93 @@
       "flex-layout.col#productRating", //avaliações
       "product-summary-space",
       "product-list-price#summary", //preco de: quanto custava
-      "flex-layout.row#selling-price-savings", //economia
+      // "flex-layout.row#selling-price-savings", //economia
       "product-spot-price-savings",
-      "product-installments#summary", // parcelamento
+      "flex-layout.row#linha-prateleira",
       //"flex-layout.row#sku-selector", //seletor de sku
       "flex-layout.row#add-to-cart-summary" //linha botão comprar
     ]
+  },
+  "flex-layout.row#linha-prateleira":{
+    "props": {
+      "blockClass": "linha-prateleira-duas-colunas"
+    },
+    "children": [
+      "product-installments#summary", // parcelamento
+      "product-price-savings#summary-shelf" // -20% off
+    ]
+  },
+
+  "product-price-savings#summary-shelf": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "message": "-{savingsPercentage}",
+      "blockClass": "desconto"
+    }
   },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
     },
-    "children": ["product-rating-inline"]
+    "children": [
+      "product-rating-inline"
+    ]
   },
-
   "stack-layout#prodsum": {
     "children": [
       "add-to-list-btn", //fav button
       "product-summary-image#shelf",
-      "product-price-savings#summary-shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      // "product-price-savings#summary-shelf" //-20% off
     ]
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
       "badgeText": "de desconto",
-
       "width": {
-        "desktop": "302",
+        "desktop": "360",
         "mobile": "157"
       },
       "height": {
         "desktop": "362",
         "mobile": "187"
       }
-
     }
   },
-  "product-price-savings#summary-shelf": {
-    "props": {
-      "markers": ["discount"],
-      "message": "-{savingsPercentage} OFF",
-      "blockClass": "desconto"
-    }
-  },
-
-
+  // esse que eu preciso que desça
+  // "product-price-savings#summary-shelf": {
+  //   "props": {
+  //     "markers": [
+  //       "discount"
+  //     ],
+  //     "message": "-{savingsPercentage} OFF",
+  //     "blockClass": "desconto"
+  //   }
+  // },
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection"
     },
-    "children": ["product-highlight-wrapper"]
+    "children": [
+      "product-highlight-wrapper"
+    ]
   },
   "product-highlight-wrapper": {
     "props": {
       "blockClass": "collection"
     },
-    "children": ["product-highlight-text"]
+    "children": [
+      "product-highlight-text"
+    ]
   },
   // "product-highlight-text": {
   //   "props": {
   //     "message": "{highlightName}"
   //   }
   // },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary",
@@ -85,35 +105,32 @@
       "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
     }
   },
-
-  "flex-layout.row#selling-price-savings": {
-    "props": {
-      "colGap": 2,
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
-      "marginBottom": 4
-    },
-    "children": [
-      "flex-layout.row#preco-avista-e-desconto"
-
-    ]
-  },
-  "flex-layout.row#preco-avista-e-desconto": {
-    "props": {
-      "blockClass": "linha-preco-a-vista-e-desconto"
-    },
-    "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
-    ]
-  },
+  // "flex-layout.row#selling-price-savings": {
+  //   "props": {
+  //     "colGap": 2,
+  //     "preserveLayoutOnMobile": true,
+  //     "preventHorizontalStretch": true,
+  //     "marginBottom": 4
+  //   },
+  //   "children": [
+  //     "flex-layout.row#preco-avista-e-desconto"
+  //   ]
+  // },
+  // "flex-layout.row#preco-avista-e-desconto": {
+  //   "props": {
+  //     "blockClass": "linha-preco-a-vista-e-desconto"
+  //   },
+  //   "children": [
+  //     // "product-selling-price#summary",
+  //     "product-price-savings#summary"
+  //   ]
+  // }, 
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
       "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão ou {installmentsTotalValue}} false { }}"
     }
   },
-
   //linha adicionada para teste - botao comprar
   "flex-layout.row#add-to-cart-summary": {
     "children": [
@@ -123,7 +140,6 @@
       "blockClass": "add-to-cart-summary"
     }
   },
-
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary",

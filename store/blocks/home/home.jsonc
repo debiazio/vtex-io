@@ -358,7 +358,8 @@
         "phone": 2
       },
       "infinite": true,
-      "fullWidth": true,
+      "fullWidth": false,
+      
       "blockClass": "shelf",
       "showNavigationArrows": "desktopOnly"
     }

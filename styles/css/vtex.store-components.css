@@ -422,6 +422,7 @@
   max-width: 60%;
 }
 
+
 @media screen and (max-width: 1024px) {
   .imageElement--imagem-mobile-quem-somos{
     width: 100%;

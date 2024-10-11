@@ -1390,9 +1390,10 @@
   "product-images": {
     "props": {
       "aspectRatio": {
-        "desktop": "4:3",
+        "desktop": "auto",
         "phone": "16:9"
       },
+      "width": "500px",
       "maxheight": "800px",
       "contentType": "all",
       "displayMode": "carousel",

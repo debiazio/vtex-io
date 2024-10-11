@@ -80,7 +80,7 @@
   },
   "vtex.store-components:product-brand#summaryListDesktop": {
     "props": {
-      "displayMode": "text",
+      "displayMode": "logo",
       "blockClass": "summaryListDesktop"
     }
   },
