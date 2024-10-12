@@ -42,8 +42,8 @@
     }
 
     .wishlistIconContainer :global(.vtex-button) {
-        margin-top: 5%;
-        margin-left: 70%;
+        margin-top: 16%;
+        margin-left: 76%;
     }
 
 }

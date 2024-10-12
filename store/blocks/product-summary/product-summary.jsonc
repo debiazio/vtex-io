@@ -50,6 +50,7 @@
   },
   "product-summary-image#shelf": {
     "props": {
+      "blockclass": "imagens-shelf",
       "showBadge": false,
       "badgeText": "de desconto",
       "width": {
@@ -57,8 +58,8 @@
         "mobile": "157"
       },
       "height": {
-        "desktop": "362",
-        "mobile": "187"
+        "desktop": "360",
+        "mobile": "157"
       }
     }
   },
