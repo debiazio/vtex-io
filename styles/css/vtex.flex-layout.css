@@ -615,37 +615,42 @@
 }
 
 
-/* LINHA DOS MINIBANNERS HOME  */
-.flexRow--section-mini-banners {
+/* LINHA DOS BANNERS HOME  */
+.flexRow--section-mini-banners,
+.flexRow--section-big-banners {
   display: flex;
-  margin: 40px;
-}
-
-.flexRowContent--section-mini-banners {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.flexRowContent--section-mini-banners {
-  display: flex;
-
-}
-
-.flexRowContent--linha1-mini-banner {
-  display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  width: max-content;
-  gap: 30px;
-
 }
 
-.flexRowContent--linha2-mini-banner {
+.flexRowContent--section-mini-banners,
+.flexRowContent--section-big-banners {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  width: max-content;
-  gap: 30px;
 }
+
+.flexRowContent--section-mini-banners .stretchChildrenWidth
+.flexRowContent--section-big-banners .stretchChildrenWidth {
+  margin: 0;
+  padding: 0;
+}
+
+
+.flexRowContent--section-big-banners {
+  margin: 20px;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexRowContent--section-mini-banners{
+  gap: 30px;
+  margin: 0 20px;
+}
+
+/* LINHA DOS BANNERS HOME  */
 
 .flexRow--parcelas-mobile {
   padding: 20px;
@@ -725,7 +730,8 @@
     padding: 0;
   }
 
-  .flexRow--section-mini-banners {
+  .flexRow--section-mini-banners,
+  .flexRow--section-big-banners {
     display: none;
   }
 

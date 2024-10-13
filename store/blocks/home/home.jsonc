@@ -8,7 +8,8 @@
       "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
       //  "roleta", //teste roleta
-      "flex-layout.row#mini_banners",
+      "flex-layout.row#big_banners",
+      "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
@@ -57,12 +58,15 @@
     ]
   },
   "list-context.image-list#banner-principal": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
+      "images": [
+        {
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
@@ -108,12 +112,9 @@
             "url": "/pronta-entrega-horizontal"
           }
         }
-
-
       ]
     }
   },
-
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -133,7 +134,6 @@
       "blockClass": "carousel"
     }
   },
-
   // SECAO BANNER SECUNDÁRIO
   "list-context.image-list#banner-secundario": {
     "children": [
@@ -143,17 +143,18 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "image": "assets/02.Banner_site_outubro_Rosa.webp",
-        "mobileImage": "assets/outubro-rosa-mobile.webp",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+      "images": [
+        {
+          "image": "assets/02.Banner_site_outubro_Rosa.webp",
+          "mobileImage": "assets/outubro-rosa-mobile.webp",
+          "alt": "Banner outubro rosa",
+          "link": {
+            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner secundário"
-
   },
   "slider-layout#sec-banner": {
     "props": {
@@ -172,132 +173,139 @@
   },
   // secao banner mobile topo
   "list-context.image-list#banner-mobile5": {
-    "children": ["slider-layout#sec-banner"],
+    "children": [
+      "slider-layout#sec-banner"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
-        "alt": "Banner pronta entrega",
-        "link": {
-          "url": "/pronta-entrega"
+      "images": [
+        {
+          "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
+          "alt": "Banner pronta entrega",
+          "link": {
+            "url": "/pronta-entrega"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner mobile topo"
   },
   // secao banner mobile 1
   "list-context.image-list#banner-mobile1": {
-    "children": ["slider-layout#sec-banner"],
+    "children": [
+      "slider-layout#sec-banner"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+      "images": [
+        {
+          "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
+          "alt": "Banner outubro rosa",
+          "link": {
+            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner mobile 1"
-
   },
   // secao banner mobile 2
   "list-context.image-list#banner-mobile2": {
-    "children": ["slider-layout#sec-banner"],
+    "children": [
+      "slider-layout#sec-banner"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave%208l"
+      "images": [
+        {
+          "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
+          "alt": "Banner outubro rosa",
+          "link": {
+            "url": "/idealclave%208l"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner mobile 2"
-
   },
   // secao banner mobile 3
   "list-context.image-list#banner-mobile3": {
-    "children": ["slider-layout#sec-banner"],
+    "children": [
+      "slider-layout#sec-banner"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
+      "images": [
+        {
+          "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
+          "alt": "Banner outubro rosa",
+          "link": {
+            "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner mobile 3"
   },
   // secao banner mobile 4
   "list-context.image-list#banner-mobile4": {
-    "children": ["slider-layout#sec-banner"],
+    "children": [
+      "slider-layout#sec-banner"
+    ],
     "props": {
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
-        "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
-        "alt": "Banner pronta entrega",
-        "link": {
-          "url": "/pronta-entrega"
+      "images": [
+        {
+          "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
+          "alt": "Banner pronta entrega",
+          "link": {
+            "url": "/pronta-entrega"
+          }
         }
-      }]
+      ]
     },
     "title": "Banner mobile 4"
   },
-
-
   // SECAO DOS MINI BANNERS
-  "flex-layout.row#mini_banners": {
+  "flex-layout.row#big_banners": {
     "props": {
-      "blockClass": "section-mini-banners"
+      "blockClass": "section-big-banners"
     },
     "children": [
-      "flex-layout.row#linha1-mini-banners",
-      "flex-layout.row#linha2-mini-banners"
+      "image#big-banner-esquerda-image1",
+      "image#big-banner-direita"
+      
     ]
   },
-  // LINHA MAIS ALTA DA SECAO DE MINI BANNERS
-  "flex-layout.row#linha1-mini-banners": {
+  // LINHA MAIS ALTA DA SECAO DE big BANNERS
+  "image#big-banner-esquerda-image1": {
     "props": {
-      "blockClass": "linha1-mini-banner"
-    },
-    "children": [
-      "image#mini-banner-linha1-image1",
-      "image#mini-banner-linha1-image2"
-    ]
-  },
-  "image#mini-banner-linha1-image1": {
-    "props": {
-      "blockClass": "imagens-maiores-mini-banners",
-      "src": "assets/Big Banner 1- 616 x 400 px copy.webp",
+      "blockClass": "imagens-big-banners",
+      "src": "assets/Mini-banner---registro-e-certificacao.webp",
       "alt": "Líder no mercado de biossegurança"
     }
   },
-  "image#mini-banner-linha1-image2": {
+  "image#big-banner-direita": {
     "props": {
-      "blockClass": "imagens-maiores-mini-banners",
-      "src": "assets/Big Banner 1- 616 x 400 px.webp",
+      "blockClass": "imagens-big-banners",
+      "src": "assets/Mini-banner---segmentos.webp",
       "alt": "Parcelamento em até 10x sem juros"
     }
   },
-
   // LINHA MENOR DA SECAO DE MINI BANNERS
-  "flex-layout.row#linha2-mini-banners": {
+  "flex-layout.row#mini-banners":{
     "props": {
-      "blockClass": "linha2-mini-banner"
+      "blockClass": "section-mini-banners"
     },
     "children": [
       "image#mini-banner-linha2-image1",
@@ -305,31 +313,27 @@
       "image#mini-banner-linha2-image3"
     ]
   },
-
   "image#mini-banner-linha2-image1": {
     "props": {
       "blockClass": "imagens-menores-mini-banners",
-      "src": "assets/Small Banner 3 - 404 x 283 px-1.webp",
+      "src": "assets/small-banner---opcoes-de-entrega.webp",
       "alt": "Loja oficial da fábrica"
     }
   },
   "image#mini-banner-linha2-image2": {
     "props": {
       "blockClass": "imagens-menores-mini-banners",
-      "src": "assets/Small Banner 3 - 404 x 283 px.webp",
+      "src": "assets/Small-banner---compra-segura.webp",
       "alt": "Compra segura com nota fiscal original"
     }
   },
   "image#mini-banner-linha2-image3": {
     "props": {
       "blockClass": "imagens-menores-mini-banners",
-      "src": "assets/Small Banner 3 - 404 x 283 px copy.webp",
+      "src": "assets/Small-banner---tempo-e-dindin.webp",
       "alt": "Diversas opções de pagamento"
     }
   },
-
-
-
   "rich-text#shelf-title": {
     "props": {
       "text": "## **AUTOCLAVES DE 5 E 8 LITROS**",
@@ -338,11 +342,17 @@
     "title": "Título prateleira"
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#prateleira-8litros"]
+    "children": [
+      "list-context.product-list#prateleira-8litros"
+    ]
   },
   "list-context.product-list#prateleira-8litros": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleira-8litros"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-8litros"
+    ],
     "props": {
       "collection": "210",
       "orderBy": "OrderByReleaseDateDESC",
@@ -359,19 +369,15 @@
       },
       "infinite": true,
       "fullWidth": false,
-      
       "blockClass": "shelf",
       "showNavigationArrows": "desktopOnly"
     }
   },
-
-
   "flex-layout.row#shelf2": {
     "children": [
       "list-context.product-list#prateleira-maior-capacidade"
     ]
   },
-
   // linha da prateleira de maior capacidade
   "rich-text#prateleira-maior-capacidade": {
     "props": {
@@ -381,8 +387,12 @@
     "title": "Título prateleira maior capacidade"
   },
   "list-context.product-list#prateleira-maior-capacidade": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleira-maior-capacidade"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-maior-capacidade"
+    ],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
       "collection": "208"
@@ -401,7 +411,6 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-
   "flex-layout.row#shelf3": {
     "children": [
       "list-context.product-list#prateleira-madu"
@@ -416,8 +425,12 @@
     "title": "Título prateleira MAD.U"
   },
   "list-context.product-list#prateleira-madu": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleira-madu"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-madu"
+    ],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
       "category": "19"
@@ -436,7 +449,6 @@
       "showNavigationArrows": "desktopOnly"
     }
   }
-
   // "rich-text#texto-padrao": {
   //   "props": {
   //     "text": "Click me",
@@ -466,6 +478,4 @@
   //     "blockClass": "botao-modal-cookies"
   //   }
   // }
-
-
 }
