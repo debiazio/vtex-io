@@ -135,6 +135,10 @@
     margin: 10px;
   }
 
+  .savingsPercentage--desconto{
+    font-size: smaller;
+  }
+
   @keyframes pulse {
     0% {
       box-shadow: 0 0 10px 2px rgba(186, 248, 115, 0.7);
