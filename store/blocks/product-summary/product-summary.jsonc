@@ -8,9 +8,10 @@
       "product-list-price#summary", //preco de: quanto custava
       // "flex-layout.row#selling-price-savings", //economia
       "product-spot-price-savings",
-      "flex-layout.row#linha-prateleira",
+      "flex-layout.row#linha-prateleira"
       //"flex-layout.row#sku-selector", //seletor de sku
-      "flex-layout.row#add-to-cart-summary" //linha botão comprar
+      //"flex-layout.row#add-to-cart-summary" //linha botão comprar - removido a pedido da Renata 14/10/2024
+  
     ]
   },
   "flex-layout.row#linha-prateleira":{
@@ -44,6 +45,7 @@
     "children": [
       "add-to-list-btn", //fav button
       "product-summary-image#shelf",
+      "flex-layout.row#sacola-icone",
       "vtex.product-highlights@2.x:product-highlights#collection"
       // "product-price-savings#summary-shelf" //-20% off
     ]
@@ -132,13 +134,32 @@
       "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão ou {installmentsTotalValue}} false { }}"
     }
   },
-  //linha adicionada para teste - botao comprar
+  // //linha adicionada para teste - botao comprar
   "flex-layout.row#add-to-cart-summary": {
     "children": [
       "add-to-cart-button" // botao de comprar add ao carrinho
+
     ],
     "props": {
       "blockClass": "add-to-cart-summary"
+    }
+  }, 
+  //linha adicionada para teste ICONE SACOLA - botao comprar
+  "flex-layout.row#sacola-icone":{
+    "props": {
+      "blockClass": "sacola-icone"
+    },
+    "children": [
+      "add-to-cart-button#sacola-icon"
+    ]
+  },
+  "add-to-cart-button#sacola-icon":{
+    "props": {
+      "text": "teste",
+      "blockClass": "botao-icone-sacola",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "unavailableText": "Produto indisponível"
     }
   },
   "product-selling-price#summary": {

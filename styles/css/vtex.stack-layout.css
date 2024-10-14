@@ -14,3 +14,14 @@
   margin: 20px;
 }
 
+.stackItem--sacola-icone{
+  top: 74%;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stackItem--sacola-icone{
+  position: absolute;
+}

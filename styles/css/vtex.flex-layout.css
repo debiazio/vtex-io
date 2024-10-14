@@ -1071,3 +1071,30 @@
 .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-savings--desconto) {
   width: 40% !important;
 }
+
+
+/* .flexRow--sacola-icone{
+  background-color: #03044e;
+  padding: 50px;
+}
+
+
+.flexRowContent--sacola-icone{
+  background-color: red;
+  padding: 20px;
+}
+.flexRowContent--sacola-icone .stretchChildrenWidth{
+  background-color: blue;
+  padding: 20px;
+} */
+.flexRowContent--sacola-icone .stretchChildrenWidth :global(.vtex-button){
+  background-color: transparent;
+  border: none;
+}
+.flexRowContent--sacola-icone :global(.vtex-button){
+  background-color: transparent;
+  border: none;
+}
+.flexRowContent--sacola-icone :global(.vtex-button__label ){
+  margin: 0;
+}
