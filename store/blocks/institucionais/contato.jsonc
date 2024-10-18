@@ -2,8 +2,17 @@
   "store.custom#contato": {
     "blocks": [
       "flex-layout.row#script_rd",
-      "flex-layout.row#contato"
+      "sandbox#contato"
+      // "flex-layout.row#contato"
     ]
+  },
+  "sandbox#contato":{
+    "props": {
+      "width": "900px",
+      "height": "60px",
+      "initialContent": "<div role='main' id='fale-conosco-5384d6a6fc9e49df7f77'></div><script type='text/javascript' src='https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js'></script><script type='text/javascript'> new RDStationForms('fale-conosco-5384d6a6fc9e49df7f77', 'null').createForm();</script>",
+      "allowCookies": true
+    }
   },
 
   "flex-layout.row#contato": {
@@ -33,7 +42,7 @@
 
   "form#contato": {
     "props": {
-      "entity": "contact",
+      "entity": "CO",
       "schema": "contact"
     },
     "blocks": [
@@ -86,7 +95,6 @@
   "form-field-group#assunto": {
     "props": {
       "pointer": "#/properties/assunto",
-      "uiSchema": "select",
       "label": "Assunto"
     }
   },

@@ -304,6 +304,7 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
+      // "visualizador-3d",
       // "product-gifts",
       // "product-questions-and-answers",
       // "flex-layout.row#video",
@@ -1564,7 +1565,7 @@
     ]
   },
   "flex-layout.col#product-right-col-availability": {
-    "props": {    
+    "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "info-availability"

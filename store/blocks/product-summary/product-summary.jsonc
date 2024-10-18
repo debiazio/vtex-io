@@ -7,23 +7,40 @@
       "product-summary-space",
       "product-list-price#summary", //preco de: quanto custava
       // "flex-layout.row#selling-price-savings", //economia
-      "product-spot-price-savings",
-      "flex-layout.row#linha-prateleira"
+      "flex-layout.row#linha-prateleira",
+      "product-spot-price-savings"
       //"flex-layout.row#sku-selector", //seletor de sku
       //"flex-layout.row#add-to-cart-summary" //linha botão comprar - removido a pedido da Renata 14/10/2024
-  
+
     ]
   },
-  "flex-layout.row#linha-prateleira":{
+  "flex-layout.row#linha-prateleira": {
     "props": {
       "blockClass": "linha-prateleira-duas-colunas"
     },
     "children": [
-      "product-installments#summary", // parcelamento
-      "product-price-savings#summary-shelf" // -20% off
+      "flex-layout.col#coluna1-parcelamento",
+      "flex-layout.col#coluna2-parcelamento"
     ]
   },
-
+  "flex-layout.col#coluna1-parcelamento": {
+    "props": {
+      "blockClass": "coluna-parcelamento",
+      "width": "80%"
+    },
+    "children": [
+      "product-installments#summary" // parcelamento
+    ]
+  },
+  "flex-layout.col#coluna2-parcelamento":{
+    "props": {
+      "blockClass": "coluna-parcelamento",
+      "width": "20%"
+    },
+    "children": [
+      "product-price-savings#summary-shelf"
+    ]
+  },
   "product-price-savings#summary-shelf": {
     "props": {
       "markers": [
@@ -56,11 +73,11 @@
       "showBadge": false,
       "badgeText": "de desconto",
       "width": {
-        "desktop": "360",
+        "desktop": "280",
         "mobile": "157"
       },
       "height": {
-        "desktop": "360",
+        "desktop": "280",
         "mobile": "157"
       }
     }
@@ -127,7 +144,7 @@
   //     // "product-selling-price#summary",
   //     "product-price-savings#summary"
   //   ]
-  // }, 
+  // },
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
@@ -143,7 +160,7 @@
     "props": {
       "blockClass": "add-to-cart-summary"
     }
-  }, 
+  },
   //linha adicionada para teste ICONE SACOLA - botao comprar
   "flex-layout.row#sacola-icone":{
     "props": {

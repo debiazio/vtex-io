@@ -638,7 +638,7 @@
 
 
 .flexRowContent--section-big-banners {
-  margin: 20px;
+  margin: 20px 0;
   display: flex;
   gap: 30px;
   flex-direction: row;
@@ -647,7 +647,6 @@
 
 .flexRowContent--section-mini-banners{
   gap: 30px;
-  margin: 0 20px;
 }
 
 /* LINHA DOS BANNERS HOME  */
@@ -1066,6 +1065,8 @@
 
 .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-installments--summary) {
   width: 100% !important;
+  color: var(--pink);
+  font-weight: 900;
 }
 
 .flexRowContent--linha-prateleira-duas-colunas .stretchChildrenWidth :global(.vtex-product-price-1-x-savings--desconto) {

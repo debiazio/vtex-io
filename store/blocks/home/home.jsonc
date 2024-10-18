@@ -7,7 +7,7 @@
       "flex-layout.row#deals",
       "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
-      //  "roleta", //teste roleta
+      // "roleta", //teste roleta
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -284,7 +284,7 @@
     "children": [
       "image#big-banner-esquerda-image1",
       "image#big-banner-direita"
-      
+
     ]
   },
   // LINHA MAIS ALTA DA SECAO DE big BANNERS
