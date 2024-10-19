@@ -18,15 +18,16 @@
     }
   },
 
-  "flex-layout.row#contato": {
-    "props": {
-      "blockClass": "pagina-institucional"
-    },
-    "children": [
-      // "flex-layout.col#menu-institucionais-contato",
-      "flex-layout.col#contato"
-    ]
-  },
+  // teste
+  // "flex-layout.row#contato": {
+  //   "props": {
+  //     "blockClass": "pagina-institucional"
+  //   },
+  //   "children": [
+  //     // "flex-layout.col#menu-institucionais-contato",
+  //     "flex-layout.col#contato"
+  //   ]
+  // },
 
   "flex-layout.col#contato": {
     "props": {
