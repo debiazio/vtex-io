@@ -7,7 +7,7 @@
       "flex-layout.row#deals",
       "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
-      // "roleta", //teste roleta
+      //  "roleta", //teste roleta
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -33,7 +33,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "list-context.image-list#banner-mobile2",
-      "list-context.image-list#banner-mobile3",
+      // "list-context.image-list#banner-mobile3",
       "list-context.image-list#banner-mobile4"
     ]
   },
