@@ -630,8 +630,7 @@
   flex-direction: row;
 }
 
-.flexRowContent--section-mini-banners .stretchChildrenWidth
-.flexRowContent--section-big-banners .stretchChildrenWidth {
+.flexRowContent--section-mini-banners .stretchChildrenWidth .flexRowContent--section-big-banners .stretchChildrenWidth {
   margin: 0;
   padding: 0;
 }
@@ -645,7 +644,7 @@
   justify-content: space-between;
 }
 
-.flexRowContent--section-mini-banners{
+.flexRowContent--section-mini-banners {
   gap: 30px;
 }
 
@@ -1088,14 +1087,48 @@
   background-color: blue;
   padding: 20px;
 } */
-.flexRowContent--sacola-icone .stretchChildrenWidth :global(.vtex-button){
+.flexRowContent--sacola-icone .stretchChildrenWidth :global(.vtex-button) {
   background-color: transparent;
   border: none;
 }
-.flexRowContent--sacola-icone :global(.vtex-button){
+
+.flexRowContent--sacola-icone :global(.vtex-button) {
   background-color: transparent;
   border: none;
 }
-.flexRowContent--sacola-icone :global(.vtex-button__label ){
+
+.flexRowContent--sacola-icone :global(.vtex-button__label) {
   margin: 0;
+}
+
+
+/* layout roleta */
+.flexRow--row-form-roleta {
+  min-width: 400px;
+  margin: 40px;
+}
+
+.flexRowContent--row-form-roleta {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--row-form-roleta .stretchChildrenWidth {
+  width: 100%!important;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--row-form-roleta {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .flexRowContent--row-form-roleta .stretchChildrenWidth {
+    width: unset;
+  }
+
 }

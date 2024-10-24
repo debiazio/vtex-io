@@ -12,31 +12,153 @@
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input),
 .emailInputContainer :global(.vtex-styleguide-9-x-input) {
-  padding: 10px 10px 10px;
+  padding: 10px 15px 10px;
   background: transparent;
   border: 1px solid #ffff;
-  color: #ffff;
+  border-radius: 10px;
 }
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-    color: #ffff;
+  color: #9a9a9b;
+}
+
+.nameInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder,
+.emailInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder{
+  color: white;
+  width: 100px;
 }
 
 .defaultErrorMessage,
 .defaultSuccessMessage,
-.newsletterForm :global(.vtex-input__error){
-    color: #ffff;
-    text-align: center;
+.newsletterForm :global(.vtex-input__error) {
+  text-align: center;
+  padding-left: 5px;
+  background-color: transparent;
 }
 
 
-@media screen and (max-width: 1024px) {
-  .newsletterForm {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+
+
+/* form -roleta */
+.newsletterForm--formulario-roleta {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
+
+
+.nameInputContainer,
+.emailInputContainer,
+.phoneInputContainer {
+  width: 100%;
+  color: white;
+
+}
+
+.nameInputContainer :global(.vtex-input__label),
+.emailInputContainer :global(.vtex-input__label),
+.phoneInputContainer :global(.vtex-input__label) {
+  color: lightgray;
+}
+
+
+/* .phoneInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: white;
+  color: gray !important;
+} */
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input__label) {
+  color: white;
+}
+
+.emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
+  color: black;
+}
+
+
+
+.defaultSuccessMessage--formulario-roleta {
+  width: 100%;
+}
+
+.confirmationCheckboxContainer--termo-concordo-roleta {
+  width: 100%;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){
+  color: #ffff;
+}
+
+.formSubmitContainer--submit-button{
+  border: none;
+  padding-top: 20px;
+}
+
+.formSubmitContainer--submit-button :global(.vtex-button){
+  border: none;
+  background-color: #e90b91;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(233, 11, 145, 0.8); /* Luz simples por trás */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.formSubmitContainer--submit-button :global(.vtex-button):hover {
+  box-shadow: 0 0 40px rgba(233, 11, 145, 1); /* Intensifica a luz no hover */
+}
+
+
+.phoneInputContainer--inputs-form-roleta {
+  background-color: #ffff;
+}
+.emailInputContainer--inputs-form-roleta {
+  background-color: #ffff;
+}
+.nameInputContainer--inputs-form-roleta {
+  background-color: #ffff;
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .newsletterForm {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .confirmationCheckboxContainer--termo-concordo-roleta {
+      width: unset;
+      padding-left: 0;
+      margin-top: 10px;
+      font-size: 12px;
+  }
+
+  .formSubmitContainer--submit-button {
+    border: none;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .newsletterForm{
+    margin-top: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
+@media (min-width: 350px) and (min-height: 800px) {
+  .newsletterForm{
+    margin-top: 50px;
+  }
 }

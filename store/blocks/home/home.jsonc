@@ -7,7 +7,8 @@
       "flex-layout.row#deals",
       "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
-      //  "roleta", //teste roleta
+      // "modal-trigger#roleta",
+
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -17,6 +18,107 @@
       "__fold__"
     ]
   },
+  // "modal-trigger#roleta": {
+  //   "props": {
+  //     "trigger": "load"
+  //   },
+  //   "children": [
+  //     "modal-layout#roleta"
+  //   ]
+  // },
+  // "modal-layout#roleta": {
+  //   "props": {
+  //     "blockClass": "form-roleta"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#form-roleta",
+  //     "roleta" //teste roleta
+  //   ]
+  // },
+
+  // "flex-layout.row#form-roleta": {
+  //   "props": {
+  //     "blockClass": "row-form-roleta"
+  //   },
+  //   "children": [
+  //     "newsletter-form#teste-roleta",
+  //     "rich-text#regras-roleta"
+  //   ]
+  // },
+
+  // "newsletter-form#teste-roleta": {
+  //   "props": {
+  //     "SuccessState": "rich-text#roleta-fomr",
+  //     "blockClass": "formulario-roleta"
+  //   },
+  //   "children": [
+  //     "rich-text#titulo-form-roleta",
+  //     "rich-text#subtitulo-form-roleta",
+  //     "newsletter-input-name#roleta",
+  //     "newsletter-input-email#roleta",
+  //     "newsletter-input-phone#roleta",
+  //     "newsletter-checkbox-confirmation#roleta",
+  //     "newsletter-submit#roleta"
+  //   ]
+  // },
+
+  // "rich-text#titulo-form-roleta": {
+  //   "props": {
+  //     "text": "**ROLETA PREMIADA**",
+  //     "blockClass": "titulo-form-roleta"
+  //   }
+  // },
+  // "rich-text#subtitulo-form-roleta":{
+  //   "props": {
+  //     "text": "Preencha seus dados para girar a roleta de Prêmios",
+  //     "blockClass": "subtitulo-roleta"
+  //   }
+  // },
+  // "newsletter-input-name#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu nome",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-email#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu email",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-phone#roleta": {
+  //   "props": {
+  //     "placeholderText": "Seu número de celular",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-submit#roleta": {
+  //   "props": {
+  //     "submitButtonLabel": "Enviar",
+  //     "blockClass": "submit-button"
+  //   }
+  // },
+  // "rich-text#roleta-fomr": {
+  //   "props": {
+  //     "text": "Agora gire a roleta e boa sorte!",
+  //     "blockClass": "confirm-form-roleta"
+  //   }
+  // },
+  // "newsletter-checkbox-confirmation#roleta":{
+  //   "props":{
+  //     "checkboxLabel": "Eu concordo em  receber comunicações.",
+  //     "blockClass": "termo-concordo-roleta"
+  //   }
+  // },
+
+  // "rich-text#regras-roleta":{
+  //   "props": {
+  //     "text": "**Estoque limitado, sujeito à disponibilidade.\nPrêmio limitado a 1 por CPF.\nVálido para compras acima de R$ 390.**",
+  //     "blockClass": "texto-rules-roleta"
+  //   }
+  // },
+
+
   "responsive-layout.desktop#banner-principal": {
     "children": [
       "list-context.image-list#banner-principal"
@@ -65,8 +167,7 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
+      "images": [{
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
@@ -75,7 +176,7 @@
           }
         },
         {
-          "image": "assets/Banner03_b.gif",
+          "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner tecnologia DVM",
           "link": {
             "url": "/idealclave-bellinha/idealclave-bellinha-5l",
@@ -92,7 +193,7 @@
           }
         },
         {
-          "image": "assets/Banner_04.gif",
+          "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 10x sem juros",
           "link": {
             "url": "/idealclave%208l"
@@ -143,16 +244,14 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "image": "assets/02.Banner_site_outubro_Rosa.webp",
-          "mobileImage": "assets/outubro-rosa-mobile.webp",
-          "alt": "Banner outubro rosa",
-          "link": {
-            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
-          }
+      "images": [{
+        "image": "assets/02.Banner_site_outubro_Rosa.webp",
+        "mobileImage": "assets/outubro-rosa-mobile.webp",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
         }
-      ]
+      }]
     },
     "title": "Banner secundário"
   },
@@ -180,15 +279,13 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
-          "alt": "Banner pronta entrega",
-          "link": {
-            "url": "/pronta-entrega"
-          }
+      "images": [{
+        "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
+        "alt": "Banner pronta entrega",
+        "link": {
+          "url": "/pronta-entrega"
         }
-      ]
+      }]
     },
     "title": "Banner mobile topo"
   },
@@ -201,15 +298,13 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
-          "alt": "Banner outubro rosa",
-          "link": {
-            "url": "/idealclave-bellinha/idealclave-bellinha-5l"
-          }
+      "images": [{
+        "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
         }
-      ]
+      }]
     },
     "title": "Banner mobile 1"
   },
@@ -222,15 +317,13 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
-          "alt": "Banner outubro rosa",
-          "link": {
-            "url": "/idealclave%208l"
-          }
+      "images": [{
+        "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/idealclave%208l"
         }
-      ]
+      }]
     },
     "title": "Banner mobile 2"
   },
@@ -243,15 +336,13 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
-          "alt": "Banner outubro rosa",
-          "link": {
-            "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
-          }
+      "images": [{
+        "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
+        "alt": "Banner outubro rosa",
+        "link": {
+          "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
         }
-      ]
+      }]
     },
     "title": "Banner mobile 3"
   },
@@ -264,15 +355,13 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
-          "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
-          "alt": "Banner pronta entrega",
-          "link": {
-            "url": "/pronta-entrega"
-          }
+      "images": [{
+        "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
+        "alt": "Banner pronta entrega",
+        "link": {
+          "url": "/pronta-entrega"
         }
-      ]
+      }]
     },
     "title": "Banner mobile 4"
   },
@@ -303,7 +392,7 @@
     }
   },
   // LINHA MENOR DA SECAO DE MINI BANNERS
-  "flex-layout.row#mini-banners":{
+  "flex-layout.row#mini-banners": {
     "props": {
       "blockClass": "section-mini-banners"
     },

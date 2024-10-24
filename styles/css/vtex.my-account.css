@@ -169,10 +169,12 @@ input:-webkit-autofill {
 
 
 .vflexColChild--black-friday-faq-listagem[aria-expanded="true"] .caretIcon {
-  transform: translateY(10px); /* Move o ícone 10px para baixo */
-  transition: transform 0.3s ease-in-out; /* Transição suave */
+  transform: translateY(10px);
+  /* Move o ícone 10px para baixo */
+  transition: transform 0.3s ease-in-out;
+  /* Transição suave */
 }
 
-
-
-
+.emailInputContainer--inputs-form-roleta input {
+  color: #bcb2ba;
+}

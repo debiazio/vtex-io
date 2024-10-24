@@ -39,12 +39,14 @@
   },
   "newsletter-input-name": {
     "props": {
-      "placeholderText": "Seu nome"
+      "placeholderText": "Seu nome",
+      "blockClass": "newsletter-footer"
     }
   },
   "newsletter-input-email": {
     "props": {
-      "placeholderText": "Digite seu e-mail"
+      "placeholderText": "Seu email",
+      "blockClass": "newsletter-footer"
     }
   },
   "newsletter-submit": {

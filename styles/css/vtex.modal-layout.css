@@ -73,7 +73,7 @@
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
@@ -94,7 +94,7 @@
   /* backdrop-filter: blur(5px);  */
 }
 
-.paper--modal-cookies{
+.paper--modal-cookies {
   position: fixed;
   bottom: 0;
   display: flex;
@@ -102,10 +102,40 @@
   align-items: center;
 }
 
-.closeButton--botao-modal-cookies{
+.closeButton--botao-modal-cookies {
   width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+
+/* MODAL DA ROLETA */
+.paper--form-roleta {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-image: url('https://stermax.com.br/images_idealine/roleta_fundo.png');
+  background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+  background-position: center; /* Centraliza a imagem no elemento */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+@media screen and (max-width: 1024px) {
+  .paper--form-roleta {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .paper--form-roleta {
+    padding-bottom: 0;
+  }
+
 }
