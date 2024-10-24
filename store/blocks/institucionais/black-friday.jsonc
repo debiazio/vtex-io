@@ -63,7 +63,7 @@
   "rich-text#black-friday-subtitulo": {
     "props": {
       "blockClass": "subtitulo-bf",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet libero vitae elit maximus viverra. Mauris iaculis porttitor ornare. Nullam turpis ligula, rhoncus vel tristique non, lobortis cursus ante. Sed vel tortor nibh. "
+      "text": "A partir do dia 1º a 30 de novembro começam as melhores promoções.\nNão fique de fora!\nTrouxemos condições especiais ! Aproveite o **MENOR PREÇO DO ANO** em **TODOS** os produtos do site, com parcelamento em até **10x SEM JUROS**.\nE tem mais: nas compras de autoclaves de 5 ou 8 litros , você ganha três brindes, haste, separador e copo medidor Idealovers para completar seu kit.\nAlém disso, participe da nossa **ROLETA DE PRÊMIOS** exclusiva e concorra a descontos e brindes especiais durante todo o período da Black Friday Idealine.\nGaranta já sua autoclave com menor preço com a líder de mercado.\nEleve seus serviços a um novo patamar oferecendo saúde e segurança aos seus clientes.\nCadastre já para receber tudo antecipadamente."
     }
   },
   // CONTAINER AREA DAS FAQS - SECAO PRINCIPAL
@@ -82,14 +82,14 @@
       "blockClass": "titulo-subtitulo-blackfriday"
     },
     "children": [
-      "rich-text#black-friday-faq-titulo",
-      "rich-text#black-friday-faq-subtitulo"
+      "rich-text#black-friday-faq-titulo"
+      // "rich-text#black-friday-faq-subtitulo"
     ]
   },
   "rich-text#black-friday-faq-titulo": {
     "props": {
       "blockClass": "subtitulo-bf-faq",
-      "text": "### Como vai funcionar a Black Friday da Idealine em 2024?"
+      "text": "### OPORTUNIDADES IMPERDÍVEIS NA BLACK IDEAL EM NOVEMBRO"
     }
   },
   "rich-text#black-friday-faq-subtitulo": {
@@ -148,7 +148,7 @@
   },
   "rich-text#quando-resposta": {
     "props": {
-      "text": "A black friday do site da Idealine irá ocorrer no dia 29 de Novembro de 2024.( a confirmar)",
+      "text": "A black friday do site da Idealine irá começar dia 1º de novembro e todos as ações e preços seguirão vigente durante o mês.",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -184,7 +184,7 @@
   },
   "rich-text#prazo-resposta": {
     "props": {
-      "text": "O prazo de entrega vai depender da litragem do produto selecionado e do estoque.\nComo somos fabricantes, teremos um estoque especial de pronta entrega nesse período, dessa forma teremos todos os modelos de autoclave Idealine a pronta entrega.\nO estoque é limitado, portanto quanto antes comprar, maior suas chances de receber o produto rapidamente. Não se precupe, caso ele se esgote , você aproveita o preço promocional e na sequência a fábrica irá colocar seu pedido em produção.\nRetirada na fábrica: Se optar por retirar diretamente na nossa fábrica na cidade de    Pinhais, em 2 dias uteis está disponível para ser retirado o produto.\nEntrega padrão: Vai depender da sua região, e forma de envio selecionada no momento da compra ( PAC, SEDEX ou transportadora).\nPode variar de 5 até 20 dias uteis para a entrega ser efetuada.",
+      "text": "Para essa ação disponibilizaremos um lote especial para pronta entrega.\nSomos fabricantes do produto e teremos todos os modelos de autoclave Idealine a pronta entrega, disponíveis no site a partir do dia 1º de novembro na black Ideal.\nEntregas:\nVariam de acordo com a localidade , região, e forma de envio selecionada no momento da compra ( PAC, SEDEX ou transportadora).\n**Favor atentar ao prazo estimulado pela transportadora no ato da compra.**",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -220,7 +220,7 @@
   },
   "rich-text#formas-pgto-resposta": {
     "props": {
-      "text": "Aceitamos os seguintes cartões de crédito: Amex, Dinners Club, Visa, MasterCard, Elo e Hipercard. Também aceitamos pagamentos via PayMee, boleto bancário, boleto KOIN ( parcelado) e Pix. Fazemos o parcelamento em até 10x.",
+      "text": "**Oferecemos as melhores condições para você conseguir conquistar seu sonho de ter uma autoclave da Idealine.**Aceitamos os seguintes cartões de crédito:\nAmex,  Dinners Club, Visa, MasterCard, Elo e Hipercard.\nTambém aceitamos pagamentos via PayMee, boleto bancário e Pix. Fazemos o parcelamento em até 10x sem juros.\nCaso não tenha crédito no seu cartão também temos o boleto KOIN parcelado sujeito a análise da operadora. Caso precise pagar em cartões diferentes ou dar um sinal de entrada converse com nossas consultoras que elas facilitarão a compra para você!\n**A Idealine não solicita dados de cartão , os pagamentos são feitos através de links direto na operadora.**",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -256,7 +256,7 @@
   },
   "rich-text#pol-trocas-resposta": {
     "props": {
-      "text": "Caso precise trocar o produto, a solicitação deve ser feita em até 7 dias corridos a partir da data de recebimento do produto através do telefone 0800 721 8534.\nApós este prazo, o contato deve ser feito diretamente com o nosso SAC ou com a sua rede de Assistência Técnica Autorizada.\nPara mais informações sobre política de trocas e devoluções, recomendamos que acesse essa página.",
+      "text": "Caso necessite realizar a  troca do produto, a solicitação deve ser feita em até 7 dias\n corridos a partir da data de recebimento do produto,  através do telefone\n**0800 721 8534**.\nApós este prazo, o contato deve ser feito diretamente com o nosso SAC ou com a sua rede de Assistência Técnica Autorizada, disponível no site do fabricante Stermax.\nPara mais informações sobre política de trocas e devoluções, recomendamos que acesse essa [página](https://www.idealine.com.br/institucional/trocas-e-devolucoes).",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -292,7 +292,7 @@
   },
   "rich-text#seguro-resposta": {
     "props": {
-      "text": "Somos a loja oficial da fábrica. Aqui cada compra sai direto da fábrica Stermax para sua casa, tornando a operação segura e mais eficiente.O site da Idealine utiliza medidas rigorosas de segurança para proteger as informações pessoais e financeiras dos clientes que acessam o site.\nAlém disso, usamos métodos de pagamentos confiáveis e seguros como cartão de crédito, boleto bancário e pix.",
+      "text": "Somos o único canal oficial da fábrica.  Nosso site existe há mais de 20 anos  e a fábrica Stermax tem mais de 30  anos no mercado.\nAqui cada compra realizada sai direto da fábrica Stermax para sua casa, tornando a operação segura e mais eficiente. Nosso site da Idealine utiliza medidas rigorosas de segurança para proteger as informações pessoais e financeiras dos clientes que acessam o site, além de políticas protetivas, cuidamos de todos os dados da nossas clientes.\nAlém disso, usamos métodos de pagamentos confiáveis e seguros como cartão de crédito, boleto bancário e pix. Podem confiar na líder de mercado.",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -328,7 +328,7 @@
   },
   "rich-text#produtos-promo-resposta": {
     "props": {
-      "text": "Todas as Autoclave, acessórios e Mobiliário técnico entraram entrarão em promoção na Black Friday 2024 do site da Idealine",
+      "text": "A black Friday Ideal terá oportunidades e descontos em todas os produtos do site.",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -364,7 +364,7 @@
   },
   "rich-text#como-aproveitar-resposta": {
     "props": {
-      "text": "Se você não quiser ficar de fora das promoções e novidades que a Idealine irá trazer na Black Friday 2024, se cadastre no formulário abaixo e recebe as nossas ofertas exclusivas com antecedência.",
+      "text": "Se você não quiser ficar de fora das promoções e novidades que a Idealine irá trazer na Black Friday 2024, se cadastre no formulário abaixo e receba as nossas ofertas exclusivas com antecedência, dessa forma você garante sua compra com tranquilidade e a segurança que merece.\nNão fique de fora, cadastre-se já!",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -400,7 +400,7 @@
       "flex-layout.row#primeira-linha-bf-newsletter",
       "flex-layout.row#segunda-linha-bf-newsletter",
 
-      "form-input.checkbox#bfQualproduto",
+      // "form-input.checkbox#bfQualproduto",
       "form-submit#blackfriday"
 
     ]
