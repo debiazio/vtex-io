@@ -7,6 +7,7 @@
       "menu-item#ver-tudo",
       "menu-item#submenuPronta-entrega",
       "menu-item#idealclave-bellinha",
+      "menu-item#labelle",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
@@ -48,6 +49,7 @@
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudoBellinha",
+      "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
@@ -87,6 +89,21 @@
         "text": "Pronta Entrega"
       },
       "blockClass": "menu-superior"
+    }
+  },
+  "menu-item#submenuVerTudoLaBelle": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-la-belle",
+        "noFollow": false,
+        "tagTitle": "La Belle",
+        "text": "La Belle"
+      },
+      "blockClass": "menu-dropdown"
     }
   },
   "menu-item#submenuVerTudoDrMarcelo": {
@@ -555,6 +572,22 @@
     }
   },
 
+  "menu-item#labelle": {
+    "props": {
+      "id": "menu-principal",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-la-belle",
+        "noFollow": false,
+        "tagTitle": "La Belle",
+        "text": "La Belle"
+      },
+      "blockClass": "menu-superior"
+    }
+  },
+
   "menu-item#dr-marcelo-brito": {
     "props": {
       "id": "menu-principal",
@@ -662,6 +695,7 @@
       "menu-item#ver-tudo-mobile",
       "menu-item#pronta-entrega-mobile",
       "menu-item#idealclave-bellinha-mobile",
+      "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
@@ -932,6 +966,21 @@
         "noFollow": false,
         "tagTitle": "Idealclave Bellinha",
         "text": "Idealclave Bellinha"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
+  },
+  "menu-item#la-belle-mobile": {
+    "props": {
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealclave-la-belle",
+        "noFollow": false,
+        "tagTitle": "La Belle",
+        "text": "La Belle"
       },
       "blockClass": "menu-superior-mobile"
     }
