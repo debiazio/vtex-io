@@ -47,6 +47,7 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+  margin-top: 36px;
 }
 
 
@@ -72,6 +73,7 @@
 
 .phoneInputContainer--inputs-form-roleta :global(.vtex-input__label) {
   color: white;
+  margin-bottom: 20px;
 }
 
 .emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
@@ -86,8 +88,6 @@
 
 .confirmationCheckboxContainer--termo-concordo-roleta {
   width: 100%;
-  padding-left: 15px;
-  margin-top: 15px;
 }
 
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){

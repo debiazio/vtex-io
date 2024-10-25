@@ -63,7 +63,7 @@
   "rich-text#black-friday-subtitulo": {
     "props": {
       "blockClass": "subtitulo-bf",
-      "text": "A partir do dia 1º a 30 de novembro começam as melhores promoções.\nNão fique de fora!\nTrouxemos condições especiais ! Aproveite o **MENOR PREÇO DO ANO** em **TODOS** os produtos do site, com parcelamento em até **10x SEM JUROS**.\nE tem mais: nas compras de autoclaves de 5 ou 8 litros , você ganha três brindes, haste, separador e copo medidor Idealovers para completar seu kit.\nAlém disso, participe da nossa **ROLETA DE PRÊMIOS** exclusiva e concorra a descontos e brindes especiais durante todo o período da Black Friday Idealine.\nGaranta já sua autoclave com menor preço com a líder de mercado.\nEleve seus serviços a um novo patamar oferecendo saúde e segurança aos seus clientes.\nCadastre já para receber tudo antecipadamente."
+      "text": "A partir do dia 4 a 30 de novembro começam as melhores promoções.\nNão fique de fora!\nTrouxemos condições especiais ! Aproveite o **MENOR PREÇO DO ANO** em **TODOS** os produtos do site, com parcelamento em até **10x SEM JUROS**.\nE tem mais: nas compras de autoclaves de 5 ou 8 litros , você ganha três brindes, haste, separador e copo medidor Idealovers para completar seu kit.\nAlém disso, participe da nossa **ROLETA DE PRÊMIOS** exclusiva e concorra a descontos e brindes especiais durante todo o período da Black Friday Idealine.\nGaranta já sua autoclave com menor preço com a líder de mercado.\nEleve seus serviços a um novo patamar oferecendo saúde e segurança aos seus clientes.\nCadastre já para receber tudo antecipadamente."
     }
   },
   // CONTAINER AREA DAS FAQS - SECAO PRINCIPAL
@@ -83,7 +83,6 @@
     },
     "children": [
       "rich-text#black-friday-faq-titulo"
-      // "rich-text#black-friday-faq-subtitulo"
     ]
   },
   "rich-text#black-friday-faq-titulo": {
@@ -92,12 +91,7 @@
       "text": "### OPORTUNIDADES IMPERDÍVEIS NA BLACK IDEAL EM NOVEMBRO"
     }
   },
-  "rich-text#black-friday-faq-subtitulo": {
-    "props": {
-      "blockClass": "subSubtitulo-bf-faq",
-      "text": "Abaixo reunimos as principais informações sobre o evento mais aguardado do ano"
-    }
-  },
+
   // SECAO FAQ - DISCLOSURE
   "flex-layout.col#black-friday-faq-listagem": {
     "props": {
@@ -148,7 +142,7 @@
   },
   "rich-text#quando-resposta": {
     "props": {
-      "text": "A black friday do site da Idealine irá começar dia 1º de novembro e todos as ações e preços seguirão vigente durante o mês.",
+      "text": "A black friday do site da Idealine irá começar dia 4 de novembro e todos as ações e preços seguirão vigente durante o mês.",
       "blockClass": "texto-disclosure-resposta"
     }
   },
@@ -220,7 +214,7 @@
   },
   "rich-text#formas-pgto-resposta": {
     "props": {
-      "text": "**Oferecemos as melhores condições para você conseguir conquistar seu sonho de ter uma autoclave da Idealine.**Aceitamos os seguintes cartões de crédito:\nAmex,  Dinners Club, Visa, MasterCard, Elo e Hipercard.\nTambém aceitamos pagamentos via PayMee, boleto bancário e Pix. Fazemos o parcelamento em até 10x sem juros.\nCaso não tenha crédito no seu cartão também temos o boleto KOIN parcelado sujeito a análise da operadora. Caso precise pagar em cartões diferentes ou dar um sinal de entrada converse com nossas consultoras que elas facilitarão a compra para você!\n**A Idealine não solicita dados de cartão , os pagamentos são feitos através de links direto na operadora.**",
+      "text": "**Oferecemos as melhores condições para você conseguir conquistar seu sonho de ter uma autoclave da Idealine. **Aceitamos os seguintes cartões de crédito:\nAmex,  Dinners Club, Visa, MasterCard, Elo e Hipercard.\nTambém aceitamos pagamentos via PayMee, boleto bancário e Pix. Fazemos o parcelamento em até 10x sem juros.\nCaso não tenha crédito no seu cartão também temos o boleto KOIN parcelado sujeito a análise da operadora. Caso precise pagar em cartões diferentes ou dar um sinal de entrada converse com nossas consultoras que elas facilitarão a compra para você!\n**A Idealine não solicita dados de cartão , os pagamentos são feitos através de links direto na operadora.**",
       "blockClass": "texto-disclosure-resposta"
     }
   },

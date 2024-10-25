@@ -1105,7 +1105,7 @@
 /* layout roleta */
 .flexRow--row-form-roleta {
   min-width: 400px;
-  margin: 40px;
+  margin: 20px 40px;
 }
 
 .flexRowContent--row-form-roleta {
