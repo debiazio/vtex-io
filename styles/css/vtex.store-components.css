@@ -425,6 +425,20 @@
   max-width: 60%;
 }
 
+/* logo roleta */
+.imageElement--roleta-logotipo-idelaine{
+  background-color: #fc51a7;
+  width: 380px;
+  position: absolute;
+  top: 0;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px 144px;
+}
+
+.imageElement--titulo-img-roleta{
+  width: 657px;
+  margin-top: 40px;
+}
 
 @media screen and (max-width: 1024px) {
   .imageElement--imagem-mobile-quem-somos{

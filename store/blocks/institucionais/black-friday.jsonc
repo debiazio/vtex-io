@@ -569,14 +569,14 @@
   //     "flex-layout.row#black-friday-checkboxes"
   //   ]
   // },
-  "flex-layout.row#black-friday-titulo-checkboxes": {
-    "props": {
-      "blockClass": "container-titulo-checkboxes-black-friday"
-    },
-    "children": [
-      "rich-text#titulo-checkboxes"
-    ]
-  },
+  // "flex-layout.row#black-friday-titulo-checkboxes": {
+  //   "props": {
+  //     "blockClass": "container-titulo-checkboxes-black-friday"
+  //   },
+  //   "children": [
+  //     "rich-text#titulo-checkboxes"
+  //   ]
+  // },
   "rich-text#titulo-checkboxes": {
     "props": {
       "blockClass": "titulo-checkbox-black-friday",

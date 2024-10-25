@@ -29,15 +29,15 @@
   //   ]
   // },
 
-  "flex-layout.col#contato": {
-    "props": {
-      "blockClass": "fale-conosco-campos"
-    },
-    "children": [
-      "rich-text#contato",
-      "form#contato"
-    ]
-  },
+  // "flex-layout.col#contato": {
+  //   "props": {
+  //     "blockClass": "fale-conosco-campos"
+  //   },
+  //   "children": [
+  //     "rich-text#contato",
+  //     "form#contato"
+  //   ]
+  // },
   "rich-text#contato": {
     "props": {
       "text": "## Fale Conosco"

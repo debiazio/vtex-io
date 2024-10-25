@@ -445,7 +445,7 @@
   padding: 0 30px 0 30px;
 }
 
-.container--texto-disclosure-resposta{
+.container--texto-disclosure-resposta {
   display: flex;
   justify-content: center;
 }
@@ -519,13 +519,14 @@
   text-wrap: wrap;
   text-align: center;
   padding-left: 15px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .wrapper--titulo-form-roleta {
   color: #ffffff;
-  font-size: 40px;
-  text-wrap: wrap;
   text-align: center;
+  width: 300px;
 }
 
 .paragraph--confirm-form-roleta {
@@ -541,9 +542,50 @@
   padding-top: 100px;
 }
 
-.strong--texto-rules-roleta{
+.strong--texto-rules-roleta {
   color: #ffffff;
 }
+
+.paragraph--subtitulo-form-roleta {
+  font-family: "Rubik semibold";
+  color: #ff489c;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  text-shadow:
+    0 0 1px #ff489c,
+    0 0 5px #ff489c,
+    0 0 10px #ff489c,
+    0 0 15px #ff489c,
+    0 0 20px #ff489c;
+}
+
+.paragraph--texto2-roleta {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 900;
+  color:  #ffffff;
+  font-family: "Rubik";
+  
+  /* Efeito de glow */
+  text-shadow:
+    0 0 5px #00b3d8,
+    0 0 10px #00b3d8,
+    0 0 15px #00b3d8,
+    0 0 20px rgba(255, 23, 135, 0.854),
+    0 0 30px rgba(255, 23, 137, 0.7),
+    0 0 40px rgba(255, 23, 137, 0.7);
+}
+
+.paragraph--subtitulo-roleta{
+  color: #ff489c;
+  font-family: "Rubik Semibold";
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0;
+}
+
+
 
 @media screen and (max-width: 1024px) {
   .container--texto-rules-roleta {
@@ -556,38 +598,36 @@
   .wrapper--titulo-form-roleta {
     font-size: 30px;
     margin-top: 20px;
-}
+  }
 
-.wrapper--subtitulo-roleta {
-  font-size: 12px;
-  padding-left: 0;
-}
+  .wrapper--subtitulo-roleta {
+    font-size: 12px;
+    padding-left: 0;
+  }
 
-.paragraph--subtitulo-roleta{
-  margin: 0;
-}
+  .paragraph--subtitulo-roleta {
+    margin: 0;
+  }
 
-.paragraph--confirm-form-roleta {
-  font-size: 19px;
-  font-weight: bold;
-}
+  .paragraph--confirm-form-roleta {
+    font-size: 19px;
+    font-weight: bold;
+  }
 
-.container--confirm-form-roleta{
-  text-align: center;
-}
+  .container--confirm-form-roleta {
+    text-align: center;
+  }
 }
 
 
 @media screen and (max-width: 400px) {
-  .paragraph--texto-rules-roleta{
+  .paragraph--texto-rules-roleta {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px;
   }
 
-  .wrapper--confirm-form-roleta{
+  .wrapper--confirm-form-roleta {
     display: flex;
   }
 }
-
-
