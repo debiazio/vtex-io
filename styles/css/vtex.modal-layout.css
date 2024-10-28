@@ -48,7 +48,7 @@
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: transparent;
-  box-shadow: -4px 0px 27px -12px transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.726);
 }
 
 .actionsContentWrapper {
@@ -112,6 +112,12 @@
 
 
 /* MODAL DA ROLETA */
+.container--form-roleta{
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: #0000;
+}
+
 .paper--form-roleta {
   flex-direction: row;
   align-items: center;

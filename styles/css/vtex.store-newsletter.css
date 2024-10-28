@@ -92,11 +92,13 @@
 
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){
   color: #ffff;
+  font-size: 14px;
 }
+
 
 .formSubmitContainer--submit-button{
   border: none;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button){
@@ -123,6 +125,15 @@
 }
 .nameInputContainer--inputs-form-roleta {
   background-color: #ffff;
+}
+
+/* email error */
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input__error),
+.nameInputContainer--inputs-form-roleta :global(.vtex-input__error),
+.emailInputContainer--inputs-form-roleta :global(.vtex-input__error){
+  background-color: black;
+  margin: 0;
+  padding: 10px 0px 0 0;
 }
 
 

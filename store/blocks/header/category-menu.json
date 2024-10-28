@@ -7,6 +7,7 @@
       "menu-item#ver-tudo",
       "menu-item#submenuPronta-entrega",
       "menu-item#idealclave-bellinha",
+      "menu-item#dr-marcelo-brito",
       "menu-item#labelle",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
@@ -49,6 +50,7 @@
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudoBellinha",
+      "menu-item#submenuVerTudoDrMarcelo",
       "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
@@ -695,6 +697,7 @@
       "menu-item#ver-tudo-mobile",
       "menu-item#pronta-entrega-mobile",
       "menu-item#idealclave-bellinha-mobile",
+      "menu-item#dr-marcelo-mobile",
       "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",

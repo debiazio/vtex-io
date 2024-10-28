@@ -530,16 +530,24 @@
   color: white;
   font-size: 40px;
   font-weight: bold;
+  font-family: "Rubik";
+  display: none;
+}
+
+.container--titulo-regras-roleta{
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 .container--texto-rules-roleta {
   width: 100%;
-  font-size: 16px;
-  padding-top: 20px;
+  font-size: 14px;
+  padding-top: 10px;
   color: #ffffff;
   text-shadow:
   0 0 1px #ffffff,
-  0 0 5px #ffffff
+  0 0 5px #ffffff;
+  font-family: "Rubik";
 }
 
 .paragraph--texto-rules-roleta {
@@ -549,7 +557,7 @@
 .paragraph--subtitulo-form-roleta {
   font-family: "Rubik semibold";
   color: #ff489c;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
   margin: 0;
   text-shadow:
@@ -562,7 +570,7 @@
 
 .paragraph--texto2-roleta {
   margin: 0;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 900;
   color:  #ffffff;
   font-family: "Rubik";
@@ -580,7 +588,7 @@
 .paragraph--subtitulo-roleta{
   color: #ff489c;
   font-family: "Rubik Semibold";
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
   margin: 0;
 }

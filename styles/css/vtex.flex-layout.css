@@ -1105,7 +1105,7 @@
 /* layout roleta */
 .flexRow--row-form-roleta {
   min-width: 400px;
-  margin: 20px 40px;
+  margin: 0 0 20px 40px;
 }
 
 .flexRowContent--row-form-roleta {
@@ -1114,8 +1114,15 @@
 }
 
 .flexRowContent--row-form-roleta .stretchChildrenWidth {
-  width: 100%!important;
+  width: 90%!important;
 }
+
+/* layout 2 - roleta */
+.flexRowContent--layout2-roleta{
+  display: flex;
+  flex-direction: column;
+}
+
 
 @media screen and (max-width: 1024px) {
   .flexRow--row-form-roleta {
