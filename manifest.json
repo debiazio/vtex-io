@@ -69,8 +69,7 @@
     "vtex.search": "2.x",
     "vtex.store-newsletter": "1.x",
     "vtex.iframe": "0.x",
-    "mfmgroup.scriptrd": "0.x",
-    "mfmgroup.roleta": "0.x"
+    "mfmgroup.scriptrd": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

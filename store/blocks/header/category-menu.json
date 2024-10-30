@@ -7,7 +7,6 @@
       "menu-item#ver-tudo",
       "menu-item#submenuPronta-entrega",
       "menu-item#idealclave-bellinha",
-      "menu-item#dr-marcelo-brito",
       "menu-item#labelle",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
@@ -50,7 +49,6 @@
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudoBellinha",
-      "menu-item#submenuVerTudoDrMarcelo",
       "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
@@ -104,21 +102,6 @@
         "noFollow": false,
         "tagTitle": "La Belle",
         "text": "La Belle"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuVerTudoDrMarcelo": {
-    "props": {
-      "id": "menu-dropdown",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/dr--marcelo-brito",
-        "noFollow": false,
-        "tagTitle": "Dr. Marcelo Brito",
-        "text": "Dr. Marcelo Brito"
       },
       "blockClass": "menu-dropdown"
     }
@@ -590,21 +573,6 @@
     }
   },
 
-  "menu-item#dr-marcelo-brito": {
-    "props": {
-      "id": "menu-principal",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/dr--marcelo-brito",
-        "noFollow": false,
-        "tagTitle": "Dr. Marcelo Brito",
-        "text": "Dr. Marcelo Brito"
-      },
-      "blockClass": "menu-superior"
-    }
-  },
   "menu-item#idealclave-bellinha": {
     "props": {
       "id": "menu-principal",
@@ -697,7 +665,6 @@
       "menu-item#ver-tudo-mobile",
       "menu-item#pronta-entrega-mobile",
       "menu-item#idealclave-bellinha-mobile",
-      "menu-item#dr-marcelo-mobile",
       "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
@@ -785,21 +752,7 @@
       "blockClass": "menu-superior-mobile"
     }
   },
-  "menu-item#dr-marcelo-mobile": {
-    "props": {
-      "id": "menu-principal-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/dr--marcelo-brito",
-        "noFollow": false,
-        "tagTitle": "Dr. Marcelo Brito",
-        "text": "Dr. Marcelo Brito"
-      },
-      "blockClass": "menu-superior-mobile"
-    }
-  },
+
   "menu-item#beleza-estetica-mobile": {
     "props": {
       "id": "menu-principal-mobile",
