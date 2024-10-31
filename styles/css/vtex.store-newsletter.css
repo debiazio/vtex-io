@@ -157,6 +157,17 @@
     border: none;
     padding-top: 10px;
   }
+
+  /* ROLETA  */
+  .phoneInputContainer--inputs-form-roleta {
+    width: fit-content;
+  }
+  .emailInputContainer--inputs-form-roleta {
+    width: fit-content;
+  }
+  .nameInputContainer--inputs-form-roleta {
+    width: fit-content;
+  }
 }
 
 @media screen and (max-width: 400px) {

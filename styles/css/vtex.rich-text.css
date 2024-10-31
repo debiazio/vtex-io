@@ -611,6 +611,7 @@
   .wrapper--subtitulo-roleta {
     font-size: 12px;
     padding-left: 0;
+    width: 356px;
   }
 
   .paragraph--subtitulo-roleta {
@@ -623,6 +624,12 @@
   }
 
   .container--confirm-form-roleta {
+    text-align: center;
+  }
+
+  /* ROLETA  */
+  .paragraph--texto2-roleta {
+    font-size: 14px;
     text-align: center;
   }
 }

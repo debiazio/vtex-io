@@ -136,6 +136,7 @@
     justify-content: center;
     display: flex;
     padding-bottom: 10px;
+    background-image: url('Fundo_versão_mobile.png');
   }
 }
 

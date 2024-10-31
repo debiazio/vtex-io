@@ -452,6 +452,18 @@
 }
 
 @media screen and (max-width: 1024px) {
+    /* ROLETA */
+    .imageElement--roleta-logotipo-idelaine {
+      width: 120px;
+    }
+
+    .imageElement--titulo-img-roleta {
+      width: 300px!important;
+      margin-top: 240px!important;
+  }
+
+
+
   .imageElement--imagem-mobile-quem-somos{
     width: 100%;
   }
@@ -554,4 +566,7 @@
     padding-right: 0;
   }
 
+
 }
+
+

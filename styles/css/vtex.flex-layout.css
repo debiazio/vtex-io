@@ -63,6 +63,7 @@
 }
 
 .flexRow--deals {
+  /* background-color: black; blackfriday */
 
   background-image: linear-gradient(to bottom,
       rgb(209, 86, 209, 0.884) 0%,
