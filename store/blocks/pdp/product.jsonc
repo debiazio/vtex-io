@@ -137,10 +137,6 @@
 
       "sku-selector",
       "flex-layout.row#mobile-quantidade-cep",
-      // "condition-layout.product#brinde-autoclaves-mobile-5l",
-      // "condition-layout.product#brinde-autoclaves-mobile-5litros",
-      // "condition-layout.product#brinde-autoclaves-mobile-8l",
-      // "condition-layout.product#brinde-autoclaves-mobile-8litros",
       "flex-layout.row#vantagens-pgto-a-vista",
       // "product-gifts",
       // "product-questions-and-answers",
@@ -175,99 +171,6 @@
       "width": "60%"
     }
   },
-// condicional brinde mobile
-"condition-layout.product#brinde-autoclaves-mobile-5l": {
-  "props": {
-    "conditions": [{
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Capacidade",
-          "value": "5L"
-        }
-      }
-    ],
-    "Then": "flex-layout.row#custom-pdp-brindes-mobile-5l-8l"
-  }
-},
-"condition-layout.product#brinde-autoclaves-mobile-5litros": {
-  "props": {
-    "conditions": [{
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Capacidade",
-          "value": "5 Litros"
-        }
-      }
-    ],
-    "Then": "flex-layout.row#custom-pdp-brindes-mobile-5l-8l"
-  }
-},
-"condition-layout.product#brinde-autoclaves-mobile-8l": {
-  "props": {
-    "conditions": [{
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Capacidade",
-          "value": "8L"
-        }
-      }
-    ],
-    "Then": "flex-layout.row#custom-pdp-brindes-mobile-5l-8l"
-  }
-},
-"condition-layout.product#brinde-autoclaves-mobile-8litros": {
-  "props": {
-    "conditions": [{
-        "subject": "specificationProperties",
-        "arguments": {
-          "name": "Capacidade",
-          "value": "8 Litros"
-        }
-      }
-    ],
-    "Then": "flex-layout.row#custom-pdp-brindes-mobile-5l-8l"
-  }
-},
-// CONDICIONAL DO BRINDE mobile
-"flex-layout.row#custom-pdp-brindes-mobile-5l-8l": {
-  "props": {
-    "blockClass": "mobile-condicional-brinde-5l-8l"
-  },
-  "children": [
-    "flex-layout.col#titulo-brindes-mobile-5l-8l",
-    "image#brinde-mobile-5l-8l"
-  ]
-},
-"image#brinde-mobile-5l-8l":{
-  "props": {
-    "src": "assets/Porta Esmalte.webp",
-    "alt": "Brinde autoclaves 5l e 8l",
-    "blockClass": "mobile-img-brindes-5l-8l"
-  }
-},
-"flex-layout.col#titulo-brindes-mobile-5l-8l":{
-  "props": {
-    "blockClass": "mobile-container-textos-brindes"
-  },
-  "children": [
-    "rich-text#titulo-mobile-brindes",
-    "rich-text#texto-brindes-mobile"
-
-  ]
-},
-"rich-text#titulo-mobile-brindes":{
-  "props": {
-    "text": "COMPRE E GANHE",
-    "blockClass": "mobile-titulo-brindes"
-  }
-},
-"rich-text#texto-brindes-mobile":{
-  "props": {
-    "text": "Brinde: **Porta esmaltes Idealovers By MAD.U.**\n*Esmaltes não estão incluídos* ",
-    "blockClass": "mobile-texto-brindes"
-  }
-},
-
 
   // LINHA DE PREÇO PARCELADO MOBILE
   "flex-layout.row#linha-parcelas": {
@@ -308,10 +211,6 @@
       // "product-gifts",
       // "product-questions-and-answers",
       // "flex-layout.row#video",
-      "condition-layout.product#brinde-autoclaves-5l",
-      "condition-layout.product#brinde-autoclaves-5litros",
-      "condition-layout.product#brinde-autoclaves-8l",
-      "condition-layout.product#brinde-autoclaves-8litros",
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",

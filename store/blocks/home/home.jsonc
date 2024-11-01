@@ -274,26 +274,6 @@
       "blockClass": "carousel"
     }
   },
-  // SECAO BANNER SECUNDÁRIO
-  "list-context.image-list#banner-secundario": {
-    "children": [
-      "slider-layout#sec-banner"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-        "image": "assets/02.Banner_site_outubro_Rosa.webp",
-        "mobileImage": "assets/outubro-rosa-mobile.webp",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
-        }
-      }]
-    },
-    "title": "Banner secundário"
-  },
   "slider-layout#sec-banner": {
     "props": {
       "itemsPerPage": {
