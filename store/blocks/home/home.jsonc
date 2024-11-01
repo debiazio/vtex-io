@@ -5,7 +5,7 @@
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
-      "list-context.image-list#banner-secundario",
+      // "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
       // "modal-trigger#roleta",
 
