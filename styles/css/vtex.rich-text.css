@@ -596,6 +596,22 @@
 
 
 @media screen and (max-width: 1024px) {
+  .container--titulo-regras-roleta{
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraph--subtitulo-roleta {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .paragraph--texto2-roleta{
+    font-size: 17px;
+    text-align: center;
+  }
+
   .container--texto-rules-roleta {
     width: fit-content;
     padding-left: 0;

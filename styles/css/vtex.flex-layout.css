@@ -697,7 +697,23 @@
   display: none;
 }
 
+.flexRowContent--rules-roleta-container{
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1024px) {
+  .flexRowContent--rules-roleta-container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 400px;
+      position: relative;
+      bottom: -200px;
+  }
+
   .flexCol--conteudo-institucionais {
     padding: 0;
   }

@@ -336,7 +336,7 @@
 }
 
 /* imagem produto: BRANCO PEROLA */
-.imageElement--branco-perola-child{
+.imageElement--branco-perola-child {
   width: 100%;
 }
 
@@ -368,7 +368,7 @@
   padding: 14px;
 }
 
-.imageElementLink--seguranca-mobile{
+.imageElementLink--seguranca-mobile {
   display: grid;
 }
 
@@ -390,7 +390,7 @@
   align-items: center;
 }
 
-.imageElementLink--redes-footer-mobile{
+.imageElementLink--redes-footer-mobile {
   display: contents;
   padding: 0 30px 0 30px;
 }
@@ -411,22 +411,22 @@
 
 /* final aqui */
 
-.imageElement--icone-institucionais-active{
+.imageElement--icone-institucionais-active {
   padding-left: 20px;
 }
 
 /* brindes 5l e 8l */
-.imageElement--img-brindes-5l-8l{
+.imageElement--img-brindes-5l-8l {
   width: 200px;
 }
 
 /* brindes mobile  */
-.imageElement--mobile-img-brindes-5l-8l{
+.imageElement--mobile-img-brindes-5l-8l {
   max-width: 60%;
 }
 
 /* logo roleta */
-.imageElement--roleta-logotipo-idelaine{
+.imageElement--roleta-logotipo-idelaine {
   background-color: #fc51a7;
   width: 300px;
   position: absolute;
@@ -436,48 +436,58 @@
 }
 
 /* logo roleta layout 2 */
-.imageElement--layout2-roleta-logo{
-    background-color: #fc51a7;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    border-radius: 0px 0px 10px 10px;
-    padding: 10px 55px;
+.imageElement--layout2-roleta-logo {
+  background-color: #fc51a7;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px 55px;
 
 }
 
-.imageElement--titulo-img-roleta{
+.imageElement--titulo-img-roleta {
   width: 400px;
   margin-top: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-  .imageElement--imagem-mobile-quem-somos{
+  .imageElement--titulo-img-roleta {
+    width: 270px;
+    margin-top: 400px;
+  }
+
+  .imageElement--roleta-logotipo-idelaine {
+    width: 120px;
+  }
+
+  .imageElement--imagem-mobile-quem-somos {
     width: 100%;
   }
 
   .imageElement--imagem-quem-somos {
     display: none;
   }
-  /* imagens */
-:global(.vtex-flex-layout-0-x-flexRowContent--certificados) {
-  gap: 10px;
-}
 
-  .imageElement--gif-animado-parcelas-img{
+  /* imagens */
+  :global(.vtex-flex-layout-0-x-flexRowContent--certificados) {
+    gap: 10px;
+  }
+
+  .imageElement--gif-animado-parcelas-img {
     height: 80px;
   }
 
-  .imageElement--imagem-informacoes{
+  .imageElement--imagem-informacoes {
     display: flex;
   }
 
-  .skuSelectorContainer{
+  .skuSelectorContainer {
     justify-content: center;
     display: flex;
   }
 
-  :global(.vtex-rich-text-0-x-container--titulo-certificadoes){
+  :global(.vtex-rich-text-0-x-container--titulo-certificadoes) {
     margin-top: 50px;
   }
 
@@ -509,21 +519,31 @@
     width: max-content;
   }
 
-  .swiperCaretNext, .swiperCaret{
+  .swiperCaretNext,
+  .swiperCaret {
     display: none;
   }
 
-  .swiper-pagination{
+  .swiper-pagination {
     bottom: 0px;
   }
 
-  .carouselGaleryCursor{
+  .carouselGaleryCursor {
     height: 100%;
   }
 
 }
 
+@media screen and (max-width: 400px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 65vh;
+    width: 200px;
+  }
+}
+
 @media only screen and (min-width: 340px) {
+
+
   .newsletter-form .container {
     padding: 140px;
   }
@@ -549,7 +569,7 @@
     margin-left: 0px;
   }
 
-  :global(.vtex-store-components-3-x-container){
+  :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
     padding-right: 0;
   }
