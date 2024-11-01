@@ -122,7 +122,8 @@
   "product-spot-price-savings": {
     "props": {
       "blockClass": "summary",
-      "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
+      "message": "À VISTA GANHE 3% DE DESCONTO"
+      // "message": "OU {newSpotPriceValue} À VISTA  NO BOLETO (3% DE DESCONTO)"
     }
   },
   // "flex-layout.row#selling-price-savings": {
