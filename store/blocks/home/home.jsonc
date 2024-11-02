@@ -70,8 +70,7 @@
       "newsletter-input-name#roleta",
       "newsletter-input-email#roleta",
       "newsletter-input-phone#roleta",
-      "newsletter-checkbox-confirmation#roleta",
-      "newsletter-checkbox-confirmation#roleta-termos",
+      "flex-layout.row#confirm",
       "newsletter-submit#roleta",
       "flex-layout.row#rules"
     ]
@@ -93,7 +92,7 @@
 
   "rich-text#subtitulo-form-roleta": {
     "props": {
-      "text": "**USE SUA SORTE**",
+      "text": "**APOSTE NA SUA SORTE**",
       "blockClass": "subtitulo-form-roleta"
     }
   },
@@ -133,7 +132,15 @@
       "blockClass": "submit-button"
     }
   },
-
+  "flex-layout.row#confirm":{
+    "props": {
+      "blockClass": "conteiner-confirmacao"
+    },
+    "children": [
+      "newsletter-checkbox-confirmation#roleta",
+      "newsletter-checkbox-confirmation#roleta-termos"
+    ]
+  },
   "newsletter-checkbox-confirmation#roleta": {
     "props": {
       "checkboxLabel": "Eu concordo em  receber comunicações.",
@@ -143,7 +150,7 @@
   "newsletter-checkbox-confirmation#roleta-termos": {
     "props": {
       "checkboxLabel": "Li e aceito os termos da política de privacidade",
-      "blockClass": "termo-concordo-roleta"
+      "blockClass":  "aceito-termos"
     }
   },
   "flex-layout.row#rules": {

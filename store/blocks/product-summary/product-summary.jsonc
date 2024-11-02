@@ -29,7 +29,8 @@
       "width": "80%"
     },
     "children": [
-      "product-installments#summary" // parcelamento
+      "product-installments#summary", // parcelamento
+      "product-installments#summary-segunda-linha"
     ]
   },
   "flex-layout.col#coluna2-parcelamento":{
@@ -149,7 +150,13 @@
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão ou {installmentsTotalValue}} false { }}"
+      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros} false { }}"
+    }
+  },
+  "product-installments#summary-segunda-linha": {
+    "props": {
+      "blockClass": "summary-segunda",
+      "message": "{hasMoreThanOne, select, true { no cartão ou {installmentsTotalValue}} false { }}"
     }
   },
   // //linha adicionada para teste - botao comprar

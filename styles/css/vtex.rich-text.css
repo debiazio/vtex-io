@@ -603,13 +603,17 @@
 
   .paragraph--subtitulo-roleta {
     font-size: 16px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 300px;
   }
 
   .paragraph--texto2-roleta{
     font-size: 17px;
     text-align: center;
+    padding: 0;
+    width: 250px;
   }
 
   .container--texto-rules-roleta {
@@ -627,6 +631,7 @@
   .wrapper--subtitulo-roleta {
     font-size: 12px;
     padding-left: 0;
+    margin-bottom: 20px;
   }
 
   .paragraph--subtitulo-roleta {

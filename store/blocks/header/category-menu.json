@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#ver-tudo",
-      "menu-item#submenuPronta-entrega",
+      "menu-item#submenuBlackFriday",
       "menu-item#idealclave-bellinha",
       "menu-item#labelle",
       "menu-item#beleza-estetica",
@@ -48,6 +48,7 @@
     },
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
+      "menu-item#submenuVerTudo-black-friday",
       "menu-item#submenuVerTudoBellinha",
       "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
@@ -55,7 +56,6 @@
       "menu-item#submenuVerTudo-clinicas-hospitais",
       "menu-item#submenuVerTudo-mobiliario-tecnico",
       "menu-item#submenuVerTudo-odontologia",
-      "menu-item#submenuVerTudo-pronta-entrega",
       "menu-item#submenuVerTudo-pronta-entrega-horizontal"
 
 
@@ -74,6 +74,21 @@
         "text": "Acessórios para Esterilização"
       },
       "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuBlackFriday": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
+      },
+      "blockClass": "menu-superior"
     }
   },
   "menu-item#submenuPronta-entrega": {
@@ -151,7 +166,7 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#submenuVerTudo-pronta-entrega": {
+  "menu-item#submenuVerTudo-black-friday": {
     "props": {
       "id": "menu-dropdown",
       "type": "custom",
@@ -160,8 +175,8 @@
         "type": "internal",
         "href": "/pronta-entrega#",
         "noFollow": false,
-        "tagTitle": "Pronta Entrega",
-        "text": "Pronta Entrega"
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
       },
       "blockClass": "menu-dropdown"
     }
@@ -324,7 +339,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-
   "menu-item#odontologia": {
     "props": {
       "id": "menu-principal",

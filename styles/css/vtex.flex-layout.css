@@ -63,15 +63,15 @@
 }
 
 .flexRow--deals {
-
-  background-image: linear-gradient(to bottom,
+  background-color: black;
+  /* background-image: linear-gradient(to bottom,
       rgb(209, 86, 209, 0.884) 0%,
       var(--violeta) 15%,
       var(--violeta) 25%,
       var(--violeta) 50%,
       var(--violeta) 75%,
       var(--violeta) 85%,
-      rgba(209, 86, 209, 0.884) 100%);
+      rgba(209, 86, 209, 0.884) 100%); */
   padding: 14px 0;
   padding: 10px;
 }
@@ -697,22 +697,44 @@
   display: none;
 }
 
-.flexRowContent--rules-roleta-container{
+.flexRowContent--rules-roleta-container {
   display: flex;
   flex-direction: column;
+  padding: 0 0 0 55px;
+}
+
+.flexCol--coluna-direita-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRowContent--rules-roleta-container{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      margin-top: 400px;
-      position: relative;
-      bottom: -200px;
+  .flexColChild--coluna-esquerda-roleta {
+    display: flex;
+    justify-content: center;
   }
+
+  .flexCol--coluna-direita-roleta {
+    display: flex;
+    flex-direction: column;
+    margin-top: -549px;
+  }
+
+
+  .flexRowContent--rules-roleta-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    position: relative;
+    bottom: -102px;
+    padding-bottom: 15px;
+    padding: 0;
+  }
+
 
   .flexCol--conteudo-institucionais {
     padding: 0;
@@ -1130,17 +1152,38 @@
 }
 
 .flexRowContent--row-form-roleta .stretchChildrenWidth {
-  width: 90%!important;
+  width: 90% !important;
 }
 
 /* layout 2 - roleta */
-.flexRowContent--layout2-roleta{
+.flexRowContent--layout2-roleta {
   display: flex;
   flex-direction: column;
 }
 
+.flexCol--coluna-esquerda-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--conteiner-confirmacao {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 0 10px 0;
+  padding-left: 30px;
+}
+
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--conteiner-confirmacao {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px 0 10px 0;
+  }
+
   .flexRow--row-form-roleta {
     display: flex;
     flex-direction: column;
@@ -1152,6 +1195,11 @@
 @media screen and (max-width: 400px) {
   .flexRowContent--row-form-roleta .stretchChildrenWidth {
     width: unset;
+  }
+
+  .flexColChild--coluna-direita-roleta {
+    display: flex;
+    justify-content: center;
   }
 
 }

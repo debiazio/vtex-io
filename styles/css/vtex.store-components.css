@@ -433,6 +433,7 @@
   top: 0;
   border-radius: 0px 0px 10px 10px;
   padding: 10px 55px;
+  margin-left: -15%;
 }
 
 /* logo roleta layout 2 */
@@ -448,17 +449,22 @@
 
 .imageElement--titulo-img-roleta {
   width: 400px;
-  margin-top: 40px;
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--roleta-primeira-tela {
+    padding-bottom: 10px;
+  }
+
   .imageElement--titulo-img-roleta {
-    width: 270px;
-    margin-top: 400px;
+    margin-top: 150px;
+    padding: 10px 0 10px 0;
+    width: 100%;
   }
 
   .imageElement--roleta-logotipo-idelaine {
     width: 120px;
+    margin-left: 0;
   }
 
   .imageElement--imagem-mobile-quem-somos {
@@ -536,8 +542,13 @@
 
 @media screen and (max-width: 400px) {
   .imageElement--titulo-img-roleta {
-    margin-top: 65vh;
-    width: 200px;
+    margin-top: 150px;
+    width: 254px;
+    padding: 10px 0 10px 0;
+  }
+
+  .imageElement--roleta-primeira-tela {
+    width: 250px;
   }
 }
 

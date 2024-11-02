@@ -37,7 +37,10 @@
   background-color: transparent;
 }
 
-
+.confirmationCheckboxContainer--termo-concordo-roleta  :global(.vtex-checkbox__line-container){
+  display: flex;
+  text-align: left;
+}
 
 
 /* form -roleta */
@@ -52,12 +55,13 @@
 }
 
 
+
 .nameInputContainer,
 .emailInputContainer,
 .phoneInputContainer {
-  width: 100%;
+  width: 446px;
   color: white;
-
+  margin-bottom: 7px;
 }
 
 .nameInputContainer :global(.vtex-input__label),
@@ -95,6 +99,13 @@
   color: #ffff;
   font-size: 14px;
 }
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
+  text-decoration: underline;
+  color: #ffff;
+  font-size: 14px;
+}
+
+
 
 
 .formSubmitContainer--submit-button{
@@ -139,10 +150,18 @@
 
 
   @media screen and (max-width: 1024px) {
+    .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
+      text-decoration: underline;
+      color: #ffff;
+      font-size: 10px;
+      margin-top: 3px;
+    }
+
     .phoneInputContainer--inputs-form-roleta,
     .emailInputContainer--inputs-form-roleta,
     .nameInputContainer--inputs-form-roleta {
-      width: 70%;
+      width: 250px;
+      margin: 5px;
     }
 
     .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){
@@ -171,24 +190,14 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .newsletterForm{
     margin-top: 285px;
-
   }
-}
 
-
-@media (min-width: 350px) and (min-height: 800px) {
-  .newsletterForm{
-    margin-top: 50px;
-    margin-left: 13%;
-  }
-}
-
-@media (min-width: 350px) and (min-height: 700px) {
-  .newsletterForm{
-    margin-top: 50px;
-    margin-left: 13%;
+  .phoneInputContainer--inputs-form-roleta,
+  .emailInputContainer--inputs-form-roleta,
+  .nameInputContainer--inputs-form-roleta {
+    width: 100%;
   }
 }
