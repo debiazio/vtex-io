@@ -596,6 +596,12 @@
 
 
 @media screen and (max-width: 1024px) {
+  .paragraph--subtitulo-form-roleta {
+    text-shadow: none;
+
+  }
+
+
   .container--titulo-regras-roleta{
     display: flex;
     justify-content: center;

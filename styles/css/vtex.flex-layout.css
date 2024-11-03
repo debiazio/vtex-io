@@ -1170,9 +1170,10 @@
 .flexRowContent--conteiner-confirmacao {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 506px;
   margin: 10px 0 10px 0;
   padding-left: 30px;
+  gap: 5px;
 }
 
 

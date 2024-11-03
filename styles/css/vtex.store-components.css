@@ -457,7 +457,7 @@
   }
 
   .imageElement--titulo-img-roleta {
-    margin-top: 150px;
+    margin-top: 250px;
     padding: 10px 0 10px 0;
     width: 100%;
   }
@@ -542,7 +542,7 @@
 
 @media screen and (max-width: 400px) {
   .imageElement--titulo-img-roleta {
-    margin-top: 150px;
+    margin-top: 300px;
     width: 254px;
     padding: 10px 0 10px 0;
   }

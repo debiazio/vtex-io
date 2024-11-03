@@ -24,7 +24,7 @@
 }
 
 .nameInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder,
-.emailInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder{
+.emailInputContainer--newsletter-footer :global(.vtex-styleguide-9-x-input)::placeholder {
   color: white;
   width: 100px;
 }
@@ -37,7 +37,7 @@
   background-color: transparent;
 }
 
-.confirmationCheckboxContainer--termo-concordo-roleta  :global(.vtex-checkbox__line-container){
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__line-container) {
   display: flex;
   text-align: left;
 }
@@ -95,11 +95,12 @@
   width: 100%;
 }
 
-.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label) {
   color: #ffff;
   font-size: 14px;
 }
-.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
+
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
   text-decoration: underline;
   color: #ffff;
   font-size: 14px;
@@ -108,33 +109,37 @@
 
 
 
-.formSubmitContainer--submit-button{
+.formSubmitContainer--submit-button {
   border: none;
   padding-top: 5px;
 }
 
-.formSubmitContainer--submit-button :global(.vtex-button){
+.formSubmitContainer--submit-button :global(.vtex-button) {
   border: none;
   background-color: #e90b91;
   color: white;
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: 0 0 30px rgba(233, 11, 145, 0.8); /* Luz simples por trás */
+  box-shadow: 0 0 30px rgba(233, 11, 145, 0.8);
+  /* Luz simples por trás */
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button):hover {
-  box-shadow: 0 0 40px rgba(233, 11, 145, 1); /* Intensifica a luz no hover */
+  box-shadow: 0 0 40px rgba(233, 11, 145, 1);
+  /* Intensifica a luz no hover */
 }
 
 
 .phoneInputContainer--inputs-form-roleta {
   background-color: #ffff;
 }
+
 .emailInputContainer--inputs-form-roleta {
   background-color: #ffff;
 }
+
 .nameInputContainer--inputs-form-roleta {
   background-color: #ffff;
 }
@@ -142,46 +147,50 @@
 /* email error */
 .phoneInputContainer--inputs-form-roleta :global(.vtex-input__error),
 .nameInputContainer--inputs-form-roleta :global(.vtex-input__error),
-.emailInputContainer--inputs-form-roleta :global(.vtex-input__error){
+.emailInputContainer--inputs-form-roleta :global(.vtex-input__error) {
   background-color: black;
   margin: 0;
   padding: 10px 0px 0 0;
 }
 
 
-  @media screen and (max-width: 1024px) {
-    .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label){
-      text-decoration: underline;
-      color: #ffff;
-      font-size: 10px;
-      margin-top: 3px;
-    }
+@media screen and (max-width: 1024px) {
+  .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__line-container) {
+    margin-bottom: 5px;
+  }
 
-    .phoneInputContainer--inputs-form-roleta,
-    .emailInputContainer--inputs-form-roleta,
-    .nameInputContainer--inputs-form-roleta {
-      width: 250px;
-      margin: 5px;
-    }
+  .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
+    text-decoration: underline;
+    color: #ffff;
+    font-size: 10px;
+    margin-top: 3px;
+  }
 
-    .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label){
-      font-size: 10px;
-    }
+  .phoneInputContainer--inputs-form-roleta,
+  .emailInputContainer--inputs-form-roleta,
+  .nameInputContainer--inputs-form-roleta {
+    width: 250px;
+    margin: 5px;
+  }
 
-    .newsletterForm {
-      display: flex;
-      gap: 8px;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      margin-left: 40px;
-    }
+  .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label) {
+    font-size: 10px;
+  }
 
-    .confirmationCheckboxContainer--termo-concordo-roleta {
-      width: 70%;
-      padding-left: 0;
-      margin-top: 10px;
-      font-size: 12px;
+  .newsletterForm {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .confirmationCheckboxContainer--termo-concordo-roleta {
+    width: 70%;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 12px;
   }
 
   .formSubmitContainer--submit-button {
@@ -191,7 +200,7 @@
 }
 
 @media screen and (max-width: 380px) {
-  .newsletterForm{
+  .newsletterForm {
     margin-top: 285px;
   }
 
