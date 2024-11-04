@@ -83,7 +83,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/black-friday",
         "noFollow": false,
         "tagTitle": "Black Friday",
         "text": "Black Friday"
@@ -173,7 +173,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pronta-entrega#",
+        "href": "/black-friday",
         "noFollow": false,
         "tagTitle": "Black Friday",
         "text": "Black Friday"
@@ -677,7 +677,9 @@
     "children": [
       "flex-layout.row#linha-login-mobile",
       "menu-item#ver-tudo-mobile",
-      "menu-item#pronta-entrega-mobile",
+
+      "menu-item#black-friday-mobile",
+
       "menu-item#idealclave-bellinha-mobile",
       "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
@@ -751,17 +753,17 @@
     ]
   },
 
-  "menu-item#pronta-entrega-mobile": {
+  "menu-item#black-friday-mobile": {
     "props": {
       "id": "menu-principal-mobile",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pronta-entrega",
+        "href": "/black-friday",
         "noFollow": false,
-        "tagTitle": "Pronta Entrega",
-        "text": "Pronta Entrega"
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
       },
       "blockClass": "menu-superior-mobile"
     }
