@@ -7,6 +7,7 @@
       "menu-item#ver-tudo",
       "menu-item#submenuBlackFriday",
       "menu-item#idealclave-bellinha",
+      "menu-item#submenuMarceloBrito",
       "menu-item#labelle",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
@@ -50,6 +51,7 @@
       "menu-item#submenuVerTudo-acessorios-ester",
       "menu-item#submenuVerTudo-black-friday",
       "menu-item#submenuVerTudoBellinha",
+      "menu-item#submenuVerTudoMarceloBrito",
       "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
@@ -87,6 +89,21 @@
         "noFollow": false,
         "tagTitle": "Black Friday",
         "text": "Black Friday"
+      },
+      "blockClass": "menu-superior"
+    }
+  },
+  "menu-item#submenuMarceloBrito": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dr--marcelo-brito",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
       },
       "blockClass": "menu-superior"
     }
@@ -132,6 +149,21 @@
         "noFollow": false,
         "tagTitle": "Idealclave Bellinha",
         "text": "Idealclave Bellinha"
+      },
+      "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuVerTudoMarceloBrito": {
+    "props": {
+      "id": "menu-dropdown",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dr--marcelo-brito",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
       },
       "blockClass": "menu-dropdown"
     }
@@ -681,6 +713,7 @@
       "menu-item#black-friday-mobile",
 
       "menu-item#idealclave-bellinha-mobile",
+      "menu-item#idealclave-marcelobrito-mobile",
       "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
@@ -938,6 +971,21 @@
         "noFollow": false,
         "tagTitle": "Idealclave Bellinha",
         "text": "Idealclave Bellinha"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
+  },
+  "menu-item#idealclave-marcelobrito-mobile": {
+    "props": {
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dr--marcelo-brito",
+        "noFollow": false,
+        "tagTitle": "Dr. Marcelo Brito",
+        "text": "Dr. Marcelo Brito"
       },
       "blockClass": "menu-superior-mobile"
     }
