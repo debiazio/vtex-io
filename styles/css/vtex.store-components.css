@@ -433,7 +433,7 @@
   top: 0;
   border-radius: 0px 0px 10px 10px;
   padding: 10px 55px;
-  margin-left: -15%;
+  margin-left: -17%;
 }
 
 /* logo roleta layout 2 */
@@ -448,7 +448,15 @@
 }
 
 .imageElement--titulo-img-roleta {
-  width: 400px;
+  width: 450px;
+}
+
+.imageElement--roleta-primeira-tela{
+  width: 450px;
+}
+
+.imageElement--tabela-primeira-tela{
+  width: 600px;
 }
 
 @media screen and (max-width: 1024px) {
