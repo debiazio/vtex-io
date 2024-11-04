@@ -32,6 +32,7 @@
     },
     "children": [
       "flex-layout.row#form-roleta",
+      "modal-actions.close#roleta",
       "roleta" //teste roleta
     ]
   },
@@ -203,6 +204,13 @@
     "src": "assets/Bruno_Tabela_Roleta.webp",
     "alt": "Tabela roleta",
     "blockClass": "tabela-primeira-tela"
+  }
+},
+
+"modal-actions.close#roleta":{
+  "props": {
+    "label": "X",
+    "blockClass": "botao-fechar-roleta"
   }
 },
 // FINAL ROLETA AQUI
