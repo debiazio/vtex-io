@@ -5,6 +5,7 @@
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
+      "modal-trigger#roleta-imagem",
       // "list-context.image-list#banner-secundario",
       "responsive-layout.mobile#banners-mobile",
       "modal-trigger#roleta",
@@ -25,6 +26,37 @@
     "children": [
       "modal-layout#roleta"
     ]
+  },
+  "modal-trigger#roleta-imagem": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "responsive-layout.desktop#link-roleta",
+      "responsive-layout.mobile#link-roleta",
+      "modal-layout#roleta"
+    ]
+  },
+  "responsive-layout.desktop#link-roleta":{
+    "children": [
+      "image#teste-img-roleta"
+    ]
+  },
+  "image#teste-img-roleta":{
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
+      "blockClass": "imagem-link-para roleta"
+    }
+  },
+  "responsive-layout.mobile#link-roleta":{
+    "children": [
+      "image#teste-img-roleta-mobile"
+    ]
+  },
+  "image#teste-img-roleta-mobile":{
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/roleta-link.gif"
+    }
   },
   "modal-layout#roleta": {
     "props": {
