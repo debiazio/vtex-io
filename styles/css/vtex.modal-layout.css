@@ -147,6 +147,12 @@
   margin: 0;
   padding: 0;
 }
+
+:global(.vtex-modal-layout-0-x-triggerContainer){
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1024px) {
   .closeButton--botao-fechar-roleta {
     right: 15px;

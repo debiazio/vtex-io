@@ -459,6 +459,12 @@
   width: 600px;
 }
 
+
+
+.imageElement--imagem-link-para-roleta{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
   .imageElement--roleta-primeira-tela {
     padding-bottom: 10px;

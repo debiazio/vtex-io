@@ -12,8 +12,7 @@
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
-      "menu-item#clinicas-hospitais",
-      "menu-item#mobiliario-tecnico"
+      "menu-item#clinicas-hospitais"
     ]
   },
   "menu-item#ver-tudo": {
@@ -56,7 +55,6 @@
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
-      "menu-item#submenuVerTudo-mobiliario-tecnico",
       "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-pronta-entrega-horizontal"
 
@@ -718,8 +716,7 @@
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
-      "menu-item#clinicas-hospitais-mobile",
-      "menu-item#mobiliario-tecnico-mobile"
+      "menu-item#clinicas-hospitais-mobile"
     ]
   },
   "flex-layout.row#linha-login-mobile": {
@@ -781,8 +778,7 @@
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-linha-veterinaria",
-      "menu-item#submenuVerTudo-clinicas-hospitais",
-      "menu-item#submenuVerTudo-mobiliario-tecnico"
+      "menu-item#submenuVerTudo-clinicas-hospitais"
     ]
   },
 

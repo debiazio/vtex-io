@@ -39,13 +39,21 @@
   },
   "responsive-layout.desktop#link-roleta":{
     "children": [
+      "flex-layout.row#img-trigger-roleta"
+    ]
+  },
+  "flex-layout.row#img-trigger-roleta":{
+    "props": {
+      "blockClass": "img-trigger-roleta"
+    },
+    "children": [
       "image#teste-img-roleta"
     ]
   },
   "image#teste-img-roleta":{
     "props": {
       "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
-      "blockClass": "imagem-link-para roleta"
+      "blockClass": "imagem-link-para-roleta"
     }
   },
   "responsive-layout.mobile#link-roleta":{
@@ -258,10 +266,10 @@
   },
   "responsive-layout.mobile#banners-mobile": {
     "children": [
-      "list-context.image-list#banner-mobile1",
+      // "list-context.image-list#banner-mobile1",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "list-context.image-list#banner-mobile2",
+      // "list-context.image-list#banner-mobile2",
       // "list-context.image-list#banner-mobile3",
       "list-context.image-list#banner-mobile4"
     ]
@@ -294,7 +302,8 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
+      "images": [
+        {
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
