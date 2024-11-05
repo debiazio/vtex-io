@@ -69,6 +69,7 @@
 
 .triggerContainer {
   outline: none;
+  background-color: black;
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
