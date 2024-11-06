@@ -130,6 +130,11 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
+      "condition-layout.product#brinde-autoclaves-5l", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
+      "condition-layout.product#brinde-necessaire-horizontais-bf", //brinde BF
       "product-rating-summary", // avaliações
       "flex-layout.row#list-price-savings", // preco sem desconto, riscado
       "flex-layout.row#selling-price", // preco a vista
@@ -216,7 +221,6 @@
       "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
-
       "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
 
       "condition-layout.product#branco-perola",
@@ -1375,7 +1379,7 @@
     "props": {
       "aspectRatio": {
         "desktop": "auto",
-        "phone": "16:9"
+        "phone": "auto"
       },
       "width": "500px",
       "maxheight": "800px",

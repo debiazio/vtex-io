@@ -451,21 +451,32 @@
   width: 350px;
 }
 
-.imageElement--roleta-primeira-tela{
+.imageElement--roleta-primeira-tela {
   width: 450px;
 }
 
-.imageElement--tabela-primeira-tela{
+.imageElement--tabela-primeira-tela {
   width: 500px;
 }
 
 
 
-.imageElement--imagem-link-para-roleta{
+.imageElement--imagem-link-para-roleta {
   cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
+
+  /* seletor do texto da descrição */
+  :global(.vtex-store-components-3-x-productDescriptionText) {
+    font-size: 10px;
+  }
+
+  .imageElement--img-brindetriplo-bf-5l-8l {
+    height: 100%;
+    width: 100%;
+  }
+
   .imageElement--roleta-primeira-tela {
     padding-bottom: 10px;
   }

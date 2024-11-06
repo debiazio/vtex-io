@@ -759,8 +759,9 @@
   }
 
   .flexRowContent--product-name {
-    padding: 20px;
+    padding: 0 20px 0 20px;
     text-align: center;
+    margin: 0;
   }
 
   .flexCol--imagens-extras {
@@ -1043,9 +1044,7 @@
   width: 100%;
 }
 
-.flexRowContent--condicional-brinde-5l-8l {
-  width: 60%;
-}
+
 
 .flexRow--condicional-brinde-5l-8l {
   justify-content: left;
@@ -1089,7 +1088,6 @@
 }
 
 .flexRow--mobile-condicional-brinde-5l-8l {
-  justify-content: left;
   display: flex;
   flex-direction: column;
   border: 1px groove var(--magnolia);
@@ -1187,6 +1185,9 @@
 
 
 @media screen and (max-width: 1024px) {
+  /* .flexRow--condicional-brinde-5l-8l {
+    flex-direction: unset;
+  } */
   .flexRowContent--conteiner-confirmacao {
     display: flex;
     flex-direction: column;
