@@ -535,6 +535,7 @@
 }
 
 .flexCol--imagens-extras {
+  background-color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1054,8 +1055,11 @@
   border-top: 10px solid var(--pink);
   margin: 20px;
   padding-top: 20px;
-  padding: 0 0px 0 70px;
+  /* padding: 0 0px 0 70px; */
+  background: white;
+  align-items: center;
 }
+
 
 .flexRow--textos-brindes {
   width: 100%;
