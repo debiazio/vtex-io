@@ -44,7 +44,8 @@
   },
   "flex-layout.row#img-trigger-roleta":{
     "props": {
-      "blockClass": "img-trigger-roleta"
+      "blockClass": "img-trigger-roleta",
+      "fullWidth": true
     },
     "children": [
       "image#teste-img-roleta"
@@ -559,9 +560,9 @@
       "slider-layout#prateleira-8litros"
     ],
     "props": {
-      "collection": "210",
+      "collection": "211",
       "orderBy": "OrderByReleaseDateDESC",
-      "maxItems": 18
+      "maxItems": 8
     },
     "title": "Prateleira 5 e 8 litros"
   },
@@ -600,7 +601,8 @@
     ],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
-      "collection": "208"
+      "collection": "212",
+      "maxItems": 9
     }
   },
   "slider-layout#prateleira-maior-capacidade": {

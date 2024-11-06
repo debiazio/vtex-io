@@ -217,7 +217,7 @@
       "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
 
-      // "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
+      "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
 
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
@@ -269,7 +269,7 @@
 },
 "image#brinde-horizontais-blackFriday":{
   "props": {
-    "src": "assets/necessaire.png",
+    "src": "assets/brinde-horizontais.webp",
     "alt": "Imagem com brinde da Black Friday - horizontais",
     "blockClass": "img-brindetriplo-bf-5l-8l"
   }
