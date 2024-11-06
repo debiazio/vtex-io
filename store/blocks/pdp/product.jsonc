@@ -212,10 +212,12 @@
       // "product-questions-and-answers",
       // "flex-layout.row#video",
 
-      "condition-layout.product#brinde-autoclaves-5l",
-      "condition-layout.product#brinde-autoclaves-5litros",
-      "condition-layout.product#brinde-autoclaves-8l",
-      "condition-layout.product#brinde-autoclaves-8litros",
+      "condition-layout.product#brinde-autoclaves-5l", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
+      "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
+
+      // "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
 
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
@@ -244,6 +246,35 @@
       "width": "60%"
     }
   },
+  // BRINDE BLACK FRIDAY HORIZONTAIS + BF
+"condition-layout.product#brinde-necessaire-horizontais-bf":{
+  "props": {
+    "conditions": [{
+      "subject": "specificationProperties",
+      "arguments": {
+        "name": "Posicao",
+        "value": "Horizontal"
+      }
+    }],
+    "Then": "flex-layout.row#brinde-horizontais-blackFriday"
+  }
+},
+"flex-layout.row#brinde-horizontais-blackFriday":{
+  "props": {
+    "blockClass": "condicional-brinde-5l-8l"
+  },
+  "children": [
+    "image#brinde-horizontais-blackFriday"
+  ]
+},
+"image#brinde-horizontais-blackFriday":{
+  "props": {
+    "src": "assets/necessaire.png",
+    "alt": "Imagem com brinde da Black Friday - horizontais",
+    "blockClass": "img-brindetriplo-bf-5l-8l"
+  }
+},
+
   // BRINDE BLACK FRIDAY 5L + BF
   "condition-layout.product#brinde-autoclaves-5l": {
     "props": {
