@@ -12,7 +12,8 @@
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
-      "menu-item#clinicas-hospitais"
+      "menu-item#clinicas-hospitais",
+      "menu-item#mobiliario-tecnico"
     ]
   },
   "menu-item#ver-tudo": {
@@ -56,7 +57,8 @@
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
       "menu-item#submenuVerTudo-odontologia",
-      "menu-item#submenuVerTudo-pronta-entrega-horizontal"
+      "menu-item#submenuVerTudo-pronta-entrega-horizontal",
+      "menu-item#submenuVerTudo-mobiliario-tecnico"
 
 
     ]
@@ -263,10 +265,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico",
+        "href": "/idealovers-by--mad-u",
         "noFollow": false,
-        "tagTitle": "Mobiliário Técnico",
-        "text": "Mobiliário Técnico"
+        "tagTitle": "Idealovers by MAD.U",
+        "text": "Idealovers by MAD.U"
       },
       "blockClass": "menu-dropdown"
     }
@@ -639,10 +641,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico",
+        "href": "/idealovers-by--mad-u",
         "noFollow": false,
-        "tagTitle": "Mobiliário Técnico",
-        "text": "Mobiliário Técnico"
+        "tagTitle": "Idealovers by MAD.U",
+        "text": "Idealovers by MAD.U"
       },
       "blockClass": "menu-superior"
     },
@@ -664,7 +666,8 @@
     },
     "children": [
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
-      "menu-item#submenuMobiliarioTecnico-mob-madu-one"
+      "menu-item#submenuMobiliarioTecnico-mob-madu-one",
+      "menu-item#submenuMobiliarioTecnico-acessorios"
     ]
   },
   "menu-item#submenuMobiliarioTecnico-mob-madu-extra": {
@@ -674,7 +677,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "mobiliario-tecnico/mad-u-extra",
+        "href": "/idealovers-by--mad-u/mad-u-extra",
         "noFollow": false,
         "tagTitle": "Mad.u Extra",
         "text": "MAD.U EXTRA"
@@ -689,10 +692,25 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico/mad-u-one",
+        "href": "/idealovers-by--mad-u/mad-u-box",
         "noFollow": false,
-        "tagTitle": "Linha One Mad.u",
-        "text": "MAD.U ONE"
+        "tagTitle": "MAD.U BOX",
+        "text": "MAD.U BOX"
+      },
+      "blockClass": "menu-dropdown"
+    }
+  },
+  "menu-item#submenuMobiliarioTecnico-acessorios": {
+    "props": {
+      "id": "menu-item-submenuMobiliarioTecnico",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/idealovers-by--mad-u/mad-u-box",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       },
       "blockClass": "menu-dropdown"
     }
@@ -716,7 +734,8 @@
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
-      "menu-item#clinicas-hospitais-mobile"
+      "menu-item#clinicas-hospitais-mobile",
+      "menu-item#mobiliario-tecnico-mobile"
     ]
   },
   "flex-layout.row#linha-login-mobile": {
@@ -1008,10 +1027,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mobiliario-tecnico",
+        "href": "/idealovers-by--mad-u",
         "noFollow": false,
-        "tagTitle": "Mobiliário Técnico",
-        "text": "Mobiliário Técnico"
+        "tagTitle": "Idealovers by MAD.U",
+        "text": "Idealovers by MAD.U"
       },
       "blockClass": "menu-superior-mobile"
     },
@@ -1036,7 +1055,8 @@
   "flex-layout.col#mobiliario-tecnico-mobile": {
     "children": [
       "menu-item#submenuMobiliarioTecnico-mob-madu-extra",
-      "menu-item#submenuMobiliarioTecnico-mob-madu-one"
+      "menu-item#submenuMobiliarioTecnico-mob-madu-one",
+      "menu-item#submenuMobiliarioTecnico-acessorios"
     ]
   }
 }
