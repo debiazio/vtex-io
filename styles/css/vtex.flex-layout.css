@@ -1192,6 +1192,10 @@
   /* .flexRow--condicional-brinde-5l-8l {
     flex-direction: unset;
   } */
+.flexRow--img-segunda-linha-banner{
+  display: none;
+}
+
   .flexRowContent--conteiner-confirmacao {
     display: flex;
     flex-direction: column;
