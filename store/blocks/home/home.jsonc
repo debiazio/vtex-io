@@ -6,7 +6,7 @@
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "modal-trigger#roleta-imagem",
-      // "list-context.image-list#banner-secundario",
+      "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
       "modal-trigger#roleta",
 
@@ -255,6 +255,21 @@
   }
 },
 // FINAL ROLETA AQUI
+"flex-layout.row#segunda-linha-banner":{
+  "props": {
+    "blockClass": "img-segunda-linha-banner",
+    "fullWidth": true
+  },
+  "children": [
+    "image#img-segunda-linha-banner"
+  ]
+},
+"image#img-segunda-linha-banner":{
+  "props": {
+    "src": "assets/05_Banner_By_Madu.gif"
+  }
+},
+
   "responsive-layout.desktop#banner-principal": {
     "children": [
       "list-context.image-list#banner-principal"
@@ -268,12 +283,23 @@
   "responsive-layout.mobile#banners-mobile": {
     "children": [
       // "list-context.image-list#banner-mobile1",
+      "flex-layout.row#img-segunda-linha-banner",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       // "list-context.image-list#banner-mobile2",
       // "list-context.image-list#banner-mobile3",
       "list-context.image-list#banner-mobile4"
     ]
+  },
+  "flex-layout.row#img-segunda-linha-banner":{
+    "children": [
+      "image#img-segunda-linha-banner-mobile"
+    ]
+  },
+  "image#img-segunda-linha-banner-mobile":{
+    "props": {
+      "src": "assets/banner-mobile-madu.gif"
+    }
   },
   "responsive-layout.desktop#prateleira-madu": {
     "children": [
@@ -406,64 +432,7 @@
     },
     "title": "Banner mobile topo"
   },
-  // secao banner mobile 1
-  "list-context.image-list#banner-mobile1": {
-    "children": [
-      "slider-layout#sec-banner"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-        "mobileImage": "assets/banner_Lancamento_DVM-mobile.gif",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave-bellinha/idealclave-bellinha-5l"
-        }
-      }]
-    },
-    "title": "Banner mobile 1"
-  },
-  // secao banner mobile 2
-  "list-context.image-list#banner-mobile2": {
-    "children": [
-      "slider-layout#sec-banner"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-        "mobileImage": "assets/Banner_mobile_Sonho_10x.gif",
-        "alt": "Banner outubro rosa",
-        "link": {
-          "url": "/idealclave%208l"
-        }
-      }]
-    },
-    "title": "Banner mobile 2"
-  },
-  // secao banner mobile 3
-  // "list-context.image-list#banner-mobile3": {
-  //   "children": [
-  //     "slider-layout#sec-banner"
-  //   ],
-  //   "props": {
-  //     "height": 650,
-  //     "fullWidth": true,
-  //     "preload": true,
-  //     "images": [{
-  //       "mobileImage": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-mobile.gif",
-  //       "alt": "Banner outubro rosa",
-  //       "link": {
-  //         "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p"
-  //       }
-  //     }]
-  //   },
-  //   "title": "Banner mobile 3"
-  // },
-  // secao banner mobile 4
+
   "list-context.image-list#banner-mobile4": {
     "children": [
       "slider-layout#sec-banner"
@@ -547,6 +516,7 @@
     },
     "title": "Título prateleira"
   },
+  // prateleira de 8 litros
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#prateleira-8litros"

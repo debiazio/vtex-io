@@ -6,6 +6,7 @@
       "flex-layout.col#productRating", //avaliações
       "product-summary-space",
       "product-list-price#summary", //preco de: quanto custava
+      "product-selling-price", //preço por
       // "flex-layout.row#selling-price-savings", //economia
       "flex-layout.row#linha-prateleira",
       "product-spot-price-savings"

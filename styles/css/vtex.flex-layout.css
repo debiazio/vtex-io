@@ -1183,6 +1183,10 @@
   background-color: black;
 }
 
+.flexRowContent--img-segunda-linha-banner{
+  background-color: black;
+}
+
 
 @media screen and (max-width: 1024px) {
   /* .flexRow--condicional-brinde-5l-8l {
