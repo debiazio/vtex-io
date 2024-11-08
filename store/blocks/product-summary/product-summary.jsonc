@@ -5,11 +5,11 @@
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
       "product-summary-space",
-      "product-list-price#summary", //preco de: quanto custava
-      "product-selling-price", //preço por
       // "flex-layout.row#selling-price-savings", //economia
       "flex-layout.row#linha-prateleira",
+
       "product-spot-price-savings"
+      // "product-selling-price" //preço por
       //"flex-layout.row#sku-selector", //seletor de sku
       //"flex-layout.row#add-to-cart-summary" //linha botão comprar - removido a pedido da Renata 14/10/2024
 
@@ -31,7 +31,9 @@
     },
     "children": [
       "product-installments#summary", // parcelamento
-      "product-installments#summary-segunda-linha"
+      "product-installments#summary-segunda-linha",
+      "product-list-price#summary", //preco de: quanto custava
+      "product-selling-price" //preço por
     ]
   },
   "flex-layout.col#coluna2-parcelamento":{
@@ -151,13 +153,14 @@
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros} false { }}"
+      "message": "{hasMoreThanOne, select, true { {installmentsNumber}x de {installmentValue} sem juros no cartão} false { }}"
     }
   },
   "product-installments#summary-segunda-linha": {
     "props": {
       "blockClass": "summary-segunda",
-      "message": "{hasMoreThanOne, select, true { no cartão ou {installmentsTotalValue}} false { }}"
+      "message": "{hasMoreThanOne, select, true { ou } false { }}"
+      // "message": "{hasMoreThanOne, select, true { no cartão ou {installmentsTotalValue}} false { }}"
     }
   },
   // //linha adicionada para teste - botao comprar
