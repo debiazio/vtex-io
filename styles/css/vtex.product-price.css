@@ -124,6 +124,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .listPrice{
+    display: none;
+  }
+  
   .savings--desconto {
     font-weight: 400;
     color: white;

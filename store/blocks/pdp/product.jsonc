@@ -130,6 +130,10 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
+      // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday", //vr
+      // "condition-layout.product#visualizador3d-bellinhaPerola",//vr
+      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",//vr
+      "condition-layout.product#visualizador3d-labelleRoseGold", //vr
       "condition-layout.product#brinde-autoclaves-5l", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
@@ -212,7 +216,12 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      // "visualizador-3d",
+      // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday",
+      // "condition-layout.product#visualizador3d-bellinhaPerola",
+
+      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
+      "condition-layout.product#visualizador3d-labelleRoseGold",
+
       // "product-gifts",
       // "product-questions-and-answers",
       // "flex-layout.row#video",
@@ -222,7 +231,6 @@
       "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
       "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
       "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
-
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
@@ -250,6 +258,59 @@
       "width": "60%"
     }
   },
+  // //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA BELLINHA PEROLA BF
+  // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday":{
+  //   "props": {
+  //     "conditions": [{
+  //       "subject": "productId",
+  //       "arguments": {
+  //         "id": "2887" //id da black friday
+  //       }
+  //     }
+  //   ],
+  //     "Then": "visualizador3dbellinhaperola" //visualizador 3d labelle rose gold
+  //   }
+  // },
+  // //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA BELLINHA PEROLA
+  // "condition-layout.product#visualizador3d-bellinhaPerola":{
+  //   "props": {
+  //     "conditions": [{
+  //       "subject": "productId",
+  //       "arguments": {
+  //         "id": "2797" //id da black friday
+  //       }
+  //     }
+  //   ],
+  //     "Then": "visualizador3dbellinhaperola" //visualizador 3d bellinha perola
+  //   }
+  // },
+  //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
+  "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2894" //id da black friday
+        }
+      }
+    ],
+      "Then": "visualizador-3d" //visualizador 3d bellinha perola
+    }
+  },
+  //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
+  "condition-layout.product#visualizador3d-labelleRoseGold":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2898" //id da normal
+        }
+      }
+    ],
+      "Then": "visualizador-3d" //visualizador 3d labelle rose gold
+    }
+  },
+
   // BRINDE BLACK FRIDAY HORIZONTAIS + BF
 "condition-layout.product#brinde-necessaire-horizontais-bf":{
   "props": {
