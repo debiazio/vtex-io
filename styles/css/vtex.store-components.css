@@ -465,7 +465,26 @@
   cursor: pointer;
 }
 
+/* //ICONE DE 360º */
+.imageElement--icone360 {
+  display: flex;
+  position: absolute;
+  width: 45px;
+  padding: 15px;
+  cursor: grab;
+  user-select: none;
+}
+
 @media screen and (max-width: 1024px) {
+  /* //ICONE DE 360º */
+.imageElement--icone360 {
+  width: 30px;
+  padding: 0;
+  justify-content: start;
+  padding-top: 5px;
+}
+
+
 
   /* seletor do texto da descrição */
   :global(.vtex-store-components-3-x-productDescriptionText) {

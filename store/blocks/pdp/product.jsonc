@@ -294,7 +294,7 @@
         }
       }
     ],
-      "Then": "visualizador-3d" //visualizador 3d bellinha perola
+      "Then": "flex-layout.row#visualizador-360" //visualizador 3d bellinha perola
     }
   },
   //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
@@ -307,7 +307,23 @@
         }
       }
     ],
-      "Then": "visualizador-3d" //visualizador 3d labelle rose gold
+      "Then": "flex-layout.row#visualizador-360" //visualizador 3d labelle rose gold
+    }
+  },
+  "flex-layout.row#visualizador-360": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "image#icone360",
+      "visualizador-3d"
+    ]
+  },
+  "image#icone360":{
+    "props": {
+      "blockClass": "icone360",
+      "src": "assets/360-degrees.svg",
+      "alt": "Ícone 360°"
     }
   },
 
