@@ -570,7 +570,7 @@
       "slider-layout#prateleira-maior-capacidade"
     ],
     "props": {
-      "orderBy": "OrderByBestDiscountDESC",
+      "orderBy": "OrderByPriceASC",
       "collection": "212",
       "maxItems": 9
     }
