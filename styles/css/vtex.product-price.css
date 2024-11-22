@@ -44,7 +44,7 @@
 }
 
 
-.spotPriceSavings--summary{
+.spotPriceSavings--summary {
   font-size: 0.875rem;
   color: #A7A7A8;
 }
@@ -115,17 +115,20 @@
   padding: 5px;
 }
 
-.savingsValue--summary{
+.savingsValue--summary {
   width: 100%;
 }
 
-.installments--summary-segunda{
+.installments--summary-segunda {
   color: #A8A8A9;
 }
 
 @media only screen and (max-width: 1024px) {
-  .listPrice{
-    display: none;
+  .listPrice {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
   }
 
   .savings--desconto {
@@ -141,12 +144,12 @@
     position: relative;
     margin-left: -50px;
     top: 2px; */
-}
+  }
 
   .sellingPriceValue {
     font-size: 1.3rem;
     font-weight: 700;
-}
+  }
 
   /* .listPrice {
     padding: 0 20px 0 20px;
@@ -170,7 +173,7 @@
     margin: 10px;
   }
 
-  .savingsPercentage--desconto{
+  .savingsPercentage--desconto {
     font-size: smaller;
   }
 
@@ -191,11 +194,11 @@
 
 }
 
-.stretchChildrenWidth .savings--desconto{
+.stretchChildrenWidth .savings--desconto {
   width: 40px;
 }
 
-.savings--desconto{
+.savings--desconto {
   font-weight: 400;
   color: white;
   background-color: var(--violeta);

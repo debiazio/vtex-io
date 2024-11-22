@@ -544,7 +544,7 @@
         "phone": 2
       },
       "infinite": true,
-      "fullWidth": false,
+      "fullWidth": true,
       "blockClass": "shelf",
       "showNavigationArrows": "desktopOnly"
     }

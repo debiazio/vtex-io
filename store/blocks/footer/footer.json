@@ -31,6 +31,9 @@
     }
   },
   "newsletter-form": {
+    "props": {
+      "blockClass": "newsletter-footer"
+    },
     "children": [
       "newsletter-input-name",
       "newsletter-input-email",

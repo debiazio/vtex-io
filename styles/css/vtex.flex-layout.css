@@ -1205,7 +1205,7 @@
 @media screen and (max-width: 1024px) {
   .flexRowContent--sacola-icone :global(.vtex-button__label) {
     margin: 0;
-    padding: 15px;
+    padding: 0px 24px 0px 13px;
   }
 
   /* .flexRow--condicional-brinde-5l-8l {

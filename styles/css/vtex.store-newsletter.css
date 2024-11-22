@@ -155,6 +155,11 @@
 
 
 @media screen and (max-width: 1024px) {
+  .nameInputContainer--newsletter-footer,
+  .emailInputContainer--newsletter-footer{
+    width: unset;
+  }
+
   .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__line-container) {
     margin-bottom: 5px;
   }
@@ -184,6 +189,10 @@
     flex-direction: column;
     align-items: center;
     margin-left: 40px;
+  }
+
+  .newsletterForm--newsletter-footer{
+    margin-left: 0;
   }
 
   .confirmationCheckboxContainer--termo-concordo-roleta {
