@@ -125,7 +125,7 @@
 
 @media only screen and (max-width: 1024px) {
   .listPrice {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     margin: 0;
     padding: 0;

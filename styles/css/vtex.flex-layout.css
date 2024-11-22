@@ -1203,6 +1203,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexCol--coluna-parcelamento{
+    text-align: center;
+    margin-left: 15px;
+  }
+
   .flexRowContent--sacola-icone :global(.vtex-button__label) {
     margin: 0;
     padding: 0px 24px 0px 13px;

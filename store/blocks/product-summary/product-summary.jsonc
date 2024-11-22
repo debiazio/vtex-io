@@ -120,7 +120,7 @@
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "de {listPriceValue}"
+      "message": "de: { listPriceValue}"
     }
   },
   "product-spot-price-savings": {
