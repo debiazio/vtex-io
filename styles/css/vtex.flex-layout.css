@@ -140,6 +140,7 @@
 /* menu principal */
 .flexRowContent--menu-itens {
   display: flex;
+  margin: 0px
 }
 
 :global(.vtex-menu-2-x-menuContainerNav) {
