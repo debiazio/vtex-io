@@ -58,6 +58,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .nameWrapper{
+    text-align: center;
+    padding: 0 10px;
+  }
+
   .vtex-product-summary-2-x-element {
     font-size: smaller;
   }

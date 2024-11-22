@@ -124,8 +124,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .spotPriceSavings--summary {
+    text-align: center;
+  }
+
   .listPrice {
-    justify-content: space-between;
+    justify-content: center;
+    gap: 7px;
     display: flex;
     margin: 0;
     padding: 0;
