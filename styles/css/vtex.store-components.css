@@ -525,8 +525,9 @@
   }
 
   .imageElement--gif-animado-parcelas-img {
-    height: 80px;
-  }
+    height: 100%;
+    margin-top: 14px;
+}
 
   .imageElement--imagem-informacoes {
     display: flex;
