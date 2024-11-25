@@ -1677,7 +1677,7 @@
   "flex-layout.col#relatedProducts": {
     "children": [
       "rich-text#produtos-relacionados",
-      "shelf.relatedProducts#produtos-relacionados"
+      "list-context.product-list#idealine-indica"
     ]
   },
   "rich-text#produtos-relacionados": {
@@ -1686,21 +1686,32 @@
       "blockClass": "produtos-relacionados"
     }
   },
-  "shelf.relatedProducts#produtos-relacionados": {
-    "blocks": ["product-summary.shelf"],
+  "list-context.product-list#idealine-indica": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#idealine-indica"
+    ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "recommendation": "view",
-      "blockClass": "related-shelf",
-      "productList": {
-        "showTitle": false,
-        "itemsPerPage": 3,
-        "minItemsPerPage": 2,
-        "maxItems": 16,
-        "arrows": false
-      }
+      "category": "28",
+      "orderBy": "OrderByPriceASC"
     }
   },
+  "slider-layout#idealine-indica":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
   "rich-text#certificacoes-titulo": {
     "props": {
       "text": "## **Certificações**",
