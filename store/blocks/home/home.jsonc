@@ -16,7 +16,7 @@
       "responsive-layout.desktop#carrossel-5l-8l",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
-      "responsive-layout.desktop#prateleira-madu",
+      "flex-layout.row#prateleira-madu",
       "__fold__"
     ]
   },
@@ -59,16 +59,26 @@
       "blockClass": "imagem-link-para-roleta"
     }
   },
+
+//imagem - video da roleta mobile
   "responsive-layout.mobile#link-roleta":{
     "children": [
-      "image#teste-img-roleta-mobile"
+      "video#video-trigger-roleta-mobile"
+      // "image#teste-img-roleta-mobile"
     ]
   },
-  "image#teste-img-roleta-mobile":{
+  "video#video-trigger-roleta-mobile":{
     "props": {
-      "src": "https://stermax.com.br/images_idealine/roleta-link.gif"
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/roleta-link_1.mp4",
+      "muted": true
     }
   },
+
+
   "modal-layout#roleta": {
     "props": {
       "blockClass": "form-roleta"
@@ -277,33 +287,80 @@
       "list-context.image-list#banner-principal"
     ]
   },
+  // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
-      "list-context.image-list#banner-mobile5"
+      "link#video-banner-primeira-linha-mobile" //link
     ]
   },
-  "responsive-layout.mobile#banners-mobile": {
-    "children": [
-      // "list-context.image-list#banner-mobile1",
-      "flex-layout.row#img-segunda-linha-banner",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      // "list-context.image-list#banner-mobile2",
-      // "list-context.image-list#banner-mobile3",
-      "list-context.image-list#banner-mobile4"
-    ]
-  },
-  "flex-layout.row#img-segunda-linha-banner":{
-    "children": [
-      "image#img-segunda-linha-banner-mobile"
-    ]
-  },
-  "image#img-segunda-linha-banner-mobile":{
+  // CARREGA O LINK HREF E O VIDEO
+  "link#video-banner-primeira-linha-mobile": {
     "props": {
-      "src": "assets/banner-mobile-madu.gif"
+      "href": "https://api.whatsapp.com/send?phone=5541998516332&text=Ol%C3%A1,%20quero%20falar%20com%20as%20consultoras",
+      "newTab": true
+    },
+    "children": ["video#banner-topo-mobile"]
+  },
+  "video#banner-topo-mobile":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/black-friday-banner-mobile-consultoras.mp4",
+      "muted": true
     }
   },
-  "responsive-layout.desktop#prateleira-madu": {
+
+
+  // MADU LINHA MOBILE - BANNER(VIDEO)
+  "responsive-layout.mobile#banners-mobile": {
+    "children": [
+      "link#link-video-madu-linha-mobile", //link no video
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "link#link-video-horizontais-mobile" //link no video
+    ]
+  },
+  "link#link-video-madu-linha-mobile":{
+    "props": {
+      "href": "/idealovers-by--mad-u",
+      "newTab": true
+    },
+    "children": ["video#video-banner-madu-linha-mobile"]
+  },
+  "video#video-banner-madu-linha-mobile":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/banner-mobile-madu.mp4",
+      "muted": true
+    }
+  },
+  "link#link-video-horizontais-mobile":{
+    "props": {
+      "href": "/black-friday",
+      "newTab": true
+    },
+    "children": ["video#horizontais"]
+  },
+  "video#horizontais":{
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/black-ideal-horizontais-mobile.mp4",
+      "muted": true
+    }
+  },
+
+
+
+  //SECAO DA MADU DESKTOP
+  "flex-layout.row#prateleira-madu": {
     "children": [
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3"
@@ -415,44 +472,8 @@
       "blockClass": "carousel"
     }
   },
-  // secao banner mobile topo
-  "list-context.image-list#banner-mobile5": {
-    "children": [
-      "slider-layout#sec-banner"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-        "mobileImage": "assets/01.Banner_Mobile_20ANOS_Idealine.png",
-        "alt": "Banner pronta entrega",
-        "link": {
-          "url": "/pronta-entrega"
-        }
-      }]
-    },
-    "title": "Banner mobile topo"
-  },
 
-  "list-context.image-list#banner-mobile4": {
-    "children": [
-      "slider-layout#sec-banner"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-        "mobileImage": "assets/Banner_mobile_Pronta_Entrega-mobile.gif",
-        "alt": "Banner pronta entrega",
-        "link": {
-          "url": "/pronta-entrega"
-        }
-      }]
-    },
-    "title": "Banner mobile 4"
-  },
+
   // SECAO DOS MINI BANNERS
   "flex-layout.row#big_banners": {
     "props": {
