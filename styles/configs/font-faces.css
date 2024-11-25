@@ -1,33 +1,7 @@
 @font-face {
-  font-family: "Rubik light";
-  src: url(assets/fonts/Rubik-Light.woff),
-    url(assets/fonts/Rubik-Light.ttf);
-    font-display: swap;
-}
-@font-face {
   font-family: "Rubik";
-  src: url(assets/fonts/Rubik-Regular.woff),
-    url(assets/fonts/Rubik-Regular.ttf);
-    font-display: swap;
-}
-
-@font-face {
-  font-family: "Rubik bold";
-  src: url(assets/fonts/Rubik-Bold.woff),
-    url(assets/fonts/Rubik-Bold.ttf);
-    font-display: swap;
-}
-
-@font-face {
-  font-family: "Rubik semibold";
-  src: url(assets/fonts/Rubik-SemiBold.woff),
-    url(assets/fonts/Rubik-SemiBold.ttf);
-    font-display: swap; /*melhora pagespeed*/
-}
-
-@font-face{
-  font-family: "Scrivano";
-  src: url(assets/fonts/Scrivano.woff),
-  url(assets/fonts/Scrivano.ttf);
   font-display: swap;
+  src: 
+    url(assets/fonts/Rubik-Regular.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/s/rubik/v28/iJWKBXyIfDnIV7nErXyi0A.woff2) format('woff2') format('woff2');
 }
