@@ -1,3 +1,27 @@
+.container--texto-titulo-categoria,
+.container--texto-subtitulo-categoria{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--texto-titulo-categoria{
+  font-family: "Rubik";
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  margin: -20px;
+  padding: 0;
+}
+
+.paragraph--texto-subtitulo-categoria{
+  font-family: "Rubik";
+  font-size: 46px;
+  font-weight: 100;
+  color: var(--rosa-da-rosa);
+  margin: 0;
+  padding: 0;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;

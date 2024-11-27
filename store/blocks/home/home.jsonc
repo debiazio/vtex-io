@@ -10,13 +10,14 @@
       "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
       "modal-trigger#roleta",
-
+      "flex-layout.row#compre-por-categoria",
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
-      "flex-layout.row#prateleira-madu",
+      "rich-text#prateleira-madu",
+      "flex-layout.row#shelf3",
       "__fold__"
     ]
   },
@@ -278,7 +279,10 @@
   },
   "image#img-segunda-linha-banner": {
     "props": {
-      "src": "assets/05_Banner_By_Madu.gif"
+      "src": "assets/05_Banner_By_Madu.gif",
+      "alt": "banner imaem madu",
+      "title": "Banner idealovers by madu",
+      "blockClass": "imagem-by-madu"
     }
   },
 
@@ -377,17 +381,7 @@
 
 
 
-  //SECAO DA MADU DESKTOP
-  "flex-layout.row#prateleira-madu": {
-    "props": {
-      "blockClass": "container-madu",
-      "fullWidth": true
-    },
-    "children": [
-      "rich-text#prateleira-madu",
-      "flex-layout.row#shelf3"
-    ]
-  },
+
   "responsive-layout.desktop#carrossel-5l-8l": {
     "children": [
       "rich-text#shelf-title",
@@ -478,19 +472,262 @@
       "blockClass": "carousel"
     }
   },
-  "slider-layout#sec-banner": {
+  //SECAO COMPRE POR CATEGORIA - DESKTOP
+  "flex-layout.row#compre-por-categoria": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "fullWidth": true,
-      "infinite": true,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "usePagination": true,
-      "blockClass": "carousel"
+      "blockClass": "container-compre-por-categoria",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#titulo-categorias",
+      "flex-layout.row#imagens-categorias",
+      "flex-layout.row#titulo-categorias",
+      "flex-layout.row#imagens-segunda-linha-categorias"
+    ]
+  },
+  //conteiner do titulo das categorias
+  "flex-layout.row#titulo-categorias": {
+    "props": {
+      "blockClass": "conteiner-titulo-categorias",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo",
+      "rich-text#subtitulo-categorias"
+    ]
+  },
+  //titulo das categorias
+  "rich-text#titulo": {
+    "props": {
+      "text": "COMPRE POR CATEGORIA",
+      "blockClass": "texto-titulo-categoria"
+    }
+  },
+  //subtitulo das categorias
+  "rich-text#subtitulo-categorias": {
+    "props": {
+      "text": "Beleza & Estética",
+      "blockClass": "texto-subtitulo-categoria"
+    }
+  },
+  //imagens das categorias - linha 1 - desktop
+  "flex-layout.row#imagens-categorias": {
+    "props": {
+      "blockClass": "conteiner-imagens-secao-categorias",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#categoria-nails",
+      "flex-layout.col#categorias-lashes",
+      "flex-layout.col#categorias-podologia",
+      "flex-layout.col#categorias-bodyPiercings"
+    ]
+  },
+  //coluna das imagens
+  "flex-layout.col#categoria-nails": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-nails",
+      "rich-text#label-cat-nails"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-nails": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/manicure.webp",
+      "alt": "Manicure",
+      "title": "Categoria Imagem de manicure",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-manicure"
+      }
+    }
+  },
+  //label da categoria
+  "rich-text#label-cat-nails": {
+    "props": {
+      "text": "Nails Design Manicure",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-lashes": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-lashes",
+      "rich-text#label-cat-lashes"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-lashes": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/lasher.webp",
+      "alt": "lash designer",
+      "title": "Categoria Lash Designer",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  //label das categorias
+  "rich-text#label-cat-lashes": {
+    "props": {
+      "text": "Lash Designer",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-podologia": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-podologia",
+      "rich-text#label-cat-podologia"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-podologia": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/podologia.webp",
+      "alt": "Podologia",
+      "title": "Categoria Podologia",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-podologia"
+      }
+    }
+  },
+  //label das categorias
+  "rich-text#label-cat-podologia": {
+    "props": {
+      "text": "Podologia",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna das imagens
+  "flex-layout.col#categorias-bodyPiercings": {
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-bodyPiercings",
+      "rich-text#label-cat-bodypiercings"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-bodyPiercings": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/body_piercing.webp",
+      "alt": "BodyPiercing",
+      "title": "Categoria Body Piercing",
+      "link": {
+        "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
+      }
+    }
+  },
+  "rich-text#label-cat-bodypiercings":{
+    "props": {
+      "text": "Body Piecer",
+      "blockClass": "label-categorias"
+    }
+  },
+
+  //secao linha 2 - categorias - desktop
+  "flex-layout.row#imagens-segunda-linha-categorias": {
+    "props": {
+      "blockClass": "conteiner-imagens-secao-categorias",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#categorias-odontologia",
+      "flex-layout.col#categorias-veterinaria",
+      "flex-layout.col#categorias-laboratorio",
+      "flex-layout.col#categorias-cli-hosp"
+    ]
+  },
+  //link para a categoria
+  "flex-layout.col#categorias-odontologia":{
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-odontologia"
+    ]
+  },
+  // imagens de capa categorias
+  "image#categorias-odontologia": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/odontologia.webp",
+      "alt": "Odontologia",
+      "title": "Categoria Odontologia",
+      "link": {
+        "url": "/odontologia/autoclaves-para-odontologia"
+      }
+    }
+  },
+  "flex-layout.col#categorias-veterinaria":{
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-veterinaria"
+    ]
+  },
+  "image#categorias-veterinaria": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/veterinario.webp",
+      "alt": "Veterinaria",
+      "title": "Categoria Veterinária",
+      "link": {
+        "url": "/veterinaria/autoclaves-para-veterinaria"
+      }
+    }
+  },
+  "flex-layout.col#categorias-laboratorio":{
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-laboratorio"
+    ]
+  },
+  "image#categorias-laboratorio": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/laboratorio.webp",
+      "alt": "Laboratorio",
+      "title": "Categoria Laboratório",
+      "link": {
+        "url": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+      }
+    }
+  },
+  "flex-layout.col#categorias-cli-hosp":{
+    "props": {
+      "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "image#categorias-cli-hosp"
+    ]
+  },
+  "image#categorias-cli-hosp": {
+    "props": {
+      "blockClass": "imagem-categorias",
+      "src": "assets/cli-hosp.webp",
+      "alt": "Clinicas-hospitais",
+      "title": "Categoria Clínicas e hospitais",
+      "link": {
+        "url": "/clinicas-e-hospitais/"
+      }
     }
   },
 
@@ -633,22 +870,17 @@
     }
   },
   "flex-layout.row#shelf3": {
-    "props": {
-      "blockClass": "produtos-idealovers-byMadu",
-      "fullWidth": true
-    },
     "children": [
       "list-context.product-list#prateleira-madu"
     ]
   },
-  // linha da prateleira de mobiliario técnico
+  // linha da prateleira de maior capacidade
   "rich-text#prateleira-madu": {
     "props": {
       "text": "## **IDEALOVERS BY MAD.U**",
       "blockClass": "shelfTitle"
-
     },
-    "title": "Título prateleira MAD.U"
+    "title": "Título prateleira maior capacidade"
   },
   "list-context.product-list#prateleira-madu": {
     "blocks": [
@@ -658,6 +890,7 @@
       "slider-layout#prateleira-madu"
     ],
     "props": {
+      "blockClass": "shelf",
       "orderBy": "OrderByBestDiscountDESC",
       "category": "80"
     }
@@ -675,6 +908,7 @@
       "showNavigationArrows": "desktopOnly"
     }
   }
+
   // "rich-text#texto-padrao": {
   //   "props": {
   //     "text": "Click me",

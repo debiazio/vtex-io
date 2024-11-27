@@ -1,14 +1,43 @@
-.flexRow--container-madu{
+.flexRowContent--container-compre-por-categoria .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--container-compre-por-categoria {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--conteiner-titulo-categorias {
+  display: flex;
+  flex-direction: column;
+  padding: 66px 0;
+}
+
+.flexRow--conteiner-imagens-secao-categorias {
+  margin: 0 70px;
+}
+
+.flexRow--container-madu {
   display: flex;
 }
 
-.flexRowContent--container-madu{
+/* .flexRowContent--container-madu{
   display: flex;
   flex-direction: column;
 }
 
 .flexRowContent--container-madu .stretchChildrenWidth{
   width: 100%!important;
+} */
+.flexRow--produtos-idealovers-byMadu {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--produtos-idealovers-byMadu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexRowContent--menu-link,
@@ -636,6 +665,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin-top: 20xp;
 }
 
 .flexRowContent--section-mini-banners,
@@ -1222,37 +1252,37 @@
     flex-direction: column;
     align-items: center;
     padding: 0 15px;
-}
+  }
 
-.flexCol--coluna-parcelamento {
-  text-align: center;
-}
+  .flexCol--coluna-parcelamento {
+    text-align: center;
+  }
 
-.flexRowContent--sacola-icone :global(.vtex-button__label) {
-  margin: 0;
-  padding: 0px 24px 0px 13px;
-}
+  .flexRowContent--sacola-icone :global(.vtex-button__label) {
+    margin: 0;
+    padding: 0px 24px 0px 13px;
+  }
 
-/* .flexRow--condicional-brinde-5l-8l {
+  /* .flexRow--condicional-brinde-5l-8l {
     flex-direction: unset;
   } */
-.flexRow--img-segunda-linha-banner {
-  display: none;
-}
+  .flexRow--img-segunda-linha-banner {
+    display: none;
+  }
 
-.flexRowContent--conteiner-confirmacao {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: 10px 0 10px 0;
-}
+  .flexRowContent--conteiner-confirmacao {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px 0 10px 0;
+  }
 
-.flexRow--row-form-roleta {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  margin: 0;
-}
+  .flexRow--row-form-roleta {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {

@@ -25,3 +25,9 @@
 .childrenContainer--link-menu-institucionais .link--item-menu-institucionais{
   text-decoration: none;
 }
+
+.childrenContainer--link-categorias
+{
+  display: flex;
+  justify-content: center;
+}
