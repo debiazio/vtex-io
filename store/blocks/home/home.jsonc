@@ -39,12 +39,12 @@
       "modal-layout#roleta"
     ]
   },
-  "responsive-layout.desktop#link-roleta":{
+  "responsive-layout.desktop#link-roleta": {
     "children": [
       "flex-layout.row#img-trigger-roleta"
     ]
   },
-  "flex-layout.row#img-trigger-roleta":{
+  "flex-layout.row#img-trigger-roleta": {
     "props": {
       "blockClass": "img-trigger-roleta",
       "fullWidth": true
@@ -53,21 +53,21 @@
       "image#teste-img-roleta"
     ]
   },
-  "image#teste-img-roleta":{
+  "image#teste-img-roleta": {
     "props": {
       "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
       "blockClass": "imagem-link-para-roleta"
     }
   },
 
-//imagem - video da roleta mobile
-  "responsive-layout.mobile#link-roleta":{
+  //imagem - video da roleta mobile
+  "responsive-layout.mobile#link-roleta": {
     "children": [
       "video#video-trigger-roleta-mobile"
       // "image#teste-img-roleta-mobile"
     ]
   },
-  "video#video-trigger-roleta-mobile":{
+  "video#video-trigger-roleta-mobile": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -111,7 +111,7 @@
 
     ]
   },
-  "flex-layout.col#roleta-coluna-esquerda":{
+  "flex-layout.col#roleta-coluna-esquerda": {
     "props": {
       "blockClass": "coluna-esquerda-roleta"
     },
@@ -186,7 +186,7 @@
       "blockClass": "submit-button"
     }
   },
-  "flex-layout.row#confirm":{
+  "flex-layout.row#confirm": {
     "props": {
       "blockClass": "conteiner-confirmacao"
     },
@@ -204,7 +204,7 @@
   "newsletter-checkbox-confirmation#roleta-termos": {
     "props": {
       "checkboxLabel": "Li e aceito os termos da política de privacidade",
-      "blockClass":  "aceito-termos"
+      "blockClass": "aceito-termos"
     }
   },
   "flex-layout.row#rules": {
@@ -236,7 +236,7 @@
       "blockClass": "confirm-form-roleta"
     }
   },
-  "flex-layout.col#roleta-coluna-direita":{
+  "flex-layout.col#roleta-coluna-direita": {
     "props": {
       "blockClass": "coluna-direita-roleta"
     },
@@ -245,42 +245,42 @@
       "image#tabela-primeira-tela"
     ]
   },
-"image#roleta-primeira-tela":{
-  "props": {
-    "src": "assets/roleta_imagens_v2.webp",
-    "alt": "roleta de premios",
-    "blockClass": "roleta-primeira-tela"
-  }
-},
-"image#tabela-primeira-tela":{
-  "props": {
-    "src": "assets/Bruno_Tabela_Roleta.webp",
-    "alt": "Tabela roleta",
-    "blockClass": "tabela-primeira-tela"
-  }
-},
-
-"modal-actions.close#roleta":{
-  "props": {
-    "label": "X",
-    "blockClass": "botao-fechar-roleta"
-  }
-},
-// FINAL ROLETA AQUI
-"flex-layout.row#segunda-linha-banner":{
-  "props": {
-    "blockClass": "img-segunda-linha-banner",
-    "fullWidth": true
+  "image#roleta-primeira-tela": {
+    "props": {
+      "src": "assets/roleta_imagens_v2.webp",
+      "alt": "roleta de premios",
+      "blockClass": "roleta-primeira-tela"
+    }
   },
-  "children": [
-    "image#img-segunda-linha-banner"
-  ]
-},
-"image#img-segunda-linha-banner":{
-  "props": {
-    "src": "assets/05_Banner_By_Madu.gif"
-  }
-},
+  "image#tabela-primeira-tela": {
+    "props": {
+      "src": "assets/Bruno_Tabela_Roleta.webp",
+      "alt": "Tabela roleta",
+      "blockClass": "tabela-primeira-tela"
+    }
+  },
+
+  "modal-actions.close#roleta": {
+    "props": {
+      "label": "X",
+      "blockClass": "botao-fechar-roleta"
+    }
+  },
+  // FINAL ROLETA AQUI
+  "flex-layout.row#segunda-linha-banner": {
+    "props": {
+      "blockClass": "img-segunda-linha-banner",
+      "fullWidth": true
+    },
+    "children": [
+      "image#img-segunda-linha-banner"
+    ]
+  },
+  "image#img-segunda-linha-banner": {
+    "props": {
+      "src": "assets/05_Banner_By_Madu.gif"
+    }
+  },
 
   "responsive-layout.desktop#banner-principal": {
     "children": [
@@ -293,7 +293,7 @@
       "link#video-banner-primeira-linha-mobile" //link
     ]
   },
-  // CARREGA O LINK HREF E O VIDEO
+  // CARREGA O LINK HREF E O VIDEO - primeira linha
   "link#video-banner-primeira-linha-mobile": {
     "props": {
       "href": "https://api.whatsapp.com/send?phone=5541998516332&text=Ol%C3%A1,%20quero%20falar%20com%20as%20consultoras",
@@ -301,13 +301,13 @@
     },
     "children": ["video#banner-topo-mobile"]
   },
-  "video#banner-topo-mobile":{
+  "video#banner-topo-mobile": {
     "props": {
       "width": "100%",
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/black-friday-banner-mobile-consultoras.mp4",
+      "src": "assets/video-consultoras-mobile-ext.mp4",
       "muted": true
     }
   },
@@ -316,43 +316,61 @@
   // MADU LINHA MOBILE - BANNER(VIDEO)
   "responsive-layout.mobile#banners-mobile": {
     "children": [
+      "link#link-video-black-ideal-mobile", //link no video - blackfriday
       "link#link-video-madu-linha-mobile", //link no video
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "link#link-video-horizontais-mobile" //link no video
     ]
   },
-  "link#link-video-madu-linha-mobile":{
+  "link#link-video-black-ideal-mobile": {
+    "props": {
+      "href": "/black-friday",
+      "newTab": true
+    },
+    "children": ["video#video-banner-black-ideal"]
+  },
+  "video#video-banner-black-ideal": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "assets/mobile-banner-black-friday.mp4",
+      "muted": true
+    }
+  },
+  "link#link-video-madu-linha-mobile": {
     "props": {
       "href": "/idealovers-by--mad-u",
       "newTab": true
     },
     "children": ["video#video-banner-madu-linha-mobile"]
   },
-  "video#video-banner-madu-linha-mobile":{
+  "video#video-banner-madu-linha-mobile": {
     "props": {
       "width": "100%",
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/banner-mobile-madu.mp4",
+      "src": "assets/banner-mobile-madu-ext.mp4",
       "muted": true
     }
   },
-  "link#link-video-horizontais-mobile":{
+  "link#link-video-horizontais-mobile": {
     "props": {
       "href": "/black-friday",
       "newTab": true
     },
     "children": ["video#horizontais"]
   },
-  "video#horizontais":{
+  "video#horizontais": {
     "props": {
       "width": "100%",
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/black-ideal-horizontais-mobile.mp4",
+      "src": "assets/black-ideal-horizontais-mobile-ext.mp4",
       "muted": true
     }
   },
@@ -361,6 +379,10 @@
 
   //SECAO DA MADU DESKTOP
   "flex-layout.row#prateleira-madu": {
+    "props": {
+      "blockClass": "container-madu",
+      "fullWidth": true
+    },
     "children": [
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3"
@@ -388,8 +410,7 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
+      "images": [{
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
@@ -612,6 +633,10 @@
     }
   },
   "flex-layout.row#shelf3": {
+    "props": {
+      "blockClass": "produtos-idealovers-byMadu",
+      "fullWidth": true
+    },
     "children": [
       "list-context.product-list#prateleira-madu"
     ]
@@ -621,6 +646,7 @@
     "props": {
       "text": "## **IDEALOVERS BY MAD.U**",
       "blockClass": "shelfTitle"
+
     },
     "title": "Título prateleira MAD.U"
   },

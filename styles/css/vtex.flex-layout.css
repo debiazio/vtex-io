@@ -1,3 +1,16 @@
+.flexRow--container-madu{
+  display: flex;
+}
+
+.flexRowContent--container-madu{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--container-madu .stretchChildrenWidth{
+  width: 100%!important;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
