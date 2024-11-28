@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-
       "responsive-layout.desktop#banner-principal",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
@@ -10,7 +9,7 @@
       "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
       "modal-trigger#roleta",
-      "flex-layout.row#compre-por-categoria",
+      // "flex-layout.row#compre-por-categoria",
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -21,7 +20,6 @@
       "__fold__"
     ]
   },
-
   "modal-trigger#roleta": {
     "props": {
       "trigger": "load-session"
@@ -60,7 +58,6 @@
       "blockClass": "imagem-link-para-roleta"
     }
   },
-
   //imagem - video da roleta mobile
   "responsive-layout.mobile#link-roleta": {
     "children": [
@@ -78,8 +75,6 @@
       "muted": true
     }
   },
-
-
   "modal-layout#roleta": {
     "props": {
       "blockClass": "form-roleta"
@@ -90,17 +85,14 @@
       "roleta" //teste roleta
     ]
   },
-
   "flex-layout.row#form-roleta": {
     "props": {
       "blockClass": "row-form-roleta"
     },
     "children": [
       "newsletter-form#teste-roleta"
-
     ]
   },
-
   "newsletter-form#teste-roleta": {
     "props": {
       "SuccessState": "rich-text#roleta-fomr",
@@ -109,7 +101,6 @@
     "children": [
       "flex-layout.col#roleta-coluna-esquerda",
       "flex-layout.col#roleta-coluna-direita"
-
     ]
   },
   "flex-layout.col#roleta-coluna-esquerda": {
@@ -144,7 +135,6 @@
       "blockClass": "roleta-logotipo-idelaine"
     }
   },
-
   "rich-text#subtitulo-form-roleta": {
     "props": {
       "text": "**APOSTE NA SUA SORTE**",
@@ -217,11 +207,13 @@
       "rich-text#regras-roleta"
     ]
   },
-
   "rich-text#titulo-rules": {
     "props": {
       "text": "Regras da Roleta de Prêmios",
-      "blockClass": ["texto-rules-roleta", "titulo-regras-roleta"]
+      "blockClass": [
+        "texto-rules-roleta",
+        "titulo-regras-roleta"
+      ]
     }
   },
   "rich-text#regras-roleta": {
@@ -230,7 +222,6 @@
       "blockClass": "texto-rules-roleta"
     }
   },
-
   "rich-text#roleta-fomr": {
     "props": {
       "text": "Agora gire a roleta e boa sorte!",
@@ -260,7 +251,6 @@
       "blockClass": "tabela-primeira-tela"
     }
   },
-
   "modal-actions.close#roleta": {
     "props": {
       "label": "X",
@@ -285,7 +275,6 @@
       "blockClass": "imagem-by-madu"
     }
   },
-
   "responsive-layout.desktop#banner-principal": {
     "children": [
       "list-context.image-list#banner-principal"
@@ -303,7 +292,9 @@
       "href": "https://api.whatsapp.com/send?phone=5541998516332&text=Ol%C3%A1,%20quero%20falar%20com%20as%20consultoras",
       "newTab": true
     },
-    "children": ["video#banner-topo-mobile"]
+    "children": [
+      "video#banner-topo-mobile"
+    ]
   },
   "video#banner-topo-mobile": {
     "props": {
@@ -315,8 +306,6 @@
       "muted": true
     }
   },
-
-
   // MADU LINHA MOBILE - BANNER(VIDEO)
   "responsive-layout.mobile#banners-mobile": {
     "children": [
@@ -332,7 +321,9 @@
       "href": "/black-friday",
       "newTab": true
     },
-    "children": ["video#video-banner-black-ideal"]
+    "children": [
+      "video#video-banner-black-ideal"
+    ]
   },
   "video#video-banner-black-ideal": {
     "props": {
@@ -349,7 +340,9 @@
       "href": "/idealovers-by--mad-u",
       "newTab": true
     },
-    "children": ["video#video-banner-madu-linha-mobile"]
+    "children": [
+      "video#video-banner-madu-linha-mobile"
+    ]
   },
   "video#video-banner-madu-linha-mobile": {
     "props": {
@@ -366,7 +359,9 @@
       "href": "/black-friday",
       "newTab": true
     },
-    "children": ["video#horizontais"]
+    "children": [
+      "video#horizontais"
+    ]
   },
   "video#horizontais": {
     "props": {
@@ -378,10 +373,6 @@
       "muted": true
     }
   },
-
-
-
-
   "responsive-layout.desktop#carrossel-5l-8l": {
     "children": [
       "rich-text#shelf-title",
@@ -404,7 +395,8 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [{
+      "images": [
+        {
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
@@ -488,8 +480,7 @@
   //conteiner do titulo das categorias
   "flex-layout.row#titulo-categorias": {
     "props": {
-      "blockClass": "conteiner-titulo-categorias",
-      "fullWidth": true
+      "blockClass": "conteiner-titulo-categorias"
     },
     "children": [
       "rich-text#titulo",
@@ -513,8 +504,8 @@
   //imagens das categorias - linha 1 - desktop
   "flex-layout.row#imagens-categorias": {
     "props": {
-      "blockClass": "conteiner-imagens-secao-categorias",
-      "fullWidth": true
+      "blockClass": "conteiner-imagens-secao-categorias"
+
     },
     "children": [
       "flex-layout.col#categoria-nails",
@@ -527,6 +518,22 @@
   "flex-layout.col#categoria-nails": {
     "props": {
       "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-nails"
+    ]
+  },
+  "link#link-categoria-nails":{
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-manicure"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-nails"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-nails":{
+    "props": {
+      "blockClass": "linha-imagem-e-label"
     },
     "children": [
       "image#categorias-nails",
@@ -548,14 +555,30 @@
   //label da categoria
   "rich-text#label-cat-nails": {
     "props": {
-      "text": "Nails Design Manicure",
-      "blockClass": "label-categorias"
+      "text": "Nails Designer Manicure",
+      "blockClass": ["label-categorias", "categorias-palavra-grande"]
     }
   },
   //coluna das imagens
   "flex-layout.col#categorias-lashes": {
     "props": {
       "blockClass": "categoria-imagens"
+    },
+    "children": [
+      "link#link-categoria-lashes"
+    ]
+  },
+  "link#link-categoria-lashes":{
+    "props": {
+      "href": "#"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-lashes"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-lashes": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
     },
     "children": [
       "image#categorias-lashes",
@@ -587,6 +610,23 @@
       "blockClass": "categoria-imagens"
     },
     "children": [
+      "link#link-categoria-podologia"
+    ]
+  },
+  "link#link-categoria-podologia":{
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-podologia"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-podologia"
+    ]
+  },
+
+  "flex-layout.row#categorias-quadro-podologia": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
       "image#categorias-podologia",
       "rich-text#label-cat-podologia"
     ]
@@ -616,6 +656,22 @@
       "blockClass": "categoria-imagens"
     },
     "children": [
+      "link#link-categoria-bodyPiercings"
+    ]
+  },
+  "link#link-categoria-bodyPiercings":{
+    "props": {
+      "href": "/beleza-e-estetica/autoclaves-para-body-piercing"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-bodyPiercings"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-bodyPiercings": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
       "image#categorias-bodyPiercings",
       "rich-text#label-cat-bodypiercings"
     ]
@@ -632,13 +688,12 @@
       }
     }
   },
-  "rich-text#label-cat-bodypiercings":{
+  "rich-text#label-cat-bodypiercings": {
     "props": {
       "text": "Body Piecer",
       "blockClass": "label-categorias"
     }
   },
-
   //secao linha 2 - categorias - desktop
   "flex-layout.row#imagens-segunda-linha-categorias": {
     "props": {
@@ -653,12 +708,29 @@
     ]
   },
   //link para a categoria
-  "flex-layout.col#categorias-odontologia":{
+  "flex-layout.col#categorias-odontologia": {
     "props": {
       "blockClass": "categoria-imagens"
     },
     "children": [
-      "image#categorias-odontologia"
+      "link#link-categoria-odontologia"
+    ]
+  },
+  "link#link-categoria-odontologia":{
+    "props": {
+      "href": "YYYY"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-odontologia"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-odontologia": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-odontologia",
+      "rich-text#label-cat-odontologia"
     ]
   },
   // imagens de capa categorias
@@ -673,12 +745,38 @@
       }
     }
   },
-  "flex-layout.col#categorias-veterinaria":{
+  //label categoria
+  "rich-text#label-cat-odontologia": {
+    "props": {
+      "text": "Odontologia",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna imagens
+  "flex-layout.col#categorias-veterinaria": {
     "props": {
       "blockClass": "categoria-imagens"
     },
     "children": [
-      "image#categorias-veterinaria"
+      "link#link-categoria-veterinaria"
+    ]
+  },
+  "link#link-categoria-veterinaria":{
+    "props": {
+      "href": "/veterinaria/autoclaves-para-veterinaria"
+
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-veterinaria"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-veterinaria": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-veterinaria",
+      "rich-text#label-cat-veterinaria"
     ]
   },
   "image#categorias-veterinaria": {
@@ -692,12 +790,36 @@
       }
     }
   },
-  "flex-layout.col#categorias-laboratorio":{
+  "rich-text#label-cat-veterinaria": {
+    "props": {
+      "text": "Veterinária",
+      "blockClass": "label-categorias"
+    }
+  },
+  //coluna imagens
+  "flex-layout.col#categorias-laboratorio": {
     "props": {
       "blockClass": "categoria-imagens"
     },
     "children": [
-      "image#categorias-laboratorio"
+      "link#link-categoria-laboratorio"
+    ]
+  },
+  "link#link-categoria-laboratorio":{
+    "props": {
+      "href": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-laboratorio"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-laboratorio": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-laboratorio",
+      "rich-text#label-cat-laboratorio"
     ]
   },
   "image#categorias-laboratorio": {
@@ -711,12 +833,36 @@
       }
     }
   },
-  "flex-layout.col#categorias-cli-hosp":{
+  "rich-text#label-cat-laboratorio": {
+    "props": {
+      "text": "Laboratório",
+      "blockClass": "label-categorias"
+    }
+  },
+  // coluna imagens
+  "flex-layout.col#categorias-cli-hosp": {
     "props": {
       "blockClass": "categoria-imagens"
     },
     "children": [
-      "image#categorias-cli-hosp"
+      "link#link-categoria-cli-hosp"
+    ]
+  },
+  "link#link-categoria-cli-hosp":{
+    "props": {
+      "href": "/clinicas-e-hospitais/"
+    },
+    "children": [
+      "flex-layout.row#categorias-quadro-cli-hosp"
+    ]
+  },
+  "flex-layout.row#categorias-quadro-cli-hosp": {
+    "props": {
+      "blockClass": "linha-imagem-e-label"
+    },
+    "children": [
+      "image#categorias-cli-hosp",
+      "rich-text#label-cat-cli-hosp"
     ]
   },
   "image#categorias-cli-hosp": {
@@ -730,8 +876,12 @@
       }
     }
   },
-
-
+  "rich-text#label-cat-cli-hosp": {
+    "props": {
+      "text": "Clínicas e Hospitais",
+      "blockClass": ["label-categorias", "categorias-palavra-grande"]
+    }
+  },
   // SECAO DOS MINI BANNERS
   "flex-layout.row#big_banners": {
     "props": {
@@ -740,7 +890,6 @@
     "children": [
       "image#big-banner-esquerda-image1",
       "image#big-banner-direita"
-
     ]
   },
   // LINHA MAIS ALTA DA SECAO DE big BANNERS
@@ -908,7 +1057,6 @@
       "showNavigationArrows": "desktopOnly"
     }
   }
-
   // "rich-text#texto-padrao": {
   //   "props": {
   //     "text": "Click me",

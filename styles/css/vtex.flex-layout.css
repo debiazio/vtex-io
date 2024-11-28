@@ -1,3 +1,21 @@
+.flexRow--container-compre-por-categoria {
+  /* padding-left: 35%;
+  padding-right: 35%; */
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-imagem-e-label{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flexColChild--categoria-imagens {
+  display: flex;
+  justify-content: center;
+}
+
 .flexRowContent--container-compre-por-categoria .stretchChildrenWidth {
   width: 100% !important;
 }
