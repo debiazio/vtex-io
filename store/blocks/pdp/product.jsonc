@@ -219,6 +219,13 @@
       // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday",
       // "condition-layout.product#visualizador3d-bellinhaPerola",
 
+      "condition-layout.product#video-75-vertical", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
+
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
       "condition-layout.product#visualizador3d-labelleRoseGold",
 
@@ -256,6 +263,91 @@
     ],
     "props": {
       "width": "60%"
+    }
+  },
+  "condition-layout.product#video-75-vertical":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2914"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "condition-layout.product#video-75-vertical2864":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2864"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "condition-layout.product#video-75-vertical2801":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2801"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "condition-layout.product#video-75-vertical2800":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2800"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "condition-layout.product#video-75-vertical2799":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2799"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "condition-layout.product#video-75-vertical2793":{
+    "props": {
+      "conditions": [{
+        "subject": "productId",
+        "arguments": {
+          "id": "2793"
+        }
+      }],
+      "Then": "flex-layout.row#video75litros"
+    }
+  },
+  "flex-layout.row#video75litros": {
+    "props": {
+      "blockClass": "video75litros",
+      "fullWidth": true
+    },
+    "children": [
+      "video#video-75-vertical"
+    ]
+  },
+  "video#video-75-vertical":{
+    "props": {
+      "width": "50%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4"
+
     }
   },
   // //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA BELLINHA PEROLA BF
