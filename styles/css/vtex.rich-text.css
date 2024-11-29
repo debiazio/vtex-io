@@ -445,7 +445,7 @@
 
 .paragraph--subtitulo-bf {
   font-size: 20px;
-  font-family: "Rubik light";
+  font-family: "Rubik";
   text-align: center;
   color: white;
   margin: 5px 20px 55px;
@@ -461,14 +461,14 @@
 .headingLevel3--subtitulo-bf-faq {
   color: white;
   margin: 0;
-  font-family: "Rubik semibold";
+  font-family: "Rubik";
   font-size: 32px;
   margin-top: 10px;
   margin-bottom: 45px;
 }
 
 .paragraph--subSubtitulo-bf-faq {
-  font-family: "Rubik light";
+  font-family: "Rubik";
   text-align: center;
   color: white;
   font-size: 22px;
@@ -508,7 +508,7 @@
 
 .paragraph--titulo-newsletter-bf {
   color: white;
-  font-family: "Rubik bold";
+  font-family: "Rubik";
   font-size: 32px;
   text-align: center;
   padding: 0 80px 0 80px;
@@ -611,7 +611,7 @@
 }
 
 .paragraph--subtitulo-form-roleta {
-  font-family: "Rubik semibold";
+  font-family: "Rubik";
   color: #ff489c;
   font-size: 20px;
   font-weight: 900;
@@ -643,7 +643,7 @@
 
 .paragraph--subtitulo-roleta {
   color: #ff489c;
-  font-family: "Rubik Semibold";
+  font-family: "Rubik";
   font-size: 18px;
   font-weight: 900;
   margin: 0;
