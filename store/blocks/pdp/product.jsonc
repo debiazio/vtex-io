@@ -131,6 +131,12 @@
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
       // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday", //vr
+      "condition-layout.product#video-75-vertical", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
+      "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
       // "condition-layout.product#visualizador3d-bellinhaPerola",//vr
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",//vr
       "condition-layout.product#visualizador3d-labelleRoseGold", //vr
@@ -342,11 +348,13 @@
   },
   "video#video-75-vertical":{
     "props": {
-      "width": "50%",
+      "width": "65%",
       "height": "100%",
       "loop": true,
       "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4"
+      "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4",
+      "muted": false,
+      "controlsType": "native"
 
     }
   },
