@@ -16,25 +16,27 @@
 }
 
 .paragraph--label-categorias:hover {
-  background: rgba(0, 0, 0, 0.171); /* Fundo mais escuro */
-  backdrop-filter: blur(5px); /* Aumenta o desfoque */
+  background: #fc51a62c;
+  backdrop-filter: blur(5px);
+  /* Aumenta o desfoque */
   -webkit-backdrop-filter: blur(15px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.068); /* Intensifica a sombra */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.068);
+  /* Intensifica a sombra */
 }
 
 
-.paragraph--categorias-palavra-grande{
+.paragraph--categorias-palavra-grande {
   padding-left: 35px;
 }
 
 
 .container--texto-titulo-categoria,
-.container--texto-subtitulo-categoria{
+.container--texto-subtitulo-categoria {
   display: flex;
   justify-content: center;
 }
 
-.paragraph--texto-titulo-categoria{
+.paragraph--texto-titulo-categoria {
   font-family: "Rubik";
   font-size: 48px;
   font-weight: 700;
@@ -43,7 +45,7 @@
   padding: 0;
 }
 
-.paragraph--texto-subtitulo-categoria{
+.paragraph--texto-subtitulo-categoria {
   font-family: "Rubik";
   font-size: 46px;
   font-weight: 100;
@@ -588,7 +590,7 @@
   display: none;
 }
 
-.container--titulo-regras-roleta{
+.container--titulo-regras-roleta {
   font-size: 16px;
   text-decoration: underline;
 }
@@ -599,8 +601,8 @@
   padding-top: 10px;
   color: #ffffff;
   text-shadow:
-  0 0 1px #ffffff,
-  0 0 5px #ffffff;
+    0 0 1px #ffffff,
+    0 0 5px #ffffff;
   font-family: "Rubik";
 }
 
@@ -626,7 +628,7 @@
   margin: 0;
   font-size: 20px;
   font-weight: 900;
-  color:  #ffffff;
+  color: #ffffff;
   font-family: "Rubik";
 
   /* Efeito de glow */
@@ -639,7 +641,7 @@
     0 0 40px rgba(255, 23, 137, 0.7);
 }
 
-.paragraph--subtitulo-roleta{
+.paragraph--subtitulo-roleta {
   color: #ff489c;
   font-family: "Rubik Semibold";
   font-size: 18px;
@@ -650,13 +652,26 @@
 
 
 @media screen and (max-width: 1024px) {
+  .paragraph--texto-titulo-categoria {
+    font-size: 24px;
+    margin: -10px;
+  }
+  .paragraph--texto-subtitulo-categoria {
+    font-size: 20px;
+  }
+
+  .paragraph--label-categorias {
+    padding: 10px;
+    font-size: 12px;
+  }
+
   .paragraph--subtitulo-form-roleta {
     text-shadow: none;
 
   }
 
 
-  .container--titulo-regras-roleta{
+  .container--titulo-regras-roleta {
     display: flex;
     justify-content: center;
   }
@@ -669,7 +684,7 @@
     width: 300px;
   }
 
-  .paragraph--texto2-roleta{
+  .paragraph--texto2-roleta {
     font-size: 17px;
     text-align: center;
     padding: 0;

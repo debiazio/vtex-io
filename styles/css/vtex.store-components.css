@@ -485,6 +485,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--imagem-categorias{
+    width: 165px;
+    height: 165px;
+  }
+
   /* //ICONE DE 360º */
 .imageElement--icone360 {
   width: 30px;

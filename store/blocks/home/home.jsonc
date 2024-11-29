@@ -6,10 +6,14 @@
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "modal-trigger#roleta-imagem",
+      "responsive-layout.mobile#categorias",
       "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
       "modal-trigger#roleta",
-      // "flex-layout.row#compre-por-categoria",
+
+      "responsive-layout.desktop#categorias",
+
+
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "responsive-layout.desktop#carrossel-5l-8l",
@@ -395,8 +399,7 @@
       "height": 650,
       "fullWidth": true,
       "preload": true,
-      "images": [
-        {
+      "images": [{
           "image": "assets/01.Banner_20anos 1.webp",
           "alt": "Banner 20 anos Idealine",
           "link": {
@@ -464,21 +467,91 @@
       "blockClass": "carousel"
     }
   },
+  //SECAO COMPRE POR CATEGORIA -MOBILE
+  "responsive-layout.mobile#categorias": {
+    "children": [
+      "flex-layout.row#compre-categorias-mobile"
+    ]
+  },
+  "flex-layout.row#compre-categorias-mobile": {
+    "props": {
+      "blockClass": "container-compre-por-categoria-mobile",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#titulo-categorias-linha1",
+      "flex-layout.row#imagens-categorias-mobile"
+    ]
+  },
+  "flex-layout.row#imagens-categorias-mobile": {
+    "props": {
+      "blockClass": "container-imagens-secao-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.row#linha-1-cat-mobile",
+      "flex-layout.row#linha-2-cat-mobile",
+      "flex-layout.row#titulo-categorias-linha2",
+      "flex-layout.row#linha-3-cat-mobile",
+      "flex-layout.row#linha-4-cat-mobile"
+    ]
+  },
+  "flex-layout.row#linha-1-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categoria-nails",
+      "flex-layout.col#categorias-lashes"
+    ]
+  },
+  "flex-layout.row#linha-2-cat-mobile": {
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-podologia",
+      "flex-layout.col#categorias-bodyPiercings"
+    ]
+  },
+  "flex-layout.row#linha-3-cat-mobile":{
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-odontologia",
+      "flex-layout.col#categorias-veterinaria"
+    ]
+  },
+  "flex-layout.row#linha-4-cat-mobile":{
+    "props": {
+      "blockClass": "linhas-categorias-mobile"
+    },
+    "children": [
+      "flex-layout.col#categorias-laboratorio",
+      "flex-layout.col#categorias-cli-hosp"
+    ]
+  },
+
   //SECAO COMPRE POR CATEGORIA - DESKTOP
+  "responsive-layout.desktop#categorias": {
+    "children": [
+      "flex-layout.row#compre-por-categoria"
+    ]
+  },
   "flex-layout.row#compre-por-categoria": {
     "props": {
       "blockClass": "container-compre-por-categoria",
       "fullWidth": true
     },
     "children": [
-      "flex-layout.row#titulo-categorias",
+      "flex-layout.row#titulo-categorias-linha1",
       "flex-layout.row#imagens-categorias",
-      "flex-layout.row#titulo-categorias",
+      "flex-layout.row#titulo-categorias-linha2",
       "flex-layout.row#imagens-segunda-linha-categorias"
     ]
   },
   //conteiner do titulo das categorias
-  "flex-layout.row#titulo-categorias": {
+  "flex-layout.row#titulo-categorias-linha1": {
     "props": {
       "blockClass": "conteiner-titulo-categorias"
     },
@@ -505,7 +578,6 @@
   "flex-layout.row#imagens-categorias": {
     "props": {
       "blockClass": "conteiner-imagens-secao-categorias"
-
     },
     "children": [
       "flex-layout.col#categoria-nails",
@@ -513,6 +585,22 @@
       "flex-layout.col#categorias-podologia",
       "flex-layout.col#categorias-bodyPiercings"
     ]
+  },
+  "flex-layout.row#titulo-categorias-linha2":{
+    "props": {
+      "blockClass": "conteiner-titulo-categorias"
+    },
+    "children": [
+      "rich-text#titulo",
+      "rich-text#subtitulo-categorias-2"
+    ]
+  },
+  //subtitulo das categorias
+  "rich-text#subtitulo-categorias-2": {
+    "props": {
+      "text": "Saúde & Categoria",
+      "blockClass": "texto-subtitulo-categoria"
+    }
   },
   //coluna das imagens
   "flex-layout.col#categoria-nails": {
@@ -523,7 +611,7 @@
       "link#link-categoria-nails"
     ]
   },
-  "link#link-categoria-nails":{
+  "link#link-categoria-nails": {
     "props": {
       "href": "/beleza-e-estetica/autoclaves-para-manicure"
     },
@@ -531,7 +619,7 @@
       "flex-layout.row#categorias-quadro-nails"
     ]
   },
-  "flex-layout.row#categorias-quadro-nails":{
+  "flex-layout.row#categorias-quadro-nails": {
     "props": {
       "blockClass": "linha-imagem-e-label"
     },
@@ -568,9 +656,9 @@
       "link#link-categoria-lashes"
     ]
   },
-  "link#link-categoria-lashes":{
+  "link#link-categoria-lashes": {
     "props": {
-      "href": "#"
+      "href": "/beleza-e-estetica/autoclaves-para-lash-designer"
     },
     "children": [
       "flex-layout.row#categorias-quadro-lashes"
@@ -613,7 +701,7 @@
       "link#link-categoria-podologia"
     ]
   },
-  "link#link-categoria-podologia":{
+  "link#link-categoria-podologia": {
     "props": {
       "href": "/beleza-e-estetica/autoclaves-para-podologia"
     },
@@ -659,7 +747,7 @@
       "link#link-categoria-bodyPiercings"
     ]
   },
-  "link#link-categoria-bodyPiercings":{
+  "link#link-categoria-bodyPiercings": {
     "props": {
       "href": "/beleza-e-estetica/autoclaves-para-body-piercing"
     },
@@ -682,7 +770,7 @@
       "blockClass": "imagem-categorias",
       "src": "assets/body_piercing.webp",
       "alt": "BodyPiercing",
-      "title": "Categoria Body Piercing",
+      "title": "Categoria Body Piercer",
       "link": {
         "url": "/beleza-e-estetica/autoclaves-para-body-piercing"
       }
@@ -716,9 +804,9 @@
       "link#link-categoria-odontologia"
     ]
   },
-  "link#link-categoria-odontologia":{
+  "link#link-categoria-odontologia": {
     "props": {
-      "href": "YYYY"
+      "href": "/odontologia/autoclaves-para-odontologia"
     },
     "children": [
       "flex-layout.row#categorias-quadro-odontologia"
@@ -761,7 +849,7 @@
       "link#link-categoria-veterinaria"
     ]
   },
-  "link#link-categoria-veterinaria":{
+  "link#link-categoria-veterinaria": {
     "props": {
       "href": "/veterinaria/autoclaves-para-veterinaria"
 
@@ -805,7 +893,7 @@
       "link#link-categoria-laboratorio"
     ]
   },
-  "link#link-categoria-laboratorio":{
+  "link#link-categoria-laboratorio": {
     "props": {
       "href": "/clinicas-e-hospitais/autoclaves-para-laboratorio"
     },
@@ -848,7 +936,7 @@
       "link#link-categoria-cli-hosp"
     ]
   },
-  "link#link-categoria-cli-hosp":{
+  "link#link-categoria-cli-hosp": {
     "props": {
       "href": "/clinicas-e-hospitais/"
     },

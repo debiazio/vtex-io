@@ -1,6 +1,11 @@
-.flexRowContent--video75litros{
-  display:flex;
+.flexRowContent--video75litros {
+  display: flex;
   justify-content: center;
+}
+
+.flexRowContent--linhas-categorias-mobile {
+  display: flex;
+  flex-direction: row;
 }
 
 .flexRow--container-compre-por-categoria {
@@ -10,7 +15,7 @@
   justify-content: center;
 }
 
-.flexRowContent--linha-imagem-e-label{
+.flexRowContent--linha-imagem-e-label {
   display: flex;
   flex-direction: column;
 }
@@ -778,9 +783,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-.flexRow--list-price-savings{
-  margin-top: 20px;
-}
+  .flexRowContent--conteiner-titulo-categorias{
+    padding: 25px 0;
+  }
+  .flexColChild--categoria-imagens {
+    padding: 14px 0;
+  }
+
+  .flexRow--list-price-savings {
+    margin-top: 20px;
+  }
 
   .flexColChild--coluna-esquerda-roleta {
     display: flex;
