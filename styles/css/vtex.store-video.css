@@ -10,18 +10,26 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .videoContainer--video75litrosVertical {
+    width: 100%!important;
+    height: 100%;
+    padding: 20px!important;
+  }
+}
+
 .videoContainer,
-.videoContainer--videoexemplo{
+.videoContainer--videoexemplo {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.videoElement--videoexemplo{
+.videoElement--videoexemplo {
   border: none;
 }
 
 .fallbackImage--videoexemplo,
-.fallbackContainer--videoexemplo{
+.fallbackContainer--videoexemplo {
   border: none;
 }

@@ -348,6 +348,7 @@
   },
   "video#video-75-vertical":{
     "props": {
+      "blockClass": "video75litrosVertical",
       "width": "65%",
       "height": "100%",
       "loop": true,
