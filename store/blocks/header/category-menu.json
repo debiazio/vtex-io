@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#ver-tudo",
-      "menu-item#submenuBlackFriday",
+      "menu-item#submenuPronta-entrega",
       "menu-item#mobiliario-tecnico",
       "menu-item#idealclave-bellinha",
       "menu-item#submenuMarceloBrito",
@@ -49,8 +49,8 @@
     },
     "children": [
       "menu-item#submenuVerTudo-acessorios-ester",
-      "menu-item#submenuVerTudo-black-friday",
       "menu-item#submenuVerTudo-mobiliario-tecnico",
+      "menu-item#submenuVerTudo-pronta-entrega",
       "menu-item#submenuVerTudoBellinha",
       "menu-item#submenuVerTudoMarceloBrito",
       "menu-item#submenuVerTudoLaBelle",
@@ -76,21 +76,6 @@
         "text": "Acessórios para Esterilização"
       },
       "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuBlackFriday": {
-    "props": {
-      "id": "menu-dropdown",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/black-friday",
-        "noFollow": false,
-        "tagTitle": "Black Ideal",
-        "text": "Black Ideal"
-      },
-      "blockClass": "menu-superior"
     }
   },
   "menu-item#submenuMarceloBrito": {
@@ -198,17 +183,17 @@
       "blockClass": "menu-dropdown"
     }
   },
-  "menu-item#submenuVerTudo-black-friday": {
+  "menu-item#submenuVerTudo-pronta-entrega": {
     "props": {
       "id": "menu-dropdown",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/black-friday",
+        "href": "/pronta-entrega",
         "noFollow": false,
-        "tagTitle": "Black Ideal",
-        "text": "Black Ideal"
+        "tagTitle": "Pronta Entrega",
+        "text": "Pronta Entrega"
       },
       "blockClass": "menu-dropdown"
     }
@@ -726,7 +711,7 @@
       "flex-layout.row#linha-login-mobile",
       "menu-item#ver-tudo-mobile",
 
-      "menu-item#black-friday-mobile",
+      "menu-item#pronta-entrega-mobile",
 
       "menu-item#mobiliario-tecnico-mobile",
       "menu-item#idealclave-bellinha-mobile",
@@ -801,17 +786,17 @@
     ]
   },
 
-  "menu-item#black-friday-mobile": {
+  "menu-item#pronta-entrega-mobile": {
     "props": {
       "id": "menu-principal-mobile",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/black-friday",
+        "href": "/pronta-entrega",
         "noFollow": false,
-        "tagTitle": "Black Ideal",
-        "text": "Black Ideal"
+        "tagTitle": "Pronta Entrega",
+        "text": "Pronta Entrega"
       },
       "blockClass": "menu-superior-mobile"
     }

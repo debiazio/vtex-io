@@ -5,12 +5,11 @@
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
-      "modal-trigger#roleta-imagem",
+      // "modal-trigger#roleta-imagem",
       "responsive-layout.mobile#categorias",
       "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
-      "modal-trigger#roleta",
-
+      // "modal-trigger#roleta",
       "responsive-layout.desktop#categorias",
 
 
@@ -24,243 +23,243 @@
       "__fold__"
     ]
   },
-  "modal-trigger#roleta": {
-    "props": {
-      "trigger": "load-session"
-    },
-    "children": [
-      "modal-layout#roleta"
-    ]
-  },
-  "modal-trigger#roleta-imagem": {
-    "props": {
-      "trigger": "click"
-    },
-    "children": [
-      "responsive-layout.desktop#link-roleta",
-      "responsive-layout.mobile#link-roleta",
-      "modal-layout#roleta"
-    ]
-  },
-  "responsive-layout.desktop#link-roleta": {
-    "children": [
-      "flex-layout.row#img-trigger-roleta"
-    ]
-  },
-  "flex-layout.row#img-trigger-roleta": {
-    "props": {
-      "blockClass": "img-trigger-roleta",
-      "fullWidth": true
-    },
-    "children": [
-      "image#teste-img-roleta"
-    ]
-  },
-  "image#teste-img-roleta": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
-      "blockClass": "imagem-link-para-roleta"
-    }
-  },
-  //imagem - video da roleta mobile
-  "responsive-layout.mobile#link-roleta": {
-    "children": [
-      "video#video-trigger-roleta-mobile"
-      // "image#teste-img-roleta-mobile"
-    ]
-  },
-  "video#video-trigger-roleta-mobile": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "assets/roleta-link_1.mp4",
-      "muted": true
-    }
-  },
-  "modal-layout#roleta": {
-    "props": {
-      "blockClass": "form-roleta"
-    },
-    "children": [
-      "flex-layout.row#form-roleta",
-      "modal-actions.close#roleta",
-      "roleta" //teste roleta
-    ]
-  },
-  "flex-layout.row#form-roleta": {
-    "props": {
-      "blockClass": "row-form-roleta"
-    },
-    "children": [
-      "newsletter-form#teste-roleta"
-    ]
-  },
-  "newsletter-form#teste-roleta": {
-    "props": {
-      "SuccessState": "rich-text#roleta-fomr",
-      "blockClass": "formulario-roleta"
-    },
-    "children": [
-      "flex-layout.col#roleta-coluna-esquerda",
-      "flex-layout.col#roleta-coluna-direita"
-    ]
-  },
-  "flex-layout.col#roleta-coluna-esquerda": {
-    "props": {
-      "blockClass": "coluna-esquerda-roleta"
-    },
-    "children": [
-      "image#logo-idealine",
-      "image#roleta-premios",
-      "rich-text#subtitulo-form-roleta",
-      "rich-text#texto2-form-roleta",
-      "rich-text#preencha-form-roleta",
-      "newsletter-input-name#roleta",
-      "newsletter-input-email#roleta",
-      "newsletter-input-phone#roleta",
-      "flex-layout.row#confirm",
-      "newsletter-submit#roleta",
-      "flex-layout.row#rules"
-    ]
-  },
-  "image#roleta-premios": {
-    "props": {
-      "src": "assets/titulo-roleta-premios.svg",
-      "alt": "Titulo da roleta",
-      "blockClass": "titulo-img-roleta"
-    }
-  },
-  "image#logo-idealine": {
-    "props": {
-      "src": "assets/logo-branco-sem-bordas.png",
-      "alt": "Logo Idealine",
-      "blockClass": "roleta-logotipo-idelaine"
-    }
-  },
-  "rich-text#subtitulo-form-roleta": {
-    "props": {
-      "text": "**APOSTE NA SUA SORTE**",
-      "blockClass": "subtitulo-form-roleta"
-    }
-  },
-  "rich-text#texto2-form-roleta": {
-    "props": {
-      "text": "**E GANHE UM PRÊMIO INCRÍVEL NA SUA COMPRA**",
-      "blockClass": "texto2-roleta"
-    }
-  },
-  "rich-text#preencha-form-roleta": {
-    "props": {
-      "text": "Preencha seus dados para girar a roleta de Prêmios",
-      "blockClass": "subtitulo-roleta"
-    }
-  },
-  "newsletter-input-name#roleta": {
-    "props": {
-      "placeholderText": "Digite seu nome",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "newsletter-input-email#roleta": {
-    "props": {
-      "placeholderText": "Digite seu email",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "newsletter-input-phone#roleta": {
-    "props": {
-      "placeholderText": "Seu número de celular",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "newsletter-submit#roleta": {
-    "props": {
-      "submitButtonLabel": "Enviar",
-      "blockClass": "submit-button"
-    }
-  },
-  "flex-layout.row#confirm": {
-    "props": {
-      "blockClass": "conteiner-confirmacao"
-    },
-    "children": [
-      "newsletter-checkbox-confirmation#roleta",
-      "newsletter-checkbox-confirmation#roleta-termos"
-    ]
-  },
-  "newsletter-checkbox-confirmation#roleta": {
-    "props": {
-      "checkboxLabel": "Eu concordo em  receber comunicações.",
-      "blockClass": "termo-concordo-roleta"
-    }
-  },
-  "newsletter-checkbox-confirmation#roleta-termos": {
-    "props": {
-      "checkboxLabel": "Li e aceito os termos da política de privacidade",
-      "blockClass": "aceito-termos"
-    }
-  },
-  "flex-layout.row#rules": {
-    "props": {
-      "blockClass": "rules-roleta-container"
-    },
-    "children": [
-      "rich-text#titulo-rules",
-      "rich-text#regras-roleta"
-    ]
-  },
-  "rich-text#titulo-rules": {
-    "props": {
-      "text": "Regras da Roleta de Prêmios",
-      "blockClass": [
-        "texto-rules-roleta",
-        "titulo-regras-roleta"
-      ]
-    }
-  },
-  "rich-text#regras-roleta": {
-    "props": {
-      "text": "*Válido para compras acima de R$ 390,00.\n *Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.\n \n *Imagens dos prêmios meramente ilustrativas",
-      "blockClass": "texto-rules-roleta"
-    }
-  },
-  "rich-text#roleta-fomr": {
-    "props": {
-      "text": "Agora gire a roleta e boa sorte!",
-      "blockClass": "confirm-form-roleta"
-    }
-  },
-  "flex-layout.col#roleta-coluna-direita": {
-    "props": {
-      "blockClass": "coluna-direita-roleta"
-    },
-    "children": [
-      "image#roleta-primeira-tela",
-      "image#tabela-primeira-tela"
-    ]
-  },
-  "image#roleta-primeira-tela": {
-    "props": {
-      "src": "assets/roleta_imagens_v2.webp",
-      "alt": "roleta de premios",
-      "blockClass": "roleta-primeira-tela"
-    }
-  },
-  "image#tabela-primeira-tela": {
-    "props": {
-      "src": "assets/Bruno_Tabela_Roleta.webp",
-      "alt": "Tabela roleta",
-      "blockClass": "tabela-primeira-tela"
-    }
-  },
-  "modal-actions.close#roleta": {
-    "props": {
-      "label": "X",
-      "blockClass": "botao-fechar-roleta"
-    }
-  },
+  // "modal-trigger#roleta": {
+  //   "props": {
+  //     "trigger": "load-session"
+  //   },
+  //   "children": [
+  //     "modal-layout#roleta"
+  //   ]
+  // },
+  // "modal-trigger#roleta-imagem": {
+  //   "props": {
+  //     "trigger": "click"
+  //   },
+  //   "children": [
+  //     "responsive-layout.desktop#link-roleta",
+  //     "responsive-layout.mobile#link-roleta",
+  //     "modal-layout#roleta"
+  //   ]
+  // },
+  // "responsive-layout.desktop#link-roleta": {
+  //   "children": [
+  //     "flex-layout.row#img-trigger-roleta"
+  //   ]
+  // },
+  // "flex-layout.row#img-trigger-roleta": {
+  //   "props": {
+  //     "blockClass": "img-trigger-roleta",
+  //     "fullWidth": true
+  //   },
+  //   "children": [
+  //     "image#teste-img-roleta"
+  //   ]
+  // },
+  // "image#teste-img-roleta": {
+  //   "props": {
+  //     "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
+  //     "blockClass": "imagem-link-para-roleta"
+  //   }
+  // },
+  // //imagem - video da roleta mobile
+  // "responsive-layout.mobile#link-roleta": {
+  //   "children": [
+  //     "video#video-trigger-roleta-mobile"
+  //     // "image#teste-img-roleta-mobile"
+  //   ]
+  // },
+  // "video#video-trigger-roleta-mobile": {
+  //   "props": {
+  //     "width": "100%",
+  //     "height": "600px",
+  //     "loop": true,
+  //     "autoPlay": true,
+  //     "src": "assets/roleta-link_1.mp4",
+  //     "muted": true
+  //   }
+  // },
+  // "modal-layout#roleta": {
+  //   "props": {
+  //     "blockClass": "form-roleta"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#form-roleta",
+  //     "modal-actions.close#roleta",
+  //     "roleta" //teste roleta
+  //   ]
+  // },
+  // "flex-layout.row#form-roleta": {
+  //   "props": {
+  //     "blockClass": "row-form-roleta"
+  //   },
+  //   "children": [
+  //     "newsletter-form#teste-roleta"
+  //   ]
+  // },
+  // "newsletter-form#teste-roleta": {
+  //   "props": {
+  //     "SuccessState": "rich-text#roleta-fomr",
+  //     "blockClass": "formulario-roleta"
+  //   },
+  //   "children": [
+  //     "flex-layout.col#roleta-coluna-esquerda",
+  //     "flex-layout.col#roleta-coluna-direita"
+  //   ]
+  // },
+  // "flex-layout.col#roleta-coluna-esquerda": {
+  //   "props": {
+  //     "blockClass": "coluna-esquerda-roleta"
+  //   },
+  //   "children": [
+  //     "image#logo-idealine",
+  //     "image#roleta-premios",
+  //     "rich-text#subtitulo-form-roleta",
+  //     "rich-text#texto2-form-roleta",
+  //     "rich-text#preencha-form-roleta",
+  //     "newsletter-input-name#roleta",
+  //     "newsletter-input-email#roleta",
+  //     "newsletter-input-phone#roleta",
+  //     "flex-layout.row#confirm",
+  //     "newsletter-submit#roleta",
+  //     "flex-layout.row#rules"
+  //   ]
+  // },
+  // "image#roleta-premios": {
+  //   "props": {
+  //     "src": "assets/titulo-roleta-premios.svg",
+  //     "alt": "Titulo da roleta",
+  //     "blockClass": "titulo-img-roleta"
+  //   }
+  // },
+  // "image#logo-idealine": {
+  //   "props": {
+  //     "src": "assets/logo-branco-sem-bordas.png",
+  //     "alt": "Logo Idealine",
+  //     "blockClass": "roleta-logotipo-idelaine"
+  //   }
+  // },
+  // "rich-text#subtitulo-form-roleta": {
+  //   "props": {
+  //     "text": "**APOSTE NA SUA SORTE**",
+  //     "blockClass": "subtitulo-form-roleta"
+  //   }
+  // },
+  // "rich-text#texto2-form-roleta": {
+  //   "props": {
+  //     "text": "**E GANHE UM PRÊMIO INCRÍVEL NA SUA COMPRA**",
+  //     "blockClass": "texto2-roleta"
+  //   }
+  // },
+  // "rich-text#preencha-form-roleta": {
+  //   "props": {
+  //     "text": "Preencha seus dados para girar a roleta de Prêmios",
+  //     "blockClass": "subtitulo-roleta"
+  //   }
+  // },
+  // "newsletter-input-name#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu nome",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-email#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu email",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-phone#roleta": {
+  //   "props": {
+  //     "placeholderText": "Seu número de celular",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-submit#roleta": {
+  //   "props": {
+  //     "submitButtonLabel": "Enviar",
+  //     "blockClass": "submit-button"
+  //   }
+  // },
+  // "flex-layout.row#confirm": {
+  //   "props": {
+  //     "blockClass": "conteiner-confirmacao"
+  //   },
+  //   "children": [
+  //     "newsletter-checkbox-confirmation#roleta",
+  //     "newsletter-checkbox-confirmation#roleta-termos"
+  //   ]
+  // },
+  // "newsletter-checkbox-confirmation#roleta": {
+  //   "props": {
+  //     "checkboxLabel": "Eu concordo em  receber comunicações.",
+  //     "blockClass": "termo-concordo-roleta"
+  //   }
+  // },
+  // "newsletter-checkbox-confirmation#roleta-termos": {
+  //   "props": {
+  //     "checkboxLabel": "Li e aceito os termos da política de privacidade",
+  //     "blockClass": "aceito-termos"
+  //   }
+  // },
+  // "flex-layout.row#rules": {
+  //   "props": {
+  //     "blockClass": "rules-roleta-container"
+  //   },
+  //   "children": [
+  //     "rich-text#titulo-rules",
+  //     "rich-text#regras-roleta"
+  //   ]
+  // },
+  // "rich-text#titulo-rules": {
+  //   "props": {
+  //     "text": "Regras da Roleta de Prêmios",
+  //     "blockClass": [
+  //       "texto-rules-roleta",
+  //       "titulo-regras-roleta"
+  //     ]
+  //   }
+  // },
+  // "rich-text#regras-roleta": {
+  //   "props": {
+  //     "text": "*Válido para compras acima de R$ 390,00.\n *Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.\n \n *Imagens dos prêmios meramente ilustrativas",
+  //     "blockClass": "texto-rules-roleta"
+  //   }
+  // },
+  // "rich-text#roleta-fomr": {
+  //   "props": {
+  //     "text": "Agora gire a roleta e boa sorte!",
+  //     "blockClass": "confirm-form-roleta"
+  //   }
+  // },
+  // "flex-layout.col#roleta-coluna-direita": {
+  //   "props": {
+  //     "blockClass": "coluna-direita-roleta"
+  //   },
+  //   "children": [
+  //     "image#roleta-primeira-tela",
+  //     "image#tabela-primeira-tela"
+  //   ]
+  // },
+  // "image#roleta-primeira-tela": {
+  //   "props": {
+  //     "src": "assets/roleta_imagens_v2.webp",
+  //     "alt": "roleta de premios",
+  //     "blockClass": "roleta-primeira-tela"
+  //   }
+  // },
+  // "image#tabela-primeira-tela": {
+  //   "props": {
+  //     "src": "assets/Bruno_Tabela_Roleta.webp",
+  //     "alt": "Tabela roleta",
+  //     "blockClass": "tabela-primeira-tela"
+  //   }
+  // },
+  // "modal-actions.close#roleta": {
+  //   "props": {
+  //     "label": "X",
+  //     "blockClass": "botao-fechar-roleta"
+  //   }
+  // },
   // FINAL ROLETA AQUI
   "flex-layout.row#segunda-linha-banner": {
     "props": {
@@ -1048,7 +1047,7 @@
       "slider-layout#prateleira-8litros"
     ],
     "props": {
-      "collection": "211",
+      "collection": "210",
       "orderBy": "OrderByReleaseDateDESC",
       "maxItems": 8
     },
@@ -1089,7 +1088,7 @@
     ],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "212",
+      "collection": "208",
       "maxItems": 9
     }
   },
