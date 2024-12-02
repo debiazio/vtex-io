@@ -7,7 +7,7 @@
       "flex-layout.row#deals",
       // "modal-trigger#roleta-imagem",
       "responsive-layout.mobile#categorias",
-      "flex-layout.row#segunda-linha-banner",
+      // "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
       // "modal-trigger#roleta",
       "responsive-layout.desktop#categorias",
@@ -305,7 +305,7 @@
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/video-consultoras-mobile-ext.mp4",
+      "src": "assets/01.Banner_Mobile_dezembro.mp4",
       "muted": true
     }
   },
@@ -321,7 +321,7 @@
   },
   "link#link-video-black-ideal-mobile": {
     "props": {
-      "href": "/black-friday",
+      "href": "/dvm",
       "newTab": true
     },
     "children": [
@@ -334,7 +334,7 @@
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/mobile-banner-black-friday.mp4",
+      "src": "assets/02.Banner_Mobile_dezembro.mp4",
       "muted": true
     }
   },
@@ -353,13 +353,13 @@
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/banner-mobile-madu-ext.mp4",
+      "src": "assets/03.Banner_Mobile_dezembro.mp4",
       "muted": true
     }
   },
   "link#link-video-horizontais-mobile": {
     "props": {
-      "href": "/black-friday",
+      "href": "/flex",
       "newTab": true
     },
     "children": [
@@ -372,7 +372,7 @@
       "height": "600px",
       "loop": true,
       "autoPlay": true,
-      "src": "assets/black-ideal-horizontais-mobile-ext.mp4",
+      "src": "assets/04.Banner_Mobile_Linha_Flex_dezembro.mp4",
       "muted": true
     }
   },
@@ -399,11 +399,10 @@
       "fullWidth": true,
       "preload": true,
       "images": [{
-          "image": "assets/01.Banner_20anos 1.webp",
-          "alt": "Banner 20 anos Idealine",
-          "link": {
-            "url": "/idealclave-bellinha/idealclave-bellinha-5l",
-            "title": "20 ano Idealine"
+          "video#carrousel": {
+            "props":{
+              "src": "assets/01_banner_summer_desembro.mp4"
+            }
           }
         },
         {
