@@ -70,7 +70,8 @@
     "vtex.store-newsletter": "1.x",
     "vtex.iframe": "0.x",
     "mfmgroup.scriptrd": "0.x",
-    "mfmgroup.visualizador-3d": "0.x"
+    "mfmgroup.visualizador-3d": "0.x",
+    "mfmgroup.carrossel-videos": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

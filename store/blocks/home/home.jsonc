@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#banner-principal",
+      // "carrosselvideos",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
@@ -589,8 +590,8 @@
       "blockClass": "conteiner-titulo-categorias"
     },
     "children": [
-      "rich-text#titulo",
-      "rich-text#subtitulo-categorias-2"
+      "rich-text#titulo"
+      // "rich-text#subtitulo-categorias-2"
     ]
   },
   //subtitulo das categorias
