@@ -292,7 +292,7 @@
   // CARREGA O LINK HREF E O VIDEO - primeira linha
   "link#video-banner-primeira-linha-mobile": {
     "props": {
-      "href": "https://api.whatsapp.com/send?phone=5541998516332&text=Ol%C3%A1,%20quero%20falar%20com%20as%20consultoras",
+      "href": "/idealclave-la-belle",
       "newTab": true
     },
     "children": [
@@ -312,23 +312,23 @@
   // MADU LINHA MOBILE - BANNER(VIDEO)
   "responsive-layout.mobile#banners-mobile": {
     "children": [
-      "link#link-video-black-ideal-mobile", //link no video - blackfriday
-      "link#link-video-madu-linha-mobile", //link no video
+      "link#link-video-segunda-linha-mobile", //link no video - blackfriday
+      "link#link-video-terceira-linha", //link no video
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "link#link-video-horizontais-mobile" //link no video
+      "link#link-video-quarta-linha-mobile" //link no video
     ]
   },
-  "link#link-video-black-ideal-mobile": {
+  "link#link-video-segunda-linha-mobile": {
     "props": {
       "href": "/dvm",
       "newTab": true
     },
     "children": [
-      "video#video-banner-black-ideal"
+      "video#video-banner-segunda-linha"
     ]
   },
-  "video#video-banner-black-ideal": {
+  "video#video-banner-segunda-linha": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -338,16 +338,16 @@
       "muted": true
     }
   },
-  "link#link-video-madu-linha-mobile": {
+  "link#link-video-terceira-linha": {
     "props": {
-      "href": "/idealovers-by--mad-u",
+      "href": "/idealclave-bellinha",
       "newTab": true
     },
     "children": [
-      "video#video-banner-madu-linha-mobile"
+      "video#video-banner-terceira-linha"
     ]
   },
-  "video#video-banner-madu-linha-mobile": {
+  "video#video-banner-terceira-linha": {
     "props": {
       "width": "100%",
       "height": "600px",
@@ -357,16 +357,16 @@
       "muted": true
     }
   },
-  "link#link-video-horizontais-mobile": {
+  "link#link-video-quarta-linha-mobile": {
     "props": {
       "href": "/flex",
       "newTab": true
     },
     "children": [
-      "video#horizontais"
+      "video#quarta-linha"
     ]
   },
-  "video#horizontais": {
+  "video#quarta-linha": {
     "props": {
       "width": "100%",
       "height": "600px",
