@@ -1,7 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#banner-principal",
+      "responsive-layout.desktop#video-banner-home",
+      // "responsive-layout.desktop#banner-principal",
       // "carrosselvideos",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
@@ -24,244 +25,117 @@
       "__fold__"
     ]
   },
-  // "modal-trigger#roleta": {
-  //   "props": {
-  //     "trigger": "load-session"
-  //   },
-  //   "children": [
-  //     "modal-layout#roleta"
-  //   ]
-  // },
-  // "modal-trigger#roleta-imagem": {
-  //   "props": {
-  //     "trigger": "click"
-  //   },
-  //   "children": [
-  //     "responsive-layout.desktop#link-roleta",
-  //     "responsive-layout.mobile#link-roleta",
-  //     "modal-layout#roleta"
-  //   ]
-  // },
-  // "responsive-layout.desktop#link-roleta": {
-  //   "children": [
-  //     "flex-layout.row#img-trigger-roleta"
-  //   ]
-  // },
-  // "flex-layout.row#img-trigger-roleta": {
-  //   "props": {
-  //     "blockClass": "img-trigger-roleta",
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "image#teste-img-roleta"
-  //   ]
-  // },
-  // "image#teste-img-roleta": {
-  //   "props": {
-  //     "src": "https://stermax.com.br/images_idealine/02. Banner_Roleta.gif",
-  //     "blockClass": "imagem-link-para-roleta"
-  //   }
-  // },
-  // //imagem - video da roleta mobile
-  // "responsive-layout.mobile#link-roleta": {
-  //   "children": [
-  //     "video#video-trigger-roleta-mobile"
-  //     // "image#teste-img-roleta-mobile"
-  //   ]
-  // },
-  // "video#video-trigger-roleta-mobile": {
-  //   "props": {
-  //     "width": "100%",
-  //     "height": "600px",
-  //     "loop": true,
-  //     "autoPlay": true,
-  //     "src": "assets/roleta-link_1.mp4",
-  //     "muted": true
-  //   }
-  // },
-  // "modal-layout#roleta": {
-  //   "props": {
-  //     "blockClass": "form-roleta"
-  //   },
-  //   "children": [
-  //     "flex-layout.row#form-roleta",
-  //     "modal-actions.close#roleta",
-  //     "roleta" //teste roleta
-  //   ]
-  // },
-  // "flex-layout.row#form-roleta": {
-  //   "props": {
-  //     "blockClass": "row-form-roleta"
-  //   },
-  //   "children": [
-  //     "newsletter-form#teste-roleta"
-  //   ]
-  // },
-  // "newsletter-form#teste-roleta": {
-  //   "props": {
-  //     "SuccessState": "rich-text#roleta-fomr",
-  //     "blockClass": "formulario-roleta"
-  //   },
-  //   "children": [
-  //     "flex-layout.col#roleta-coluna-esquerda",
-  //     "flex-layout.col#roleta-coluna-direita"
-  //   ]
-  // },
-  // "flex-layout.col#roleta-coluna-esquerda": {
-  //   "props": {
-  //     "blockClass": "coluna-esquerda-roleta"
-  //   },
-  //   "children": [
-  //     "image#logo-idealine",
-  //     "image#roleta-premios",
-  //     "rich-text#subtitulo-form-roleta",
-  //     "rich-text#texto2-form-roleta",
-  //     "rich-text#preencha-form-roleta",
-  //     "newsletter-input-name#roleta",
-  //     "newsletter-input-email#roleta",
-  //     "newsletter-input-phone#roleta",
-  //     "flex-layout.row#confirm",
-  //     "newsletter-submit#roleta",
-  //     "flex-layout.row#rules"
-  //   ]
-  // },
-  // "image#roleta-premios": {
-  //   "props": {
-  //     "src": "assets/titulo-roleta-premios.svg",
-  //     "alt": "Titulo da roleta",
-  //     "blockClass": "titulo-img-roleta"
-  //   }
-  // },
-  // "image#logo-idealine": {
-  //   "props": {
-  //     "src": "assets/logo-branco-sem-bordas.png",
-  //     "alt": "Logo Idealine",
-  //     "blockClass": "roleta-logotipo-idelaine"
-  //   }
-  // },
-  // "rich-text#subtitulo-form-roleta": {
-  //   "props": {
-  //     "text": "**APOSTE NA SUA SORTE**",
-  //     "blockClass": "subtitulo-form-roleta"
-  //   }
-  // },
-  // "rich-text#texto2-form-roleta": {
-  //   "props": {
-  //     "text": "**E GANHE UM PRÊMIO INCRÍVEL NA SUA COMPRA**",
-  //     "blockClass": "texto2-roleta"
-  //   }
-  // },
-  // "rich-text#preencha-form-roleta": {
-  //   "props": {
-  //     "text": "Preencha seus dados para girar a roleta de Prêmios",
-  //     "blockClass": "subtitulo-roleta"
-  //   }
-  // },
-  // "newsletter-input-name#roleta": {
-  //   "props": {
-  //     "placeholderText": "Digite seu nome",
-  //     "blockClass": "inputs-form-roleta"
-  //   }
-  // },
-  // "newsletter-input-email#roleta": {
-  //   "props": {
-  //     "placeholderText": "Digite seu email",
-  //     "blockClass": "inputs-form-roleta"
-  //   }
-  // },
-  // "newsletter-input-phone#roleta": {
-  //   "props": {
-  //     "placeholderText": "Seu número de celular",
-  //     "blockClass": "inputs-form-roleta"
-  //   }
-  // },
-  // "newsletter-submit#roleta": {
-  //   "props": {
-  //     "submitButtonLabel": "Enviar",
-  //     "blockClass": "submit-button"
-  //   }
-  // },
-  // "flex-layout.row#confirm": {
-  //   "props": {
-  //     "blockClass": "conteiner-confirmacao"
-  //   },
-  //   "children": [
-  //     "newsletter-checkbox-confirmation#roleta",
-  //     "newsletter-checkbox-confirmation#roleta-termos"
-  //   ]
-  // },
-  // "newsletter-checkbox-confirmation#roleta": {
-  //   "props": {
-  //     "checkboxLabel": "Eu concordo em  receber comunicações.",
-  //     "blockClass": "termo-concordo-roleta"
-  //   }
-  // },
-  // "newsletter-checkbox-confirmation#roleta-termos": {
-  //   "props": {
-  //     "checkboxLabel": "Li e aceito os termos da política de privacidade",
-  //     "blockClass": "aceito-termos"
-  //   }
-  // },
-  // "flex-layout.row#rules": {
-  //   "props": {
-  //     "blockClass": "rules-roleta-container"
-  //   },
-  //   "children": [
-  //     "rich-text#titulo-rules",
-  //     "rich-text#regras-roleta"
-  //   ]
-  // },
-  // "rich-text#titulo-rules": {
-  //   "props": {
-  //     "text": "Regras da Roleta de Prêmios",
-  //     "blockClass": [
-  //       "texto-rules-roleta",
-  //       "titulo-regras-roleta"
-  //     ]
-  //   }
-  // },
-  // "rich-text#regras-roleta": {
-  //   "props": {
-  //     "text": "*Válido para compras acima de R$ 390,00.\n *Válido apenas um prêmio por CPF.\nEstoque de prêmios limitado, sujeito à disponibilidade no momento da compra.\n \n *Imagens dos prêmios meramente ilustrativas",
-  //     "blockClass": "texto-rules-roleta"
-  //   }
-  // },
-  // "rich-text#roleta-fomr": {
-  //   "props": {
-  //     "text": "Agora gire a roleta e boa sorte!",
-  //     "blockClass": "confirm-form-roleta"
-  //   }
-  // },
-  // "flex-layout.col#roleta-coluna-direita": {
-  //   "props": {
-  //     "blockClass": "coluna-direita-roleta"
-  //   },
-  //   "children": [
-  //     "image#roleta-primeira-tela",
-  //     "image#tabela-primeira-tela"
-  //   ]
-  // },
-  // "image#roleta-primeira-tela": {
-  //   "props": {
-  //     "src": "assets/roleta_imagens_v2.webp",
-  //     "alt": "roleta de premios",
-  //     "blockClass": "roleta-primeira-tela"
-  //   }
-  // },
-  // "image#tabela-primeira-tela": {
-  //   "props": {
-  //     "src": "assets/Bruno_Tabela_Roleta.webp",
-  //     "alt": "Tabela roleta",
-  //     "blockClass": "tabela-primeira-tela"
-  //   }
-  // },
-  // "modal-actions.close#roleta": {
-  //   "props": {
-  //     "label": "X",
-  //     "blockClass": "botao-fechar-roleta"
-  //   }
-  // },
-  // FINAL ROLETA AQUI
+  "responsive-layout.desktop#video-banner-home":{
+    "children": [
+      "slider-layout#video-banner-home"
+    ]
+  },
+
+  "slider-layout#video-banner-home":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "video-banner-slider",
+      "fullWidth": true,
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "link#video-banner-home-1",
+      "link#video-banner-home-2",
+      "link#video-banner-home-3",
+      "link#video-banner-home-4"
+    ]
+  },
+  "link#video-banner-home-1":{
+    "props": {
+      "href": "/idealclave-la-belle",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#1"
+    ]
+  },
+  "video#1": {
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/01_banner_summer_desembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "title": "Summer Lovers - Autoclaves de 5L e 8L",
+      "alt": "Banner sumer lovers"
+    }
+  },
+  "link#video-banner-home-2":{
+    "props": {
+      "href": "/dvm",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#2"
+    ]
+  },
+  "video#2": {
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/02_banner_DVM_1_dezembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "alt": "Banner Summer lovers - Tecnologia DVM",
+      "title": "Banner Summer lovers - Tecnologia DVM"
+    }
+  },
+  "link#video-banner-home-3":{
+    "props": {
+      "href": "/idealclave-bellinha",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#3"
+    ]
+  },
+  "video#3": {
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/03_banner_03_5_8L_dezembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "alt": "Banner Summer lovers - Autoclaves de 5l ou 8l",
+      "title": "Banner Summer lovers - Autoclaves de 5l ou 8l"
+    }
+  },
+  "link#video-banner-home-4":{
+    "props": {
+      "href": "/flex",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#4"
+    ]
+  },
+  "video#4": {
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/04_banner_linha_Flex_dezembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "alt": "Banner Summer lovers - Linha Flex",
+      "title": "Banner Summer lovers - Linha Flex"
+    }
+  },
+
   "flex-layout.row#segunda-linha-banner": {
     "props": {
       "blockClass": "img-segunda-linha-banner",
@@ -279,11 +153,15 @@
       "blockClass": "imagem-by-madu"
     }
   },
-  "responsive-layout.desktop#banner-principal": {
-    "children": [
-      "list-context.image-list#banner-principal"
-    ]
-  },
+  // "responsive-layout.desktop#banner-principal": {
+  //   "children": [
+  //     "list-context.image-list#banner-principal"
+  //   ],
+  //   "props": {
+  //     "fullWidth": true
+  //   }
+
+  // },
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
@@ -293,8 +171,7 @@
   // CARREGA O LINK HREF E O VIDEO - primeira linha
   "link#video-banner-primeira-linha-mobile": {
     "props": {
-      "href": "/idealclave-la-belle",
-      "newTab": true
+      "href": "/idealclave-la-belle"
     },
     "children": [
       "video#banner-topo-mobile"
@@ -322,8 +199,7 @@
   },
   "link#link-video-segunda-linha-mobile": {
     "props": {
-      "href": "/dvm",
-      "newTab": true
+      "href": "/dvm"
     },
     "children": [
       "video#video-banner-segunda-linha"
@@ -391,62 +267,55 @@
       "scriptrd" // script do RD
     ]
   },
-  "list-context.image-list#banner-principal": {
-    "children": [
-      "slider-layout#demo-images"
-    ],
-    "props": {
-      "height": 650,
-      "fullWidth": true,
-      "preload": true,
-      "images": [{
-          "video#carrousel": {
-            "props":{
-              "src": "assets/01_banner_summer_desembro.mp4"
-            }
-          }
-        },
-        {
-          "image": "assets/01.Banner_20anos 1.webp",
-          "alt": "Banner tecnologia DVM",
-          "link": {
-            "url": "/idealclave-bellinha/idealclave-bellinha-5l",
-            "title": "Tecnologia DVM"
-          }
-        },
-        {
-          "image": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-desktop.gif",
-          "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-          "alt": "Banner autoclaves Dr. MArcelo",
-          "link": {
-            "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
-            "title": "Autoclave Marcelo Brito"
-          }
-        },
-        {
-          "image": "assets/01.Banner_20anos 1.webp",
-          "alt": "Banner 10x sem juros",
-          "link": {
-            "url": "/idealclave%208l"
-          }
-        },
-        {
-          "image": "assets/05.Banner_site_pronta_entrega.gif",
-          "alt": "Banner pronta entrega",
-          "link": {
-            "url": "/pronta-entrega"
-          }
-        },
-        {
-          "image": "assets/05-Banner_Autoclaves_Pornta_Entrega.gif",
-          "alt": "Banner pronta entrega horizontal",
-          "link": {
-            "url": "/pronta-entrega-horizontal"
-          }
-        }
-      ]
-    }
-  },
+  // "list-context.image-list#banner-principal": {
+  //   "children": [
+  //     "slider-layout#demo-images"
+  //   ],
+  //   "props": {
+  //     "fullWidth": true,
+  //     "preload": true,
+  //     "images": [
+  //       {
+  //         "image": "assets/01.Banner_20anos 1.webp",
+  //         "alt": "Banner tecnologia DVM",
+  //         "link": {
+  //           "url": "/idealclave-bellinha/idealclave-bellinha-5l",
+  //           "title": "Tecnologia DVM"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-desktop.gif",
+  //         "mobileImage": "assets/banner-5-entrega-fabrica.webp",
+  //         "alt": "Banner autoclaves Dr. MArcelo",
+  //         "link": {
+  //           "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
+  //           "title": "Autoclave Marcelo Brito"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/01.Banner_20anos 1.webp",
+  //         "alt": "Banner 10x sem juros",
+  //         "link": {
+  //           "url": "/idealclave%208l"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/05.Banner_site_pronta_entrega.gif",
+  //         "alt": "Banner pronta entrega",
+  //         "link": {
+  //           "url": "/pronta-entrega"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/05-Banner_Autoclaves_Pornta_Entrega.gif",
+  //         "alt": "Banner pronta entrega horizontal",
+  //         "link": {
+  //           "url": "/pronta-entrega-horizontal"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -595,12 +464,12 @@
     ]
   },
   //subtitulo das categorias
-  "rich-text#subtitulo-categorias-2": {
-    "props": {
-      "text": "Saúde & Categoria",
-      "blockClass": "texto-subtitulo-categoria"
-    }
-  },
+  // "rich-text#subtitulo-categorias-2": {
+  //   "props": {
+  //     "text": "Saúde & Categoria",
+  //     "blockClass": "texto-subtitulo-categoria"
+  //   }
+  // },
   //coluna das imagens
   "flex-layout.col#categoria-nails": {
     "props": {
