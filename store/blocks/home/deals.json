@@ -20,7 +20,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/frete-icon-caminhao-branco.svg",
+      "src": "assets/frete-icon-caminhao-preto.svg",
       "alt": "Ícone de caminhão de entrega",
       "maxHeight": "36px"
     }
@@ -47,7 +47,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/icon-check-branco.svg",
+      "src": "assets/icon-check-preto.svg",
       "alt": "Ícone de garantia de fábrica",
       "maxHeight": "36px"
     }
@@ -73,7 +73,7 @@
   },
   "image#deal3": {
     "props": {
-      "src": "assets/icon-cartao-credito-branco.svg",
+      "src": "assets/icon-cartao-credito-preto.svg",
       "alt": "Ícone de garantia de fábrica",
       "maxHeight": "36px"
     }
@@ -99,7 +99,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "assets/icon-barcode-branco.svg",
+      "src": "assets/icon-barcode-preto.svg",
       "alt": "Ícone de garantia de fábrica",
       "maxHeight": "36px"
     }
