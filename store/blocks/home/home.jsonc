@@ -691,7 +691,7 @@
   },
   "rich-text#label-cat-bodypiercings": {
     "props": {
-      "text": "Body Piecer",
+      "text": "Body Piercer",
       "blockClass": "label-categorias"
     }
   },
