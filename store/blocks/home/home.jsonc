@@ -42,18 +42,21 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "video-banner-slider",
       "fullWidth": true,
-      "showPaginationDots": "always"
+      "showPaginationDots": "always",
+      "autoplay": {"timeout": 5000}
     },
     "children": [
       "link#video-banner-home-1",
+      "link#video-banner-home-1.1",
       "link#video-banner-home-2",
       "link#video-banner-home-3",
+      "link#video-banner-home-3.1",
       "link#video-banner-home-4"
     ]
   },
   "link#video-banner-home-1":{
     "props": {
-      "href": "/idealclave-la-belle",
+      "href": "/5l/8-litros/8l/autoclaves?_q=autoclaves&fuzzy=0&initialMap=ft&initialQuery=autoclaves&map=capacidade,capacidade,capacidade,ft&operator=and",
       "blockClass": "link-banner-home"
     },
     "children": [
@@ -69,6 +72,27 @@
       "height": "100%",
       "loop": true,
       "title": "Summer Lovers - Autoclaves de 5L e 8L",
+      "alt": "Banner sumer lovers"
+    }
+  },
+  "link#video-banner-home-1.1":{
+    "props": {
+      "href": "/idealclave-la-belle",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#1.1"
+    ]
+  },
+  "video#1.1":{
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - La Belle 8L-dezembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "title": "Summer Lovers - Autoclaves La Belle",
       "alt": "Banner sumer lovers"
     }
   },
@@ -95,7 +119,7 @@
   },
   "link#video-banner-home-3":{
     "props": {
-      "href": "/idealclave-bellinha",
+      "href": "/5l/8-litros/8l/autoclaves?_q=autoclaves&fuzzy=0&initialMap=ft&initialQuery=autoclaves&map=capacidade,capacidade,capacidade,ft&operator=and",
       "blockClass": "link-banner-home"
     },
     "children": [
@@ -112,6 +136,27 @@
       "loop": true,
       "alt": "Banner Summer lovers - Autoclaves de 5l ou 8l",
       "title": "Banner Summer lovers - Autoclaves de 5l ou 8l"
+    }
+  },
+  "link#video-banner-home-3.1":{
+    "props": {
+      "href": "/idealclave-bellinha",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#3.1"
+    ]
+  },
+  "video#3.1": {
+    "props": {
+      "blockClass": "video-banner-home",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - Bellinha 5L_dezembro.mp4",
+      "autoPlay": true,
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "alt": "Banner Summer lovers - Bellinha",
+      "title": "Banner Summer lovers - Bellinha"
     }
   },
   "link#video-banner-home-4":{
@@ -136,15 +181,15 @@
     }
   },
 
-  "flex-layout.row#segunda-linha-banner": {
-    "props": {
-      "blockClass": "img-segunda-linha-banner",
-      "fullWidth": true
-    },
-    "children": [
-      "image#img-segunda-linha-banner"
-    ]
-  },
+  // "flex-layout.row#segunda-linha-banner": {
+  //   "props": {
+  //     "blockClass": "img-segunda-linha-banner",
+  //     "fullWidth": true
+  //   },
+  //   "children": [
+  //     "image#img-segunda-linha-banner"
+  //   ]
+  // },
   "image#img-segunda-linha-banner": {
     "props": {
       "src": "assets/05_Banner_By_Madu.gif",
