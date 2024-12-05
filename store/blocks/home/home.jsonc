@@ -17,12 +17,15 @@
 
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
+      "__fold__",
       "responsive-layout.desktop#carrossel-5l-8l",
       "rich-text#prateleira-maior-capacidade",
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
-      "__fold__"
+      "flex-layout.row#titulo-blog-home",
+      "flex-layout.row#blog-home"
+
     ]
   },
   "responsive-layout.desktop#video-banner-home":{
@@ -361,25 +364,25 @@
   //     ]
   //   }
   // },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "fullWidth": true,
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "always",
-      "usePagination": true,
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": true
-      },
-      "blockClass": "carousel"
-    }
-  },
+  // "slider-layout#demo-images": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "fullWidth": true,
+  //     "infinite": true,
+  //     "showNavigationArrows": "always",
+  //     "showPaginationDots": "always",
+  //     "usePagination": true,
+  //     "autoplay": {
+  //       "timeout": 5000,
+  //       "stopOnHover": true
+  //     },
+  //     "blockClass": "carousel"
+  //   }
+  // },
   //SECAO COMPRE POR CATEGORIA -MOBILE
   "responsive-layout.mobile#categorias": {
     "children": [
@@ -1056,6 +1059,40 @@
       "fullWidth": true,
       "blockClass": "shelf",
       "showNavigationArrows": "desktopOnly"
+    }
+  },
+  "flex-layout.row#titulo-blog-home":{
+    "props": {
+      "blockClass": "linha-blog"
+    },
+    "children": [
+      "rich-text#blog"
+    ]
+  },
+  "rich-text#blog":{
+    "props": {
+      "text": "## BLOG IDEALINE ##",
+      "blockClass": "titulo-idealine-blog"
+    }
+  },
+  "flex-layout.row#blog-home":{
+    "props": {
+      "blockClass": "linha-blog",
+      "fullWidth": true
+    },
+    "children": [
+      "blog-latest-posts-preview.wordpress-latest-posts-preview"
+    ]
+  },
+  "blog-latest-posts-preview.wordpress-latest-posts-preview":{
+    "props": {
+      "blockClass": "sessao-blog",
+      "useTextOverlays": false,
+      "showExcerpts": true,
+      "showDates": false,
+      "showCategories": false,
+      "absoluteLinks": true,
+      "numberOfPosts": 3
     }
   }
   // "rich-text#texto-padrao": {
