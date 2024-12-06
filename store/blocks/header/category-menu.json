@@ -6,10 +6,10 @@
     "children": [
       "menu-item#ver-tudo",
       "menu-item#submenuPronta-entrega",
-      "menu-item#mobiliario-tecnico",
       "menu-item#idealclave-bellinha",
-      "menu-item#submenuMarceloBrito",
       "menu-item#labelle",
+      "menu-item#submenuMarceloBrito",
+      "menu-item#mobiliario-tecnico",
       "menu-item#beleza-estetica",
       "menu-item#odontologia",
       "menu-item#linha-veterinaria",
@@ -117,8 +117,8 @@
         "type": "internal",
         "href": "/idealclave-la-belle",
         "noFollow": false,
-        "tagTitle": "La Belle",
-        "text": "La Belle"
+        "tagTitle": "Idealclave La Belle",
+        "text": "Idealclave La Belle"
       },
       "blockClass": "menu-dropdown"
     }
@@ -597,8 +597,8 @@
         "type": "internal",
         "href": "/idealclave-la-belle",
         "noFollow": false,
-        "tagTitle": "La Belle",
-        "text": "La Belle"
+        "tagTitle": "Idealclave La Belle",
+        "text": "Idealclave La Belle"
       },
       "blockClass": "menu-superior"
     }
@@ -999,8 +999,8 @@
         "type": "internal",
         "href": "/idealclave-la-belle",
         "noFollow": false,
-        "tagTitle": "La Belle",
-        "text": "La Belle"
+        "tagTitle": "Idealclave La Belle",
+        "text": "Idealclave La Belle"
       },
       "blockClass": "menu-superior-mobile"
     }
