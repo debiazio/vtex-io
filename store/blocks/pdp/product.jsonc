@@ -1627,7 +1627,8 @@
   "product-description": {
     "props": {
       "showTitle": true,
-      "collapseContent": true
+      "collapseContent": true,
+      "blockClass": "texto-descricao"
     }
   },
   "sku-selector": {

@@ -1,8 +1,13 @@
-.imageElementLink--imagem-by-madu{
+.pointerEventsNone {
+  display: flex;
+  margin-bottom: -10px;
+}
+
+.imageElementLink--imagem-by-madu {
   text-align: center;
 }
 
-.imageElement--imagem-categorias{
+.imageElement--imagem-categorias {
   width: 322px;
   height: 322px;
 }
@@ -485,18 +490,18 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .imageElement--imagem-categorias{
+  .imageElement--imagem-categorias {
     width: 165px;
     height: 165px;
   }
 
   /* //ICONE DE 360º */
-.imageElement--icone360 {
-  width: 30px;
-  padding: 0;
-  justify-content: start;
-  padding-top: 5px;
-}
+  .imageElement--icone360 {
+    width: 30px;
+    padding: 0;
+    justify-content: start;
+    padding-top: 5px;
+  }
 
 
 
@@ -541,7 +546,7 @@
   .imageElement--gif-animado-parcelas-img {
     height: 100%;
     margin-top: 14px;
-}
+  }
 
   .imageElement--imagem-informacoes {
     display: flex;
