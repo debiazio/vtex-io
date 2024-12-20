@@ -11,10 +11,10 @@
   "minicart.v2": {
     "props": {
       "customPixelEventId": "add-to-cart-button"
-      
+
     },
     "children": [
-      "minicart-base-content"      
+      "minicart-base-content"
     ]
   },
   "minicart-base-content": {
@@ -57,7 +57,7 @@
   },
   "minicart-checkout-button": {
     "props": {
-      "finishShoppingButtonLink": "/checkout/#/orderform"
+      "finishShoppingButtonLink": "/checkout/#/cart"
     }
   },
   "checkout-summary.compact#minicart": {
