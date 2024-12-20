@@ -15,6 +15,11 @@
   --sombra: #70809038;
 }
 
+:global(.vtex-store-components-3-x-container--texto-descricao) h1,
+:global(.vtex-store-components-3-x-container--texto-descricao) h2{
+  color: var(--pink);
+}
+
 :global(.vtex-textarea__label),
 :global(.vtex-input__label) {
   /* padding: 10px; */
