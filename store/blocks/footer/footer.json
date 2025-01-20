@@ -240,7 +240,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "2024 ® Grupo MFM. Todos os direitos reservados",
+      "text": "2025 ® Grupo MFM. Todos os direitos reservados",
       "blockClass": "footer"
     }
   },
@@ -289,7 +289,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "2024 ® Grupo MFM. Todos os direitos reservados",
+      "text": "2025 ® Grupo MFM. Todos os direitos reservados",
       "blockClass": "footer"
     }
   }
