@@ -708,7 +708,6 @@
       "blockClass": "menu-principal-mobile"
     },
     "children": [
-      "flex-layout.row#linha-login-mobile",
       "menu-item#ver-tudo-mobile",
 
       "menu-item#pronta-entrega-mobile",
@@ -722,23 +721,6 @@
       "menu-item#linha-veterinaria-mobile",
       "menu-item#clinicas-hospitais-mobile"
     ]
-  },
-  "flex-layout.row#linha-login-mobile": {
-    "props": {
-      "blockClass": "linha-login-mobile"
-    },
-    "children": [
-      "link#linha-login-mobile-texto",
-      "login"
-    ]
-  },
-  "link#linha-login-mobile-texto": {
-    "props": {
-      "href": "/login",
-      "label": "Oie! Vem fazer seu login ;)",
-      "blockClass": "texto-linha-login-mobile"
-    }
-
   },
 
   "menu-item#ver-tudo-mobile": {

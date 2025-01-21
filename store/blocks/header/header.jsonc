@@ -167,6 +167,7 @@
     "children": [
       "drawer",
       "logo#mobile",
+
       // "flex-layout.col#spacer",
       "minicart.v2"
     ],
@@ -194,6 +195,7 @@
 
   "menu#drawer": {
     "children": [
+      "login",
       "vtex.menu@2.x:menu#category-menu-mobile"
     ],
     "props": {
