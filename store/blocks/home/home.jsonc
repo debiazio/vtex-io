@@ -267,28 +267,30 @@
     }
   },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
-  "link#video-banner-primeira-linha-mobile": {
-    "props": {
-      "href": "/idealclave-la-belle"
-    },
-    "children": [
-      "video#banner-topo-mobile"
-    ]
-  },
-  "video#banner-topo-mobile": {
-    "props": {
-      "width": "100%",
-      // "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/summer-lovers-banner-mobile-sem-copo.mp4",
-      "muted": true
-    }
-  },
-  // MADU LINHA MOBILE - BANNER(VIDEO)
+
+  //removido a pedido da Etiene em 07/02/25
+  // "link#video-banner-primeira-linha-mobile": {
+  //   "props": {
+  //     "href": "/idealclave-la-belle"
+  //   },
+  //   "children": [
+  //     "video#banner-topo-mobile"
+  //   ]
+  // },
+  // "video#banner-topo-mobile": {
+  //   "props": {
+  //     "width": "100%",
+  //     // "height": "600px",
+  //     "loop": true,
+  //     "autoPlay": true,
+  //     "src": "https://stermax.com.br/images_idealine/sliderLayout/summer-lovers-banner-mobile-sem-copo.mp4",
+  //     "muted": true
+  //   }
+  // },
+
   "responsive-layout.mobile#banners-mobile": {
     "children": [
-      "link#video-banner-primeira-linha-mobile", //link
+      // "link#video-banner-primeira-linha-mobile", //link
       "link#link-video-segunda-linha-mobile", //link no video - blackfriday
       "link#link-video-terceira-linha", //link no video
       "rich-text#shelf-title",
