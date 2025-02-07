@@ -52,7 +52,6 @@
       "link#video-banner-home-0.01",
       "link#video-banner-home-0.1",
       "link#video-banner-home-1",
-      "link#video-banner-home-1.1",
       "link#video-banner-home-2",
       "link#video-banner-home-3",
       "link#video-banner-home-3.1",
@@ -117,28 +116,28 @@
       "alt": "Banner sumer lovers"
     }
   },
-
-  "link#video-banner-home-1.1":{
-    "props": {
-      "href": "/idealclave-la-belle",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#1.1"
-    ]
-  },
-  "video#1.1":{
-    "props": {
-      "blockClass": "video-banner-home",
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - La Belle 8L-dezembro.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true,
-      "title": "Summer Lovers - Autoclaves La Belle",
-      "alt": "Banner sumer lovers"
-    }
-  },
+// removido em 07/02/2025 pedido de Etiene
+  // "link#video-banner-home-1.1":{
+  //   "props": {
+  //     "href": "/idealclave-la-belle",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "video#1.1"
+  //   ]
+  // },
+  // "video#1.1":{
+  //   "props": {
+  //     "blockClass": "video-banner-home",
+  //     "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - La Belle 8L-dezembro.mp4",
+  //     "autoPlay": true,
+  //     "width": "100%",
+  //     "height": "100%",
+  //     "loop": true,
+  //     "title": "Summer Lovers - Autoclaves La Belle",
+  //     "alt": "Banner sumer lovers"
+  //   }
+  // },
   "link#video-banner-home-2":{
     "props": {
       "href": "/dvm",
