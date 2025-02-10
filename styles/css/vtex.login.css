@@ -42,6 +42,13 @@
     display: none;
   }
 
+  :global(.vtex-login-2-x-profile), :global(.vtex-login-2-x-label){
+    display: flex;
+    text-align: LEFT;
+    font-size: 0.9rem;
+    color: var(--rosa-pink-escuro)
+  }
+
 
 
 }
