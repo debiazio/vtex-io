@@ -23,7 +23,7 @@
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
-      "instagram",
+      // "instagram",
       "flex-layout.row#titulo-blog-home",
       "flex-layout.row#blog-home"
 
@@ -35,11 +35,11 @@
     ]
   },
 
-"instagram":{
-  "props":{
-    "blockClass": "instagram-posts"
-  }
-},
+// "instagram":{
+//   "props":{
+//     "blockClass": "instagram-posts"
+//   }
+// },
 
   "slider-layout#video-banner-home":{
     "props": {
