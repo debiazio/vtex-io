@@ -1633,8 +1633,12 @@
   },
   "sku-selector": {
     "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": false
+      "variationsSpacing": 5,
+      "showValueNameForImageVariation": true,
+      "visibility": "always",
+      "initialSelection":"image",
+      "displayThumbnailsArrows": true,
+      "hiddenImages": ["LabelName"]
     }
   },
 

@@ -23,6 +23,7 @@
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
+      "instagram",
       "flex-layout.row#titulo-blog-home",
       "flex-layout.row#blog-home"
 
@@ -33,6 +34,12 @@
       "slider-layout#video-banner-home"
     ]
   },
+
+"instagram":{
+  "props":{
+    "blockClass": "instagram-posts"
+  }
+},
 
   "slider-layout#video-banner-home":{
     "props": {
@@ -51,8 +58,8 @@
     "children": [
       "link#video-banner-home-0.01",
       "link#video-banner-home-0.1",
-      "link#video-banner-home-1",
-      "link#video-banner-home-1.1",
+      // "link#video-banner-home-1",
+      // "link#video-banner-home-1.1",
       "link#video-banner-home-2",
       "link#video-banner-home-3",
       "link#video-banner-home-3.1",
