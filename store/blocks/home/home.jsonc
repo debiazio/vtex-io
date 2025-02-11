@@ -56,9 +56,9 @@
       "autoplay": {"timeout": 5000}
     },
     "children": [
+      "link#video-banner-home-1",
       "link#video-banner-home-0.01",
       "link#video-banner-home-0.1",
-      // "link#video-banner-home-1",
       // "link#video-banner-home-1.1",
       "link#video-banner-home-2",
       // "link#video-banner-home-3",
@@ -105,7 +105,7 @@
   },
   "link#video-banner-home-1":{
     "props": {
-      "href": "/5l/8-litros/8l/autoclaves?_q=autoclaves&fuzzy=0&initialMap=ft&initialQuery=autoclaves&map=capacidade,capacidade,capacidade,ft&operator=and",
+      "href": "/idealclave-la-belle",
       "blockClass": "link-banner-home"
     },
     "children": [
@@ -115,13 +115,13 @@
   "video#1": {
     "props": {
       "blockClass": "video-banner-home",
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/summer-lovers-banner-desktop-sem-copo.mp4",
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Bloquinho Idealovers.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
       "loop": true,
-      "title": "Summer Lovers - Autoclaves de 5L e 8L",
-      "alt": "Banner sumer lovers"
+      "title": "",
+      "alt": "Bloquinho"
     }
   },
 // removido em 07/02/2025 pedido de Etiene
@@ -253,7 +253,7 @@
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
-      "link#video-banner-novaprimeira-linha-mobile" //link
+      "link#video-banner-primeira-linha-mobile"
     ]
   },
   "link#video-banner-novaprimeira-linha-mobile":{
@@ -276,29 +276,29 @@
   },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
 
-  //removido a pedido da Etiene em 07/02/25
-  // "link#video-banner-primeira-linha-mobile": {
-  //   "props": {
-  //     "href": "/idealclave-la-belle"
-  //   },
-  //   "children": [
-  //     "video#banner-topo-mobile"
-  //   ]
-  // },
-  // "video#banner-topo-mobile": {
-  //   "props": {
-  //     "width": "100%",
-  //     // "height": "600px",
-  //     "loop": true,
-  //     "autoPlay": true,
-  //     "src": "https://stermax.com.br/images_idealine/sliderLayout/summer-lovers-banner-mobile-sem-copo.mp4",
-  //     "muted": true
-  //   }
-  // },
+
+  "link#video-banner-primeira-linha-mobile": {
+    "props": {
+      "href": "/idealclave-la-belle"
+    },
+    "children": [
+      "video#banner-topo-mobile"
+    ]
+  },
+  "video#banner-topo-mobile": {
+    "props": {
+      "width": "100%",
+      // "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Mobile - Bloquinho Idealovers.mp4",
+      "muted": true
+    }
+  },
 
   "responsive-layout.mobile#banners-mobile": {
     "children": [
-      // "link#video-banner-primeira-linha-mobile", //link
+      "link#video-banner-novaprimeira-linha-mobile",
       "link#link-video-segunda-linha-mobile", //link no video - blackfriday
       "link#link-video-terceira-linha", //link no video
       "rich-text#shelf-title",
