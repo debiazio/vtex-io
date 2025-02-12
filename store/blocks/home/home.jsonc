@@ -105,7 +105,7 @@
   },
   "link#video-banner-home-1":{
     "props": {
-      "href": "/idealclave-la-belle",
+      "href": "/pronta-entrega",
       "blockClass": "link-banner-home"
     },
     "children": [
@@ -279,7 +279,7 @@
 
   "link#video-banner-primeira-linha-mobile": {
     "props": {
-      "href": "/idealclave-la-belle"
+      "href": "/pronta-entrega"
     },
     "children": [
       "video#banner-topo-mobile"
