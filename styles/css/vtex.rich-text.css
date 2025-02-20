@@ -146,6 +146,19 @@
 }
 
 /* rodape */
+.container--title-merchant-desktop,
+.container--title-horario-merchant-desktop,
+.container--horario-merchant-desktop,
+.container--contato-merchant-desktop{
+  color: white;
+}
+.headingLevel4--title-merchant-desktop{
+  margin: 0;
+}
+/* .paragraph--horario-merchant-desktop,
+.paragraph--contato-merchant-desktop{
+  margin: 0;
+} */
 /* newsletter */
 .container--title-newsletter {
   justify-content: center;
@@ -164,6 +177,8 @@
 
 .paragraph--footer {
   margin: 9px 0 13px;
+  padding: 0 50px;
+  text-align: center;
 }
 
 
