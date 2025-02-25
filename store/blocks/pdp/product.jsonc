@@ -1801,7 +1801,7 @@
     ],
     "props": {
       "category": "28",
-      "orderBy": "OrderByPriceASC"
+      "orderBy": "OrderByPriceDESC"
     }
   },
   "slider-layout#idealine-indica":{
