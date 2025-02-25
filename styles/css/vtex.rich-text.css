@@ -155,10 +155,15 @@
 .headingLevel4--title-merchant-desktop{
   margin: 0;
 }
-/* .paragraph--horario-merchant-desktop,
+
 .paragraph--contato-merchant-desktop{
   margin: 0;
-} */
+} 
+
+.listItem--horario-merchant-desktop::marker{
+  color: var(--rosa-pink-escuro);
+}
+
 /* newsletter */
 .container--title-newsletter {
   justify-content: center;
@@ -186,6 +191,7 @@
   margin: 0 0 14px;
   font-weight: 800;
   color: #ffffff;
+  font-size: 1rem;
 }
 
 .container--title-footer {
@@ -196,6 +202,14 @@
   transform: scale(1.1);
   transition: all 0.5s ease;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.list--horario-merchant-desktop{
+  margin: 0;
+}
+
+.list--horario-merchant-desktop{
+  padding-left: 15px;
 }
 
 /* rodape mobile  */

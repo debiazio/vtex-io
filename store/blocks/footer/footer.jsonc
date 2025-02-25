@@ -1,19 +1,20 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-requisitos-merchant",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#newsletter"
-
     ],
     "props": {
       "blockClass": "newsletter-row"
@@ -58,12 +59,11 @@
       "submitButtonLabel": "Enviar"
     }
   },
-
   "flex-layout.row#footer-2-desktop": {
     "children": [
       "flex-layout.col#footer-2-desktop-1",
+      "flex-layout.row#footer-requisitos-merchant",
       "flex-layout.col#footer-2-desktop-2",
-      "flex-layout.col#footer-2-desktop-3",
       "flex-layout.col#footer-2-desktop-4"
     ],
     "props": {
@@ -80,14 +80,12 @@
       "blockClass": "footer-2-desktop"
     }
   },
-
   "rich-text#title-footer-1": {
     "props": {
       "text": "Empresa",
       "blockClass": "title-footer"
     }
   },
-
   "flex-layout.col#footer-2-desktop-2": {
     "children": [
       "rich-text#title-footer-2",
@@ -98,8 +96,6 @@
       "blockClass": "imagens-payments-desktop"
     }
   },
-
-
   "rich-text#title-footer-2": {
     "props": {
       "text": "Formas de Pagamento",
@@ -116,8 +112,6 @@
       "blockClass": "metodos-pagamentos"
     }
   },
-
-
   "image#payment-1": {
     "props": {
       "src": "assets/payment-3.svg",
@@ -151,24 +145,22 @@
       }
     }
   },
-
   "flex-layout.col#footer-2-desktop-3": {
     "children": [
       "rich-text#title-footer-3",
       "vtex.menu@2.x:menu#fique-conosco"
     ],
     "props": {
-      "blockClass": "footer-2-desktop"
+      "blockClass": "footer-2-desktop",
+      "width": "100%"
     }
   },
-
   "rich-text#title-footer-3": {
     "props": {
       "text": "Fique Conosco",
       "blockClass": "title-footer"
     }
   },
-
   "flex-layout.col#footer-2-desktop-4": {
     "children": [
       "rich-text#title-footer-4",
@@ -178,7 +170,6 @@
       "blockClass": "footer-2-desktop"
     }
   },
-
   "rich-text#title-footer-4": {
     "props": {
       "text": "Compre com Segurança",
@@ -230,63 +221,90 @@
     }
   },
   // ADD PARA REQUISITOS GOOGLE MERCHANT
-  "flex-layout.row#footer-requisitos-merchant":{
+  "flex-layout.row#footer-requisitos-merchant": {
     "props": {
-      "blockClass": "footer-merchant-desktop"
+      "blockClass": "footer-merchant-desktop",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#footer-merchant-desktop-horario-linha1",
+      "flex-layout.row#footer-merchant-desktop-horario-linha2"
+    ]
+  },
+  // COLUNA HORÁRIO LINHA 1
+  "flex-layout.row#footer-merchant-desktop-horario-linha1": {
+    "props": {
+      "blockClass": "footer-merchant-desktop-linhas",
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.col#footer-merchant-desktop-contatos",
+      "flex-layout.col#footer-2-desktop-3"
+    ]
+  },
+  // COLUNA HORÁRIO LINHA 2
+  "flex-layout.row#footer-merchant-desktop-horario-linha2": {
+    "children": [
       "flex-layout.col#footer-merchant-desktop-horario"
     ]
   },
   // COLUNA CONTATOS
-  "flex-layout.col#footer-merchant-desktop-contatos":{
+  "flex-layout.col#footer-merchant-desktop-contatos": {
     "props": {
-      "blockClass": "col-contatos-merchant-desktop"
+      "blockClass": "col-contatos-merchant-desktop",
+      "width": "100%"
     },
     "children": [
       "rich-text#footer-merchant-title",
       "rich-text#footer-merchant-desktop-contato"
     ]
   },
-  "rich-text#footer-merchant-title":{
+  "rich-text#footer-merchant-title": {
     "props": {
-      "blockClass": "title-merchant-desktop",
-      "text": "#### Fale com a Idealine"
+      "blockClass": "title-footer",
+      "text": "Fale com a Idealine"
     }
   },
-  "rich-text#footer-merchant-desktop-contato":{
+  "rich-text#footer-merchant-desktop-contato": {
     "props": {
       "blockClass": "contato-merchant-desktop",
       "text": "**Contato:** (41) 3668-2144"
     }
   },
   // COLUNA HORÁRIO
-  "flex-layout.col#footer-merchant-desktop-horario":{
+  "flex-layout.col#footer-merchant-desktop-horario": {
     "props": {
       "blockClass": "col-horario-merchant-desktop"
     },
     "children": [
       "rich-text#footer-merchant-title-horario",
-      "rich-text#footer-merchant-desktop-horario"
+      "rich-text#footer-merchant-desktop-horario",
+      "rich-text#footer-merchant-desktop-horario2"
     ]
   },
-  "rich-text#footer-merchant-title-horario":{
+  "rich-text#footer-merchant-title-horario": {
     "props": {
-      "blockClass": "title-merchant-desktop",
-      "text": "#### Horário de Atendimento"
+      "blockClass": "title-footer",
+      "text": "Horário de Atendimento"
     }
   },
-  "rich-text#footer-merchant-desktop-horario":{
+  "rich-text#footer-merchant-desktop-horario": {
     "props": {
       "blockClass": "horario-merchant-desktop",
-      "text": "**Vendas**: de segunda a sexta, das **9h às 22h**; sábado, das **10h às 19h30**.\n **Pós-venda**: de segunda a sábado, das **8h às 22h**."
+      "text": "- **Vendas**: de segunda a sexta, das **9h às 22h**; sábado, das **10h às 19h30**."
     }
   },
-
-
+  "rich-text#footer-merchant-desktop-horario2":
+  {
+    "props": {
+      "blockClass": "horario-merchant-desktop",
+      "text": "- **Pós-venda**: de segunda a sábado, das **8h às 22h**."
+    }
+  },
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer"
+    ],
     "props": {
       "blockClass": "credits"
     }
@@ -297,9 +315,6 @@
       "blockClass": "footer"
     }
   },
-
-
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-1-desktop",
@@ -318,10 +333,10 @@
       "blockClass": "footer-mobile-principal"
     }
   },
-
-
   "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,

@@ -129,6 +129,9 @@
   },
 
   "flex-layout.row#fique-conosco": {
+    "props": {
+      "blockClass": "redes-sociais-footer"
+    },
     "children": [
       "image#facebook",
       "image#instagram",
