@@ -16,3 +16,6 @@
   color: #FFB100;
 }
 
+.summaryButtonContainer :global(.vtex-button__label) {
+  font-size: 1.6rem;
+}

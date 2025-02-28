@@ -387,24 +387,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#submenuOdontologia-autoclaves-home-care",
       "menu-item#submenuOdontologia-autoclaves-odontologia"
     ]
-  },
-  "menu-item#submenuOdontologia-autoclaves-home-care": {
-    "props": {
-      "id": "menu-item-submenuOdontologia",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/odontologia/autoclaves-para-home-care",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Home Care",
-        "text": "Autoclaves para Home Care"
-      },
-      "blockClass": "menu-dropdown"
-    }
   },
   "menu-item#submenuOdontologia-autoclaves-odontologia": {
     "props": {
@@ -455,24 +439,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#submenuVeterinaria-autoclaves-home-care",
       "menu-item#submenuVeterinaria-autoclaves-veterinaria"
     ]
-  },
-  "menu-item#submenuVeterinaria-autoclaves-home-care": {
-    "props": {
-      "id": "menu-item-submenuVeterinaria",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/veterinaria/autoclaves-para-home-care",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Home Care",
-        "text": "Autoclaves para Home Care"
-      },
-      "blockClass": "menu-dropdown"
-    }
   },
   "menu-item#submenuVeterinaria-autoclaves-veterinaria": {
     "props": {
@@ -522,7 +490,6 @@
     },
     "children": [
       "menu-item#submenuclinicas-hospitais-autoclaves-clinicas",
-      "menu-item#submenuclinicas-hospitais-autoclaves-home-care",
       "menu-item#submenuclinicas-hospitais-autoclaves-hospitais",
       "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
     ]
@@ -538,21 +505,6 @@
         "noFollow": false,
         "tagTitle": "Autoclaves para Clínicas",
         "text": "Autoclaves para Clínicas"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuclinicas-hospitais-autoclaves-home-care": {
-    "props": {
-      "id": "menu-item-submenuClinicasHospitais",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clinicas-e-hospitais/autoclaves-para-home-care",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Home Care",
-        "text": "Autoclaves para Home care"
       },
       "blockClass": "menu-dropdown"
     }
@@ -859,7 +811,6 @@
   },
   "flex-layout.col#odontologia-mobile": {
     "children": [
-      "menu-item#submenuOdontologia-autoclaves-home-care",
       "menu-item#submenuOdontologia-autoclaves-odontologia"
     ]
   },
@@ -898,7 +849,6 @@
   },
   "flex-layout.col#veterinaria-mobile": {
     "children": [
-      "menu-item#submenuVeterinaria-autoclaves-home-care",
       "menu-item#submenuVeterinaria-autoclaves-veterinaria"
     ]
   },
@@ -937,7 +887,6 @@
   "flex-layout.col#clinicas-e-hospitais-mobile": {
     "children": [
       "menu-item#submenuclinicas-hospitais-autoclaves-clinicas",
-      "menu-item#submenuclinicas-hospitais-autoclaves-home-care",
       "menu-item#submenuclinicas-hospitais-autoclaves-hospitais",
       "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
     ]

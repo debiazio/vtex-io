@@ -57,7 +57,6 @@
     },
     "children": [
       "link#video-banner-home-1",
-      "link#video-banner-home-0.01",
       "link#video-banner-home-0.1",
       // "link#video-banner-home-1.1",
       "link#video-banner-home-2",
@@ -65,22 +64,6 @@
       "link#video-banner-home-3.1",
       "link#video-banner-home-4"
     ]
-  },
-  "link#video-banner-home-0.01":{
-    "props": {
-      "href": "/12%20litros?_q=12%20litros&map=ft",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#banner-12litros-home-desktop"
-    ]
-  },
-  "image#banner-12litros-home-desktop":{
-    "props": {
-      "src": "assets/Banner Desktop.webp",
-      "alt": "Banner desktop 12 litros",
-      "blockClass": "banner-desktop-home"
-    }
   },
   "link#video-banner-home-0.1":{
     "props": {
@@ -302,8 +285,7 @@
       "link#link-video-segunda-linha-mobile", //link no video - blackfriday
       "link#link-video-terceira-linha", //link no video
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "link#link-video-quarta-linha-mobile" //link no video
+      "flex-layout.row#shelf"
     ]
   },
   "link#link-video-segunda-linha-mobile": {
@@ -341,21 +323,6 @@
       "autoPlay": true,
       "src": "https://stermax.com.br/images_idealine/sliderLayout/03-%20Banner_Mobile_Brindes_ATUALIZADO.mp4",
       "muted": true
-    }
-  },
-  "link#link-video-quarta-linha-mobile": {
-    "props": {
-      "href": "/12%20litros?_q=12%20litros&map=ft",
-      "newTab": true
-    },
-    "children": [
-      "image#quarta-linha"
-    ]
-  },
-  "image#quarta-linha": {
-    "props": {
-      "src": "assets/Banner Mobile.webp",
-      "alt": "summer-lovers 12 litros"
     }
   },
   "responsive-layout.desktop#carrossel-5l-8l": {
