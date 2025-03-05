@@ -16,6 +16,12 @@
   color: #FFB100;
 }
 
-.summaryButtonContainer :global(.vtex-button__label) {
-  font-size: 1.6rem;
+.summaryButtonContainer :global(.vtex-button) {
+  margin: 10px;
+  padding: 5px;
 }
+
+.summaryButtonContainer :global(.vtex-button__label) {
+  font-size: 0.7rem;
+}
+

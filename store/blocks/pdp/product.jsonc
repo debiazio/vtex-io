@@ -1564,7 +1564,8 @@
       "contentType": "all",
       "displayMode": "carousel",
       "zoomMode": "in-place-click",
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "hiddenImages": "thumbcor"
     }
   },
 
@@ -1634,11 +1635,11 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 5,
-      "showValueNameForImageVariation": true,
+      "showValueNameForImageVariation": false,
       "visibility": "always",
       "initialSelection":"image",
       "displayThumbnailsArrows": true,
-      "hiddenImages": ["LabelName"]
+      "thumbnailImage": "thumbcor"
     }
   },
 
