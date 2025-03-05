@@ -4,13 +4,9 @@
       "flex-layout.row#script_rd",
       "responsive-layout.desktop#gif-animado-parcelamento",
       "responsive-layout.mobile#gif-animado-parcelamento",
-
-      // "rich-text#titulo-pagina",
       "flex-layout.row#product-breadcrumb",
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
-
-      // "product-gifts",
       "rich-text#certificacoes-titulo",
       "flex-layout.row#certificacoes"
     ]
@@ -63,14 +59,14 @@
       "height": 40
     }
   },
-
-
   // linha que mostra o caminho até o conteúdo
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "blockClass": "breadcrumb"
     },
-    "children": ["breadcrumb"]
+    "children": [
+      "breadcrumb"
+    ]
   },
   // LAYOUT DESKTOP
   "responsive-layout.desktop#availability": {
@@ -87,9 +83,11 @@
   // avalia se o produto tem estoque
   "condition-layout.product#mobile-availability": {
     "props": {
-      "conditions": [{
-        "subject": "isProductAvailable"
-      }],
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
       "Then": "flex-layout.row#mobile-product-main",
       "Else": "flex-layout.row#product-availability"
     }
@@ -97,9 +95,11 @@
   // avalia se o produto tem estoque desktop
   "condition-layout.product#availability": {
     "props": {
-      "conditions": [{
-        "subject": "isProductAvailable"
-      }],
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
       "Then": "flex-layout.row#product-main",
       "Else": "flex-layout.row#product-availability"
     }
@@ -121,7 +121,6 @@
     },
     "children": [
       "flex-layout.col#mobile-product-left-col"
-      // "flex-layout.col#product-right-col"
     ]
   },
   // coluna da esquerda MOBILE
@@ -130,39 +129,26 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
-      // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday", //vr
-      "condition-layout.product#video-75-vertical", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
-      // "condition-layout.product#visualizador3d-bellinhaPerola",//vr
-      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",//vr
+      // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
+      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday", //vr
       "condition-layout.product#visualizador3d-labelleRoseGold", //vr
-      // "condition-layout.product#brinde-autoclaves-5l", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
-      // "condition-layout.product#brinde-necessaire-horizontais-bf", //brinde BF
       "product-rating-summary", // avaliações
       "flex-layout.row#list-price-savings", // preco sem desconto, riscado
       "flex-layout.row#selling-price", // preco a vista
       "flex-layout.row#linha-parcelas",
-
       "sku-selector",
       "flex-layout.row#mobile-quantidade-cep",
       "flex-layout.row#vantagens-pgto-a-vista",
-      // "product-gifts",
-      // "product-questions-and-answers",
-      // "flex-layout.row#video",
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-padrao2",
-
       "condition-layout.product#rosa-gold",
       "condition-layout.product#rosa-gold-padrao2",
-
       "condition-layout.product#rose-gold-laBelle-8l",
       "condition-layout.product#rose-gold-labelle-8l-padrao2",
       "condition-layout.product#rose-gold-idealclave-8l",
@@ -176,17 +162,14 @@
       "condition-layout.product#rosa-laBelle-8l",
       "condition-layout.product#rosa-laBelle-8l-padrao2",
       "flex-layout.row#description",
-      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "flex-layout.row#relatedProducts",
       "flex-layout.row#reviews-and-ratings"
-
     ],
     "props": {
       "width": "60%"
     }
   },
-
   // LINHA DE PREÇO PARCELADO MOBILE
   "flex-layout.row#linha-parcelas": {
     "props": {
@@ -207,7 +190,6 @@
       "availability-subscriber", // avise-me disponibilidade
       "flex-layout.row#botoes-comprar-bucarcep"
     ]
-
   },
   // linha favoritos mobile
   "flex-layout.row#add-to-list-btn": {
@@ -222,28 +204,15 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday",
-      // "condition-layout.product#visualizador3d-bellinhaPerola",
-
-      "condition-layout.product#video-75-vertical", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
-      "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
-
+      // "condition-layout.product#compre-junto-encubadora",
+      // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
+      // "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
       "condition-layout.product#visualizador3d-labelleRoseGold",
-
-      // "product-gifts",
-      // "product-questions-and-answers",
-      // "flex-layout.row#video",
-
-      // "condition-layout.product#brinde-autoclaves-5l", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-5litros", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-8l", //exibe brinde BF
-      // "condition-layout.product#brinde-autoclaves-8litros", //exibe brinde BF
-      // "condition-layout.product#brinde-necessaire-horizontais-bf", //exibe brinde BF
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
@@ -261,79 +230,160 @@
       "condition-layout.product#rosa-laBelle-8l",
       "condition-layout.product#rosa-laBelle-8l-padrao2",
       "flex-layout.row#description",
-      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "flex-layout.row#reviews-and-ratings",
       "flex-layout.row#relatedProducts"
-
     ],
     "props": {
       "width": "60%"
     }
   },
-  "condition-layout.product#video-75-vertical":{
+  // CONDICIONAL PARA APARECER ENCUBADORA NAS AUTOCLAVES DE 12L
+  "condition-layout.product#compre-junto-encubadora": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2914"
+      "conditions": [
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "12L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "21L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "30L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "40L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "42L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "75L"
+          }
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": {
+            "name": "Capacidade",
+            "value": "60L"
+          }
         }
-      }],
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#compre-junto-encubadora"
+    }
+  },
+  "flex-layout.row#compre-junto-encubadora": {
+    "props": {
+      "blockClass": "linha-compre-junto-encubadora"
+    },
+    "children": [
+      "rich-text#compre-junto-encubadora"
+    ]
+  },
+  "rich-text#compre-junto-encubadora": {
+    "props": {
+      "text": "teste encubadora"
+    }
+  },
+  "condition-layout.product#video-75-vertical": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2914"
+          }
+        }
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
-  "condition-layout.product#video-75-vertical2864":{
+  "condition-layout.product#video-75-vertical2864": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2864"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2864"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
-  "condition-layout.product#video-75-vertical2801":{
+  "condition-layout.product#video-75-vertical2801": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2801"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2801"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
-  "condition-layout.product#video-75-vertical2800":{
+  "condition-layout.product#video-75-vertical2800": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2800"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2800"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
-  "condition-layout.product#video-75-vertical2799":{
+  "condition-layout.product#video-75-vertical2799": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2799"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2799"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
-  "condition-layout.product#video-75-vertical2793":{
+  "condition-layout.product#video-75-vertical2793": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2793"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2793"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#video75litros"
     }
   },
@@ -346,9 +396,8 @@
       "video#video-75-vertical"
     ]
   },
-  "video#video-75-vertical":{
+  "video#video-75-vertical": {
     "props": {
-      "blockClass": "video75litrosVertical",
       "width": "65%",
       "height": "100%",
       "loop": true,
@@ -356,58 +405,33 @@
       "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4",
       "muted": false,
       "controlsType": "native"
-
     }
   },
-  // //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA BELLINHA PEROLA BF
-  // "condition-layout.product#visualizador3d-bellinhaPerolaBlackFriday":{
-  //   "props": {
-  //     "conditions": [{
-  //       "subject": "productId",
-  //       "arguments": {
-  //         "id": "2887" //id da black friday
-  //       }
-  //     }
-  //   ],
-  //     "Then": "visualizador3dbellinhaperola" //visualizador 3d labelle rose gold
-  //   }
-  // },
-  // //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA BELLINHA PEROLA
-  // "condition-layout.product#visualizador3d-bellinhaPerola":{
-  //   "props": {
-  //     "conditions": [{
-  //       "subject": "productId",
-  //       "arguments": {
-  //         "id": "2797" //id da black friday
-  //       }
-  //     }
-  //   ],
-  //     "Then": "visualizador3dbellinhaperola" //visualizador 3d bellinha perola
-  //   }
-  // },
   //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
-  "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday":{
+  "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2894" //id da black friday
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2894" //id da black friday
+          }
         }
-      }
-    ],
+      ],
       "Then": "flex-layout.row#visualizador-360" //visualizador 3d bellinha perola
     }
   },
   //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
-  "condition-layout.product#visualizador3d-labelleRoseGold":{
+  "condition-layout.product#visualizador3d-labelleRoseGold": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "id": "2898" //id da normal
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2898" //id da normal
+          }
         }
-      }
-    ],
+      ],
       "Then": "flex-layout.row#visualizador-360" //visualizador 3d labelle rose gold
     }
   },
@@ -420,55 +444,40 @@
       "visualizador-3d"
     ]
   },
-  "image#icone360":{
+  "image#icone360": {
     "props": {
       "blockClass": "icone360",
       "src": "assets/360-degrees.svg",
       "alt": "Ícone 360°"
     }
   },
-
-  // BRINDE BLACK FRIDAY HORIZONTAIS + BF
-"condition-layout.product#brinde-necessaire-horizontais-bf":{
-  "props": {
-    "conditions": [{
-      "subject": "specificationProperties",
-      "arguments": {
-        "name": "Posicao",
-        "value": "Horizontal"
-      }
-    }],
-    "Then": "flex-layout.row#brinde-horizontais-blackFriday"
-  }
-},
-"flex-layout.row#brinde-horizontais-blackFriday":{
-  "props": {
-    "blockClass": "condicional-brinde-5l-8l"
+  "flex-layout.row#brinde-horizontais-blackFriday": {
+    "props": {
+      "blockClass": "condicional-brinde-5l-8l"
+    },
+    "children": [
+      "image#brinde-horizontais-blackFriday"
+    ]
   },
-  "children": [
-    "image#brinde-horizontais-blackFriday"
-  ]
-},
-"image#brinde-horizontais-blackFriday":{
-  "props": {
-    "src": "assets/brinde-horizontais.webp",
-    "alt": "Imagem com brinde da Black Friday - horizontais",
-    "blockClass": "img-brindetriplo-bf-5l-8l"
-  }
-},
-
+  "image#brinde-horizontais-blackFriday": {
+    "props": {
+      "src": "assets/brinde-horizontais.webp",
+      "alt": "Imagem com brinde da Black Friday - horizontais",
+      "blockClass": "img-brindetriplo-bf-5l-8l"
+    }
+  },
   // BRINDE BLACK FRIDAY 5L + BF
   "condition-layout.product#brinde-autoclaves-5l": {
     "props": {
-
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Capacidade",
             "value": "5L"
           }
-        }
-        ,{
+        },
+        {
           "subject": "categoryId",
           "arguments": {
             "id": "69"
@@ -481,15 +490,15 @@
   },
   "condition-layout.product#brinde-autoclaves-5litros": {
     "props": {
-
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Capacidade",
             "value": "5 Litros"
           }
-        }
-        ,{
+        },
+        {
           "subject": "categoryId",
           "arguments": {
             "id": "69"
@@ -500,87 +509,29 @@
       "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
     }
   },
-    // BRINDE BLACK FRIDAY 8L + BF
+  // BRINDE BLACK FRIDAY 8L + BF
   "condition-layout.product#brinde-autoclaves-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "categoryId",
           "arguments": {
             "id": "69"
           }
-        },{
+        },
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Capacidade",
             "value": "8L"
           }
         }
-
       ],
       "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
     }
   },
-  "condition-layout.product#brinde-autoclaves-8litros": {
-    "props": {
-      "conditions": [{
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "8 Litros"
-          }
-        }
-        ,{
-          "subject": "categoryId",
-          "arguments": {
-            "id": "69"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
-    }
-  },
-  // CONDICIONAL DO BRINDE - ESMALTEIRA
-  // "flex-layout.row#custom-pdp-brindes-5l-8l": {
-  //   "props": {
-  //     "blockClass": "condicional-brinde-5l-8l"
-  //   },
-  //   "children": [
-  //     "image#brinde-5l-8l",
-  //     "flex-layout.row#titulo-brindes-5l-8l"
-  //   ]
-  // },
-  // "image#brinde-5l-8l":{
-  //   "props": {
-  //     "src": "assets/Porta Esmalte.webp",
-  //     "alt": "Brinde autoclaves 5l e 8l",
-  //     "blockClass": "img-brindes-5l-8l"
-  //   }
-  // },
-  // "flex-layout.row#titulo-brindes-5l-8l":{
-  //   "props": {
-  //     "blockClass": "textos-brindes"
-  //   },
-  //   "children": [
-  //     "rich-text#titulo-brindes",
-  //     "rich-text#texto-brindes"
-
-  //   ]
-  // },
-  // "rich-text#titulo-brindes":{
-  //   "props": {
-  //     "text": "COMPRE E GANHE",
-  //     "blockClass": "titulo-brindes"
-  //   }
-  // },
-  // "rich-text#texto-brindes":{
-  //   "props": {
-  //     "text": "Brinde: **Porta esmaltes Idealovers By MAD.U.**\nEsmaltes não estão incluídos* ",
-  //     "blockClass": "texto-brindes"
-  //   }
-  // },
-
   // BRINDES AUTOCLAVES 5L E 8L BLACK FRIDAY
-  "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday":{
+  "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday": {
     "props": {
       "blockClass": "condicional-brinde-5l-8l"
     },
@@ -588,18 +539,18 @@
       "image#brinde-blackFriday-5l8l"
     ]
   },
-  "image#brinde-blackFriday-5l8l":{
+  "image#brinde-blackFriday-5l8l": {
     "props": {
       "src": "assets/Compre_e_ganhe_3_brindes.webp",
       "alt": "Imagem com os 3 brindes da Black Friday - 5l e 8l",
       "blockClass": "img-brindetriplo-bf-5l-8l"
     }
   },
-
   // condicional branco
   "condition-layout.product#branco-perola": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -614,7 +565,6 @@
           }
         }
       ],
-
       "Then": "flex-layout.row#custom-pdp-layout-perola"
     },
     "title": "Condicional Branco pérola 5l"
@@ -640,9 +590,6 @@
       "image#branco-perola-4",
       "image#branco-perola-5",
       "image#branco-perola-6"
-      // "image#branco-perola-7",
-      // "image#branco-perola-8",
-      // "image#branco-perola-9"
     ]
   },
   "video#branco-perola-5l": {
@@ -652,10 +599,8 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/labell_5l_perola.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 5 litros Pérola LABELLE"
+    }
   },
   "image#branco-perola-1": {
     "props": {
@@ -702,7 +647,8 @@
   // condicional rosa
   "condition-layout.product#rosa": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -717,19 +663,20 @@
           }
         }
       ],
-
       "Then": "flex-layout.row#custom-pdp-layout-rosa"
     }
   },
   // condicional rosa padrao 2
   "condition-layout.product#rosa-padrao2": {
     "props": {
-      "conditions": [{
-        "subject": "productId",
-        "arguments": {
-          "Id": "2765"
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "Id": "2765"
+          }
         }
-      }],
+      ],
       "Then": "flex-layout.row#custom-pdp-layout-rosa"
     }
   },
@@ -757,9 +704,6 @@
       "image#rosa-7",
       "image#rosa-8",
       "image#rosa-9"
-      // "image#rosa-10",
-      // "image#rosa-11",
-      // "image#rosa-12"
     ]
   },
   "video#rosa-5l": {
@@ -769,10 +713,8 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/labell_5l_rosa.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 5 litros Rosa LABELLE"
+    }
   },
   "image#rosa-1": {
     "props": {
@@ -840,7 +782,8 @@
   // rosa-gold 5l condicional
   "condition-layout.product#rosa-gold": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -855,14 +798,14 @@
           }
         }
       ],
-
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
     }
   },
   // rosa-gold 5l condicional padrao 2
   "condition-layout.product#rosa-gold-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -877,7 +820,6 @@
           }
         }
       ],
-
       "Then": "flex-layout.row#custom-pdp-layout-rosa-gold"
     }
   },
@@ -905,9 +847,6 @@
       "image#rosa-gold-7",
       "image#rosa-gold-8",
       "image#rosa-gold-9"
-      // "image#rosa-gold-10",
-      // "image#rosa-gold-11",
-      // "image#rosa-gold-12"
     ]
   },
   "video#rose-gold-5l": {
@@ -917,10 +856,8 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/labell_5l_rose_gold.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 5 litros Pérola LABELLE"
+    }
   },
   "image#rosa-gold-1": {
     "props": {
@@ -988,7 +925,8 @@
   // ideaclave rose gold 8 litros
   "condition-layout.product#rose-gold-laBelle-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1017,7 +955,8 @@
   // LABELLE 8 LITROS ROSE GOLD ESPEC 2
   "condition-layout.product#rose-gold-labelle-8l-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1043,8 +982,6 @@
     },
     "title": "Condicional Rose gold 8l"
   },
-
-
   "flex-layout.row#custom-pdp-layout-rosa-gold-8l": {
     "props": {
       "blockClass": "conteiner-pai--imagens-extras"
@@ -1070,16 +1007,15 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.3538.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
     },
     "title": "Vídeo Autoclave 8 litros Rose Gold LaBelle"
   },
-
   // IDEALCLAVE rose gold 8 litros
   "condition-layout.product#rose-gold-idealclave-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1108,7 +1044,8 @@
   // IDEALCLAVE rose gold 8 litros ESPEC PADRAO 2
   "condition-layout.product#rose-gold-idealclave-8l-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1157,16 +1094,14 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.2497.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 8 litros Rose Gold Idealclave"
+    }
   },
-
   // labelle 8 litros BRANCO PEROLA
   "condition-layout.product#perola-8l-labelle": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1195,7 +1130,8 @@
   // labelle 8 litros BRANCO PEROLA alternativo padrao
   "condition-layout.product#perola-8l-labelle-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1244,16 +1180,14 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.3537.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 8 litros Pérola Labelle"
+    }
   },
-
   // BRANCO PEROLA 8 LITROS IDEALCLAVE
   "condition-layout.product#perola-idealclave-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1282,7 +1216,8 @@
   // BRANCO PEROLA 8 LITROS IDEALCLAVE padrao ALTERNATIVO
   "condition-layout.product#perola-idealclave-8l-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1308,7 +1243,6 @@
     },
     "title": "BRANCO PEROLA 8 LITROS IDEALCLAVE"
   },
-
   "flex-layout.row#custom-pdp-layout-perola-8l-idealclave": {
     "props": {
       "blockClass": "conteiner-pai--imagens-extras"
@@ -1333,16 +1267,14 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.2598.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 8 litro idealclave"
+    }
   },
-
   // CONDICIONAL ROSA IDEALCLAVE 8 LITROS ;
   "condition-layout.product#rosa-idealclave-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1370,7 +1302,8 @@
   // idealclave rosa 8 litros epec alternativas
   "condition-layout.product#rosa-idealclave-8l-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1418,15 +1351,14 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.2821.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 8 litros Rosa Idealclave"
+    }
   },
   // CONDICIONAL 8 LITROS LABELLE ROSA
   "condition-layout.product#rosa-laBelle-8l": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cor",
@@ -1474,15 +1406,14 @@
       "loop": true,
       "autoPlay": true,
       "src": "assets/IDEALCLAVE 8L_12.3536.mp4",
-      "blockClass": "videoexemplo",
       "muted": true
-    },
-    "title": "Vídeo Autoclave 8 litros Rosa LABELLE"
+    }
   },
   // labelle 8 litros rosa espec alternativa
   "condition-layout.product#rosa-laBelle-8l-padrao2": {
     "props": {
-      "conditions": [{
+      "conditions": [
+        {
           "subject": "specificationProperties",
           "arguments": {
             "name": "Cores",
@@ -1507,30 +1438,6 @@
       "Then": "flex-layout.row#custom-pdp-rosa-laBelle-8l"
     }
   },
-
-
-
-
-  // "flex-layout.row#default": {
-  //   "children": [
-  //     "rich-text#teste-conditional-default"
-  //   ]
-  // },
-
-  // "rich-text#teste-conditional-default": {
-  //   "props": {
-  //     "text": "produto padrão"
-  //   }
-  // },
-
-  // "flex-layout.row#video": {
-  //   "props": {
-  //     "blockClass": "video"
-  //   },
-  //   "children": [
-  //     "teste"
-  //   ]
-  // },
   "flex-layout.row#reviews-and-ratings": {
     "props": {
       "blockClass": "reviews-and-ratings"
@@ -1539,7 +1446,6 @@
       "product-reviews"
     ]
   },
-
   // imagens - coluna da esquerda
   "stack-layout": {
     "props": {
@@ -1551,7 +1457,9 @@
   },
   // imagem  - coluna da esquerda
   "flex-layout.row#product-image": {
-    "children": ["product-images"]
+    "children": [
+      "product-images"
+    ]
   },
   "product-images": {
     "props": {
@@ -1568,7 +1476,6 @@
       "hiddenImages": "thumbcor"
     }
   },
-
   // coluna da direita
   "flex-layout.col#product-right-col": {
     "props": {
@@ -1584,16 +1491,12 @@
       "flex-layout.row#selling-price", // preco a vista
       "product-installments", // preco parcelas
       "product-spot-price-savings",
-      // "product-separator", //espaçamento
-      // "product-identifier.product", //código do produto
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
       "availability-subscriber", // avise-me disponibilidade
       "flex-layout.row#botoes-comprar-bucarcep",
       "flex-layout.row#vantagens-pgto-a-vista"
-      // "share#default" //compartilhar,
-
     ]
   },
   "flex-layout.row#product-name": {
@@ -1606,24 +1509,14 @@
       "vtex.store-components:product-name"
     ]
   },
-
-
-  // "flex-layout.row#specifications-title": {
-  //   "children": ["rich-text#specifications"]
-  // },
-  // "rich-text#specifications": {
-  //   "props": {
-  //     "text": "",
-  //     "blockClass": "especificacoes"
-  //   }
-  // },
-
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7,
       "blockClass": "descricao"
     },
-    "children": ["product-description"]
+    "children": [
+      "product-description"
+    ]
   },
   "product-description": {
     "props": {
@@ -1637,12 +1530,11 @@
       "variationsSpacing": 5,
       "showValueNameForImageVariation": false,
       "visibility": "always",
-      "initialSelection":"image",
+      "initialSelection": "image",
       "displayThumbnailsArrows": true,
       "thumbnailImage": "thumbcor"
     }
   },
-
   "product-quantity": {
     "props": {
       "warningQuantityThreshold": 5,
@@ -1659,7 +1551,6 @@
     "children": [
       "flex-layout.col#buy-button_tela-de-produto",
       "flex-layout.col#botao-buscarCep"
-
     ]
   },
   "flex-layout.col#buy-button_tela-de-produto": {
@@ -1668,7 +1559,9 @@
       "marginBottom": 7,
       "blockClass": "botao-de-comprar"
     },
-    "children": ["add-to-cart-button"]
+    "children": [
+      "add-to-cart-button"
+    ]
   },
   //buca cep
   "flex-layout.col#botao-buscarCep": {
@@ -1680,16 +1573,25 @@
     ]
   },
   "disclosure-layout-group#bucar-cep": {
-    "children": ["disclosure-layout#first-cep"]
+    "children": [
+      "disclosure-layout#first-cep"
+    ]
   },
   "disclosure-layout#first-cep": {
-    "children": ["disclosure-trigger#first-cep", "disclosure-content#first-cep"]
+    "children": [
+      "disclosure-trigger#first-cep",
+      "disclosure-content#first-cep"
+    ]
   },
   "disclosure-trigger#first-cep": {
-    "children": ["rich-text#texto-botao-frete"]
+    "children": [
+      "rich-text#texto-botao-frete"
+    ]
   },
   "disclosure-content#first-cep": {
-    "children": ["flex-layout.row#linha-resultados-frete"]
+    "children": [
+      "flex-layout.row#linha-resultados-frete"
+    ]
   },
   "rich-text#texto-botao-frete": {
     "props": {
@@ -1719,10 +1621,6 @@
       "pricingMode": "grouped"
     }
   },
-
-
-
-
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,
@@ -1752,7 +1650,9 @@
     "props": {
       "blockClass": "message-availability"
     },
-    "children": ["availability-subscriber"]
+    "children": [
+      "availability-subscriber"
+    ]
   },
   "flex-layout.row#vantagens-pgto-a-vista": {
     "props": {
@@ -1769,8 +1669,6 @@
       "blockClass": "texto-vantagens"
     }
   },
-
-
   // PRODUTOS RELACIONADOS
   "flex-layout.row#relatedProducts": {
     "props": {
@@ -1805,7 +1703,7 @@
       "orderBy": "OrderByPriceDESC"
     }
   },
-  "slider-layout#idealine-indica":{
+  "slider-layout#idealine-indica": {
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -1818,15 +1716,12 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-
   "rich-text#certificacoes-titulo": {
     "props": {
       "text": "## **Certificações**",
       "blockClass": "titulo-certificadoes"
     }
   },
-
-
   // CERTIFICADOS
   "flex-layout.row#certificacoes": {
     "props": {
@@ -1889,7 +1784,6 @@
       "image#certificado4"
     ]
   },
-
   "image#certificado4": {
     "props": {
       "src": "assets/ID-LINE_SELOS_33_ANOS-01.webp",
