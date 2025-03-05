@@ -2,19 +2,12 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#video-banner-home",
-      // "responsive-layout.desktop#banner-principal",
-      // "carrosselvideos",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
-      // "modal-trigger#roleta-imagem",
       "responsive-layout.mobile#categorias",
-      // "flex-layout.row#segunda-linha-banner",
       "responsive-layout.mobile#banners-mobile",
-      // "modal-trigger#roleta",
       "responsive-layout.desktop#categorias",
-
-
       "flex-layout.row#big_banners",
       "flex-layout.row#mini-banners",
       "__fold__",
@@ -23,25 +16,16 @@
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
-      // "instagram",
       "flex-layout.row#titulo-blog-home",
       "flex-layout.row#blog-home"
-
     ]
   },
-  "responsive-layout.desktop#video-banner-home":{
+  "responsive-layout.desktop#video-banner-home": {
     "children": [
       "slider-layout#video-banner-home"
     ]
   },
-
-// "instagram":{
-//   "props":{
-//     "blockClass": "instagram-posts"
-//   }
-// },
-
-  "slider-layout#video-banner-home":{
+  "slider-layout#video-banner-home": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -53,19 +37,19 @@
       "blockClass": "video-banner-slider",
       "fullWidth": true,
       "showPaginationDots": "always",
-      "autoplay": {"timeout": 5000}
+      "autoplay": {
+        "timeout": 5000
+      }
     },
     "children": [
       "link#video-banner-home-1",
       "link#video-banner-home-0.1",
-      // "link#video-banner-home-1.1",
       "link#video-banner-home-2",
-      // "link#video-banner-home-3",
       "link#video-banner-home-3.1",
       "link#video-banner-home-4"
     ]
   },
-  "link#video-banner-home-0.1":{
+  "link#video-banner-home-0.1": {
     "props": {
       "href": "/pronta-entrega",
       "blockClass": "link-banner-home"
@@ -74,19 +58,16 @@
       "video#0.1"
     ]
   },
-  "video#0.1":{
+  "video#0.1": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Piscou Perdeu  - Banner Desktop.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "title": "Promoção Piscou Perdeu",
-      "alt": "Promoção Piscou Perdeu"
+      "loop": true
     }
   },
-  "link#video-banner-home-1":{
+  "link#video-banner-home-1": {
     "props": {
       "href": "/pronta-entrega",
       "blockClass": "link-banner-home"
@@ -97,39 +78,14 @@
   },
   "video#1": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Bloquinho Idealovers.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "title": "",
-      "alt": "Bloquinho"
+      "loop": true
     }
   },
-// removido em 07/02/2025 pedido de Etiene
-  // "link#video-banner-home-1.1":{
-  //   "props": {
-  //     "href": "/idealclave-la-belle",
-  //     "blockClass": "link-banner-home"
-  //   },
-  //   "children": [
-  //     "video#1.1"
-  //   ]
-  // },
-  // "video#1.1":{
-  //   "props": {
-  //     "blockClass": "video-banner-home",
-  //     "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - La Belle 8L-dezembro.mp4",
-  //     "autoPlay": true,
-  //     "width": "100%",
-  //     "height": "100%",
-  //     "loop": true,
-  //     "title": "Summer Lovers - Autoclaves La Belle",
-  //     "alt": "Banner sumer lovers"
-  //   }
-  // },
-  "link#video-banner-home-2":{
+  "link#video-banner-home-2": {
     "props": {
       "href": "/dvm",
       "blockClass": "link-banner-home"
@@ -140,38 +96,23 @@
   },
   "video#2": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/02_banner_DVM_1_dezembro.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "alt": "Banner Summer lovers - Tecnologia DVM",
-      "title": "Banner Summer lovers - Tecnologia DVM"
+      "loop": true
     }
-  },
-  "link#video-banner-home-3":{
-    "props": {
-      "href": "/5l/8-litros/8l/autoclaves?_q=autoclaves&fuzzy=0&initialMap=ft&initialQuery=autoclaves&map=capacidade,capacidade,capacidade,ft&operator=and",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#3"
-    ]
   },
   "video#3": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/03-%20Banner_Desktop_Brindes_ATUALIZADO.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "alt": "Banner Summer lovers - Autoclaves de 5l ou 8l",
-      "title": "Banner Summer lovers - Autoclaves de 5l ou 8l"
+      "loop": true
     }
   },
-  "link#video-banner-home-3.1":{
+  "link#video-banner-home-3.1": {
     "props": {
       "href": "/idealclave-bellinha",
       "blockClass": "link-banner-home"
@@ -182,17 +123,14 @@
   },
   "video#3.1": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - Bellinha 5L_dezembro.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "alt": "Banner Summer lovers - Bellinha",
-      "title": "Banner Summer lovers - Bellinha"
+      "loop": true
     }
   },
-  "link#video-banner-home-4":{
+  "link#video-banner-home-4": {
     "props": {
       "href": "/flex",
       "blockClass": "link-banner-home"
@@ -203,43 +141,20 @@
   },
   "video#4": {
     "props": {
-      "blockClass": "video-banner-home",
       "src": "https://stermax.com.br/images_idealine/sliderLayout/04_banner_linha_Flex_dezembro.mp4",
       "autoPlay": true,
       "width": "100%",
       "height": "100%",
-      "loop": true,
-      "alt": "Banner Summer lovers - Linha Flex",
-      "title": "Banner Summer lovers - Linha Flex"
+      "loop": true
     }
   },
-
-  // "flex-layout.row#segunda-linha-banner": {
-  //   "props": {
-  //     "blockClass": "img-segunda-linha-banner",
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "image#img-segunda-linha-banner"
-  //   ]
-  // },
-
-  // "responsive-layout.desktop#banner-principal": {
-  //   "children": [
-  //     "list-context.image-list#banner-principal"
-  //   ],
-  //   "props": {
-  //     "fullWidth": true
-  //   }
-
-  // },
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
       "link#video-banner-primeira-linha-mobile"
     ]
   },
-  "link#video-banner-novaprimeira-linha-mobile":{
+  "link#video-banner-novaprimeira-linha-mobile": {
     "props": {
       "href": "/pronta-entrega"
     },
@@ -247,10 +162,9 @@
       "video#banner-novotopo-mobile"
     ]
   },
-  "video#banner-novotopo-mobile":{
+  "video#banner-novotopo-mobile": {
     "props": {
       "width": "100%",
-      // "height": "600px",
       "loop": true,
       "autoPlay": true,
       "src": "https://stermax.com.br/images_idealine/sliderLayout/banner-mobile-promocao-piscou-perdeu.mp4",
@@ -258,8 +172,6 @@
     }
   },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
-
-
   "link#video-banner-primeira-linha-mobile": {
     "props": {
       "href": "/pronta-entrega"
@@ -271,14 +183,12 @@
   "video#banner-topo-mobile": {
     "props": {
       "width": "100%",
-      // "height": "600px",
       "loop": true,
       "autoPlay": true,
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Mobile - Bloquinho Idealovers.mp4",
       "muted": true
     }
   },
-
   "responsive-layout.mobile#banners-mobile": {
     "children": [
       "link#video-banner-novaprimeira-linha-mobile",
@@ -339,74 +249,6 @@
       "scriptrd" // script do RD
     ]
   },
-  // "list-context.image-list#banner-principal": {
-  //   "children": [
-  //     "slider-layout#demo-images"
-  //   ],
-  //   "props": {
-  //     "fullWidth": true,
-  //     "preload": true,
-  //     "images": [
-  //       {
-  //         "image": "assets/01.Banner_20anos 1.webp",
-  //         "alt": "Banner tecnologia DVM",
-  //         "link": {
-  //           "url": "/idealclave-bellinha/idealclave-bellinha-5l",
-  //           "title": "Tecnologia DVM"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/banner-setembro-lancamento-idealclave-dr-marcelo-brito-lashes-desktop.gif",
-  //         "mobileImage": "assets/banner-5-entrega-fabrica.webp",
-  //         "alt": "Banner autoclaves Dr. MArcelo",
-  //         "link": {
-  //           "url": "/autoclave-idealclave-bellinha-com-tecnologia-dvm-dr-marcelo-brito/p",
-  //           "title": "Autoclave Marcelo Brito"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/01.Banner_20anos 1.webp",
-  //         "alt": "Banner 10x sem juros",
-  //         "link": {
-  //           "url": "/idealclave%208l"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/05.Banner_site_pronta_entrega.gif",
-  //         "alt": "Banner pronta entrega",
-  //         "link": {
-  //           "url": "/pronta-entrega"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/05-Banner_Autoclaves_Pornta_Entrega.gif",
-  //         "alt": "Banner pronta entrega horizontal",
-  //         "link": {
-  //           "url": "/pronta-entrega-horizontal"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // },
-  // "slider-layout#demo-images": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "phone": 1
-  //     },
-  //     "fullWidth": true,
-  //     "infinite": true,
-  //     "showNavigationArrows": "always",
-  //     "showPaginationDots": "always",
-  //     "usePagination": true,
-  //     "autoplay": {
-  //       "timeout": 5000,
-  //       "stopOnHover": true
-  //     },
-  //     "blockClass": "carousel"
-  //   }
-  // },
   //SECAO COMPRE POR CATEGORIA -MOBILE
   "responsive-layout.mobile#categorias": {
     "children": [
@@ -453,7 +295,7 @@
       "flex-layout.col#categorias-bodyPiercings"
     ]
   },
-  "flex-layout.row#linha-3-cat-mobile":{
+  "flex-layout.row#linha-3-cat-mobile": {
     "props": {
       "blockClass": "linhas-categorias-mobile"
     },
@@ -462,7 +304,7 @@
       "flex-layout.col#categorias-veterinaria"
     ]
   },
-  "flex-layout.row#linha-4-cat-mobile":{
+  "flex-layout.row#linha-4-cat-mobile": {
     "props": {
       "blockClass": "linhas-categorias-mobile"
     },
@@ -471,7 +313,6 @@
       "flex-layout.col#categorias-cli-hosp"
     ]
   },
-
   //SECAO COMPRE POR CATEGORIA - DESKTOP
   "responsive-layout.desktop#categorias": {
     "children": [
@@ -526,22 +367,14 @@
       "flex-layout.col#categorias-bodyPiercings"
     ]
   },
-  "flex-layout.row#titulo-categorias-linha2":{
+  "flex-layout.row#titulo-categorias-linha2": {
     "props": {
       "blockClass": "conteiner-titulo-categorias"
     },
     "children": [
       "rich-text#titulo"
-      // "rich-text#subtitulo-categorias-2"
     ]
   },
-  //subtitulo das categorias
-  // "rich-text#subtitulo-categorias-2": {
-  //   "props": {
-  //     "text": "Saúde & Categoria",
-  //     "blockClass": "texto-subtitulo-categoria"
-  //   }
-  // },
   //coluna das imagens
   "flex-layout.col#categoria-nails": {
     "props": {
@@ -584,7 +417,10 @@
   "rich-text#label-cat-nails": {
     "props": {
       "text": "Nails Designer Manicure",
-      "blockClass": ["label-categorias", "categorias-palavra-grande"]
+      "blockClass": [
+        "label-categorias",
+        "categorias-palavra-grande"
+      ]
     }
   },
   //coluna das imagens
@@ -649,7 +485,6 @@
       "flex-layout.row#categorias-quadro-podologia"
     ]
   },
-
   "flex-layout.row#categorias-quadro-podologia": {
     "props": {
       "blockClass": "linha-imagem-e-label"
@@ -792,7 +627,6 @@
   "link#link-categoria-veterinaria": {
     "props": {
       "href": "/veterinaria/autoclaves-para-veterinaria"
-
     },
     "children": [
       "flex-layout.row#categorias-quadro-veterinaria"
@@ -907,7 +741,7 @@
   "rich-text#label-cat-cli-hosp": {
     "props": {
       "text": "Clínicas e Hospitais",
-      "blockClass": ["label-categorias", "categorias-palavra-grande"]
+      "blockClass": [ "label-categorias", "categorias-palavra-grande"]
     }
   },
   // SECAO DOS MINI BANNERS
@@ -1017,8 +851,7 @@
     "props": {
       "text": "## **AUTOCLAVES HORIZONTAIS**",
       "blockClass": "shelfTitle"
-    },
-    "title": "Título prateleira maior capacidade"
+    }
   },
   "list-context.product-list#prateleira-maior-capacidade": {
     "blocks": [
@@ -1056,8 +889,7 @@
     "props": {
       "text": "## **IDEALOVERS BY MAD.U**",
       "blockClass": "shelfTitle"
-    },
-    "title": "Título prateleira maior capacidade"
+    }
   },
   "list-context.product-list#prateleira-madu": {
     "blocks": [
@@ -1085,7 +917,7 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-  "flex-layout.row#titulo-blog-home":{
+  "flex-layout.row#titulo-blog-home": {
     "props": {
       "blockClass": "linha-blog"
     },
@@ -1093,13 +925,13 @@
       "rich-text#blog"
     ]
   },
-  "rich-text#blog":{
+  "rich-text#blog": {
     "props": {
       "text": "## BLOG IDEALINE ##",
       "blockClass": "titulo-idealine-blog"
     }
   },
-  "flex-layout.row#blog-home":{
+  "flex-layout.row#blog-home": {
     "props": {
       "blockClass": "linha-blog",
       "fullWidth": true
@@ -1108,7 +940,7 @@
       "blog-latest-posts-preview.wordpress-latest-posts-preview"
     ]
   },
-  "blog-latest-posts-preview.wordpress-latest-posts-preview":{
+  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
     "props": {
       "blockClass": "sessao-blog",
       "useTextOverlays": false,
@@ -1119,33 +951,4 @@
       "numberOfPosts": 3
     }
   }
-  // "rich-text#texto-padrao": {
-  //   "props": {
-  //     "text": "Click me",
-  //     "blockClass": "texto-obrigatorio-modal"
-  //   }
-  // },
-  // "modal-layout#aviso-cookies": {
-  //   "props": {
-  //     "blockClass": "modal-cookies",
-  //     "scroll":"content",
-  //     "disableEscapeKeyDown": false
-  //   },
-  //   "children": [
-  //     "rich-text#modal-content",
-  //     "modal-actions.close"
-  //   ]
-  // },
-  // "rich-text#modal-content": {
-  //   "props": {
-  //     "text": "UTILIZAMOS COOKIES PARA MELHORAR NOSSO SITE E SUA EXPERIÊNCIA DE COMPRA. AO CONTINUAR NAVEGANDO EM NOSSO SITE, **VOCÊ ESTÁ DE ACORDO CONFORME NOSSA POLÍTICA DE PRIVACIDADE E TERMOS DE USO, E NOSSA POLÍTICA QUANTO À UTILIZAÇÃO DE COOKIES.**",
-  //     "blockClass": "texto-cookies-aviso"
-  //   }
-  // },
-  // "modal-actions.close": {
-  //   "props": {
-  //     "label": "Aceitar e continuar",
-  //     "blockClass": "botao-modal-cookies"
-  //   }
-  // }
 }
