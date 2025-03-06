@@ -7,7 +7,6 @@
       "menu-item#ver-tudo",
       "menu-item#submenuPronta-entrega",
       "menu-item#idealclave-bellinha",
-      "menu-item#labelle",
       "menu-item#submenuMarceloBrito",
       "menu-item#mobiliario-tecnico",
       "menu-item#beleza-estetica",
@@ -53,7 +52,6 @@
       "menu-item#submenuVerTudo-pronta-entrega",
       "menu-item#submenuVerTudoBellinha",
       "menu-item#submenuVerTudoMarceloBrito",
-      "menu-item#submenuVerTudoLaBelle",
       "menu-item#submenuVerTudo-beleza-estetica",
       "menu-item#submenuVerTudo-linha-veterinaria",
       "menu-item#submenuVerTudo-clinicas-hospitais",
@@ -106,21 +104,6 @@
         "text": "Pronta Entrega"
       },
       "blockClass": "menu-superior"
-    }
-  },
-  "menu-item#submenuVerTudoLaBelle": {
-    "props": {
-      "id": "menu-dropdown",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/idealclave-la-belle",
-        "noFollow": false,
-        "tagTitle": "Idealclave La Belle",
-        "text": "Idealclave La Belle"
-      },
-      "blockClass": "menu-dropdown"
     }
   },
   "menu-item#submenuVerTudoBellinha": {
@@ -540,22 +523,6 @@
     }
   },
 
-  "menu-item#labelle": {
-    "props": {
-      "id": "menu-principal",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/idealclave-la-belle",
-        "noFollow": false,
-        "tagTitle": "Idealclave La Belle",
-        "text": "Idealclave La Belle"
-      },
-      "blockClass": "menu-superior"
-    }
-  },
-
   "menu-item#idealclave-bellinha": {
     "props": {
       "id": "menu-principal",
@@ -667,7 +634,6 @@
       "menu-item#mobiliario-tecnico-mobile",
       "menu-item#idealclave-bellinha-mobile",
       "menu-item#idealclave-marcelobrito-mobile",
-      "menu-item#la-belle-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
@@ -917,21 +883,6 @@
         "noFollow": false,
         "tagTitle": "Dr. Marcelo Brito",
         "text": "Dr. Marcelo Brito"
-      },
-      "blockClass": "menu-superior-mobile"
-    }
-  },
-  "menu-item#la-belle-mobile": {
-    "props": {
-      "id": "menu-principal-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/idealclave-la-belle",
-        "noFollow": false,
-        "tagTitle": "Idealclave La Belle",
-        "text": "Idealclave La Belle"
       },
       "blockClass": "menu-superior-mobile"
     }

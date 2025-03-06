@@ -6,6 +6,7 @@
 
 .inlineContainer {
   margin-left: 0rem;
+  text-align: center;
 }
 
 .star--filled {
@@ -25,3 +26,7 @@
   font-size: 0.7rem;
 }
 
+
+.summaryContainer{
+  text-align: center;
+}
