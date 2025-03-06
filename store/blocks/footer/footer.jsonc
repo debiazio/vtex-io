@@ -291,7 +291,7 @@
   "rich-text#footer-merchant-desktop-horario": {
     "props": {
       "blockClass": "horario-merchant-desktop",
-      "text": "- **Vendas**: de segunda a sexta, das **9h às 22h**; sábado, das **10h às 19h30**."
+      "text": "- **Vendas**: de segunda a sexta, das **8h às 22h**; sábado, das **10h às 19h30**."
     }
   },
   "rich-text#footer-merchant-desktop-horario2":
