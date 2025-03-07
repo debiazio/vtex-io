@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#video-banner-home",
+      // "instagram",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
@@ -874,9 +875,8 @@
         "phone": 2
       },
       "infinite": true,
-      "fullWidth": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "always"
     }
   },
   "flex-layout.row#shelf3": {
