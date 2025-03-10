@@ -1,7 +1,7 @@
 {
   "vendor": "mfmgroup",
   "name": "store-theme",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "builders": {
     "node": "7.x",
     "styles": "2.x",
