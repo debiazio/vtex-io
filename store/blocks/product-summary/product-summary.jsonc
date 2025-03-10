@@ -98,7 +98,7 @@
   // },
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
-      "type": "collection"
+      "type": "promotion"
     },
     "children": [
       "product-highlight-wrapper"
@@ -112,11 +112,11 @@
       "product-highlight-text"
     ]
   },
-  // "product-highlight-text": {
-  //   "props": {
-  //     "message": "{highlightName}"
-  //   }
-  // },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary",
