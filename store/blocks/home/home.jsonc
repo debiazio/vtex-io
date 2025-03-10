@@ -917,30 +917,30 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-  "flex-layout.row#conteudo-instagram":{
-    "props": {
-      "blockClass": "linha-instagram",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-instagram",
-      "instagram"
-    ]
-  },
-  "flex-layout.row#titulo-instagram":{
-    "props": {
-      "blockClass": "linha-instagram"
-    },
-    "children": [
-      "rich-text#titulo-instagram"
-    ]
-  },
-  "rich-text#titulo-instagram":{
-    "props": {
-      "text": "## SIGA NOSSO INSTAGRAM ##",
-      "blockClass": "titulo-instagram"
-    }
-  },
+  // "flex-layout.row#conteudo-instagram":{
+  //   "props": {
+  //     "blockClass": "linha-instagram",
+  //     "preventHorizontalStretch": true
+  //   },
+  //   "children": [
+  //     "flex-layout.row#titulo-instagram",
+  //     "instagram"
+  //   ]
+  // },
+  // "flex-layout.row#titulo-instagram":{
+  //   "props": {
+  //     "blockClass": "linha-instagram"
+  //   },
+  //   "children": [
+  //     "rich-text#titulo-instagram"
+  //   ]
+  // },
+  // "rich-text#titulo-instagram":{
+  //   "props": {
+  //     "text": "## SIGA NOSSO INSTAGRAM ##",
+  //     "blockClass": "titulo-instagram"
+  //   }
+  // },
 
   "flex-layout.row#titulo-blog-home": {
     "props": {
