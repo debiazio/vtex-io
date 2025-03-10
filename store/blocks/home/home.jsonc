@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#video-banner-home",
-      // "instagram",
       "responsive-layout.mobile#banner-topo-mobile",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
@@ -17,6 +16,7 @@
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
+      // "flex-layout.row#conteudo-instagram",
       "flex-layout.row#titulo-blog-home",
       "flex-layout.row#blog-home"
     ]
@@ -917,6 +917,31 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
+  "flex-layout.row#conteudo-instagram":{
+    "props": {
+      "blockClass": "linha-instagram",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-instagram",
+      "instagram"
+    ]
+  },
+  "flex-layout.row#titulo-instagram":{
+    "props": {
+      "blockClass": "linha-instagram"
+    },
+    "children": [
+      "rich-text#titulo-instagram"
+    ]
+  },
+  "rich-text#titulo-instagram":{
+    "props": {
+      "text": "## SIGA NOSSO INSTAGRAM ##",
+      "blockClass": "titulo-instagram"
+    }
+  },
+
   "flex-layout.row#titulo-blog-home": {
     "props": {
       "blockClass": "linha-blog"

@@ -6,7 +6,8 @@
 }
 
 .productHighlightText {
-  background: antiquewhite;
+  background: var(--rosa-da-rosa);
   border-radius: 20px;
   padding: 5px 10px;
+  color: white;
 }

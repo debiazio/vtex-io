@@ -1,8 +1,9 @@
 {
   "vendor": "mfmgroup",
   "name": "store-theme",
-  "version": "1.0.30",
+  "version": "1.0.29",
   "builders": {
+    "node": "7.x",
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
@@ -70,7 +71,8 @@
     "vtex.store-newsletter": "1.x",
     "vtex.iframe": "0.x",
     "mfmgroup.scriptrd": "0.x",
-    "mfmgroup.visualizador-3d": "0.x"
+    "mfmgroup.visualizador-3d": "0.x",
+    "mfmgroup.instagram": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
