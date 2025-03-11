@@ -806,8 +806,7 @@
     "props": {
       "text": "## **AUTOCLAVES DE 5 E 8 LITROS**",
       "blockClass": "shelfTitle"
-    },
-    "title": "Título prateleira"
+    }
   },
   // prateleira de 8 litros
   "flex-layout.row#shelf": {
@@ -818,6 +817,7 @@
   "list-context.product-list#prateleira-8litros": {
     "blocks": [
       "product-summary.shelf"
+
     ],
     "children": [
       "slider-layout#prateleira-8litros"
