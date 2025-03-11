@@ -71,6 +71,7 @@
       // "product-price-savings#summary-shelf" //-20% off
     ]
   },
+
   "product-summary-image#shelf": {
     "props": {
       "blockclass": "imagens-shelf",
@@ -204,6 +205,25 @@
       ],
       "blockClass": "summary",
       "message": "- {savingsValue}"
+    }
+  },
+
+
+  "product-summary.shelf#teste":{
+    "children": [
+      "rich-text#tag-falsa",
+      "stack-layout#prodsum",
+      "product-summary-name", //nome
+      "flex-layout.col#productRating", //avaliações
+      "product-summary-space",
+      "flex-layout.row#linha-prateleira",
+      "product-spot-price-savings"
+    ]
+  },
+  "rich-text#tag-falsa":{
+    "props": {
+      "text": "Dia do Consumidor",
+      "blockClass": "dia-consumidor-tag-falsa"
     }
   }
 }

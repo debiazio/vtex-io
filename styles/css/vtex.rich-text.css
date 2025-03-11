@@ -1,6 +1,21 @@
-.headingLevel2--titulo-idealine-blog{
+.container--dia-consumidor-tag-falsa {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  width: 200px;
+  z-index: 1;
+}
+.paragraph--dia-consumidor-tag-falsa {
+  background: var(--rosa-da-rosa);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.headingLevel2--titulo-idealine-blog {
   margin: 60px 0 0 0;
 }
+
 .paragraph--label-categorias {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -149,18 +164,19 @@
 .container--title-merchant-desktop,
 .container--title-horario-merchant-desktop,
 .container--horario-merchant-desktop,
-.container--contato-merchant-desktop{
+.container--contato-merchant-desktop {
   color: white;
 }
-.headingLevel4--title-merchant-desktop{
+
+.headingLevel4--title-merchant-desktop {
   margin: 0;
 }
 
-.paragraph--contato-merchant-desktop{
+.paragraph--contato-merchant-desktop {
   margin: 0;
-} 
+}
 
-.listItem--horario-merchant-desktop::marker{
+.listItem--horario-merchant-desktop::marker {
   color: var(--rosa-pink-escuro);
 }
 
@@ -204,11 +220,11 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-.list--horario-merchant-desktop{
+.list--horario-merchant-desktop {
   margin: 0;
 }
 
-.list--horario-merchant-desktop{
+.list--horario-merchant-desktop {
   padding-left: 15px;
 }
 
@@ -688,6 +704,7 @@
     font-size: 24px;
     margin: -10px;
   }
+
   .paragraph--texto-subtitulo-categoria {
     font-size: 20px;
   }

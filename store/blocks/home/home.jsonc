@@ -816,8 +816,8 @@
   },
   "list-context.product-list#prateleira-8litros": {
     "blocks": [
-      "product-summary.shelf"
-
+      // "product-summary.shelf"
+      "product-summary.shelf#teste"
     ],
     "children": [
       "slider-layout#prateleira-8litros"
@@ -881,6 +881,7 @@
   },
   "flex-layout.row#shelf3": {
     "children": [
+
       "list-context.product-list#prateleira-madu"
     ]
   },
