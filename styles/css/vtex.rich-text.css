@@ -700,6 +700,10 @@
 
 
 @media screen and (max-width: 1024px) {
+.paragraph--texto-botao-frete {
+  font-size: 14px;
+}
+
   .container--dia-consumidor-tag-falsa {
     left: 10px;
   }

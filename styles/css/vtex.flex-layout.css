@@ -1,3 +1,19 @@
+
+
+.flexRow--content-compre-junto-incubadora{
+  margin: 20px;
+}
+
+.flexRowContent--linha-dia-consumidor-incubadora{
+  border: 1px groove var(--magnolia);
+  margin-top: 20px;
+  border-top: 10px solid var(--pink);
+
+  font-size: small;
+  padding: 20px;
+}
+
+
 .flexRowContent--linha-instagram{
   display: flex;
   flex-direction: column;
@@ -1323,6 +1339,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--favoritos-mobile{
+    z-index: 2;
+  }
+
+
   .flexRowContent--footer-merchant-desktop-linhas{
     display: flex;
     flex-direction: column;

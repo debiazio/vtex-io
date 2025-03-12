@@ -9,7 +9,7 @@
 } */
 
 .flexRowContent--productSpecificationGroup{
-  border: 1px groove (--magnolia);
+  border: 1px groove #ede7eb;
   margin-top: 20px;
   border-top: 10px solid var(--pink);
   margin: 20px;
@@ -22,7 +22,7 @@
 }
 
 .flexCol--productSpecificationValue {
-  padding: .7rem .7rem .7rem 0;  
+  padding: .7rem .7rem .7rem 0;
 }
 
 /* .flexRow--productSpecification:nth-child(even) {
