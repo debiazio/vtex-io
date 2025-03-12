@@ -700,6 +700,14 @@
 
 
 @media screen and (max-width: 1024px) {
+  .container--dia-consumidor-tag-falsa {
+    left: 10px;
+  }
+
+  .paragraph--dia-consumidor-tag-falsa{
+    font-size: 10px;
+  }
+
   .paragraph--texto-titulo-categoria {
     font-size: 24px;
     margin: -10px;

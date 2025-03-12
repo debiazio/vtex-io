@@ -16,3 +16,10 @@
 .teaserTitle--sessao-blog {
   text-align: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .latestPostsBlockContainer--sessao-blog {
+    margin: 20px 20px;
+  }
+}

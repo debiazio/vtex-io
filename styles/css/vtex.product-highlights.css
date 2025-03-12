@@ -11,3 +11,10 @@
   padding: 5px 10px;
   color: white;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .productHighlightText{
+    font-size: 10px;
+  }
+}
