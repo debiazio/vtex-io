@@ -43,11 +43,7 @@
       }
     },
     "children": [
-      "link#video-banner-home-1",
-      "link#video-banner-home-0.1",
-      "link#video-banner-home-2",
-      "link#video-banner-home-3.1",
-      "link#video-banner-home-4"
+      "link#video-banner-home-0.1"
     ]
   },
   "link#video-banner-home-0.1": {
@@ -68,15 +64,7 @@
       "loop": true
     }
   },
-  "link#video-banner-home-1": {
-    "props": {
-      "href": "/pronta-entrega",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#1"
-    ]
-  },
+
   "video#1": {
     "props": {
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Bloquinho Idealovers.mp4",
@@ -86,15 +74,7 @@
       "loop": true
     }
   },
-  "link#video-banner-home-2": {
-    "props": {
-      "href": "/dvm",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#2"
-    ]
-  },
+
   "video#2": {
     "props": {
       "src": "https://stermax.com.br/images_idealine/sliderLayout/02_banner_DVM_1_dezembro.mp4",
@@ -104,24 +84,8 @@
       "loop": true
     }
   },
-  "video#3": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/03-%20Banner_Desktop_Brindes_ATUALIZADO.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true
-    }
-  },
-  "link#video-banner-home-3.1": {
-    "props": {
-      "href": "/idealclave-bellinha",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#3.1"
-    ]
-  },
+
+
   "video#3.1": {
     "props": {
       "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - Bellinha 5L_dezembro.mp4",
@@ -131,15 +95,7 @@
       "loop": true
     }
   },
-  "link#video-banner-home-4": {
-    "props": {
-      "href": "/flex",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "video#4"
-    ]
-  },
+
   "video#4": {
     "props": {
       "src": "https://stermax.com.br/images_idealine/sliderLayout/04_banner_linha_Flex_dezembro.mp4",
@@ -152,7 +108,7 @@
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
-      "link#video-banner-primeira-linha-mobile"
+      "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
   "link#video-banner-novaprimeira-linha-mobile": {
@@ -173,69 +129,14 @@
     }
   },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
-  "link#video-banner-primeira-linha-mobile": {
-    "props": {
-      "href": "/pronta-entrega"
-    },
-    "children": [
-      "video#banner-topo-mobile"
-    ]
-  },
-  "video#banner-topo-mobile": {
-    "props": {
-      "width": "100%",
-      "loop": true,
-      "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Mobile - Bloquinho Idealovers.mp4",
-      "muted": true
-    }
-  },
+
   "responsive-layout.mobile#banners-mobile": {
     "children": [
-      "link#video-banner-novaprimeira-linha-mobile",
-      "link#link-video-segunda-linha-mobile", //link no video - blackfriday
-      "link#link-video-terceira-linha", //link no video
       "rich-text#shelf-title",
       "flex-layout.row#shelf"
     ]
   },
-  "link#link-video-segunda-linha-mobile": {
-    "props": {
-      "href": "/dvm"
-    },
-    "children": [
-      "video#video-banner-segunda-linha"
-    ]
-  },
-  "video#video-banner-segunda-linha": {
-    "props": {
-      "width": "100%",
-      // "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/02.Banner_Mobile_dezembro.mp4",
-      "muted": true
-    }
-  },
-  "link#link-video-terceira-linha": {
-    "props": {
-      "href": "/idealclave-bellinha",
-      "newTab": true
-    },
-    "children": [
-      "video#video-banner-terceira-linha"
-    ]
-  },
-  "video#video-banner-terceira-linha": {
-    "props": {
-      "width": "100%",
-      // "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/03-%20Banner_Mobile_Brindes_ATUALIZADO.mp4",
-      "muted": true
-    }
-  },
+
   "responsive-layout.desktop#carrossel-5l-8l": {
     "children": [
       "rich-text#shelf-title",
