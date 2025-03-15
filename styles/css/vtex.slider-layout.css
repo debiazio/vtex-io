@@ -9,17 +9,17 @@
   padding: 0;
 }
 
-.imageElementLink--carousel{
+.imageElementLink--carousel {
   margin: 0;
   padding: 0;
 }
 
-.sliderTrack--carousel{
+.sliderTrack--carousel {
   width: 100%;
   margin-bottom: -4px;
 }
 
-.slideChildrenContainer--carousel{
+.slideChildrenContainer--carousel {
   margin: 0;
   padding: 0;
 }
@@ -30,7 +30,7 @@
 
 }
 
-.sliderTrackContainer--carousel{
+.sliderTrackContainer--carousel {
   width: 100%;
 
 }
@@ -72,6 +72,12 @@
 }
 
 /* linha criada para o vertical slide */
-.flexRowContent  {
+.flexRowContent {
   background-color: #e80e7b;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderTrackContainer--video-banner-slider {
+    margin-bottom: -5px;
+  }
 }

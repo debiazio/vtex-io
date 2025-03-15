@@ -43,8 +43,38 @@
       }
     },
     "children": [
+      "link#mes-consumidor-incubadora",
+      "link#mes-consumidor-esmalteira",
       "link#video-banner-home-0.1"
     ]
+  },
+  "link#mes-consumidor-incubadora":{
+    "props": {
+      "href": "/208?map=productClusterIds",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#mes-do-consumidor-image"
+    ]
+  },
+  "image#mes-do-consumidor-image":{
+    "props": {
+      "src": "assets/Banner Desktop INCUBADORA.webp"
+    }
+  },
+  "link#mes-consumidor-esmalteira":{
+    "props":{
+      "href": "/210?map=productClusterIds",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#mes-do-consumidor-image2"
+    ]
+  },
+  "image#mes-do-consumidor-image2":{
+    "props": {
+      "src": "assets/Banner Desktop MES DO COMSUMIDOR.webp"
+    }
   },
   "link#video-banner-home-0.1": {
     "props": {
@@ -65,52 +95,63 @@
     }
   },
 
-  "video#1": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Bloquinho Idealovers.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true
-    }
-  },
 
-  "video#2": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/02_banner_DVM_1_dezembro.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true
-    }
-  },
-
-
-  "video#3.1": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/Banner Desktop - Summer Lovers - Bellinha 5L_dezembro.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true
-    }
-  },
-
-  "video#4": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/04_banner_linha_Flex_dezembro.mp4",
-      "autoPlay": true,
-      "width": "100%",
-      "height": "100%",
-      "loop": true
-    }
-  },
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
+      "slider-layout#promocao-mes-consumidor-mobile",
+
       "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
+  "slider-layout#promocao-mes-consumidor-mobile":{
+    "props": {
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "video-banner-slider",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 5000
+      }
+    },
+    "children": [
+      "link#mes-consumidor-incubadora-mobile",
+      "link#mes-consumidor-esmalteira-mobile"
+    ]
+  },
+  "link#mes-consumidor-incubadora-mobile":{
+    "props": {
+      "href": "/208?map=productClusterIds",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#mes-do-consumidor-image-mobile"
+    ]
+  },
+  "image#mes-do-consumidor-image-mobile":{
+    "props": {
+      "src": "assets/Banner INCUBADORA.webp"
+    }
+  },
+  "link#mes-consumidor-esmalteira-mobile":{
+    "props":{
+      "href": "/210?map=productClusterIds",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#mes-do-consumidor-image2-mobile"
+    ]
+  },
+  "image#mes-do-consumidor-image2-mobile":{
+    "props": {
+      "src": "assets/Banner MOBILE MES DO COMSUMIDOR.webp"
+    }
+  },
+
   "link#video-banner-novaprimeira-linha-mobile": {
     "props": {
       "href": "/pronta-entrega"

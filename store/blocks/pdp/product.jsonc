@@ -129,7 +129,7 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
-      // "condition-layout.product#compre-junto-incubadora-mobile",
+      "condition-layout.product#compre-junto-incubadora-mobile",
       // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
@@ -322,7 +322,7 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      // "condition-layout.product#compre-junto-incubadora",
+      "condition-layout.product#compre-junto-incubadora",
       // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
