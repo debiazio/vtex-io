@@ -43,8 +43,8 @@
       }
     },
     "children": [
-      "link#mes-consumidor-incubadora",
       "link#mes-consumidor-esmalteira",
+      "link#mes-consumidor-incubadora",
       "link#video-banner-home-0.1"
     ]
   },
@@ -119,8 +119,8 @@
       }
     },
     "children": [
-      "link#mes-consumidor-incubadora-mobile",
-      "link#mes-consumidor-esmalteira-mobile"
+      "link#mes-consumidor-esmalteira-mobile",
+      "link#mes-consumidor-incubadora-mobile"
     ]
   },
   "link#mes-consumidor-incubadora-mobile":{
