@@ -129,6 +129,7 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
+      "condition-layout.product#compre-junto-esmalteira-mobile",
       "condition-layout.product#compre-junto-incubadora-mobile",
       // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
@@ -169,6 +170,156 @@
     ],
     "props": {
       "width": "60%"
+    }
+  },
+  // CONDICIONAL PARA APARECER ESMALTEIRA
+  "condition-layout.product#compre-junto-esmalteira-mobile":{
+    "props": {
+      "blockClass": "condicional-compre-junto-incubadora",
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2795"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2797"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2886"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2902"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2798"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2796"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2885"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2887"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2895"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2903"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2905"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2898"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2894"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2893"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2897"
+          }
+        }
+
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#compre-junto-esmalteira-mobile"
+    }
+  },
+  "flex-layout.row#compre-junto-esmalteira-mobile":{
+    "props": {
+      "blockClass": "content-compre-junto-incubadora"
+    },
+    "children": [
+      "flex-layout.row#linha-dia-consumidor-esmalteira-mobile"
+    ]
+  },
+  "flex-layout.row#linha-dia-consumidor-esmalteira-mobile":{
+    "props": {
+      "blockClass": "linha-dia-consumidor-incubadora",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#dia-do-consumidor-esmalteira-mobile",
+      "modal-trigger#dia-consumidor-esmalteira-mobile"
+    ]
+  },
+  "image#dia-do-consumidor-esmalteira-mobile":{
+    "props": {
+      "blockClass": "imagem-dia-do-consumidor-incubadora",
+      "alt": "Dia do Consumidor",
+      "src": "assets/Banner MOBILE MES DO COMSUMIDOR.webp"
+    }
+  },
+  "modal-trigger#dia-consumidor-esmalteira-mobile": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": [
+      "modal-layout#dia-consumidor-esmalteira-mobile"
+    ]
+  },
+  "modal-layout#dia-consumidor-esmalteira-mobile": {
+    "props": {
+      "blockClass": "modal-banner-dia-consumidor-incubadora"
+    },
+    "children": [
+      "modal-header#close-dia-consumidor-esmalteira-mobile",
+      "image#dia-do-consumidor-esmalteira-mobile"
+    ]
+  },
+  "modal-header#close-dia-consumidor-esmalteira-mobile":{
+    "props": {
+      "blockClass": "close-dia-consumidor",
+      "showCloseButton": true
     }
   },
   // CONDICIONAL PARA APARECER iNCUB mobile
@@ -323,6 +474,7 @@
     "children": [
       "stack-layout",
       "condition-layout.product#compre-junto-incubadora",
+      "condition-layout.product#compre-junto-esmalteira",
       // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
       // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
@@ -356,6 +508,157 @@
       "width": "60%"
     }
   },
+// CONDICIONAL PARA APAERCER BANNER ESMALTEIRA NAS AUTOCLAVES
+  "condition-layout.product#compre-junto-esmalteira":{
+    "props": {
+      "blockClass": "condicional-compre-junto-incubadora",
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2795"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2797"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2886"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2902"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2798"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2796"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2885"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2887"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2895"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2903"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2905"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2898"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2894"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2893"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2897"
+          }
+        }
+
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#compre-junto-esmalteira"
+    }
+  },
+  "flex-layout.row#compre-junto-esmalteira":{
+    "props": {
+      "blockClass": "content-compre-junto-incubadora"
+    },
+    "children": [
+      "flex-layout.row#linha-dia-consumidor-esmalteira"
+    ]
+  },
+  "flex-layout.row#linha-dia-consumidor-esmalteira":{
+    "props": {
+      "blockClass": "linha-dia-consumidor-incubadora",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "image#dia-do-consumidor-esmalteira",
+      "modal-trigger#dia-consumidor-esmalteira"
+    ]
+  },
+  "image#dia-do-consumidor-esmalteira":{
+    "props": {
+      "blockClass": "imagem-dia-do-consumidor-incubadora",
+      "alt": "Dia do Consumidor",
+      "src": "assets/Banner Desktop MES DO COMSUMIDOR.webp"
+    }
+  },
+  "modal-trigger#dia-consumidor-esmalteira": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": [
+      "modal-layout#dia-consumidor-esmalteira"
+    ]
+  },
+  "modal-layout#dia-consumidor-esmalteira": {
+    "props": {
+      "blockClass": "modal-banner-dia-consumidor-incubadora"
+    },
+    "children": [
+      "modal-header#close-dia-consumidor-esmalteira",
+      "image#dia-do-consumidor-esmalteira"
+    ]
+  },
+  "modal-header#close-dia-consumidor-esmalteira":{
+    "props": {
+      "blockClass": "close-dia-consumidor",
+      "showCloseButton": true
+    }
+  },
+
   // CONDICIONAL PARA APARECER iNCUBADORA NAS AUTOCLAVES DE 12L
   "condition-layout.product#compre-junto-incubadora": {
     "props": {
