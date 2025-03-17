@@ -211,7 +211,7 @@
 
   "product-summary.shelf#teste":{
     "children": [
-      "rich-text#tag-falsa",
+      // "rich-text#tag-falsa",
       "stack-layout#prodsum",
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
@@ -219,11 +219,11 @@
       "flex-layout.row#linha-prateleira",
       "product-spot-price-savings"
     ]
-  },
-  "rich-text#tag-falsa":{
-    "props": {
-      "text": "Dia do Consumidor",
-      "blockClass": "dia-consumidor-tag-falsa"
-    }
   }
+  // "rich-text#tag-falsa":{
+  //   "props": {
+  //     "text": "Dia do Consumidor",
+  //     "blockClass": "dia-consumidor-tag-falsa"
+  //   }
+  // }
 }
