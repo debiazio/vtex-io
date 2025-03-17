@@ -767,7 +767,7 @@
     "props": {
       "collection": "210",
       "orderBy": "OrderByReleaseDateDESC",
-      "maxItems": 8
+      "maxItems": 50
     },
     "title": "Prateleira 5 e 8 litros"
   },
