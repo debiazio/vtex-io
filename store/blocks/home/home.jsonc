@@ -16,7 +16,7 @@
       "flex-layout.row#shelf2",
       "rich-text#prateleira-madu",
       "flex-layout.row#shelf3",
-      // "flex-layout.row#conteudo-instagram",
+      "flex-layout.row#conteudo-instagram",
       "flex-layout.row#titulo-blog-home",
       "flex-layout.row#blog-home"
     ]
@@ -860,30 +860,135 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-  // "flex-layout.row#conteudo-instagram":{
-  //   "props": {
-  //     "blockClass": "linha-instagram",
-  //     "preventHorizontalStretch": true
-  //   },
-  //   "children": [
-  //     "flex-layout.row#titulo-instagram",
-  //     "instagram"
-  //   ]
-  // },
-  // "flex-layout.row#titulo-instagram":{
-  //   "props": {
-  //     "blockClass": "linha-instagram"
-  //   },
-  //   "children": [
-  //     "rich-text#titulo-instagram"
-  //   ]
-  // },
-  // "rich-text#titulo-instagram":{
-  //   "props": {
-  //     "text": "## SIGA NOSSO INSTAGRAM ##",
-  //     "blockClass": "titulo-instagram"
-  //   }
-  // },
+  "flex-layout.row#conteudo-instagram":{
+    "props": {
+      "blockClass": "linha-instagram",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-instagram",
+      "flex-layout.row#postagens-instagram"
+    ]
+  },
+  "flex-layout.row#titulo-instagram":{
+    "props": {
+      "blockClass": "linha-instagram"
+    },
+    "children": [
+      "rich-text#titulo-instagram"
+    ]
+  },
+  "rich-text#titulo-instagram":{
+    "props": {
+      "text": "## SIGA NOSSO INSTAGRAM ##",
+      "blockClass": "titulo-instagram"
+    }
+  },
+  // slider isntagram
+  "flex-layout.row#postagens-instagram":{
+    "props": {
+      "blockClass": "linha-instagram"
+    },
+    "children": [
+      "slider-layout#instagram-home"
+    ]
+  },
+  "slider-layout#instagram-home":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "video-banner-slider",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 5000
+      }
+    },
+    "children": [
+      "link#postagem-1-horizontais-combo-lovers",
+      "link#postagem-2-bellinha",
+      "link#postagem-3-labelle",
+      "link#postagem-4"
+      // "link#postagem-5",
+      // "link#postagem-6",
+      // "link#postagem-7",
+      // "link#postagem-8"
+
+    ]
+  },
+  // ICONES DO INSTAGRAM - MODELO
+  "image#links-instagram":{
+    "props": {
+      "src": "assets/icones_instagram.svg",
+      "blockClass": "icones-instagram"
+    }
+  },
+
+  "link#postagem-1-horizontais-combo-lovers":{
+    "props": {
+      "href": "https://www.instagram.com/p/DHOI9WOiUpJ/",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#postagem-1-horizontais-combo-lovers",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-1-horizontais-combo-lovers":{
+    "props": {
+      "src": "assets/IDL - POST PROMO INCUBADORA.webp"
+    }
+  },
+  "link#postagem-2-bellinha":{
+    "props": {
+      "href": "https://www.instagram.com/p/DHOI1xTocFQ/",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#postagem-2-bellinha",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-2-bellinha":{
+    "props": {
+      "src": "assets/IDL - POST OFICIAL 5L BELLINHA com preco.webp"
+    }
+  },
+  "link#postagem-3-labelle":{
+    "props": {
+      "href": "https://www.instagram.com/p/DHOIucUBWpO/",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#postagem-3-labelle",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-3-labelle":{
+    "props": {
+      "src": "assets/IDL - POST OFICIAL 8L LABELLE com preco.webp"
+  }
+  },
+  "link#postagem-4":{
+    "props": {
+      "href": "https://www.instagram.com/p/DHTUWtkR-Ok/",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "video#postagem-4",
+      "image#links-instagram"
+    ]
+  },
+  "video#postagem-4":{
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing.mp4"
+    }
+  },
 
   "flex-layout.row#titulo-blog-home": {
     "props": {
