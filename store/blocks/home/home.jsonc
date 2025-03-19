@@ -806,7 +806,7 @@
     "props": {
       "orderBy": "OrderByPriceASC",
       "collection": "208",
-      "maxItems": 9
+      "maxItems": 40
     }
   },
   "slider-layout#prateleira-maior-capacidade": {

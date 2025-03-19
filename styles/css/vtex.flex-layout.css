@@ -1,4 +1,16 @@
 
+.flexRowContent--content-top-sales{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--content-titulo-top-sales{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .flexRow--content-compre-junto-incubadora{
   margin: 20px;

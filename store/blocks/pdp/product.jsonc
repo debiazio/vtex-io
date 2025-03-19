@@ -7,6 +7,8 @@
       "flex-layout.row#product-breadcrumb",
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
+      "flex-layout.row#titulo-top-sales",
+      "flex-layout.row#topsales",
       "rich-text#certificacoes-titulo",
       "flex-layout.row#certificacoes"
     ]
@@ -2182,6 +2184,57 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
+  // PRODUTOS MAIS VENDIDOS titulo
+  "flex-layout.row#titulo-top-sales":{
+    "props": {
+      "blockClass": "content-titulo-top-sales"
+    },
+    "children": [
+      "rich-text#top-sales"
+    ]
+  },
+  "rich-text#top-sales": {
+    "props": {
+      "text": "## **Mais vendidos**"
+    }
+  },
+  "flex-layout.row#topsales":{
+    "props": {
+      "blockClass": "content-top-sales"
+
+    },
+    "children": [
+
+      "list-context.product-list#prateleira-top-sales"
+    ]
+  },
+
+
+  "list-context.product-list#prateleira-top-sales":{
+    "blocks": [
+      "product-summary.shelf#teste"
+    ],
+    "children": [
+      "slider-layout#top-sales"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "title": "Top Sales"
+  },
+  "slider-layout#top-sales": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
   "rich-text#certificacoes-titulo": {
     "props": {
       "text": "## **Certificações**",
