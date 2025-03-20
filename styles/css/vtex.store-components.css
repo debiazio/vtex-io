@@ -13,6 +13,15 @@
 }
 
 
+.imageElement--imagem-instagram{
+  transition: all 0.5s ease;
+}
+
+.imageElement--imagem-instagram:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
 
 .pointerEventsNone {
   display: flex;

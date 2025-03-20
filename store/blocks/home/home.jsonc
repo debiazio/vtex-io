@@ -48,7 +48,7 @@
       "link#video-banner-home-0.1"
     ]
   },
-  "link#mes-consumidor-incubadora":{
+  "link#mes-consumidor-incubadora": {
     "props": {
       "href": "/208?map=productClusterIds",
       "blockClass": "link-banner-home"
@@ -57,13 +57,13 @@
       "image#mes-do-consumidor-image"
     ]
   },
-  "image#mes-do-consumidor-image":{
+  "image#mes-do-consumidor-image": {
     "props": {
       "src": "assets/Banner Desktop INCUBADORA.webp"
     }
   },
-  "link#mes-consumidor-esmalteira":{
-    "props":{
+  "link#mes-consumidor-esmalteira": {
+    "props": {
       "href": "/210?map=productClusterIds",
       "blockClass": "link-banner-home"
     },
@@ -71,7 +71,7 @@
       "image#mes-do-consumidor-image2"
     ]
   },
-  "image#mes-do-consumidor-image2":{
+  "image#mes-do-consumidor-image2": {
     "props": {
       "src": "assets/Banner Desktop MES DO COMSUMIDOR.webp"
     }
@@ -94,17 +94,14 @@
       "loop": true
     }
   },
-
-
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
       "slider-layout#promocao-mes-consumidor-mobile",
-
       "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
-  "slider-layout#promocao-mes-consumidor-mobile":{
+  "slider-layout#promocao-mes-consumidor-mobile": {
     "props": {
       "itemsPerPage": {
         "phone": 1
@@ -123,7 +120,7 @@
       "link#mes-consumidor-incubadora-mobile"
     ]
   },
-  "link#mes-consumidor-incubadora-mobile":{
+  "link#mes-consumidor-incubadora-mobile": {
     "props": {
       "href": "/208?map=productClusterIds",
       "blockClass": "link-banner-home"
@@ -132,13 +129,13 @@
       "image#mes-do-consumidor-image-mobile"
     ]
   },
-  "image#mes-do-consumidor-image-mobile":{
+  "image#mes-do-consumidor-image-mobile": {
     "props": {
       "src": "assets/Banner INCUBADORA.webp"
     }
   },
-  "link#mes-consumidor-esmalteira-mobile":{
-    "props":{
+  "link#mes-consumidor-esmalteira-mobile": {
+    "props": {
       "href": "/210?map=productClusterIds",
       "blockClass": "link-banner-home"
     },
@@ -146,12 +143,11 @@
       "image#mes-do-consumidor-image2-mobile"
     ]
   },
-  "image#mes-do-consumidor-image2-mobile":{
+  "image#mes-do-consumidor-image2-mobile": {
     "props": {
       "src": "assets/Banner MOBILE MES DO COMSUMIDOR.webp"
     }
   },
-
   "link#video-banner-novaprimeira-linha-mobile": {
     "props": {
       "href": "/pronta-entrega"
@@ -170,14 +166,12 @@
     }
   },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
-
   "responsive-layout.mobile#banners-mobile": {
     "children": [
       "rich-text#shelf-title",
       "flex-layout.row#shelf"
     ]
   },
-
   "responsive-layout.desktop#carrossel-5l-8l": {
     "children": [
       "rich-text#shelf-title",
@@ -684,7 +678,10 @@
   "rich-text#label-cat-cli-hosp": {
     "props": {
       "text": "Clínicas e Hospitais",
-      "blockClass": [ "label-categorias", "categorias-palavra-grande"]
+      "blockClass": [
+        "label-categorias",
+        "categorias-palavra-grande"
+      ]
     }
   },
   // SECAO DOS MINI BANNERS
@@ -823,7 +820,6 @@
   },
   "flex-layout.row#shelf3": {
     "children": [
-
       "list-context.product-list#prateleira-madu"
     ]
   },
@@ -860,7 +856,7 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-  "flex-layout.row#conteudo-instagram":{
+  "flex-layout.row#conteudo-instagram": {
     "props": {
       "blockClass": "linha-instagram",
       "preventHorizontalStretch": true
@@ -870,7 +866,7 @@
       "flex-layout.row#postagens-instagram"
     ]
   },
-  "flex-layout.row#titulo-instagram":{
+  "flex-layout.row#titulo-instagram": {
     "props": {
       "blockClass": "linha-instagram"
     },
@@ -878,14 +874,14 @@
       "rich-text#titulo-instagram"
     ]
   },
-  "rich-text#titulo-instagram":{
+  "rich-text#titulo-instagram": {
     "props": {
       "text": "## SIGA NOSSO INSTAGRAM ##",
       "blockClass": "titulo-instagram"
     }
   },
-  // slider isntagram
-  "flex-layout.row#postagens-instagram":{
+  // slider instagram
+  "flex-layout.row#postagens-instagram": {
     "props": {
       "blockClass": "linha-instagram"
     },
@@ -893,103 +889,180 @@
       "slider-layout#instagram-home"
     ]
   },
-  "slider-layout#instagram-home":{
+  "slider-layout#instagram-home": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 1,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
-      "showNavigationArrows": "always",
       "blockClass": "video-banner-slider",
       "fullWidth": true,
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
       "autoplay": {
-        "timeout": 5000
+        "timeout": 3000
       }
     },
     "children": [
       "link#postagem-1-horizontais-combo-lovers",
       "link#postagem-2-bellinha",
       "link#postagem-3-labelle",
-      "link#postagem-4"
-      // "link#postagem-5",
-      // "link#postagem-6",
-      // "link#postagem-7",
-      // "link#postagem-8"
-
+      "link#postagem-4",
+      "link#postagem-5",
+      "link#postagem-6",
+      "link#postagem-7",
+      "link#postagem-8"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
-  "image#links-instagram":{
+  "image#links-instagram": {
     "props": {
       "src": "assets/icones_instagram.svg",
       "blockClass": "icones-instagram"
     }
   },
-
-  "link#postagem-1-horizontais-combo-lovers":{
+  "link#postagem-1-horizontais-combo-lovers": {
     "props": {
       "href": "https://www.instagram.com/p/DHOI9WOiUpJ/",
-      "blockClass": "link-banner-home"
+      "blockClass": "link-banner-home",
+      "target": "_blank"
     },
     "children": [
       "image#postagem-1-horizontais-combo-lovers",
       "image#links-instagram"
     ]
   },
-  "image#postagem-1-horizontais-combo-lovers":{
+  "image#postagem-1-horizontais-combo-lovers": {
     "props": {
-      "src": "assets/IDL - POST PROMO INCUBADORA.webp"
+      "src": "assets/IDL - POST PROMO INCUBADORA.webp",
+      "blockClass": "imagem-instagram"
     }
   },
-  "link#postagem-2-bellinha":{
+  "link#postagem-2-bellinha": {
     "props": {
       "href": "https://www.instagram.com/p/DHOI1xTocFQ/",
-      "blockClass": "link-banner-home"
+      "blockClass": "link-banner-home",
+      "target": "_blank"
     },
     "children": [
       "image#postagem-2-bellinha",
       "image#links-instagram"
     ]
   },
-  "image#postagem-2-bellinha":{
+  "image#postagem-2-bellinha": {
     "props": {
-      "src": "assets/IDL - POST OFICIAL 5L BELLINHA com preco.webp"
+      "src": "assets/IDL - POST OFICIAL 5L BELLINHA com preco.webp",
+      "blockClass": "imagem-instagram"
     }
   },
-  "link#postagem-3-labelle":{
+  "link#postagem-3-labelle": {
     "props": {
       "href": "https://www.instagram.com/p/DHOIucUBWpO/",
-      "blockClass": "link-banner-home"
+      "blockClass": "link-banner-home",
+      "target": "_blank"
     },
     "children": [
       "image#postagem-3-labelle",
       "image#links-instagram"
     ]
   },
-  "image#postagem-3-labelle":{
+  "image#postagem-3-labelle": {
     "props": {
-      "src": "assets/IDL - POST OFICIAL 8L LABELLE com preco.webp"
-  }
+      "src": "assets/IDL - POST OFICIAL 8L LABELLE com preco.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#postagem-4":{
+  "link#postagem-4": {
     "props": {
       "href": "https://www.instagram.com/p/DHTUWtkR-Ok/",
-      "blockClass": "link-banner-home"
+      "blockClass": "link-banner-home",
+      "target": "_blank"
     },
     "children": [
-      "video#postagem-4",
+      "image#postagem-4",
       "image#links-instagram"
     ]
   },
-  "video#postagem-4":{
+  "image#postagem-4": {
     "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing.mp4"
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing.gif",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-5": {
+    "props": {
+      "href": "https://www.instagram.com/p/DHJKa_PxItG/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-5",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-5": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler.gif",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-6": {
+    "props": {
+      "href": "https://www.instagram.com/p/DHBUO8fx14N/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-6",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-6": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/vem-ai.gif",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-7": {
+    "props": {
+      "href": "https://www.instagram.com/p/DGgm9bQPedw/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-7",
+      "image#links-instagram"
+    ]
+  },
+
+  "image#postagem-7": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/pincas.gif",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-8": {
+    "props": {
+      "href": "https://www.instagram.com/p/DGN_CxdRhEI/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-8",
+      "image#links-instagram"
+    ]
+  },
+
+    "image#postagem-8": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/seguranca.gif",
+      "blockClass": "imagem-instagram"
     }
   },
 
+  // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
       "blockClass": "linha-blog"
