@@ -909,6 +909,9 @@
       "link#postagem-1-horizontais-combo-lovers",
       "link#postagem-2-bellinha",
       "link#postagem-3-labelle",
+      "link#postagem-vc-sabia",
+      "link#postagem-incubadora",
+      "link#postagem-tifany",
       "link#postagem-4",
       "link#postagem-5",
       "link#postagem-6",
@@ -971,6 +974,57 @@
   "image#postagem-3-labelle": {
     "props": {
       "src": "assets/IDL - POST OFICIAL 8L LABELLE com preco.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-vc-sabia": {
+    "props": {
+      "href": "https://www.instagram.com/p/DHlhrtNR33G/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-vc-sabia",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-vc-sabia": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/vc-sabia.gif",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-incubadora": {
+    "props": {
+      "href": "https://www.instagram.com/p/DHb7E19uLRZ/?img_index=1",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-incubadora",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-incubadora": {
+    "props": {
+      "src": "assets/carrossel-incubadora_01.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  "link#postagem-tifany": {
+    "props": {
+      "href": "https://www.instagram.com/p/DHbbrd9gx1Y/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#postagem-tifany",
+      "image#links-instagram"
+    ]
+  },
+  "image#postagem-tifany": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/tifany-instagram-idl.gif",
       "blockClass": "imagem-instagram"
     }
   },
