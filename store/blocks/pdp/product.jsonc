@@ -298,7 +298,7 @@
     "props": {
       "blockClass": "imagem-dia-do-consumidor-incubadora",
       "alt": "Dia do Consumidor",
-      "src": "assets/Banner MOBILE MES DO COMSUMIDOR.webp"
+      "src": "assets/Banner MOBILE compre e ganhe.webp"
     }
   },
   "modal-trigger#dia-consumidor-esmalteira-mobile": {
@@ -634,7 +634,7 @@
     "props": {
       "blockClass": "imagem-dia-do-consumidor-incubadora",
       "alt": "Dia do Consumidor",
-      "src": "assets/Banner Desktop MES DO COMSUMIDOR.webp"
+      "src": "assets/Banner Desktop compre e ganhe.webp"
     }
   },
   "modal-trigger#dia-consumidor-esmalteira": {

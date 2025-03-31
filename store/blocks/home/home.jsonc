@@ -21,6 +21,7 @@
       "flex-layout.row#blog-home"
     ]
   },
+
   "responsive-layout.desktop#video-banner-home": {
     "children": [
       "slider-layout#video-banner-home"
@@ -73,7 +74,7 @@
   },
   "image#mes-do-consumidor-image2": {
     "props": {
-      "src": "assets/Banner Desktop MES DO COMSUMIDOR.webp"
+      "src": "assets/Banner Desktop compre e ganhe.webp"
     }
   },
   "link#video-banner-home-0.1": {
@@ -145,7 +146,7 @@
   },
   "image#mes-do-consumidor-image2-mobile": {
     "props": {
-      "src": "assets/Banner MOBILE MES DO COMSUMIDOR.webp"
+      "src": "assets/Banner MOBILE compre e ganhe.webp"
     }
   },
   "link#video-banner-novaprimeira-linha-mobile": {
