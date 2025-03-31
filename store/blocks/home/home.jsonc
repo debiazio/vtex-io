@@ -907,17 +907,16 @@
       }
     },
     "children": [
+      "link#3-autoclaves",
       "link#postagem-1-horizontais-combo-lovers",
-      "link#postagem-2-bellinha",
-      "link#postagem-3-labelle",
-      "link#postagem-vc-sabia",
-      "link#postagem-incubadora",
-      "link#postagem-tifany",
-      "link#postagem-4",
-      "link#postagem-5",
-      "link#postagem-6",
-      "link#postagem-7",
-      "link#postagem-8"
+      "link#postagem-video-isa",
+      "link#vc-sabia",
+      "link#incubadora",
+      "link#tifany",
+      "link#unboxing",
+      "link#spoiler",
+      "link#video-pincas",
+      "link#seguranca"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -927,229 +926,228 @@
       "blockClass": "icones-instagram"
     }
   },
-  "link#postagem-1-horizontais-combo-lovers": {
+  "link#3-autoclaves": {
     "props": {
-      "href": "https://www.instagram.com/p/DHOI9WOiUpJ/",
+      "href": "https://www.instagram.com/p/DHoiPMPR0XM/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#postagem-1-horizontais-combo-lovers",
+      "image#3-autoclaves",
       "image#links-instagram"
     ]
   },
-  "image#postagem-1-horizontais-combo-lovers": {
-    "props": {
-      "src": "assets/IDL - POST PROMO INCUBADORA.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-2-bellinha": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHOI1xTocFQ/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-2-bellinha",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-2-bellinha": {
-    "props": {
-      "src": "assets/IDL - POST OFICIAL 5L BELLINHA com preco.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-3-labelle": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHOIucUBWpO/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-3-labelle",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-3-labelle": {
-    "props": {
-      "src": "assets/IDL - POST OFICIAL 8L LABELLE com preco.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-vc-sabia": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHlhrtNR33G/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-vc-sabia",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-vc-sabia": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/vc-sabia.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-incubadora": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHb7E19uLRZ/?img_index=1",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-incubadora",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-incubadora": {
-    "props": {
-      "src": "assets/carrossel-incubadora_01.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-tifany": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHbbrd9gx1Y/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-tifany",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-tifany": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/tifany-instagram-idl.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-4": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHTUWtkR-Ok/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-4",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-4": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-5": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHJKa_PxItG/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-5",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-5": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-6": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHBUO8fx14N/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-6",
-      "image#links-instagram"
-    ]
-  },
-  "image#postagem-6": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/vem-ai.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-7": {
-    "props": {
-      "href": "https://www.instagram.com/p/DGgm9bQPedw/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-7",
-      "image#links-instagram"
-    ]
-  },
-
-  "image#postagem-7": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/pincas.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#postagem-8": {
-    "props": {
-      "href": "https://www.instagram.com/p/DGN_CxdRhEI/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#postagem-8",
-      "image#links-instagram"
-    ]
-  },
-
-    "image#postagem-8": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/seguranca.gif",
-      "blockClass": "imagem-instagram"
-    }
-  },
-
-  // BLOGO
-  "flex-layout.row#titulo-blog-home": {
-    "props": {
-      "blockClass": "linha-blog"
-    },
-    "children": [
-      "rich-text#blog"
-    ]
-  },
-  "rich-text#blog": {
-    "props": {
-      "text": "## BLOG IDEALINE ##",
-      "blockClass": "titulo-idealine-blog"
-    }
-  },
-  "flex-layout.row#blog-home": {
-    "props": {
-      "blockClass": "linha-blog",
-      "fullWidth": true
-    },
-    "children": [
-      "blog-latest-posts-preview.wordpress-latest-posts-preview"
-    ]
-  },
-  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
-    "props": {
-      "blockClass": "sessao-blog",
-      "useTextOverlays": false,
-      "showExcerpts": true,
-      "showDates": false,
-      "showCategories": false,
-      "absoluteLinks": true,
-      "numberOfPosts": 3
-    }
+  "image#3-autoclaves": {
+  "props": {
+    "src": "assets/IDL - POST OFICIAL TODAS SEM ESMALTEIRA.webp",
+    "blockClass": "imagem-instagram"
   }
+},
+"link#postagem-1-horizontais-combo-lovers": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHOI9WOiUpJ/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "image#postagem-1-horizontais-combo-lovers",
+    "image#links-instagram"
+  ]
+},
+"image#postagem-1-horizontais-combo-lovers": {
+  "props": {
+    "src": "assets/IDL - POST PROMO INCUBADORA.webp",
+    "blockClass": "imagem-instagram"
+  }
+},
+
+"link#postagem-video-isa": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHqsrUFxkFF/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#isa-instagram",
+    "image#links-instagram"
+  ]
+},
+"video#isa-instagram": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/isa-video-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#vc-sabia": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHlhrtNR33G/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#vc-sabia",
+    "image#links-instagram"
+  ]
+},
+"video#vc-sabia": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/vc-sabia-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#incubadora": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHb7E19uLRZ/?img_index=1",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "image#incubadora",
+    "image#links-instagram"
+  ]
+},
+"image#incubadora": {
+"props": {
+  "src": "assets/carrossel-incubadora_01.webp",
+  "blockClass": "imagem-instagram"
+}
+},
+
+
+"link#tifany": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHbbrd9gx1Y/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#tifany",
+    "image#links-instagram"
+  ]
+},
+
+"video#tifany": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/tifany-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#unboxing": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHTUWtkR-Ok/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#unboxing",
+    "image#links-instagram"
+  ]
+},
+
+"video#unboxing": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#spoiler": {
+  "props": {
+    "href": "https://www.instagram.com/p/DHJKa_PxItG/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#spoiler",
+    "image#links-instagram"
+  ]
+},
+"video#spoiler": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#video-pincas": {
+  "props": {
+    "href": "https://www.instagram.com/p/DGgm9bQPedw/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#video-pincas",
+    "image#links-instagram"
+  ]
+},
+"video#video-pincas": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/pincas-resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+"link#seguranca": {
+  "props": {
+    "href": "https://www.instagram.com/p/DGN_CxdRhEI/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#seguranca",
+    "image#links-instagram"
+  ]
+},
+"video#seguranca": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/seguranca_resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
+// BLOGO
+"flex-layout.row#titulo-blog-home": {
+  "props": {
+    "blockClass": "linha-blog"
+  },
+  "children": [
+    "rich-text#blog"
+  ]
+},
+"rich-text#blog": {
+  "props": {
+    "text": "## BLOG IDEALINE ##",
+    "blockClass": "titulo-idealine-blog"
+  }
+},
+"flex-layout.row#blog-home": {
+  "props": {
+    "blockClass": "linha-blog",
+    "fullWidth": true
+  },
+  "children": [
+    "blog-latest-posts-preview.wordpress-latest-posts-preview"
+  ]
+},
+"blog-latest-posts-preview.wordpress-latest-posts-preview": {
+  "props": {
+    "blockClass": "sessao-blog",
+    "useTextOverlays": false,
+    "showExcerpts": true,
+    "showDates": false,
+    "showCategories": false,
+    "absoluteLinks": true,
+    "numberOfPosts": 3
+  }
+}
 }
