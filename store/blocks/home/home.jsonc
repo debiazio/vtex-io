@@ -60,7 +60,7 @@
   },
   "image#mes-do-consumidor-image": {
     "props": {
-      "src": "assets/Banner Desktop incubadora.webp"
+      "src": "assets/Banner Desktop INCUBADORA.webp"
     }
   },
   "link#mes-consumidor-esmalteira": {
@@ -907,16 +907,17 @@
       }
     },
     "children": [
+      // LIMITEI A 10
+      "link#como-usar",
+      "link#fato-fake",
+      "link#dia-da-mentira",
+      "link#contagem-regressiva",
+      "link#postagem-video-isa",
       "link#3-autoclaves",
       "link#postagem-1-horizontais-combo-lovers",
-      "link#postagem-video-isa",
       "link#vc-sabia",
       "link#incubadora",
-      "link#tifany",
-      "link#unboxing",
-      "link#spoiler",
-      "link#video-pincas",
-      "link#seguranca"
+      "link#tifany"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -926,6 +927,80 @@
       "blockClass": "icones-instagram"
     }
   },
+  "link#como-usar": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIBn-WbxYiW/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "video#como-usar",
+      "image#links-instagram"
+    ]
+  },
+  "video#como-usar": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/como-usar-instagram.mp4",
+      "blockClass": "imagem-instagram",
+      "autoPlay": true,
+      "loop": true
+    }
+  },
+  "link#fato-fake": {
+    "props": {
+      "href": "https://www.instagram.com/p/DH9SjapRorW/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "video#fato-fake",
+      "image#links-instagram"
+    ]
+  },
+  "video#fato-fake": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/fato-ou-fake_resized.mp4",
+      "blockClass": "imagem-instagram",
+      "autoPlay": true,
+      "loop": true
+    }
+  },
+"link#dia-da-mentira":{
+  "props": {
+    "href": "https://www.instagram.com/p/DH5-PK8uALe/?img_index=1",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "image#dia-da-mentira",
+    "image#links-instagram"
+  ]
+},
+"image#dia-da-mentira": {
+  "props": {
+    "src": "assets/CAPA DIA DA MENTIRA.webp"
+    
+  }
+},
+"link#contagem-regressiva":{
+  "props": {
+    "href": "https://www.instagram.com/p/DHv041_RCGZ/",
+    "blockClass": "link-banner-home",
+    "target": "_blank"
+  },
+  "children": [
+    "video#contagem-regressiva",
+    "image#links-instagram"
+  ]
+},
+"video#contagem-regressiva": {
+  "props": {
+    "src": "https://stermax.com.br/images_idealine/sliderLayout/contagem-regressiva_resized.mp4",
+    "blockClass": "imagem-instagram",
+    "autoPlay": true,
+    "loop": true
+  }
+},
   "link#3-autoclaves": {
     "props": {
       "href": "https://www.instagram.com/p/DHoiPMPR0XM/",
@@ -1038,83 +1113,7 @@
     "loop": true
   }
 },
-"link#unboxing": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHTUWtkR-Ok/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#unboxing",
-    "image#links-instagram"
-  ]
-},
 
-"video#unboxing": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/unboxing-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-"link#spoiler": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHJKa_PxItG/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#spoiler",
-    "image#links-instagram"
-  ]
-},
-"video#spoiler": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-"link#video-pincas": {
-  "props": {
-    "href": "https://www.instagram.com/p/DGgm9bQPedw/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#video-pincas",
-    "image#links-instagram"
-  ]
-},
-"video#video-pincas": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/pincas-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-"link#seguranca": {
-  "props": {
-    "href": "https://www.instagram.com/p/DGN_CxdRhEI/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#seguranca",
-    "image#links-instagram"
-  ]
-},
-"video#seguranca": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/seguranca_resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
 // BLOGO
 "flex-layout.row#titulo-blog-home": {
   "props": {
