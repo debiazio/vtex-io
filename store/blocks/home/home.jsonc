@@ -900,14 +900,15 @@
       "infinite": true,
       "blockClass": "video-banner-slider",
       "fullWidth": true,
-      "showPaginationDots": "never",
-      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always",
       "autoplay": {
         "timeout": 3000
       }
     },
     "children": [
       // LIMITEI A 10
+      "link#action-figure-ia",
       "link#como-usar",
       "link#fato-fake",
       "link#dia-da-mentira",
@@ -927,6 +928,24 @@
       "blockClass": "icones-instagram"
     }
   },
+  "link#action-figure-ia":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIJku3xRao9/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#action-figure-ia",
+      "image#links-instagram"
+    ]
+  },
+  "image#action-figure-ia":{
+    "props": {
+      "src": "assets/action-figure-idl.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+
   "link#como-usar": {
     "props": {
       "href": "https://www.instagram.com/p/DIBn-WbxYiW/",
