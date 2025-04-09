@@ -907,7 +907,8 @@
       }
     },
     "children": [
-      // LIMITEI A 10
+      // LIMITEI A 10      
+      "link#workflow-entrega",     
       "link#action-figure-ia",
       "link#como-usar",
       "link#fato-fake",
@@ -916,9 +917,7 @@
       "link#postagem-video-isa",
       "link#3-autoclaves",
       "link#postagem-1-horizontais-combo-lovers",
-      "link#vc-sabia",
-      "link#incubadora",
-      "link#tifany"
+      "link#vc-sabia"      
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -926,6 +925,25 @@
     "props": {
       "src": "assets/icones_instagram.svg",
       "blockClass": "icones-instagram"
+    }
+  },
+  "link#workflow-entrega":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIMMSSoRjzO/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "video#workflow-entrega",
+      "image#links-instagram"
+    ]
+  },
+  "video#workflow-entrega": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/flow-entrega.mp4",
+      "blockClass": "imagem-instagram",
+      "autoPlay": true,
+      "loop": true
     }
   },
   "link#action-figure-ia":{
@@ -1088,45 +1106,6 @@
 "video#vc-sabia": {
   "props": {
     "src": "https://stermax.com.br/images_idealine/sliderLayout/vc-sabia-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-"link#incubadora": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHb7E19uLRZ/?img_index=1",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "image#incubadora",
-    "image#links-instagram"
-  ]
-},
-"image#incubadora": {
-"props": {
-  "src": "assets/carrossel-incubadora_01.webp",
-  "blockClass": "imagem-instagram"
-}
-},
-
-
-"link#tifany": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHbbrd9gx1Y/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#tifany",
-    "image#links-instagram"
-  ]
-},
-
-"video#tifany": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/tifany-resized.mp4",
     "blockClass": "imagem-instagram",
     "autoPlay": true,
     "loop": true
