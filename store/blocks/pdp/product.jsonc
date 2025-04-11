@@ -133,12 +133,6 @@
       "stack-layout",
       "condition-layout.product#compre-junto-esmalteira-mobile",
       "condition-layout.product#compre-junto-incubadora-mobile",
-      // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday", //vr
       "condition-layout.product#visualizador3d-labelleRoseGold", //vr
       "product-rating-summary", // avaliações
@@ -166,6 +160,10 @@
       "condition-layout.product#rosa-laBelle-8l",
       "condition-layout.product#rosa-laBelle-8l-padrao2",
       "flex-layout.row#description",
+      "condition-layout.product#manual-21l-vida",
+      "condition-layout.product#manual-12l-21l-opta",
+      "condition-layout.product#manual-30-42-60-75-vida",
+      "condition-layout.product#manual-75-vida-VERTICAL",
       "product-specification-group#table",
       "flex-layout.row#relatedProducts",
       "flex-layout.row#reviews-and-ratings"
@@ -175,7 +173,7 @@
     }
   },
   // CONDICIONAL PARA APARECER ESMALTEIRA
-  "condition-layout.product#compre-junto-esmalteira-mobile":{
+  "condition-layout.product#compre-junto-esmalteira-mobile": {
     "props": {
       "blockClass": "condicional-compre-junto-incubadora",
       "conditions": [
@@ -269,13 +267,12 @@
             "id": "2897"
           }
         }
-
       ],
       "matchType": "any",
       "Then": "flex-layout.row#compre-junto-esmalteira-mobile"
     }
   },
-  "flex-layout.row#compre-junto-esmalteira-mobile":{
+  "flex-layout.row#compre-junto-esmalteira-mobile": {
     "props": {
       "blockClass": "content-compre-junto-incubadora"
     },
@@ -283,7 +280,7 @@
       "flex-layout.row#linha-dia-consumidor-esmalteira-mobile"
     ]
   },
-  "flex-layout.row#linha-dia-consumidor-esmalteira-mobile":{
+  "flex-layout.row#linha-dia-consumidor-esmalteira-mobile": {
     "props": {
       "blockClass": "linha-dia-consumidor-incubadora",
       "preventHorizontalStretch": true,
@@ -294,7 +291,7 @@
       "modal-trigger#dia-consumidor-esmalteira-mobile"
     ]
   },
-  "image#dia-do-consumidor-esmalteira-mobile":{
+  "image#dia-do-consumidor-esmalteira-mobile": {
     "props": {
       "blockClass": "imagem-dia-do-consumidor-incubadora",
       "alt": "Dia do Consumidor",
@@ -318,7 +315,7 @@
       "image#dia-do-consumidor-esmalteira-mobile"
     ]
   },
-  "modal-header#close-dia-consumidor-esmalteira-mobile":{
+  "modal-header#close-dia-consumidor-esmalteira-mobile": {
     "props": {
       "blockClass": "close-dia-consumidor",
       "showCloseButton": true
@@ -398,7 +395,7 @@
       "flex-layout.row#linha-dia-consumidor-incubadora-mobile"
     ]
   },
-  "flex-layout.row#linha-dia-consumidor-incubadora-mobile":{
+  "flex-layout.row#linha-dia-consumidor-incubadora-mobile": {
     "props": {
       "blockClass": "linha-dia-consumidor-incubadora",
       "preventHorizontalStretch": true,
@@ -409,7 +406,7 @@
       "modal-trigger#dia-consumidor-mobile"
     ]
   },
-  "image#dia-do-consumidor-mobile":{
+  "image#dia-do-consumidor-mobile": {
     "props": {
       "blockClass": "imagem-dia-do-consumidor-incubadora",
       "alt": "Dia do Consumidor",
@@ -433,14 +430,12 @@
       "image#dia-do-consumidor-mobile"
     ]
   },
-  "modal-header#close-dia-consumidor-mobile":{
+  "modal-header#close-dia-consumidor-mobile": {
     "props": {
       "blockClass": "close-dia-consumidor",
       "showCloseButton": true
     }
   },
-
-
   // LINHA DE PREÇO PARCELADO MOBILE
   "flex-layout.row#linha-parcelas": {
     "props": {
@@ -477,12 +472,6 @@
       "stack-layout",
       "condition-layout.product#compre-junto-incubadora",
       "condition-layout.product#compre-junto-esmalteira",
-      // "condition-layout.product#video-75-vertical", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2864", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2801", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2800", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2799", //video da 75 litros vertical
-      // "condition-layout.product#video-75-vertical2793", //video da 75 litros vertical
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
       "condition-layout.product#visualizador3d-labelleRoseGold",
       "condition-layout.product#branco-perola",
@@ -502,6 +491,10 @@
       "condition-layout.product#rosa-laBelle-8l",
       "condition-layout.product#rosa-laBelle-8l-padrao2",
       "flex-layout.row#description",
+      "condition-layout.product#manual-21l-vida",
+      "condition-layout.product#manual-12l-21l-opta",
+      "condition-layout.product#manual-30-42-60-75-vida",
+      "condition-layout.product#manual-75-vida-VERTICAL",
       "product-specification-group#table",
       "flex-layout.row#reviews-and-ratings",
       "flex-layout.row#relatedProducts"
@@ -510,8 +503,8 @@
       "width": "60%"
     }
   },
-// CONDICIONAL PARA APAERCER BANNER ESMALTEIRA NAS AUTOCLAVES
-  "condition-layout.product#compre-junto-esmalteira":{
+  // CONDICIONAL PARA APAERCER BANNER ESMALTEIRA NAS AUTOCLAVES
+  "condition-layout.product#compre-junto-esmalteira": {
     "props": {
       "blockClass": "condicional-compre-junto-incubadora",
       "conditions": [
@@ -605,13 +598,12 @@
             "id": "2897"
           }
         }
-
       ],
       "matchType": "any",
       "Then": "flex-layout.row#compre-junto-esmalteira"
     }
   },
-  "flex-layout.row#compre-junto-esmalteira":{
+  "flex-layout.row#compre-junto-esmalteira": {
     "props": {
       "blockClass": "content-compre-junto-incubadora"
     },
@@ -619,7 +611,7 @@
       "flex-layout.row#linha-dia-consumidor-esmalteira"
     ]
   },
-  "flex-layout.row#linha-dia-consumidor-esmalteira":{
+  "flex-layout.row#linha-dia-consumidor-esmalteira": {
     "props": {
       "blockClass": "linha-dia-consumidor-incubadora",
       "preventHorizontalStretch": true,
@@ -630,7 +622,7 @@
       "modal-trigger#dia-consumidor-esmalteira"
     ]
   },
-  "image#dia-do-consumidor-esmalteira":{
+  "image#dia-do-consumidor-esmalteira": {
     "props": {
       "blockClass": "imagem-dia-do-consumidor-incubadora",
       "alt": "Dia do Consumidor",
@@ -654,13 +646,12 @@
       "image#dia-do-consumidor-esmalteira"
     ]
   },
-  "modal-header#close-dia-consumidor-esmalteira":{
+  "modal-header#close-dia-consumidor-esmalteira": {
     "props": {
       "blockClass": "close-dia-consumidor",
       "showCloseButton": true
     }
   },
-
   // CONDICIONAL PARA APARECER iNCUBADORA NAS AUTOCLAVES DE 12L
   "condition-layout.product#compre-junto-incubadora": {
     "props": {
@@ -735,7 +726,7 @@
       "flex-layout.row#linha-dia-consumidor-incubadora"
     ]
   },
-  "flex-layout.row#linha-dia-consumidor-incubadora":{
+  "flex-layout.row#linha-dia-consumidor-incubadora": {
     "props": {
       "blockClass": "linha-dia-consumidor-incubadora",
       "preventHorizontalStretch": true,
@@ -761,7 +752,6 @@
       "modal-layout#dia-consumidor"
     ]
   },
-
   "modal-layout#dia-consumidor": {
     "props": {
       "blockClass": "modal-banner-dia-consumidor-incubadora"
@@ -771,88 +761,10 @@
       "image#dia-do-consumidor"
     ]
   },
-  "modal-header#close-dia-consumidor":{
+  "modal-header#close-dia-consumidor": {
     "props": {
       "blockClass": "close-dia-consumidor",
       "showCloseButton": true
-    }
-  },
-  "condition-layout.product#video-75-vertical": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2914"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
-    }
-  },
-  "condition-layout.product#video-75-vertical2864": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2864"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
-    }
-  },
-  "condition-layout.product#video-75-vertical2801": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2801"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
-    }
-  },
-  "condition-layout.product#video-75-vertical2800": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2800"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
-    }
-  },
-  "condition-layout.product#video-75-vertical2799": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2799"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
-    }
-  },
-  "condition-layout.product#video-75-vertical2793": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2793"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#video75litros"
     }
   },
   "flex-layout.row#video75litros": {
@@ -919,83 +831,11 @@
       "alt": "Ícone 360°"
     }
   },
-  "flex-layout.row#brinde-horizontais-blackFriday": {
-    "props": {
-      "blockClass": "condicional-brinde-5l-8l"
-    },
-    "children": [
-      "image#brinde-horizontais-blackFriday"
-    ]
-  },
   "image#brinde-horizontais-blackFriday": {
     "props": {
       "src": "assets/brinde-horizontais.webp",
       "alt": "Imagem com brinde da Black Friday - horizontais",
       "blockClass": "img-brindetriplo-bf-5l-8l"
-    }
-  },
-  // BRINDE BLACK FRIDAY 5L + BF
-  "condition-layout.product#brinde-autoclaves-5l": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5L"
-          }
-        },
-        {
-          "subject": "categoryId",
-          "arguments": {
-            "id": "69"
-          }
-        }
-      ],
-      "matchType": "all",
-      "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
-    }
-  },
-  "condition-layout.product#brinde-autoclaves-5litros": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "5 Litros"
-          }
-        },
-        {
-          "subject": "categoryId",
-          "arguments": {
-            "id": "69"
-          }
-        }
-      ],
-      "matchType": "all",
-      "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
-    }
-  },
-  // BRINDE BLACK FRIDAY 8L + BF
-  "condition-layout.product#brinde-autoclaves-8l": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "categoryId",
-          "arguments": {
-            "id": "69"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "8L"
-          }
-        }
-      ],
-      "Then": "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday"
     }
   },
   // BRINDES AUTOCLAVES 5L E 8L BLACK FRIDAY
@@ -1993,6 +1833,354 @@
       "blockClass": "texto-descricao"
     }
   },
+  "condition-layout.product#manual-21l-vida": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2889"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2890"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#custom-pdp-layout-manual-21l-vida"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-manual-21l-vida": {
+    "props": {
+      "blockClass": "manual-pdp"
+    },
+    "children": [
+      "link#manual-21l-vida"
+    ]
+  },
+  "link#manual-21l-vida": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/manuais/FT.VIDA21L-%20REV001%20_%2019.03.2025%20ATUALIZADO.pdf",
+      "blockClass": "manuais-pdp",
+      "target": "_blank"
+    },
+    "children": [
+      "image#manual-download",
+      "rich-text#texto-baixar"
+    ]
+  },
+  "image#manual-download": {
+    "props": {
+      "src": "assets/download-branco.svg",
+      "alt": "Baixar ficha técnica",
+      "width": "24px"
+    }
+  },
+  // texto do botão de download - MODELO
+  "rich-text#texto-baixar": {
+    "props": {
+      "text": "Baixar ficha técnica",
+      "blockClass": "texto-baixar-ficha-tecnica"
+    }
+  },
+  "condition-layout.product#manual-12l-21l-opta": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2939"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2940"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2941"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2942"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2943"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2944"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2814"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2869"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2881"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2872"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2875"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2878"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#custom-pdp-layout-manual-12l-21l-opta"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-manual-12l-21l-opta": {
+    "props": {
+      "blockClass": "manual-pdp"
+    },
+    "children": [
+      "link#manual-12l-21l-opta"
+    ]
+  },
+  "link#manual-12l-21l-opta": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/manuais/FT.OPTA12L.21L- REV001 _ 19.03.2025 ATUALIZADO.pdf",
+      "blockClass": "manuais-pdp",
+      "target": "_blank"
+    },
+    "children": [
+      "image#manual-download",
+      "rich-text#texto-baixar"
+    ]
+  },
+  "condition-layout.product#manual-30-42-60-75-vida": {
+    "props": {
+      "conditions": [
+        // 30 LITROS
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2812"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2845"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2842"
+          }
+        },
+        // 42 LITROS
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2832"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2833"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2835"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2834"
+          }
+        },
+        // 60 LITROS 
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2831"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2829"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2827"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2828"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2830"
+          }
+        },
+        // 75 LITROS 
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2826"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2810"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2824"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2825"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2822"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2823"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#custom-pdp-layout-manual-30-42-60-75-vida"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-manual-30-42-60-75-vida": {
+    "props": {
+      "blockClass": "manual-pdp"
+    },
+    "children": [
+      "link#manual-30-42-60-75-vida"
+    ]
+  },
+  "link#manual-30-42-60-75-vida": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/manuais/FT.VIDA30.42.60.75L- REV001 _ 19.03.2025 ATUALIZADO.pdf",
+      "blockClass": "manuais-pdp",
+      "target": "_blank"
+    },
+    "children": [
+      "image#manual-download",
+      "rich-text#texto-baixar"
+    ]
+  },
+  "condition-layout.product#manual-75-vida-VERTICAL": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2914"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2799"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2801"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2793"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2800"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#custom-pdp-layout-manual-75-vida-vertical"
+    }
+  },
+  "flex-layout.row#custom-pdp-layout-manual-75-vida-vertical": {
+    "props": {
+      "blockClass": "manual-pdp"
+    },
+    "children": [
+      "link#manual-75-vida-vertical"
+    ]
+  },
+  "link#manual-75-vida-vertical": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/manuais/FT.VIDA75LVERT_ REV001 - 19.02.2025 ATUALIZADO.pdf",
+      "blockClass": "manuais-pdp",
+      "target": "_blank"
+    },
+    "children": [
+      "image#manual-download",
+      "rich-text#texto-baixar"
+    ]
+  },
   "sku-selector": {
     "props": {
       "variationsSpacing": 5,
@@ -2185,7 +2373,7 @@
     }
   },
   // PRODUTOS MAIS VENDIDOS titulo
-  "flex-layout.row#titulo-top-sales":{
+  "flex-layout.row#titulo-top-sales": {
     "props": {
       "blockClass": "content-titulo-top-sales"
     },
@@ -2198,19 +2386,15 @@
       "text": "## **Mais vendidos**"
     }
   },
-  "flex-layout.row#topsales":{
+  "flex-layout.row#topsales": {
     "props": {
       "blockClass": "content-top-sales"
-
     },
     "children": [
-
       "list-context.product-list#prateleira-top-sales"
     ]
   },
-
-
-  "list-context.product-list#prateleira-top-sales":{
+  "list-context.product-list#prateleira-top-sales": {
     "blocks": [
       "product-summary.shelf#teste"
     ],
@@ -2234,7 +2418,6 @@
       "showNavigationArrows": "desktopOnly"
     }
   },
-
   "rich-text#certificacoes-titulo": {
     "props": {
       "text": "## **Certificações**",

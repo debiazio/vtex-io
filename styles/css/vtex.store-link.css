@@ -1,4 +1,12 @@
-.link--link-banner-home{
+.childrenContainer--manuais-pdp {
+  background-color: var(--rosa-da-rosa);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.link--link-banner-home {
   width: 100%;
 }
 
@@ -9,7 +17,7 @@
 
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -29,12 +37,11 @@
   width: 100%;
 }
 
-.childrenContainer--link-menu-institucionais .link--item-menu-institucionais{
+.childrenContainer--link-menu-institucionais .link--item-menu-institucionais {
   text-decoration: none;
 }
 
-.childrenContainer--link-categorias
-{
+.childrenContainer--link-categorias {
   display: flex;
   justify-content: center;
 }
