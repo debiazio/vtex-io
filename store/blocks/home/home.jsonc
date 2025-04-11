@@ -908,6 +908,8 @@
     },
     "children": [
       // LIMITEI A 10      
+      "link#spoiler",     
+      "link#dia-esterilizacao",     
       "link#workflow-entrega",     
       "link#action-figure-ia",
       "link#como-usar",
@@ -915,9 +917,7 @@
       "link#dia-da-mentira",
       "link#contagem-regressiva",
       "link#postagem-video-isa",
-      "link#3-autoclaves",
-      "link#postagem-1-horizontais-combo-lovers",
-      "link#vc-sabia"      
+      "link#3-autoclaves"     
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -927,6 +927,44 @@
       "blockClass": "icones-instagram"
     }
   },
+  "link#spoiler":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIT0wQER1i4/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "video#spoiler",
+      "image#links-instagram"
+    ]
+  },
+  "video#spoiler": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler.mp4",
+      "blockClass": "imagem-instagram",
+      "autoPlay": true,
+      "loop": true
+    }
+  },
+
+  "link#dia-esterilizacao":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIRI2GOBEwA/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#dia-esterilizacao",
+      "image#links-instagram"
+    ]
+  },
+  "image#dia-esterilizacao": {
+    "props": {
+      "src": "assets/post dia mundial ciencia.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+
   "link#workflow-entrega":{
     "props": {
       "href": "https://www.instagram.com/p/DIMMSSoRjzO/",
@@ -1055,23 +1093,6 @@
     "blockClass": "imagem-instagram"
   }
 },
-"link#postagem-1-horizontais-combo-lovers": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHOI9WOiUpJ/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "image#postagem-1-horizontais-combo-lovers",
-    "image#links-instagram"
-  ]
-},
-"image#postagem-1-horizontais-combo-lovers": {
-  "props": {
-    "src": "assets/IDL - POST PROMO INCUBADORA.webp",
-    "blockClass": "imagem-instagram"
-  }
-},
 
 "link#postagem-video-isa": {
   "props": {
@@ -1092,25 +1113,7 @@
     "loop": true
   }
 },
-"link#vc-sabia": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHlhrtNR33G/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#vc-sabia",
-    "image#links-instagram"
-  ]
-},
-"video#vc-sabia": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/vc-sabia-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
+
 
 // BLOGO
 "flex-layout.row#titulo-blog-home": {
