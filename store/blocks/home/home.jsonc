@@ -939,7 +939,8 @@
       }
     },
     "children": [
-      // LIMITEI A 10      
+      // LIMITEI A 10    
+      "link#sorteio-ovoclave-instagram",  
       "link#spoiler",     
       "link#dia-esterilizacao",     
       "link#workflow-entrega",     
@@ -959,6 +960,24 @@
       "blockClass": "icones-instagram"
     }
   },
+  "link#sorteio-ovoclave-instagram":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIbYvFcRtXe/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#sorteio-ovoclave-instagram",
+      "image#links-instagram"
+    ]
+  },
+  "image#sorteio-ovoclave-instagram":{
+    "props": {
+      "src": "assets/SORTEIO PASCOA.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+
   "link#spoiler":{
     "props": {
       "href": "https://www.instagram.com/p/DIT0wQER1i4/",
