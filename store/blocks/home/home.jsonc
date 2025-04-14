@@ -44,10 +44,26 @@
       }
     },
     "children": [
+      "link#sorteio-ovoclave",
       "link#mes-consumidor-esmalteira",
       "link#mes-consumidor-incubadora",
       "link#video-banner-home-0.1"
     ]
+  },
+  "link#sorteio-ovoclave":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIbYvFcRtXe",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#sorteio-ovoclave"
+    ]
+  },
+  "image#sorteio-ovoclave":{
+    "props": {
+      "src": "assets/Banner Desktop SORTEIO.webp",
+      "blockClass": "imagem-banner-home"
+    }
   },
   "link#mes-consumidor-incubadora": {
     "props": {
@@ -98,8 +114,7 @@
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
-      "slider-layout#promocao-mes-consumidor-mobile",
-      "link#video-banner-novaprimeira-linha-mobile"
+      "slider-layout#promocao-mes-consumidor-mobile"
     ]
   },
   "slider-layout#promocao-mes-consumidor-mobile": {
@@ -117,9 +132,26 @@
       }
     },
     "children": [
+      "link#sorteio-ovoclave-mobile",
       "link#mes-consumidor-esmalteira-mobile",
-      "link#mes-consumidor-incubadora-mobile"
+      "link#mes-consumidor-incubadora-mobile",
+      "link#video-banner-novaprimeira-linha-mobile"
     ]
+  },
+  "link#sorteio-ovoclave-mobile":{
+    "props": {
+      "href": "https://www.instagram.com/p/DIbYvFcRtXe",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#sorteio-ovoclave-mobile"
+    ]
+  },
+  "image#sorteio-ovoclave-mobile":{
+    "props": {
+      "src": "assets/Banner MOBILE SORTEIO.webp",
+      "blockClass": "imagem-banner-home"
+    }
   },
   "link#mes-consumidor-incubadora-mobile": {
     "props": {
