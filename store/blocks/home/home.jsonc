@@ -21,7 +21,6 @@
       "flex-layout.row#blog-home"
     ]
   },
-
   "responsive-layout.desktop#video-banner-home": {
     "children": [
       "slider-layout#video-banner-home"
@@ -50,7 +49,7 @@
       "link#video-banner-home-0.1"
     ]
   },
-  "link#frete-gratis":{
+  "link#frete-gratis": {
     "props": {
       "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
       "blockClass": "link-banner-home"
@@ -59,7 +58,7 @@
       "image#frete-gratis"
     ]
   },
-  "image#frete-gratis":{
+  "image#frete-gratis": {
     "props": {
       "src": "assets/Banner Desktop FRETE GRATIS.webp",
       "blockClass": "imagem-banner-home"
@@ -138,7 +137,7 @@
       "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
-  "link#frete-gratis-mobile":{
+  "link#frete-gratis-mobile": {
     "props": {
       "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
       "blockClass": "link-banner-home"
@@ -147,7 +146,7 @@
       "image#frete-gratis-mobile"
     ]
   },
-  "image#frete-gratis-mobile":{
+  "image#frete-gratis-mobile": {
     "props": {
       "src": "assets/Banner MOBILE FRETE GRATIS.webp",
       "blockClass": "imagem-banner-home"
@@ -940,17 +939,15 @@
     },
     "children": [
       // LIMITEI A 10
+      "link#frete-zero",
+
+      "link#pascoa",
+      "link#e-se-frete",
+      "link#thais-giraldelli",
+
       "link#sorteio-ovoclave-instagram",
       "link#spoiler",
-      "link#dia-esterilizacao",
-      "link#workflow-entrega",
-      "link#action-figure-ia",
-      "link#como-usar",
-      "link#fato-fake",
-      "link#dia-da-mentira",
-      "link#contagem-regressiva",
-      "link#postagem-video-isa",
-      "link#3-autoclaves"
+      "link#dia-esterilizacao"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -960,7 +957,129 @@
       "blockClass": "icones-instagram"
     }
   },
-  "link#sorteio-ovoclave-instagram":{
+
+  "link#frete-zero": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIy6viBO34u/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#frete-zero",
+      "image#links-instagram"
+    ]
+  },
+  "image#frete-zero": {
+      "props": {
+        "src": "assets/frete-zero.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#pascoa-resultado": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIwNC2vRAp2/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#pascoa-resultado",
+      "image#links-instagram"
+    ]
+  },
+  "image#pascoa-resultado": {
+      "props": {
+        "src": "assets/resultado.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#pascoa-presente": {
+    "props": {
+      "href": "https://www.instagram.com/p/DItbNf4RqK-/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#pascoa-presente",
+      "image#links-instagram"
+    ]
+  },
+  "image#pascoa-presente": {
+      "props": {
+        "src": "assets/presente-pascoa.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#pascoa": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIq1cEvhqnr/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#pascoa",
+      "image#links-instagram"
+    ]
+  },
+  "image#pascoa": {
+      "props": {
+        "src": "assets/feliz-pascoa.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#e-se-frete": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIoT_WhJwtm/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#e-se-frete",
+      "image#links-instagram"
+    ]
+  },
+  "image#e-se-frete": {
+      "props": {
+        "src": "assets/e-se.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+
+  "link#thais-giraldelli": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIn-OsVRWyC/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#thais-giraldelli",
+      "image#links-instagram"
+    ]
+  },
+  "image#thais-giraldelli": {
+      "props": {
+        "src": "assets/thais-g.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+
+  "link#vem-ai": {
+    "props": {
+      "href": "https://www.instagram.com/p/DIgwUiut7Rk/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#vem-ai",
+      "image#links-instagram"
+    ]
+  },
+  "image#vem-ai": {
+      "props": {
+        "src": "assets/vem-aih.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#sorteio-ovoclave-instagram": {
     "props": {
       "href": "https://www.instagram.com/p/DIbYvFcRtXe/",
       "blockClass": "link-banner-home",
@@ -971,14 +1090,13 @@
       "image#links-instagram"
     ]
   },
-  "image#sorteio-ovoclave-instagram":{
+  "image#sorteio-ovoclave-instagram": {
     "props": {
       "src": "assets/SORTEIO PASCOA.webp",
       "blockClass": "imagem-instagram"
     }
   },
-
-  "link#spoiler":{
+  "link#spoiler": {
     "props": {
       "href": "https://www.instagram.com/p/DIT0wQER1i4/",
       "blockClass": "link-banner-home",
@@ -997,8 +1115,7 @@
       "loop": true
     }
   },
-
-  "link#dia-esterilizacao":{
+  "link#dia-esterilizacao": {
     "props": {
       "href": "https://www.instagram.com/p/DIRI2GOBEwA/",
       "blockClass": "link-banner-home",
@@ -1015,190 +1132,39 @@
       "blockClass": "imagem-instagram"
     }
   },
-
-  "link#workflow-entrega":{
+  // BLOGO
+  "flex-layout.row#titulo-blog-home": {
     "props": {
-      "href": "https://www.instagram.com/p/DIMMSSoRjzO/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
+      "blockClass": "linha-blog"
     },
     "children": [
-      "video#workflow-entrega",
-      "image#links-instagram"
+      "rich-text#blog"
     ]
   },
-  "video#workflow-entrega": {
+  "rich-text#blog": {
     "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/flow-entrega.mp4",
-      "blockClass": "imagem-instagram",
-      "autoPlay": true,
-      "loop": true
+      "text": "## BLOG IDEALINE ##",
+      "blockClass": "titulo-idealine-blog"
     }
   },
-  "link#action-figure-ia":{
+  "flex-layout.row#blog-home": {
     "props": {
-      "href": "https://www.instagram.com/p/DIJku3xRao9/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
+      "blockClass": "linha-blog",
+      "fullWidth": true
     },
     "children": [
-      "image#action-figure-ia",
-      "image#links-instagram"
+      "blog-latest-posts-preview.wordpress-latest-posts-preview"
     ]
   },
-  "image#action-figure-ia":{
+  "blog-latest-posts-preview.wordpress-latest-posts-preview": {
     "props": {
-      "src": "assets/action-figure-idl.webp",
-      "blockClass": "imagem-instagram"
+      "blockClass": "sessao-blog",
+      "useTextOverlays": false,
+      "showExcerpts": true,
+      "showDates": false,
+      "showCategories": false,
+      "absoluteLinks": true,
+      "numberOfPosts": 3
     }
-  },
-
-  "link#como-usar": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIBn-WbxYiW/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "video#como-usar",
-      "image#links-instagram"
-    ]
-  },
-  "video#como-usar": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/como-usar-instagram.mp4",
-      "blockClass": "imagem-instagram",
-      "autoPlay": true,
-      "loop": true
-    }
-  },
-  "link#fato-fake": {
-    "props": {
-      "href": "https://www.instagram.com/p/DH9SjapRorW/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "video#fato-fake",
-      "image#links-instagram"
-    ]
-  },
-  "video#fato-fake": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/fato-ou-fake_resized.mp4",
-      "blockClass": "imagem-instagram",
-      "autoPlay": true,
-      "loop": true
-    }
-  },
-"link#dia-da-mentira":{
-  "props": {
-    "href": "https://www.instagram.com/p/DH5-PK8uALe/?img_index=1",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "image#dia-da-mentira",
-    "image#links-instagram"
-  ]
-},
-"image#dia-da-mentira": {
-  "props": {
-    "src": "assets/CAPA DIA DA MENTIRA.webp"
-
   }
-},
-"link#contagem-regressiva":{
-  "props": {
-    "href": "https://www.instagram.com/p/DHv041_RCGZ/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#contagem-regressiva",
-    "image#links-instagram"
-  ]
-},
-"video#contagem-regressiva": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/contagem-regressiva_resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-  "link#3-autoclaves": {
-    "props": {
-      "href": "https://www.instagram.com/p/DHoiPMPR0XM/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#3-autoclaves",
-      "image#links-instagram"
-    ]
-  },
-  "image#3-autoclaves": {
-  "props": {
-    "src": "assets/IDL - POST OFICIAL TODAS SEM ESMALTEIRA.webp",
-    "blockClass": "imagem-instagram"
-  }
-},
-
-"link#postagem-video-isa": {
-  "props": {
-    "href": "https://www.instagram.com/p/DHqsrUFxkFF/",
-    "blockClass": "link-banner-home",
-    "target": "_blank"
-  },
-  "children": [
-    "video#isa-instagram",
-    "image#links-instagram"
-  ]
-},
-"video#isa-instagram": {
-  "props": {
-    "src": "https://stermax.com.br/images_idealine/sliderLayout/isa-video-resized.mp4",
-    "blockClass": "imagem-instagram",
-    "autoPlay": true,
-    "loop": true
-  }
-},
-
-
-// BLOGO
-"flex-layout.row#titulo-blog-home": {
-  "props": {
-    "blockClass": "linha-blog"
-  },
-  "children": [
-    "rich-text#blog"
-  ]
-},
-"rich-text#blog": {
-  "props": {
-    "text": "## BLOG IDEALINE ##",
-    "blockClass": "titulo-idealine-blog"
-  }
-},
-"flex-layout.row#blog-home": {
-  "props": {
-    "blockClass": "linha-blog",
-    "fullWidth": true
-  },
-  "children": [
-    "blog-latest-posts-preview.wordpress-latest-posts-preview"
-  ]
-},
-"blog-latest-posts-preview.wordpress-latest-posts-preview": {
-  "props": {
-    "blockClass": "sessao-blog",
-    "useTextOverlays": false,
-    "showExcerpts": true,
-    "showDates": false,
-    "showCategories": false,
-    "absoluteLinks": true,
-    "numberOfPosts": 3
-  }
-}
 }

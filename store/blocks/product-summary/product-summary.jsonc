@@ -108,7 +108,7 @@
   },
   "rich-text#teste-flag": {
     "props": {
-      "text": "Frete Grátis",
+      "text": "Frete Zero",
       "blockClass": "dia-consumidor-tag-falsa"
     }
   },
