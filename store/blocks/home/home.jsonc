@@ -789,7 +789,7 @@
   "list-context.product-list#prateleira-8litros": {
     "blocks": [
       // "product-summary.shelf"
-      "product-summary.shelf#teste"
+      "product-summary.shelf"
     ],
     "children": [
       "slider-layout#prateleira-8litros"

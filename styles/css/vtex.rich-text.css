@@ -5,8 +5,8 @@
 
 .container--dia-consumidor-tag-falsa {
   position: absolute;
-  top: 10px;
-  left: 60px;
+  top: 0px;
+  left: 10px;
   width: 200px;
   z-index: 1;
 }
