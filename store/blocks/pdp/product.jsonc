@@ -287,8 +287,8 @@
       "fullWidth": true
     },
     "children": [
-      "image#dia-do-consumidor-esmalteira-mobile",
-      "modal-trigger#dia-consumidor-esmalteira-mobile"
+      "image#dia-do-consumidor-esmalteira-mobile"
+      // "modal-trigger#dia-consumidor-esmalteira-mobile"
     ]
   },
   "image#dia-do-consumidor-esmalteira-mobile": {
@@ -618,8 +618,8 @@
       "fullWidth": true
     },
     "children": [
-      "image#dia-do-consumidor-esmalteira",
-      "modal-trigger#dia-consumidor-esmalteira"
+      "image#dia-do-consumidor-esmalteira"
+      // "modal-trigger#dia-consumidor-esmalteira"
     ]
   },
   "image#dia-do-consumidor-esmalteira": {
@@ -733,8 +733,8 @@
       "fullWidth": true
     },
     "children": [
-      "image#dia-do-consumidor",
-      "modal-trigger#dia-consumidor"
+      "image#dia-do-consumidor"
+      // "modal-trigger#dia-consumidor"
     ]
   },
   "image#dia-do-consumidor": {
