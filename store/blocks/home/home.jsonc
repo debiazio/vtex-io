@@ -44,27 +44,27 @@
       }
     },
     "children": [
-      // "link#sorteio-ovoclave",
+      "link#frete-gratis",
       "link#mes-consumidor-esmalteira",
       "link#mes-consumidor-incubadora",
       "link#video-banner-home-0.1"
     ]
   },
-  // "link#sorteio-ovoclave":{
-  //   "props": {
-  //     "href": "https://www.instagram.com/p/DIbYvFcRtXe",
-  //     "blockClass": "link-banner-home"
-  //   },
-  //   "children": [
-  //     "image#sorteio-ovoclave"
-  //   ]
-  // },
-  // "image#sorteio-ovoclave":{
-  //   "props": {
-  //     "src": "assets/Banner Desktop SORTEIO.webp",
-  //     "blockClass": "imagem-banner-home"
-  //   }
-  // },
+  "link#frete-gratis":{
+    "props": {
+      "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#frete-gratis"
+    ]
+  },
+  "image#frete-gratis":{
+    "props": {
+      "src": "assets/Banner Desktop FRETE GRATIS.webp",
+      "blockClass": "imagem-banner-home"
+    }
+  },
   "link#mes-consumidor-incubadora": {
     "props": {
       "href": "/208?map=productClusterIds",
@@ -132,27 +132,27 @@
       }
     },
     "children": [
-      // "link#sorteio-ovoclave-mobile",
+      "link#frete-gratis-mobile",
       "link#mes-consumidor-esmalteira-mobile",
       "link#mes-consumidor-incubadora-mobile",
       "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
-  // "link#sorteio-ovoclave-mobile":{
-  //   "props": {
-  //     "href": "https://www.instagram.com/p/DIbYvFcRtXe",
-  //     "blockClass": "link-banner-home"
-  //   },
-  //   "children": [
-  //     "image#sorteio-ovoclave-mobile"
-  //   ]
-  // },
-  // "image#sorteio-ovoclave-mobile":{
-  //   "props": {
-  //     "src": "assets/Banner MOBILE SORTEIO.webp",
-  //     "blockClass": "imagem-banner-home"
-  //   }
-  // },
+  "link#frete-gratis-mobile":{
+    "props": {
+      "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
+      "blockClass": "link-banner-home"
+    },
+    "children": [
+      "image#frete-gratis-mobile"
+    ]
+  },
+  "image#frete-gratis-mobile":{
+    "props": {
+      "src": "assets/Banner MOBILE FRETE GRATIS.webp",
+      "blockClass": "imagem-banner-home"
+    }
+  },
   "link#mes-consumidor-incubadora-mobile": {
     "props": {
       "href": "/208?map=productClusterIds",
