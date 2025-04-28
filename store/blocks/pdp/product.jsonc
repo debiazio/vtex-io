@@ -131,8 +131,8 @@
       "flex-layout.row#product-name",
       "flex-layout.row#add-to-list-btn",
       "stack-layout",
-      "condition-layout.product#compre-junto-esmalteira-mobile",
-      "condition-layout.product#compre-junto-incubadora-mobile",
+      // "condition-layout.product#compre-junto-esmalteira-mobile",
+      // "condition-layout.product#compre-junto-incubadora-mobile",
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday", //vr
       "condition-layout.product#visualizador3d-labelleRoseGold", //vr
       "product-rating-summary", // avaliações
@@ -321,121 +321,7 @@
       "showCloseButton": true
     }
   },
-  // CONDICIONAL PARA APARECER iNCUB mobile
-  "condition-layout.product#compre-junto-incubadora-mobile": {
-    "props": {
-      "blockClass": "condicional-compre-junto-incubadora",
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "7L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "12L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "21L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "30L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "40L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "42L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "75L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "60L"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#compre-junto-incubadora-mobile"
-    }
-  },
-  "flex-layout.row#compre-junto-incubadora-mobile": {
-    "props": {
-      "blockClass": "content-compre-junto-incubadora"
-    },
-    "children": [
-      "flex-layout.row#linha-dia-consumidor-incubadora-mobile"
-    ]
-  },
-  "flex-layout.row#linha-dia-consumidor-incubadora-mobile": {
-    "props": {
-      "blockClass": "linha-dia-consumidor-incubadora",
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "image#dia-do-consumidor-mobile",
-      "modal-trigger#dia-consumidor-mobile"
-    ]
-  },
-  "image#dia-do-consumidor-mobile": {
-    "props": {
-      "blockClass": "imagem-dia-do-consumidor-incubadora",
-      "alt": "Dia do Consumidor",
-      "src": "assets/Banner INCUBADORA.webp"
-    }
-  },
-  "modal-trigger#dia-consumidor-mobile": {
-    "props": {
-      "trigger": "load"
-    },
-    "children": [
-      "modal-layout#dia-consumidor-mobile"
-    ]
-  },
-  "modal-layout#dia-consumidor-mobile": {
-    "props": {
-      "blockClass": "modal-banner-dia-consumidor-incubadora"
-    },
-    "children": [
-      "modal-header#close-dia-consumidor-mobile",
-      "image#dia-do-consumidor-mobile"
-    ]
-  },
-  "modal-header#close-dia-consumidor-mobile": {
-    "props": {
-      "blockClass": "close-dia-consumidor",
-      "showCloseButton": true
-    }
-  },
+
   // LINHA DE PREÇO PARCELADO MOBILE
   "flex-layout.row#linha-parcelas": {
     "props": {
@@ -470,7 +356,6 @@
   "flex-layout.col#product-left-col": {
     "children": [
       "stack-layout",
-      "condition-layout.product#compre-junto-incubadora",
       "condition-layout.product#compre-junto-esmalteira",
       "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
       "condition-layout.product#visualizador3d-labelleRoseGold",
@@ -651,130 +536,6 @@
       "blockClass": "close-dia-consumidor",
       "showCloseButton": true
     }
-  },
-  // CONDICIONAL PARA APARECER iNCUBADORA NAS AUTOCLAVES DE 12L
-  "condition-layout.product#compre-junto-incubadora": {
-    "props": {
-      "blockClass": "condicional-compre-junto-incubadora",
-      "conditions": [
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "7L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "12L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "21L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "30L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "40L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "42L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "75L"
-          }
-        },
-        {
-          "subject": "specificationProperties",
-          "arguments": {
-            "name": "Capacidade",
-            "value": "60L"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#compre-junto-incubadora"
-    }
-  },
-  "flex-layout.row#compre-junto-incubadora": {
-    "props": {
-      "blockClass": "content-compre-junto-incubadora"
-    },
-    "children": [
-      "flex-layout.row#linha-dia-consumidor-incubadora"
-    ]
-  },
-  "flex-layout.row#linha-dia-consumidor-incubadora": {
-    "props": {
-      "blockClass": "linha-dia-consumidor-incubadora",
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "image#dia-do-consumidor"
-      // "modal-trigger#dia-consumidor"
-    ]
-  },
-  "image#dia-do-consumidor": {
-    "props": {
-      "blockClass": "imagem-dia-do-consumidor-incubadora",
-      "alt": "Dia do Consumidor",
-      "src": "assets/Banner Desktop INCUBADORA.webp"
-    }
-  },
-  "modal-trigger#dia-consumidor": {
-    "props": {
-      "trigger": "load"
-    },
-    "children": [
-      "modal-layout#dia-consumidor"
-    ]
-  },
-  "modal-layout#dia-consumidor": {
-    "props": {
-      "blockClass": "modal-banner-dia-consumidor-incubadora"
-    },
-    "children": [
-      "modal-header#close-dia-consumidor",
-      "image#dia-do-consumidor"
-    ]
-  },
-  "modal-header#close-dia-consumidor": {
-    "props": {
-      "blockClass": "close-dia-consumidor",
-      "showCloseButton": true
-    }
-  },
-  "flex-layout.row#video75litros": {
-    "props": {
-      "blockClass": "video75litros",
-      "fullWidth": true
-    },
-    "children": [
-      "video#video-75-vertical"
-    ]
   },
   "video#video-75-vertical": {
     "props": {
@@ -2032,7 +1793,7 @@
             "id": "2834"
           }
         },
-        // 60 LITROS 
+        // 60 LITROS
         {
           "subject": "productId",
           "arguments": {
@@ -2063,7 +1824,7 @@
             "id": "2830"
           }
         },
-        // 75 LITROS 
+        // 75 LITROS
         {
           "subject": "productId",
           "arguments": {

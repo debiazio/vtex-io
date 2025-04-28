@@ -45,7 +45,6 @@
     "children": [
       "link#frete-gratis",
       "link#mes-consumidor-esmalteira",
-      "link#mes-consumidor-incubadora",
       "link#video-banner-home-0.1"
     ]
   },
@@ -64,20 +63,7 @@
       "blockClass": "imagem-banner-home"
     }
   },
-  "link#mes-consumidor-incubadora": {
-    "props": {
-      "href": "/208?map=productClusterIds",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#mes-do-consumidor-image"
-    ]
-  },
-  "image#mes-do-consumidor-image": {
-    "props": {
-      "src": "assets/Banner Desktop INCUBADORA.webp"
-    }
-  },
+
   "link#mes-consumidor-esmalteira": {
     "props": {
       "href": "/210?map=productClusterIds",
@@ -133,7 +119,6 @@
     "children": [
       "link#frete-gratis-mobile",
       "link#mes-consumidor-esmalteira-mobile",
-      "link#mes-consumidor-incubadora-mobile",
       "link#video-banner-novaprimeira-linha-mobile"
     ]
   },
@@ -150,20 +135,6 @@
     "props": {
       "src": "assets/Banner MOBILE FRETE GRATIS.webp",
       "blockClass": "imagem-banner-home"
-    }
-  },
-  "link#mes-consumidor-incubadora-mobile": {
-    "props": {
-      "href": "/208?map=productClusterIds",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#mes-do-consumidor-image-mobile"
-    ]
-  },
-  "image#mes-do-consumidor-image-mobile": {
-    "props": {
-      "src": "assets/Banner MOBILE incubadora.webp"
     }
   },
   "link#mes-consumidor-esmalteira-mobile": {
