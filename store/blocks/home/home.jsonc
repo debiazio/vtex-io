@@ -911,14 +911,12 @@
     "children": [
       // LIMITEI A 10
       "link#frete-zero",
-
-      "link#pascoa",
-      "link#e-se-frete",
-      "link#thais-giraldelli",
-
-      "link#sorteio-ovoclave-instagram",
-      "link#spoiler",
-      "link#dia-esterilizacao"
+      "link#vantagens",
+      "link#1-de-maio",
+      "link#match-perfeito",
+      "link#100k",
+      "link#video-frete-zero",
+      "link#presenca-confirmada"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -931,7 +929,7 @@
 
   "link#frete-zero": {
     "props": {
-      "href": "https://www.instagram.com/p/DIy6viBO34u/",
+      "href": "https://www.instagram.com/p/DJKJ6ebxWIX/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
@@ -946,163 +944,111 @@
         "blockClass": "imagem-instagram"
       }
   },
-  "link#pascoa-resultado": {
+  "link#vantagens":{
     "props": {
-      "href": "https://www.instagram.com/p/DIwNC2vRAp2/",
+      "href": "https://www.instagram.com/p/DJUF9ODtj88/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#pascoa-resultado",
+      "image#vantagens",
       "image#links-instagram"
     ]
   },
-  "image#pascoa-resultado": {
+  "image#vantagens": {
       "props": {
-        "src": "assets/resultado.webp",
+        "src": "assets/vantagens-8l.webp",
         "blockClass": "imagem-instagram"
       }
   },
-  "link#pascoa-presente": {
+  "link#1-de-maio":{
     "props": {
-      "href": "https://www.instagram.com/p/DItbNf4RqK-/",
+      "href": "https://www.instagram.com/p/DJHKGbSslel/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#pascoa-presente",
+      "image#1-de-maio",
       "image#links-instagram"
     ]
   },
-  "image#pascoa-presente": {
+  "image#1-de-maio": {
       "props": {
-        "src": "assets/presente-pascoa.webp",
+        "src": "assets/1-de-maio.webp",
         "blockClass": "imagem-instagram"
       }
   },
-  "link#pascoa": {
+  "link#match-perfeito":{
     "props": {
-      "href": "https://www.instagram.com/p/DIq1cEvhqnr/",
+      "href": "https://www.instagram.com/p/DJCcRxUxIb6/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#pascoa",
+      "image#match-perfeito",
       "image#links-instagram"
     ]
   },
-  "image#pascoa": {
+  "image#match-perfeito": {
       "props": {
-        "src": "assets/feliz-pascoa.webp",
+        "src": "assets/match-perfeito.webp",
         "blockClass": "imagem-instagram"
       }
   },
-  "link#e-se-frete": {
+  "link#100k":{
     "props": {
-      "href": "https://www.instagram.com/p/DIoT_WhJwtm/",
+      "href": "https://www.instagram.com/p/DI_pdujsiDB/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#e-se-frete",
+      "image#100k",
       "image#links-instagram"
     ]
   },
-  "image#e-se-frete": {
+  "image#100k": {
       "props": {
-        "src": "assets/e-se.webp",
+        "src": "assets/100k.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#video-frete-zero":{
+    "props": {
+      "href": "https://www.instagram.com/p/DI6eNYAtBvO/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#video-frete-zero",
+      "image#links-instagram"
+    ]
+  },
+  "image#video-frete-zero": {
+      "props": {
+        "src": "assets/video-frete-zero.webp",
+        "blockClass": "imagem-instagram"
+      }
+  },
+  "link#presenca-confirmada":{
+    "props": {
+      "href": "https://www.instagram.com/p/DI1P7reRFyI/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#presenca-confirmada",
+      "image#links-instagram"
+    ]
+  },
+  "image#presenca-confirmada": {
+      "props": {
+        "src": "assets/presenca-confirmada.webp",
         "blockClass": "imagem-instagram"
       }
   },
 
-  "link#thais-giraldelli": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIn-OsVRWyC/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#thais-giraldelli",
-      "image#links-instagram"
-    ]
-  },
-  "image#thais-giraldelli": {
-      "props": {
-        "src": "assets/thais-g.webp",
-        "blockClass": "imagem-instagram"
-      }
-  },
 
-  "link#vem-ai": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIgwUiut7Rk/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#vem-ai",
-      "image#links-instagram"
-    ]
-  },
-  "image#vem-ai": {
-      "props": {
-        "src": "assets/vem-aih.webp",
-        "blockClass": "imagem-instagram"
-      }
-  },
-  "link#sorteio-ovoclave-instagram": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIbYvFcRtXe/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#sorteio-ovoclave-instagram",
-      "image#links-instagram"
-    ]
-  },
-  "image#sorteio-ovoclave-instagram": {
-    "props": {
-      "src": "assets/SORTEIO PASCOA.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  "link#spoiler": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIT0wQER1i4/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "video#spoiler",
-      "image#links-instagram"
-    ]
-  },
-  "video#spoiler": {
-    "props": {
-      "src": "https://stermax.com.br/images_idealine/sliderLayout/spoiler.mp4",
-      "blockClass": "imagem-instagram",
-      "autoPlay": true,
-      "loop": true
-    }
-  },
-  "link#dia-esterilizacao": {
-    "props": {
-      "href": "https://www.instagram.com/p/DIRI2GOBEwA/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#dia-esterilizacao",
-      "image#links-instagram"
-    ]
-  },
-  "image#dia-esterilizacao": {
-    "props": {
-      "src": "assets/post dia mundial ciencia.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
+ 
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
