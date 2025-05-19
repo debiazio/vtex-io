@@ -1,22 +1,35 @@
 
-.flexRowContent--content-top-sales{
+.flexCol--manuais-colunas{
+  margin: 20px 0 20px 20px;
+}
+
+
+.flexRowContent--manuais-container-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFD8F388;
+}
+
+
+.flexRowContent--content-top-sales {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.flexRow--content-titulo-top-sales{
+.flexRow--content-titulo-top-sales {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 
-.flexRow--content-compre-junto-incubadora{
+.flexRow--content-compre-junto-incubadora {
   margin: 20px;
 }
 
-.flexRowContent--linha-dia-consumidor-incubadora{
+.flexRowContent--linha-dia-consumidor-incubadora {
   border: 1px groove var(--magnolia);
   margin-top: 20px;
   border-top: 10px solid var(--pink);
@@ -26,18 +39,18 @@
 }
 
 
-.flexRowContent--linha-instagram{
+.flexRowContent--linha-instagram {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.flexRow--linha-blog{
+.flexRow--linha-blog {
   display: flex;
 }
 
-.flexRowContent--linha-blog{
+.flexRowContent--linha-blog {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,20 +323,21 @@
 }
 
 /* FOOTER */
-.flexCol--col-contatos-merchant-desktop{
+.flexCol--col-contatos-merchant-desktop {
   margin-right: 120px;
 }
 
-.flexRowContent--footer-merchant-desktop{
+.flexRowContent--footer-merchant-desktop {
   display: flex;
   flex-direction: column;
 }
-.flexRowContent--footer-merchant-desktop-linhas{
+
+.flexRowContent--footer-merchant-desktop-linhas {
   display: flex;
   flex-direction: row;
 }
 
-.flexRow--footer-merchant-desktop{
+.flexRow--footer-merchant-desktop {
   background-color: #000;
 }
 
@@ -845,12 +859,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRow--footer-merchant-desktop{
+  .flexRow--footer-merchant-desktop {
     padding: 0 60px 60px 60px;
   }
-  .flexRowContent--conteiner-titulo-categorias{
+
+  .flexRowContent--conteiner-titulo-categorias {
     padding: 25px 0;
   }
+
   .flexColChild--categoria-imagens {
     padding: 14px 0;
   }
@@ -1351,21 +1367,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRowContent--favoritos-mobile{
+  .flexRowContent--favoritos-mobile {
     z-index: 2;
   }
 
 
-  .flexRowContent--footer-merchant-desktop-linhas{
+  .flexRowContent--footer-merchant-desktop-linhas {
     display: flex;
     flex-direction: column;
   }
 
-  .flexRowContent--redes-sociais-footer{
+  .flexRowContent--redes-sociais-footer {
     display: none
   }
 
-  .flexCol--col-contatos-merchant-desktop{
+  .flexCol--col-contatos-merchant-desktop {
     margin: 0;
   }
 

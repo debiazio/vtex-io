@@ -172,106 +172,106 @@
       "width": "60%"
     }
   },
-  // CONDICIONAL PARA APARECER ESMALTEIRA
-  "condition-layout.product#compre-junto-esmalteira-mobile": {
-    "props": {
-      "blockClass": "condicional-compre-junto-incubadora",
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2795"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2797"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2886"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2902"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2798"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2796"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2885"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2887"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2895"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2903"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2905"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2898"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2894"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2893"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2897"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#compre-junto-esmalteira-mobile"
-    }
-  },
+  // // CONDICIONAL PARA APARECER ESMALTEIRA
+  // "condition-layout.product#compre-junto-esmalteira-mobile": {
+  //   "props": {
+  //     "blockClass": "condicional-compre-junto-incubadora",
+  //     "conditions": [
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2795"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2797"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2886"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2902"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2798"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2796"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2885"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2887"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2895"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2903"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2905"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2898"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2894"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2893"
+  //         }
+  //       },
+  //       {
+  //         "subject": "productId",
+  //         "arguments": {
+  //           "id": "2897"
+  //         }
+  //       }
+  //     ],
+  //     "matchType": "any",
+  //     "Then": "flex-layout.row#compre-junto-esmalteira-mobile"
+  //   }
+  // },
   "flex-layout.row#compre-junto-esmalteira-mobile": {
     "props": {
       "blockClass": "content-compre-junto-incubadora"
@@ -298,14 +298,14 @@
       "src": "assets/Banner MOBILE compre e ganhe.webp"
     }
   },
-  "modal-trigger#dia-consumidor-esmalteira-mobile": {
-    "props": {
-      "trigger": "load"
-    },
-    "children": [
-      "modal-layout#dia-consumidor-esmalteira-mobile"
-    ]
-  },
+  // "modal-trigger#dia-consumidor-esmalteira-mobile": {
+  //   "props": {
+  //     "trigger": "load"
+  //   },
+  //   "children": [
+  //     "modal-layout#dia-consumidor-esmalteira-mobile"
+  //   ]
+  // },
   "modal-layout#dia-consumidor-esmalteira-mobile": {
     "props": {
       "blockClass": "modal-banner-dia-consumidor-incubadora"
@@ -514,14 +514,14 @@
       "src": "assets/Banner Desktop compre e ganhe.webp"
     }
   },
-  "modal-trigger#dia-consumidor-esmalteira": {
-    "props": {
-      "trigger": "load"
-    },
-    "children": [
-      "modal-layout#dia-consumidor-esmalteira"
-    ]
-  },
+  // "modal-trigger#dia-consumidor-esmalteira": {
+  //   "props": {
+  //     "trigger": "load"
+  //   },
+  //   "children": [
+  //     "modal-layout#dia-consumidor-esmalteira"
+  //   ]
+  // },
   "modal-layout#dia-consumidor-esmalteira": {
     "props": {
       "blockClass": "modal-banner-dia-consumidor-incubadora"
@@ -537,17 +537,17 @@
       "showCloseButton": true
     }
   },
-  "video#video-75-vertical": {
-    "props": {
-      "width": "65%",
-      "height": "100%",
-      "loop": true,
-      "autoPlay": true,
-      "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4",
-      "muted": false,
-      "controlsType": "native"
-    }
-  },
+  // "video#video-75-vertical": {
+  //   "props": {
+  //     "width": "65%",
+  //     "height": "100%",
+  //     "loop": true,
+  //     "autoPlay": true,
+  //     "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4",
+  //     "muted": false,
+  //     "controlsType": "native"
+  //   }
+  // },
   //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
   "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday": {
     "props": {
@@ -592,22 +592,22 @@
       "alt": "Ícone 360°"
     }
   },
-  "image#brinde-horizontais-blackFriday": {
-    "props": {
-      "src": "assets/brinde-horizontais.webp",
-      "alt": "Imagem com brinde da Black Friday - horizontais",
-      "blockClass": "img-brindetriplo-bf-5l-8l"
-    }
-  },
-  // BRINDES AUTOCLAVES 5L E 8L BLACK FRIDAY
-  "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday": {
-    "props": {
-      "blockClass": "condicional-brinde-5l-8l"
-    },
-    "children": [
-      "image#brinde-blackFriday-5l8l"
-    ]
-  },
+  // "image#brinde-horizontais-blackFriday": {
+  //   "props": {
+  //     "src": "assets/brinde-horizontais.webp",
+  //     "alt": "Imagem com brinde da Black Friday - horizontais",
+  //     "blockClass": "img-brindetriplo-bf-5l-8l"
+  //   }
+  // },
+  // // BRINDES AUTOCLAVES 5L E 8L BLACK FRIDAY
+  // "flex-layout.row#custom-pdp-brinde-5l-8l-black-friday": {
+  //   "props": {
+  //     "blockClass": "condicional-brinde-5l-8l"
+  //   },
+  //   "children": [
+  //     "image#brinde-blackFriday-5l8l"
+  //   ]
+  // },
   "image#brinde-blackFriday-5l8l": {
     "props": {
       "src": "assets/Compre_e_ganhe_3_brindes.webp",

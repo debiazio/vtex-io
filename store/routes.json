@@ -22,5 +22,8 @@
   },
   "store.custom#black-friday": {
     "path": "/black-friday-faq"
+  },
+  "store.custom#manuais": {
+    "path": "/manuais"
   }
 }

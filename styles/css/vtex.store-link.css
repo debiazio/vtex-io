@@ -1,3 +1,29 @@
+.link--link-ler-manuais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  background-color: #E90B91;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin: 5px;
+  box-shadow: 0 -5px 15px #D0D0D0;
+}
+
+.link--link-baixar-manuais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  background-color: #FC87FC;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin: 5px;
+  box-shadow: 0 -5px 15px #D0D0D0;
+}
+
 .childrenContainer--manuais-pdp {
   background-color: var(--rosa-da-rosa);
   border-radius: 30px;
