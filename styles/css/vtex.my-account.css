@@ -1,5 +1,9 @@
 /* idealine paleta */
 
+.link-0-x-childrenContainer--link-baixar-manuais button{
+  border: none;
+}
+
 :root {
   --rosa-da-rosa: #fc51a7;
   --rosa-pink-escuro: #e90b91;
@@ -14,6 +18,8 @@
   --blush-lavanda: #fff3fd;
   --sombra: #70809038;
 }
+
+
 
 .instagram-embed{
   display: flex;

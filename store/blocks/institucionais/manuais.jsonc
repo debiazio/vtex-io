@@ -6,7 +6,6 @@
       "flex-layout.row#manuais-banner-final"
     ]
   },
-
   // LINHA TITULO
   "flex-layout.row#manuais-title": {
     "props": {
@@ -14,11 +13,11 @@
       "title": "Título container"
     },
     "children": [
-      "rich-text#titulo"
+      "rich-text#titulo-manuais"
     ]
   },
   // TITULO
-  "rich-text#titulo": {
+  "rich-text#titulo-manuais": {
     "props": {
       "text": "Manual de Uso",
       "title": "Título página de manuais",
@@ -323,7 +322,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-vida-21l"
+      "flex-layout.row#baixar-manual-vida-21l"
     ]
   },
   "flex-layout.row#link-baixar-manual-vida-30-42-60-75l": {
@@ -332,7 +331,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-vida-30-42-60-75l"
+      "flex-layout.row#baixar-manual-vida-30-42-60-75l"
     ]
   },
   "flex-layout.row#link-baixar-manual-vida-75l-vertical": {
@@ -341,7 +340,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-vida-75l-vertical"
+      "flex-layout.row#baixar-manual-vida-75l-vertical"
     ]
   },
   "flex-layout.row#link-baixar-manual-opta-12": {
@@ -350,7 +349,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-opta-12"
+      "flex-layout.row#baixar-manual-opta-12"
     ]
   },
   "flex-layout.row#link-baixar-manual-bellinha": {
@@ -359,7 +358,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-bellinha"
+      "flex-layout.row#baixar-manual-bellinha"
     ]
   },
   "flex-layout.row#link-baixar-manual-idealclave": {
@@ -368,7 +367,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-idealclave"
+      "flex-layout.row#baixar-manual-idealclave"
     ]
   },
   "flex-layout.row#link-baixar-manual-la-belle-5litros": {
@@ -377,7 +376,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-la-belle-5litros"
+      "flex-layout.row#baixar-manual-la-belle-5litros"
     ]
   },
   "flex-layout.row#link-baixar-manual-la-belle-8litros": {
@@ -386,7 +385,7 @@
       "title": "Linha botao baixar manual"
     },
     "children": [
-      "link#baixar-manual-la-belle-8litros"
+      "flex-layout.row#baixar-manual-la-belle-8litros"
     ]
   },
   // SEÇÃO DAS IMAGENS
@@ -521,69 +520,77 @@
     }
   },
   // SEÇÃO DOS LINKS PARA BAIXAR
-  "link#baixar-manual-vida-21l": {
+  "flex-layout.row#baixar-manual-vida-21l": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-vida-21l"
+    ]
   },
-  "link#baixar-manual-vida-30-42-60-75l": {
+  "flex-layout.row#baixar-manual-vida-30-42-60-75l": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-vida-varios"
+    ]
   },
-  "link#baixar-manual-vida-75l-vertical": {
+  "flex-layout.row#baixar-manual-vida-75l-vertical": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-vida-75l"
+    ]
   },
-  "link#baixar-manual-opta-12": {
+  "flex-layout.row#baixar-manual-opta-12": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-opta-12l"
+    ]
   },
-  "link#baixar-manual-bellinha": {
+  "flex-layout.row#baixar-manual-bellinha": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-bellinha"
+    ]
   },
-  "link#baixar-manual-idealclave": {
+  "flex-layout.row#baixar-manual-idealclave": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-idealclave"
+    ]
   },
-  "link#baixar-manual-la-belle-5litros": {
+  "flex-layout.row#baixar-manual-la-belle-5litros": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-bella-5l"
+    ]
   },
-  "link#baixar-manual-la-belle-8litros": {
+  "flex-layout.row#baixar-manual-la-belle-8litros": {
     "props": {
       "blockClass": "link-baixar-manuais",
-      "title": "Link baixar manuais",
-      "label": "BAIXAR MANUAL",
-      "href": "#"
-    }
+      "title": "Link baixar manuais"
+    },
+    "children": [
+      "btn-bella-8l"
+    ]
   },
   // linha do BANNER DE BAIXO
   "flex-layout.row#manuais-banner-final": {
@@ -676,7 +683,10 @@
   // TEXTO DUVIDAS
   "rich-text#titulo-duvidas": {
     "props": {
-      "blockClass":["texto-banner-final", "texto-titulo-banner-final"],
+      "blockClass": [
+        "texto-banner-final",
+        "texto-titulo-banner-final"
+      ],
       "text": "**Mais alguma dúvida sobre sua Autoclave?**\n**Fale conosco**"
     }
   },
@@ -687,13 +697,16 @@
     }
   },
   // TEXTO ASSIST
-  "rich-text#titulo-assist":{
+  "rich-text#titulo-assist": {
     "props": {
-      "blockClass":["texto-banner-final", "texto-titulo-banner-final"],
+      "blockClass": [
+        "texto-banner-final",
+        "texto-titulo-banner-final"
+      ],
       "text": "**Assistência técnica para sua Autoclave**"
     }
   },
-  "rich-text#texto-assist":{
+  "rich-text#texto-assist": {
     "props": {
       "blockClass": "texto-banner-final",
       "text": "**Entre em contato com nossa assistência técnica:**\n(41)3668-2144\nEncontre uma Assistência Técnica Autoclave"

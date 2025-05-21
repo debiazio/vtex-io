@@ -1,3 +1,8 @@
+.link-0-x-childrenContainer--link-baixar-manuais .btndownload{
+  border: none;
+}
+
+
 .link--link-ler-manuais {
   display: flex;
   flex-direction: row;
