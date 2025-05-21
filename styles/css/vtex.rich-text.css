@@ -1,9 +1,18 @@
+.wrapper--texto-titulo-banner-final{
+  margin-bottom: 15px;
+}
+
+.paragraph--texto-banner-final{
+  font-size: 14px;
+  margin: 0;
+}
+
 .container--manuais-texto-titulo {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .paragraph--texto-baixar-ficha-tecnica {

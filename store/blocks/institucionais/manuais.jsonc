@@ -6,6 +6,7 @@
       "flex-layout.row#manuais-banner-final"
     ]
   },
+
   // LINHA TITULO
   "flex-layout.row#manuais-title": {
     "props": {
@@ -459,7 +460,8 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-VIDA-21L_Rev-04.02.2025-compactado.pdf",
+      "target": "_blank"
     }
   },
   "link#ler-manual-vida-30-42-60-75l": {
@@ -467,7 +469,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-VIDA-30L-42L-60L-E-75L_Rev-04.02.2025-compactado.pdf"
     }
   },
   "link#ler-manual-vida-75l-vertical": {
@@ -475,7 +477,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-VIDA75L-VERTICAL_Rev-14.02.2025-compactado.pdf"
     }
   },
   "link#ler-manual-opta-12": {
@@ -483,7 +485,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-OPTA-12L_Rev-04.02.2025-compactado.pdf"
     }
   },
   "link#ler-manual-bellinha": {
@@ -491,7 +493,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual_-DIGITAL-IDEALCLAVE_5L-Nov-24-1.pdf"
     }
   },
   "link#ler-manual-idealclave": {
@@ -499,7 +501,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual_-DIGITAL-IDEALCLAVE_8L-Nov-2024.pdf"
     }
   },
   "link#ler-manual-la-belle-5litros": {
@@ -507,7 +509,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-5L-2024.pdf"
     }
   },
   "link#ler-manual-la-belle-8litros": {
@@ -515,7 +517,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-8L-2024.pdf"
     }
   },
   // SEÇÃO DOS LINKS PARA BAIXAR
@@ -583,6 +585,7 @@
       "href": "#"
     }
   },
+  // linha do BANNER DE BAIXO
   "flex-layout.row#manuais-banner-final": {
     "props": {
       "blockClass": "conteiner-banner-final",
@@ -593,24 +596,107 @@
       "flex-layout.col#manuais-coluna-direita"
     ]
   },
+  // COLUNAS DA ESQUERDA
   "flex-layout.col#manuais-coluna-esquerda": {
     "props": {
-      "blockClass": "coluna-final",
-      "title": "Coluna banner final esquerda"
+      "blockClass": "coluna-banner-duvidas"
     },
     "children": [
-      "flex-layout.row#coluna-banner-duvidas"
+      "flex-layout.col#imagem-coluna-banner-duvidas",
+      "flex-layout.col#texto-banner-duvidas"
     ]
   },
+  // COLUNAS DA DIREITA
   "flex-layout.col#manuais-coluna-direita": {
     "props": {
-      "blockClass": "coluna-final",
-      "title": "Coluna banner final direita"
+      "blockClass": "coluna-banner-assist"
     },
     "children": [
-      "flex-layout.row#coluna-banner-assistencia"
+      "flex-layout.col#imagem-coluna-banner-assist",
+      "flex-layout.col#texto-coluna-banner-assist"
     ]
   },
-  "flex-layout.row#coluna-banner-duvidas":{},
-  "flex-layout.row#coluna-banner-assistencia":{}
+  // COLUNA DA IMAGEM - COLUNA ESQUERDA - DÚVIDAS
+  "flex-layout.col#imagem-coluna-banner-duvidas": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "colunas-imagem"
+    },
+    "children": [
+      "image#imagem-duvidas"
+    ]
+  },
+  // COLUNA DO TEXTO - COLUNA ESQUERDA - DÚVIDAS
+  "flex-layout.col#texto-banner-duvidas": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "colunas-texto"
+    },
+    "children": [
+      "rich-text#titulo-duvidas",
+      "rich-text#texto-duvidas"
+    ]
+  },
+  // COLUNA DA IMAGEM - COLUNA DIREITA - ASSIST
+  "flex-layout.col#imagem-coluna-banner-assist": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "colunas-imagem"
+    },
+    "children": [
+      "image#imagem-assist"
+    ]
+  },
+  // COLUNA DO TEXTO - COLUNA DIREITA - ASSIST
+  "flex-layout.col#texto-coluna-banner-assist": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "colunas-texto"
+    },
+    "children": [
+      "rich-text#titulo-assist",
+      "rich-text#texto-assist"
+    ]
+  },
+  // IMAGENS - BANNER DE BAIXO
+  // DUVIDAS
+  "image#imagem-duvidas": {
+    "props": {
+      "blockClass": "imagem-colunas-de-baixo",
+      "src": "assets/icone-idealclave-fale-conosco.webp"
+    }
+  },
+  // ASSIST
+  "image#imagem-assist": {
+    "props": {
+      "blockClass": "imagem-colunas-de-baixo",
+      "src": "assets/icone-idealclave-duvidas.webp"
+    }
+  },
+  // TEXTO DUVIDAS
+  "rich-text#titulo-duvidas": {
+    "props": {
+      "blockClass":["texto-banner-final", "texto-titulo-banner-final"],
+      "text": "**Mais alguma dúvida sobre sua Autoclave?**\n**Fale conosco**"
+    }
+  },
+  "rich-text#texto-duvidas": {
+    "props": {
+      "blockClass": "texto-banner-final",
+      "text": "**Contato:** (41) 3668-2144\n**Horários de atendimento:** Segunda a sexta, das 8h às\n 22h, e aos sábados, das 10h às 19h30 (setor de vendas).\n**Pós-vendas:** Segunda a sábado, das 8h às 22h.\nAlguma outra dúvida? Nos mande um **formulário** com sua dúvida!"
+    }
+  },
+  // TEXTO ASSIST
+  "rich-text#titulo-assist":{
+    "props": {
+      "blockClass":["texto-banner-final", "texto-titulo-banner-final"],
+      "text": "**Assistência técnica para sua Autoclave**"
+    }
+  },
+  "rich-text#texto-assist":{
+    "props": {
+      "blockClass": "texto-banner-final",
+      "text": "**Entre em contato com nossa assistência técnica:**\n(41)3668-2144\nEncontre uma Assistência Técnica Autoclave"
+    }
+  }
 }

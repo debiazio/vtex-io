@@ -1,5 +1,12 @@
+.imageElement--imagem-colunas-de-baixo{
+  width: 150px;
+}
+
 .imageElement--manual-imagem{
   max-width: 300px;
+  max-height: 509px;
+  margin-bottom: 20px;
+  border: 3px solid black;
   /* margin: 0 20px; */
 }
 
