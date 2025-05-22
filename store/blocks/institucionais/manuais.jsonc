@@ -693,7 +693,7 @@
   "rich-text#texto-duvidas": {
     "props": {
       "blockClass": "texto-banner-final",
-      "text": "**Contato:** (41) 3668-2144\n**Horários de atendimento:** Segunda a sexta, das 8h às\n 22h, e aos sábados, das 10h às 19h30 (setor de vendas).\n**Pós-vendas:** Segunda a sábado, das 8h às 22h.\nAlguma outra dúvida? Nos mande um **formulário** com sua dúvida!"
+      "text": "**Contato:** (41) 3668-2144\n**Horários de atendimento:** Segunda a sexta, das 8h às 22h, e aos sábados, das 10h às 19h30 (setor de vendas).\n**Pós-vendas:** Segunda a sábado, das 8h às 22h.\nAlguma outra dúvida? Nos mande um **formulário** com sua dúvida!"
     }
   },
   // TEXTO ASSIST
@@ -709,7 +709,7 @@
   "rich-text#texto-assist": {
     "props": {
       "blockClass": "texto-banner-final",
-      "text": "**Entre em contato com nossa assistência técnica:**\n(41)3668-2144\nEncontre uma Assistência Técnica Autoclave"
+      "text": "**Entre em contato com nossa assistência técnica:** (41)3668-2144\nEncontre uma Assistência Técnica Autoclave"
     }
   }
 }

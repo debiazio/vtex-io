@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 20px;
+  max-width: 450px;
 }
 
 .flexCol--colunas-imagem {
@@ -897,6 +898,29 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexColChild--coluna-banner-duvidas,
+  .flexColChild--coluna-banner-assist {
+    max-width: unset;
+  }
+
+  .flexCol--colunas-texto{
+    margin: 50px;
+  }
+
+  .flexRow--conteiner-banner-final {
+    height: unset;
+  }
+
+
+.flexCol--coluna-banner-duvidas,
+.flexCol--coluna-banner-assist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
   .flexRow--footer-merchant-desktop {
     padding: 0 60px 60px 60px;
   }
