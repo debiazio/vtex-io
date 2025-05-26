@@ -1,8 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#video-banner-home",
-      "responsive-layout.mobile#banner-topo-mobile",
+      // "responsive-layout.desktop#video-banner-home",
+      // "responsive-layout.mobile#banner-topo-mobile",
+      "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
       "responsive-layout.mobile#categorias",
@@ -21,12 +22,31 @@
       "flex-layout.row#blog-home"
     ]
   },
-  "responsive-layout.desktop#video-banner-home": {
+  // "responsive-layout.desktop#video-banner-home": {
+  //   "children": [
+  //     "slider-layout#video-banner-home"
+  //   ]
+  // },
+  "list-context.image-list#home": {
     "children": [
-      "slider-layout#video-banner-home"
-    ]
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/Banner DESKTOP sweet pink.webp",
+          "mobileImage": "assets/Banner MOBILE sweet pink.webp"
+        },
+        {
+          "image": "assets/Banner DESKTOP sweet black.webp",
+          "mobileImage": "assets/Banner MOBILE sweet black.webp"
+        }
+      ]
+    }
   },
-  "slider-layout#video-banner-home": {
+  "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -35,64 +55,74 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "video-banner-slider",
-      "fullWidth": true,
-      "showPaginationDots": "always",
-      "autoplay": {
-        "timeout": 5000
-      }
-    },
-    "children": [
-      "link#frete-gratis",
-      "link#mes-consumidor-esmalteira",
-      "link#imagem-banner-terceiro"
-    ]
-  },
-  "link#frete-gratis": {
-    "props": {
-      "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#frete-gratis"
-    ]
-  },
-  "image#frete-gratis": {
-    "props": {
-      "src": "assets/Banner Desktop FRETE GRATIS.webp",
-      "blockClass": "imagem-banner-home"
+      "blockClass": "carousel"
     }
   },
-
-  "link#mes-consumidor-esmalteira": {
-    "props": {
-      "href": "/210?map=productClusterIds",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#mes-do-consumidor-image2"
-    ]
-  },
-  "image#mes-do-consumidor-image2": {
-    "props": {
-      "src": "assets/Banner Desktop compre e ganhe.webp"
-    }
-  },
-  "link#imagem-banner-terceiro": {
-    "props": {
-      "href": "/pronta-entrega",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#banner-terceiro"
-    ]
-  },
-  "image#banner-terceiro":{
-    "props": {
-      "src": "assets/Banner Desktop compre e ganhe.webp"
-    }
-  },
-
+  // "slider-layout#video-banner-home": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "video-banner-slider",
+  //     "fullWidth": true,
+  //     "showPaginationDots": "always",
+  //     "autoplay": {
+  //       "timeout": 5000
+  //     }
+  //   },
+  //   "children": [
+  //     "link#frete-gratis",
+  //     "link#mes-consumidor-esmalteira",
+  //     "link#imagem-banner-terceiro"
+  //   ]
+  // },
+  // "link#frete-gratis": {
+  //   "props": {
+  //     "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "image#frete-gratis"
+  //   ]
+  // },
+  // "image#frete-gratis": {
+  //   "props": {
+  //     "src": "assets/Banner Desktop FRETE GRATIS.webp",
+  //     "blockClass": "imagem-banner-home"
+  //   }
+  // },
+  // "link#mes-consumidor-esmalteira": {
+  //   "props": {
+  //     "href": "/210?map=productClusterIds",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "image#mes-do-consumidor-image2"
+  //   ]
+  // },
+  // "image#mes-do-consumidor-image2": {
+  //   "props": {
+  //     "src": "assets/Banner Desktop compre e ganhe.webp"
+  //   }
+  // },
+  // "link#imagem-banner-terceiro": {
+  //   "props": {
+  //     "href": "/pronta-entrega",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "image#banner-terceiro"
+  //   ]
+  // },
+  // "image#banner-terceiro":{
+  //   "props": {
+  //     "src": "assets/Banner Desktop compre e ganhe.webp"
+  //   }
+  // },
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
   "responsive-layout.mobile#banner-topo-mobile": {
     "children": [
@@ -156,7 +186,7 @@
       "image#banner-terceiro-mobile"
     ]
   },
-  "image#banner-terceiro-mobile":{
+  "image#banner-terceiro-mobile": {
     "props": {
       "src": "assets/Banner MOBILE compre e ganhe.webp"
     }
@@ -919,7 +949,6 @@
       "blockClass": "icones-instagram"
     }
   },
-
   "link#frete-zero": {
     "props": {
       "href": "https://www.instagram.com/p/DJKJ6ebxWIX/",
@@ -932,12 +961,12 @@
     ]
   },
   "image#frete-zero": {
-      "props": {
-        "src": "assets/frete-zero.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/frete-zero.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#vantagens":{
+  "link#vantagens": {
     "props": {
       "href": "https://www.instagram.com/p/DJUF9ODtj88/",
       "blockClass": "link-banner-home",
@@ -949,12 +978,12 @@
     ]
   },
   "image#vantagens": {
-      "props": {
-        "src": "assets/vantagens-8l.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/vantagens-8l.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#1-de-maio":{
+  "link#1-de-maio": {
     "props": {
       "href": "https://www.instagram.com/p/DJHKGbSslel/",
       "blockClass": "link-banner-home",
@@ -966,12 +995,12 @@
     ]
   },
   "image#1-de-maio": {
-      "props": {
-        "src": "assets/1-de-maio.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/1-de-maio.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#match-perfeito":{
+  "link#match-perfeito": {
     "props": {
       "href": "https://www.instagram.com/p/DJCcRxUxIb6/",
       "blockClass": "link-banner-home",
@@ -983,12 +1012,12 @@
     ]
   },
   "image#match-perfeito": {
-      "props": {
-        "src": "assets/match-perfeito.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/match-perfeito.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#100k":{
+  "link#100k": {
     "props": {
       "href": "https://www.instagram.com/p/DI_pdujsiDB/",
       "blockClass": "link-banner-home",
@@ -1000,12 +1029,12 @@
     ]
   },
   "image#100k": {
-      "props": {
-        "src": "assets/100k.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/100k.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#video-frete-zero":{
+  "link#video-frete-zero": {
     "props": {
       "href": "https://www.instagram.com/p/DI6eNYAtBvO/",
       "blockClass": "link-banner-home",
@@ -1017,12 +1046,12 @@
     ]
   },
   "image#video-frete-zero": {
-      "props": {
-        "src": "assets/video-frete-zero.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/video-frete-zero.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-  "link#presenca-confirmada":{
+  "link#presenca-confirmada": {
     "props": {
       "href": "https://www.instagram.com/p/DI1P7reRFyI/",
       "blockClass": "link-banner-home",
@@ -1034,14 +1063,11 @@
     ]
   },
   "image#presenca-confirmada": {
-      "props": {
-        "src": "assets/presenca-confirmada.webp",
-        "blockClass": "imagem-instagram"
-      }
+    "props": {
+      "src": "assets/presenca-confirmada.webp",
+      "blockClass": "imagem-instagram"
+    }
   },
-
-
-
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
