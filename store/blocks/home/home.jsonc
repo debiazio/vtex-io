@@ -933,13 +933,16 @@
     },
     "children": [
       // LIMITEI A 10
-      "link#frete-zero",
-      "link#vantagens",
-      "link#1-de-maio",
-      "link#match-perfeito",
-      "link#100k",
-      "link#video-frete-zero",
-      "link#presenca-confirmada"
+      "link#lash",
+      "link#promocional-evento",
+      "link#poucas-unidades",
+      "link#beauty",
+      "link#elas-chegaram",
+      "link#live-lancamento",
+      "link#novos-lancamentos",
+      "link#contagem-regressiva",
+      "link#lancamento-beauty",
+      "link#faltam-5dias"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -949,122 +952,183 @@
       "blockClass": "icones-instagram"
     }
   },
-  "link#frete-zero": {
+  // INSTAGRAM 1
+  "link#lash": {
     "props": {
-      "href": "https://www.instagram.com/p/DJKJ6ebxWIX/",
+      "href": "https://www.instagram.com/p/DKJ5BHcNsMc/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#frete-zero",
+      "image#lash",
       "image#links-instagram"
     ]
   },
-  "image#frete-zero": {
+  "image#lash": {
     "props": {
-      "src": "assets/frete-zero.webp",
+      "src": "assets/instagram-1.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#vantagens": {
+  // INSTAGRAM 2
+  "link#promocional-evento": {
     "props": {
-      "href": "https://www.instagram.com/p/DJUF9ODtj88/",
+      "href": "https://www.instagram.com/p/DKIIWaox2SE/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#vantagens",
+      "image#promocional-evento",
       "image#links-instagram"
     ]
   },
-  "image#vantagens": {
+  "image#promocional-evento": {
     "props": {
-      "src": "assets/vantagens-8l.webp",
+      "src": "assets/instagram-2.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#1-de-maio": {
+  // INSTAGRAM 3
+  "link#poucas-unidades": {
     "props": {
-      "href": "https://www.instagram.com/p/DJHKGbSslel/",
+      "href": "https://www.instagram.com/p/DKHwfEKNOp0/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#1-de-maio",
+      "image#poucas-unidades",
       "image#links-instagram"
     ]
   },
-  "image#1-de-maio": {
+  "image#poucas-unidades": {
     "props": {
-      "src": "assets/1-de-maio.webp",
+      "src": "assets/instagram-3.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#match-perfeito": {
+  // INSTAGRAM 4
+  "link#beauty": {
     "props": {
-      "href": "https://www.instagram.com/p/DJCcRxUxIb6/",
+      "href": "https://www.instagram.com/p/DKFIrA-N_99/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#match-perfeito",
+      "image#beauty",
       "image#links-instagram"
     ]
   },
-  "image#match-perfeito": {
+  "image#beauty": {
     "props": {
-      "src": "assets/match-perfeito.webp",
+      "src": "assets/instagram-4.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#100k": {
+  // INSTAGRAM 5
+  "link#elas-chegaram": {
     "props": {
-      "href": "https://www.instagram.com/p/DI_pdujsiDB/",
+      "href": "https://www.instagram.com/p/DKCiwaOtWwf/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#100k",
+      "image#elas-chegaram",
       "image#links-instagram"
     ]
   },
-  "image#100k": {
+  "image#elas-chegaram": {
     "props": {
-      "src": "assets/100k.webp",
+      "src": "assets/instagram-5.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#video-frete-zero": {
+  // INSTAGRAM 6
+  "link#live-lancamento": {
     "props": {
-      "href": "https://www.instagram.com/p/DI6eNYAtBvO/",
+      "href": "https://www.instagram.com/p/DKCnnZVNhYj/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#video-frete-zero",
+      "image#live-lancamento",
       "image#links-instagram"
     ]
   },
-  "image#video-frete-zero": {
+  "image#live-lancamento": {
     "props": {
-      "src": "assets/video-frete-zero.webp",
+      "src": "assets/instagram-6.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  "link#presenca-confirmada": {
+  // INSTAGRAM 7
+  "link#novos-lancamentos": {
     "props": {
-      "href": "https://www.instagram.com/p/DI1P7reRFyI/",
+      "href": "https://www.instagram.com/p/DKAnIhit5fj/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#presenca-confirmada",
+      "image#novos-lancamentos",
       "image#links-instagram"
     ]
   },
-  "image#presenca-confirmada": {
+  "image#novos-lancamentos": {
     "props": {
-      "src": "assets/presenca-confirmada.webp",
+      "src": "assets/instagram-7.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // INSTAGRAM 8
+  "link#contagem-regressiva": {
+    "props": {
+      "href": "https://www.instagram.com/p/DJ_57Q1t4EA/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#contagem-regressiva",
+      "image#links-instagram"
+    ]
+  },
+  "image#contagem-regressiva": {
+    "props": {
+      "src": "assets/instagram-8.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // INSTAGRAM 9
+  "link#lancamento-beauty": {
+    "props": {
+      "href": "https://www.instagram.com/p/DJ-AuLyxkFm/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#lancamento-beauty",
+      "image#links-instagram"
+    ]
+  },
+  "image#lancamento-beauty": {
+    "props": {
+      "src": "assets/instagram-9.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // INSTAGRAM 10
+  "link#faltam-5dias": {
+    "props": {
+      "href": "https://www.instagram.com/p/DJ1luD2N3GP/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#faltam-5dias",
+      "image#links-instagram"
+    ]
+  },
+  "image#faltam-5dias": {
+    "props": {
+      "src": "assets/instagram-10.webp",
       "blockClass": "imagem-instagram"
     }
   },
