@@ -124,73 +124,73 @@
   //   }
   // },
   // LAYOUT RESPONSIVEL MOBILE IMAGENS
-  "responsive-layout.mobile#banner-topo-mobile": {
-    "children": [
-      "slider-layout#promocao-mes-consumidor-mobile"
-    ]
-  },
-  "slider-layout#promocao-mes-consumidor-mobile": {
-    "props": {
-      "itemsPerPage": {
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "blockClass": "video-banner-slider",
-      "fullWidth": true,
-      "showPaginationDots": "always",
-      "autoplay": {
-        "timeout": 5000
-      }
-    },
-    "children": [
-      "link#frete-gratis-mobile",
-      "link#mes-consumidor-esmalteira-mobile",
-      "link#video-banner-novaprimeira-linha-mobile"
-    ]
-  },
-  "link#frete-gratis-mobile": {
-    "props": {
-      "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#frete-gratis-mobile"
-    ]
-  },
-  "image#frete-gratis-mobile": {
-    "props": {
-      "src": "assets/Banner MOBILE FRETE GRATIS.webp",
-      "blockClass": "imagem-banner-home"
-    }
-  },
-  "link#mes-consumidor-esmalteira-mobile": {
-    "props": {
-      "href": "/210?map=productClusterIds",
-      "blockClass": "link-banner-home"
-    },
-    "children": [
-      "image#mes-do-consumidor-image2-mobile"
-    ]
-  },
-  "image#mes-do-consumidor-image2-mobile": {
-    "props": {
-      "src": "assets/Banner MOBILE compre e ganhe.webp"
-    }
-  },
-  "link#video-banner-novaprimeira-linha-mobile": {
-    "props": {
-      "href": "/pronta-entrega"
-    },
-    "children": [
-      "image#banner-terceiro-mobile"
-    ]
-  },
-  "image#banner-terceiro-mobile": {
-    "props": {
-      "src": "assets/Banner MOBILE compre e ganhe.webp"
-    }
-  },
+  // "responsive-layout.mobile#banner-topo-mobile": {
+  //   "children": [
+  //     "slider-layout#promocao-mes-consumidor-mobile"
+  //   ]
+  // },
+  // "slider-layout#promocao-mes-consumidor-mobile": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "always",
+  //     "blockClass": "video-banner-slider",
+  //     "fullWidth": true,
+  //     "showPaginationDots": "always",
+  //     "autoplay": {
+  //       "timeout": 5000
+  //     }
+  //   },
+  //   "children": [
+  //     "link#frete-gratis-mobile",
+  //     "link#mes-consumidor-esmalteira-mobile",
+  //     "link#video-banner-novaprimeira-linha-mobile"
+  //   ]
+  // },
+  // "link#frete-gratis-mobile": {
+  //   "props": {
+  //     "href": "https://www.idealine.com.br/la%20belle?_q=la%20belle&map=ft",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "image#frete-gratis-mobile"
+  //   ]
+  // },
+  // "image#frete-gratis-mobile": {
+  //   "props": {
+  //     "src": "assets/Banner MOBILE FRETE GRATIS.webp",
+  //     "blockClass": "imagem-banner-home"
+  //   }
+  // },
+  // "link#mes-consumidor-esmalteira-mobile": {
+  //   "props": {
+  //     "href": "/210?map=productClusterIds",
+  //     "blockClass": "link-banner-home"
+  //   },
+  //   "children": [
+  //     "image#mes-do-consumidor-image2-mobile"
+  //   ]
+  // },
+  // "image#mes-do-consumidor-image2-mobile": {
+  //   "props": {
+  //     "src": "assets/Banner MOBILE compre e ganhe.webp"
+  //   }
+  // },
+  // "link#video-banner-novaprimeira-linha-mobile": {
+  //   "props": {
+  //     "href": "/pronta-entrega"
+  //   },
+  //   "children": [
+  //     "image#banner-terceiro-mobile"
+  //   ]
+  // },
+  // "image#banner-terceiro-mobile": {
+  //   "props": {
+  //     "src": "assets/Banner MOBILE compre e ganhe.webp"
+  //   }
+  // },
   // CARREGA O LINK HREF E O VIDEO - primeira linha
   "responsive-layout.mobile#banners-mobile": {
     "children": [

@@ -33,12 +33,12 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.row#linha-manuais-1",
-      "flex-layout.row#linha-manuais-2"
+      "flex-layout.row#linha-manuais-autoclaves-grandes",
+      "flex-layout.row#linha-manuais-autoclaves-pequenas"
     ]
   },
   // COLUNAS DOS MANUAIS - LINHA 1
-  "flex-layout.row#linha-manuais-1": {
+  "flex-layout.row#linha-manuais-autoclaves-pequenas": {
     "props": {
       "blockClass": "manuais-linhas",
       "title": "Linha 1 dos manuais",
@@ -104,7 +104,7 @@
     ]
   },
   // COLUNA MANUAIS - LINHA 2
-  "flex-layout.row#linha-manuais-2": {
+  "flex-layout.row#linha-manuais-autoclaves-grandes": {
     "props": {
       "blockClass": "manuais-linhas",
       "title": "Linha 2 dos manuais",
