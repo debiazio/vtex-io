@@ -133,8 +133,8 @@
       "stack-layout",
       // "condition-layout.product#compre-junto-esmalteira-mobile",
       // "condition-layout.product#compre-junto-incubadora-mobile",
-      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday", //vr
-      "condition-layout.product#visualizador3d-labelleRoseGold", //vr
+      "condition-layout.product#visualizador3d-sweet-pink", //vr
+      "condition-layout.product#visualizador3d-sweet-black",
       "product-rating-summary", // avaliações
       "flex-layout.row#list-price-savings", // preco sem desconto, riscado
       "flex-layout.row#selling-price", // preco a vista
@@ -357,8 +357,8 @@
     "children": [
       "stack-layout",
       "condition-layout.product#compre-junto-esmalteira",
-      "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday",
-      "condition-layout.product#visualizador3d-labelleRoseGold",
+      "condition-layout.product#visualizador3d-sweet-pink",
+      "condition-layout.product#visualizador3d-sweet-black",
       "condition-layout.product#branco-perola",
       "condition-layout.product#rosa",
       "condition-layout.product#rosa-gold",
@@ -504,7 +504,6 @@
     },
     "children": [
       "image#dia-do-consumidor-esmalteira"
-      // "modal-trigger#dia-consumidor-esmalteira"
     ]
   },
   "image#dia-do-consumidor-esmalteira": {
@@ -514,75 +513,29 @@
       "src": "assets/Banner Desktop compre e ganhe.webp"
     }
   },
-  // "modal-trigger#dia-consumidor-esmalteira": {
-  //   "props": {
-  //     "trigger": "load"
-  //   },
-  //   "children": [
-  //     "modal-layout#dia-consumidor-esmalteira"
-  //   ]
-  // },
-  "modal-layout#dia-consumidor-esmalteira": {
-    "props": {
-      "blockClass": "modal-banner-dia-consumidor-incubadora"
-    },
-    "children": [
-      "modal-header#close-dia-consumidor-esmalteira",
-      "image#dia-do-consumidor-esmalteira"
-    ]
-  },
-  "modal-header#close-dia-consumidor-esmalteira": {
-    "props": {
-      "blockClass": "close-dia-consumidor",
-      "showCloseButton": true
-    }
-  },
-  // "video#video-75-vertical": {
-  //   "props": {
-  //     "width": "65%",
-  //     "height": "100%",
-  //     "loop": true,
-  //     "autoPlay": true,
-  //     "src": "https://stermax.com.br/images_idealine/75%20L%20VERTICAL.mp4",
-  //     "muted": false,
-  //     "controlsType": "native"
-  //   }
-  // },
-  //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
-  "condition-layout.product#visualizador3d-labelleRoseGoldBlackFriday": {
+
+//CONDITIONAL DO VR sweet pink
+  "condition-layout.product#visualizador3d-sweet-pink": {
     "props": {
       "conditions": [
         {
           "subject": "productId",
           "arguments": {
-            "id": "2894" //id da black friday
+            "id": "2945" //sweet pink
           }
         }
       ],
       "Then": "flex-layout.row#visualizador-360" //visualizador 3d bellinha perola
     }
   },
-  //CONDICIONAL PARA EXIBIR O VISUALIZADOR 3D PARA LABELLE ROSE GOLD 8 LITROS
-  "condition-layout.product#visualizador3d-labelleRoseGold": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2898" //id da normal
-          }
-        }
-      ],
-      "Then": "flex-layout.row#visualizador-360" //visualizador 3d labelle rose gold
-    }
-  },
+
   "flex-layout.row#visualizador-360": {
     "props": {
       "blockClass": "conteiner-360"
     },
     "children": [
       "image#icone360",
-      "visualizador-3d"
+      "vr-bellinha-rosa"
     ]
   },
   "image#icone360": {
@@ -592,6 +545,31 @@
       "alt": "Ícone 360°"
     }
   },
+  //CONDITIONAL DO VR sweet black
+  "condition-layout.product#visualizador3d-sweet-black": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2948" //sweet black
+          }
+        }
+      ],
+      "Then": "flex-layout.row#visualizador-360-black" //visualizador 3d bellinha perola
+    }
+  },
+
+  "flex-layout.row#visualizador-360-black": {
+    "props": {
+      "blockClass": "conteiner-360"
+    },
+    "children": [
+      "image#icone360",
+      "vr-bellinha-black"
+    ]
+  },
+
   // "image#brinde-horizontais-blackFriday": {
   //   "props": {
   //     "src": "assets/brinde-horizontais.webp",
@@ -608,13 +586,6 @@
   //     "image#brinde-blackFriday-5l8l"
   //   ]
   // },
-  "image#brinde-blackFriday-5l8l": {
-    "props": {
-      "src": "assets/Compre_e_ganhe_3_brindes.webp",
-      "alt": "Imagem com os 3 brindes da Black Friday - 5l e 8l",
-      "blockClass": "img-brindetriplo-bf-5l-8l"
-    }
-  },
   // condicional branco
   "condition-layout.product#branco-perola": {
     "props": {

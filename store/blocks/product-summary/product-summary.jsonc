@@ -16,38 +16,38 @@
       //"flex-layout.row#add-to-cart-summary" //linha botão comprar - removido a pedido da Renata 14/10/2024
     ]
   },
-  "condition-layout.product#flag-promo-forced": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId","arguments": { "id": "2899"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2895"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2897"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2894"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2898"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2903"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2905"}
-        },
-        {
-          "subject": "productId", "arguments": { "id": "2893"}
-        }
-      ],
-      "matchType": "any",
-      "Then": "rich-text#teste-flag"
-    }
-  },
+  // "condition-layout.product#flag-promo-forced": {
+  //   "props": {
+  //     "conditions": [
+  //       {
+  //         "subject": "productId","arguments": { "id": "2899"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2895"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2897"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2894"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2898"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2903"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2905"}
+  //       },
+  //       {
+  //         "subject": "productId", "arguments": { "id": "2893"}
+  //       }
+  //     ],
+  //     "matchType": "any",
+  //     "Then": "rich-text#teste-flag"
+  //   }
+  // },
 
   "flex-layout.row#linha-prateleira": {
     "props": {
@@ -247,7 +247,7 @@
   },
   "product-summary.shelf#teste": {
     "children": [
-      "condition-layout.product#flag-promo-forced",
+      // "condition-layout.product#flag-promo-forced",
       "stack-layout#prodsum",
       "product-summary-name", //nome
       "flex-layout.col#productRating", //avaliações
