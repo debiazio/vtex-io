@@ -2,8 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#script_rd",
-      "responsive-layout.desktop#gif-animado-parcelamento",
-      "responsive-layout.mobile#gif-animado-parcelamento",
+      // "responsive-layout.desktop#gif-animado-parcelamento",
+      // "responsive-layout.mobile#gif-animado-parcelamento",
       "flex-layout.row#product-breadcrumb",
       "responsive-layout.desktop#availability",
       "responsive-layout.mobile#availability",
