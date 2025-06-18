@@ -223,7 +223,7 @@
   },
   "add-to-cart-button#sacola-icon": {
     "props": {
-      "text": "teste",
+      // "text": "teste",
       "blockClass": "botao-icone-sacola",
       "addToCartFeedback": "customEvent",
       "customPixelEventId": "add-to-cart-button",
