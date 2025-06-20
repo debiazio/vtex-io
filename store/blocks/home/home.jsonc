@@ -933,7 +933,10 @@
     },
     "children": [
       // LIMITEI A 10
-      "link#lash",
+      "link#frete-zero",
+      "link#sweet-black",
+      "link#feira",
+      "link#sweet-pink",
       "link#promocional-evento",
       // "link#poucas-unidades",
       "link#beauty",
@@ -952,21 +955,75 @@
       "blockClass": "icones-instagram"
     }
   },
-  // INSTAGRAM 1
-  "link#lash": {
+  // LINK FRETE ZERO
+  "link#frete-zero": {
     "props": {
-      "href": "https://www.instagram.com/p/DKJ5BHcNsMc/",
+      "href": "https://www.instagram.com/p/DLIFQfkxy6H/",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#lash",
+      "image#frete-zero",
       "image#links-instagram"
     ]
   },
-  "image#lash": {
+  "image#frete-zero": {
     "props": {
-      "src": "assets/instagram-1.webp",
+      "src": "assets/frete-zero.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // SWEET BLACK
+  "link#sweet-black": {
+    "props": {
+      "href": "https://www.instagram.com/p/DLCwC-nRjeO/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#sweet-black",
+      "image#links-instagram"
+    ]
+  },
+  "image#sweet-black": {
+    "props": {
+      "src": "assets/sweet-black.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // LINK FEIRA
+  "link#feira": {
+    "props": {
+      "href": "https://www.instagram.com/p/DK15PfGRMsZ/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#feira",
+      "image#links-instagram"
+    ]
+  },
+  "image#feira": {
+    "props": {
+      "src": "assets/feira.webp",
+      "blockClass": "imagem-instagram"
+    }
+  },
+  // INSTAGRAM 1
+  "link#sweet-pink": {
+    "props": {
+      "href": "https://www.instagram.com/p/DKZkIOjtm_E/",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#sweet-pink",
+      "image#links-instagram"
+    ]
+  },
+  "image#sweet-pink": {
+    "props": {
+      "src": "assets/sweet-pink.webp",
       "blockClass": "imagem-instagram"
     }
   },
