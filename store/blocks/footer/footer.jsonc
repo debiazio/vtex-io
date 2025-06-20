@@ -311,7 +311,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "2025 ® IDEALINE COMERCIAL LTDA. CNPJ: 06.331.320/0001-00. Todos os direitos reservados.",
+      "text": "Os preços, as ações promocionais e as condições de pagamento são exclusivas para o site. Os produtos disponibilizados no site possuem estoque limitado, estando sujeitos à disponibilidade no momento da efetivação e confirmação da compra. O site www.idealine.com.br é administrado por 2025® IDEALINE COMERCIAL LTDA., CNPJ 06.331.320/0001-00, com sede na Rua Inajá, 695, Sala E-commerce, CEP 83324-225, Jardim Pedro Demeterco, Pinhais – PR. Todos os direitos reservados.",
       "blockClass": "footer"
     }
   },
@@ -358,7 +358,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "2025 ® IDEALINE COMERCIAL LTDA. CNPJ: 06.331.320/0001-00. Todos os direitos reservados.",
+      "text": "Os preços, as ações promocionais e as condições de pagamento são exclusivas para o site. Os produtos disponibilizados no site possuem estoque limitado, estando sujeitos à disponibilidade no momento da efetivação e confirmação da compra. O site www.idealine.com.br é administrado por 2025® IDEALINE COMERCIAL LTDA., CNPJ 06.331.320/0001-00, com sede na Rua Inajá, 695, Sala E-commerce, CEP 83324-225, Jardim Pedro Demeterco, Pinhais – PR. Todos os direitos reservados.",
       "blockClass": "footer"
     }
   }
