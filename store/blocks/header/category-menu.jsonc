@@ -41,7 +41,6 @@
       "vtex.menu@2.x:menu#categorias-ver-tudo"
     ]
   },
-
   "vtex.menu@2.x:menu#categorias-ver-tudo": {
     "props": {
       "orientation": "vertical"
@@ -57,8 +56,6 @@
       "menu-item#submenuVerTudo-clinicas-hospitais",
       "menu-item#submenuVerTudo-odontologia",
       "menu-item#submenuVerTudo-pronta-entrega-horizontal"
-
-
     ]
   },
   "menu-item#submenuVerTudo-acessorios-ester": {
@@ -241,7 +238,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-
   "menu-item#beleza-estetica": {
     "props": {
       "id": "menu-principal",
@@ -388,9 +384,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-
-
-
   "menu-item#linha-veterinaria": {
     "props": {
       "id": "menu-principal",
@@ -440,7 +433,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-
   "menu-item#clinicas-hospitais": {
     "props": {
       "id": "menu-principal",
@@ -471,58 +463,8 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#submenuclinicas-hospitais-autoclaves-clinicas",
-      "menu-item#submenuclinicas-hospitais-autoclaves-hospitais",
-      "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
-    ]
+    "children": []
   },
-  "menu-item#submenuclinicas-hospitais-autoclaves-clinicas": {
-    "props": {
-      "id": "menu-item-submenuClinicasHospitais",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clinicas-e-hospitais/autoclaves-para-clinicas",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Clínicas",
-        "text": "Autoclaves para Clínicas"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuclinicas-hospitais-autoclaves-hospitais": {
-    "props": {
-      "id": "menu-item-submenuClinicasHospitais",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clinicas-e-hospitais/autoclaves-para-hospitais",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Hospitais",
-        "text": "Autoclaves para Hospitais"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-  "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios": {
-    "props": {
-      "id": "menu-item-submenuClinicasHospitais",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clinicas-e-hospitais/autoclaves-para-laboratorio",
-        "noFollow": false,
-        "tagTitle": "Autoclaves para Laboratórios",
-        "text": "Autoclaves para Laboratórios"
-      },
-      "blockClass": "menu-dropdown"
-    }
-  },
-
   "menu-item#idealclave-bellinha": {
     "props": {
       "id": "menu-principal",
@@ -619,7 +561,6 @@
       "blockClass": "menu-dropdown"
     }
   },
-
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "props": {
       "orientation": "vertical",
@@ -628,19 +569,16 @@
     },
     "children": [
       "menu-item#ver-tudo-mobile",
-
       "menu-item#pronta-entrega-mobile",
-
       "menu-item#mobiliario-tecnico-mobile",
       "menu-item#idealclave-bellinha-mobile",
-      "menu-item#idealclave-marcelobrito-mobile",
+      "menu-item#clinicas-hospitais-mobile",
       "menu-item#beleza-estetica-mobile",
       "menu-item#odontologia-mobile",
       "menu-item#linha-veterinaria-mobile",
-      "menu-item#clinicas-hospitais-mobile"
+      "menu-item#manuais-mobile"
     ]
   },
-
   "menu-item#ver-tudo-mobile": {
     "props": {
       "id": "menu-item-ver-tudo-mobile",
@@ -685,7 +623,6 @@
       "menu-item#submenuVerTudo-clinicas-hospitais"
     ]
   },
-
   "menu-item#pronta-entrega-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -701,7 +638,6 @@
       "blockClass": "menu-superior-mobile"
     }
   },
-
   "menu-item#beleza-estetica-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -742,7 +678,6 @@
       "menu-item#submenuBelezaEstetica-autoclaves-salao-beleza"
     ]
   },
-
   "menu-item#odontologia-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -780,7 +715,6 @@
       "menu-item#submenuOdontologia-autoclaves-odontologia"
     ]
   },
-
   "menu-item#linha-veterinaria-mobile": {
     "props": {
       "id": "menu-principal-mobile",
@@ -831,31 +765,22 @@
         "text": "Clínicas e Hospitais"
       },
       "blockClass": "menu-superior-mobile"
-    },
-    "blocks": [
-      "submenu.accordion#categorias-clinicas-e-hospitais"
-    ]
+    }
   },
-  "submenu.accordion#categorias-clinicas-e-hospitais": {
+  "menu-item#manuais-mobile": {
     "props": {
-      "width": "100%",
-      "blockClass": "clinicas-e-hospitais-mobile"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#categorias-clinicas-e-hospitais-mobile"
-    ]
-  },
-  "vtex.menu@2.x:menu#categorias-clinicas-e-hospitais-mobile": {
-    "children": [
-      "flex-layout.col#clinicas-e-hospitais-mobile"
-    ]
-  },
-  "flex-layout.col#clinicas-e-hospitais-mobile": {
-    "children": [
-      "menu-item#submenuclinicas-hospitais-autoclaves-clinicas",
-      "menu-item#submenuclinicas-hospitais-autoclaves-hospitais",
-      "menu-item#submenuclinicas-hospitais-autoclaves-laboratorios"
-    ]
+      "id": "menu-principal-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ajuda/manuais-idealine",
+        "noFollow": false,
+        "tagTitle": "Manuais",
+        "text": "Manuais"
+      },
+      "blockClass": "menu-superior-mobile"
+    }
   },
   "menu-item#idealclave-bellinha-mobile": {
     "props": {
@@ -868,21 +793,6 @@
         "noFollow": false,
         "tagTitle": "Idealclave Bellinha",
         "text": "Idealclave Bellinha"
-      },
-      "blockClass": "menu-superior-mobile"
-    }
-  },
-  "menu-item#idealclave-marcelobrito-mobile": {
-    "props": {
-      "id": "menu-principal-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/dr--marcelo-brito",
-        "noFollow": false,
-        "tagTitle": "Dr. Marcelo Brito",
-        "text": "Dr. Marcelo Brito"
       },
       "blockClass": "menu-superior-mobile"
     }
