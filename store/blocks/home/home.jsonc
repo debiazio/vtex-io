@@ -933,6 +933,7 @@
     },
     "children": [
       // LIMITEI A 10
+      "link#site-seguro",
       "link#frete-zero",
       "link#sweet-black",
       "link#feira",
@@ -943,9 +944,7 @@
       "link#elas-chegaram",
       "link#live-lancamento",
       "link#novos-lancamentos",
-      "link#contagem-regressiva",
-      "link#lancamento-beauty",
-      "link#faltam-5dias"
+      "link#contagem-regressiva"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -953,6 +952,24 @@
     "props": {
       "src": "assets/icones_instagram.svg",
       "blockClass": "icones-instagram"
+    }
+  },
+  // SITE SEGURO
+  "link#site-seguro": {
+    "props": {
+      "href": "https://www.instagram.com/idealine_autoclaves/p/DLXjg5CRoTp/?img_index=1",
+      "blockClass": "link-banner-home",
+      "target": "_blank"
+    },
+    "children": [
+      "image#site-seguro-instagram",
+      "image#links-instagram"
+    ]
+  },
+  "image#site-seguro-instagram": {
+    "props": {
+      "src": "assets/site-seguro.webp",
+      "blockClass": "imagem-instagram"
     }
   },
   // LINK FRETE ZERO
