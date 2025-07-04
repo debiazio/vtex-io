@@ -25,5 +25,8 @@
   },
   "store.custom#manuais": {
     "path": "/ajuda/manuais-idealine"
+  },
+  "store.custom#template-marcos":{
+    "path": "/template"
   }
 }

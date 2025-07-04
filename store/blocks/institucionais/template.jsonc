@@ -1,0 +1,42 @@
+{
+  "store.custom#template-marcos": {
+    "blocks": [
+      "flex-layout.row#prateleira"
+    ]
+  },
+  "flex-layout.row#prateleira": {
+    "props": {
+      "blockClass": "prateleira-template"
+    },
+    "title": "Linha 1 - template Marcos",
+    "children": [
+      "list-context.product-list#prateleira-template"
+    ]
+  },
+  "list-context.product-list#prateleira-template": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "title": "Lista de produtos - Prateleira",
+    "children": [
+      "slider-layout#template-marcos"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "208",
+      "maxItems": 10
+    }
+  },
+  "slider-layout#template-marcos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "always"
+    }
+  }
+}
