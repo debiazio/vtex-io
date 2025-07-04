@@ -1,42 +1,76 @@
 {
-  "store.custom#template-marcos": {
+  "store.custom#template-categoria": {
     "blocks": [
-      "flex-layout.row#prateleira"
+      "flex-layout.row#template-linha-1",
+      "flex-layout.row#template-linha-2"
     ]
   },
-  "flex-layout.row#prateleira": {
-    "props": {
-      "blockClass": "prateleira-template"
-    },
-    "title": "Linha 1 - template Marcos",
+  "flex-layout.row#template-linha-1": {
     "children": [
-      "list-context.product-list#prateleira-template"
+      "rich-text#titulo-template"
+    ],
+    "title": "Linha 1 - template"
+  },
+  "rich-text#titulo-template": {
+    "props": {
+      "text": "Título template"
+    },
+    "title": "Título template"
+  },
+  "flex-layout.row#template-linha-2": {
+    "children": [
+      "search-result-layout.customQuery#template-cat"
     ]
   },
-  "list-context.product-list#prateleira-template": {
+  "search-result-layout.customQuery#template-cat": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "208",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#template"
+    ]
+  },
+  "search-result-layout.desktop#template": {
+    "children": [
+      // "breadcrumb.search",
+      // "search-title.v2",
+      "flex-layout.row#results#template-cat"
+    ]
+  },
+  "flex-layout.row#results#template-cat": {
+    "children": [
+      "flex-layout.col#filter-template",
+      "flex-layout.col#search-template"
+    ]
+  },
+  "flex-layout.col#filter-template": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search-template": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
     "blocks": [
       "product-summary.shelf"
-    ],
-    "title": "Lista de produtos - Prateleira",
-    "children": [
-      "slider-layout#template-marcos"
-    ],
-    "props": {
-      "orderBy": "OrderByPriceASC",
-      "collection": "208",
-      "maxItems": 10
-    }
-  },
-  "slider-layout#template-marcos": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "blockClass": "shelf",
-      "showNavigationArrows": "always"
-    }
+    ]
   }
 }
