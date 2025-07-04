@@ -1,8 +1,14 @@
-.wrapper--texto-titulo-banner-final{
+.container--titulo-template {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper--texto-titulo-banner-final {
   margin-bottom: 15px;
 }
 
-.paragraph--texto-banner-final{
+.paragraph--texto-banner-final {
   font-size: 14px;
   margin: 0;
 }

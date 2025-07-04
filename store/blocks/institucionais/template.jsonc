@@ -13,11 +13,15 @@
   },
   "rich-text#titulo-template": {
     "props": {
-      "text": "Título template"
+      "text": "Título template",
+      "blockClass": "titulo-template"
     },
     "title": "Título template"
   },
   "flex-layout.row#template-linha-2": {
+    "props": {
+      "blockClass": "template-linha-2"
+    },
     "children": [
       "search-result-layout.customQuery#template-cat"
     ]

@@ -1,3 +1,7 @@
+.flexRow--template-linha-2{
+  margin: 50px;
+}
+
 .flexCol--colunas-texto {
   display: flex;
   flex-direction: column;
