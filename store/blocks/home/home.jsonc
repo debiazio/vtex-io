@@ -3,6 +3,7 @@
     "blocks": [
       // "responsive-layout.desktop#video-banner-home",
       // "responsive-layout.mobile#banner-topo-mobile",
+      "sandbox#cookie-script",
       "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
@@ -22,11 +23,13 @@
       "flex-layout.row#blog-home"
     ]
   },
-  // "responsive-layout.desktop#video-banner-home": {
-  //   "children": [
-  //     "slider-layout#video-banner-home"
-  //   ]
-  // },
+  "sandbox#cookie-script":{
+    "props": {
+      "initialContent": "<script type='text/javascript' charset='UPeadfa3f040b66.js'></script>",
+      "allowCookies": true
+    }
+  },
+
   "list-context.image-list#home": {
     "children": [
       "slider-layout#demo-images"
