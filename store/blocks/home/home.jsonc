@@ -1065,24 +1065,7 @@
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 3
-  "link#poucas-unidades": {
-    "props": {
-      "href": "https://www.instagram.com/p/DKHwfEKNOp0/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#poucas-unidades",
-      "image#links-instagram"
-    ]
-  },
-  "image#poucas-unidades": {
-    "props": {
-      "src": "assets/instagram-3.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
+
   // INSTAGRAM 4
   "link#beauty": {
     "props": {
@@ -1173,42 +1156,7 @@
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 9
-  "link#lancamento-beauty": {
-    "props": {
-      "href": "https://www.instagram.com/p/DJ-AuLyxkFm/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#lancamento-beauty",
-      "image#links-instagram"
-    ]
-  },
-  "image#lancamento-beauty": {
-    "props": {
-      "src": "assets/instagram-9.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  // INSTAGRAM 10
-  "link#faltam-5dias": {
-    "props": {
-      "href": "https://www.instagram.com/p/DJ1luD2N3GP/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#faltam-5dias",
-      "image#links-instagram"
-    ]
-  },
-  "image#faltam-5dias": {
-    "props": {
-      "src": "assets/instagram-10.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
+ 
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
