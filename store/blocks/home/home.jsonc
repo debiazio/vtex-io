@@ -3,10 +3,10 @@
     "blocks": [
       // "responsive-layout.desktop#video-banner-home",
       // "responsive-layout.mobile#banner-topo-mobile",
-      "sandbox#cookie-script",
       "list-context.image-list#home",
       "flex-layout.row#script_rd",
       "flex-layout.row#deals",
+      "sandbox#cookie-script",
       "responsive-layout.mobile#categorias",
       "responsive-layout.mobile#banners-mobile",
       "responsive-layout.desktop#categorias",
@@ -1156,7 +1156,7 @@
       "blockClass": "imagem-instagram"
     }
   },
- 
+
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {
