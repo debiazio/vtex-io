@@ -905,6 +905,7 @@
   .flexColChild--coluna-banner-duvidas,
   .flexColChild--coluna-banner-assist {
     max-width: unset;
+    flex-direction: row;
   }
 
   .flexCol--colunas-texto{

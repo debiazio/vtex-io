@@ -33,12 +33,13 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.row#linha-manuais-autoclaves-grandes",
-      "flex-layout.row#linha-manuais-autoclaves-pequenas"
+      "flex-layout.row#linha-manuais-autoclaves-menores",
+      "flex-layout.row#linha-manuais-autoclaves-maiores",
+      "flex-layout.row#linha-manuais-autoclaves-novas"
     ]
   },
-  // COLUNAS DOS MANUAIS - LINHA 1
-  "flex-layout.row#linha-manuais-autoclaves-pequenas": {
+  // COLUNA MANUAIS - LINHA 1
+  "flex-layout.row#linha-manuais-autoclaves-menores": {
     "props": {
       "blockClass": "manuais-linhas",
       "title": "Linha 1 dos manuais",
@@ -51,60 +52,8 @@
       "flex-layout.col#coluna4_linha1"
     ]
   },
-  // LINHA VIDA 21 LITROS
-  "flex-layout.col#coluna1_linha1": {
-    "props": {
-      "blockClass": "manuais-colunas",
-      "title": "Coluna manual Vida 21 litros",
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#imagem-manual-vida-21l",
-      "flex-layout.row#link-ler-manual-vida-21l",
-      "flex-layout.row#link-baixar-manual-vida-21l"
-    ]
-  },
-  // LINHA VIDA 30-42-60-75 LITROS
-  "flex-layout.col#coluna2_linha1": {
-    "props": {
-      "blockClass": "manuais-colunas",
-      "title": "Coluna manual Vida 30/42/60/75 litros",
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#imagem-manual-vida-30-42-60-75l",
-      "flex-layout.row#link-ler-manual-vida-30-42-60-75l",
-      "flex-layout.row#link-baixar-manual-vida-30-42-60-75l"
-    ]
-  },
-  // LINHA VIDA 75 LITROS VERTICAL
-  "flex-layout.col#coluna3_linha1": {
-    "props": {
-      "blockClass": "manuais-colunas",
-      "title": "Coluna manual Vida 75 litros",
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#imagem-manual-vida-75l-vertical",
-      "flex-layout.row#link-ler-manual-vida-75l-vertical",
-      "flex-layout.row#link-baixar-manual-vida-75l-vertical"
-    ]
-  },
-  // LINHA OPTA 12 LITROS
-  "flex-layout.col#coluna4_linha1": {
-    "props": {
-      "blockClass": "manuais-colunas",
-      "title": "Coluna manual Opta 12 litros",
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#imagem-manual-opta-12",
-      "flex-layout.row#link-ler-manual-opta-12",
-      "flex-layout.row#link-baixar-manual-opta-12"
-    ]
-  },
-  // COLUNA MANUAIS - LINHA 2
-  "flex-layout.row#linha-manuais-autoclaves-grandes": {
+  // COLUNAS DOS MANUAIS - LINHA 2
+  "flex-layout.row#linha-manuais-autoclaves-maiores": {
     "props": {
       "blockClass": "manuais-linhas",
       "title": "Linha 2 dos manuais",
@@ -117,8 +66,20 @@
       "flex-layout.col#coluna4_linha2"
     ]
   },
+  // COLUNAS DOS MANUAIS LINHA 3
+  "flex-layout.row#linha-manuais-autoclaves-novas": {
+    "props": {
+      "blockClass": "manuais-linhas",
+      "title": "Linha 3 dos manuais",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#coluna1-linha3",
+      "flex-layout.col#coluna2-linha3"
+    ]
+  },
   // COLUNA MANUAL BELLINHA
-  "flex-layout.col#coluna1_linha2": {
+  "flex-layout.col#coluna1_linha1": {
     "props": {
       "blockClass": "manuais-colunas",
       "title": "Coluna manual Bellinha",
@@ -131,7 +92,7 @@
     ]
   },
   // COLUNA MANUAL IDEACLAVE
-  "flex-layout.col#coluna2_linha2": {
+  "flex-layout.col#coluna2_linha1": {
     "props": {
       "blockClass": "manuais-colunas",
       "title": "Coluna manual Idealclave",
@@ -144,7 +105,7 @@
     ]
   },
   // COLUNA MANUAL LABELLE 5 LITROS
-  "flex-layout.col#coluna3_linha2": {
+  "flex-layout.col#coluna3_linha1": {
     "props": {
       "blockClass": "manuais-colunas",
       "title": "Coluna manual LaBelle 5 litros",
@@ -157,7 +118,7 @@
     ]
   },
   // COLUNA MANUAL LABELLE 8 LITROS
-  "flex-layout.col#coluna4_linha2": {
+  "flex-layout.col#coluna4_linha1": {
     "props": {
       "blockClass": "manuais-colunas",
       "title": "Coluna manual LaBelle 8 litros",
@@ -169,7 +130,94 @@
       "flex-layout.row#link-baixar-manual-la-belle-8litros"
     ]
   },
+  // LINHA VIDA 21 LITROS
+  "flex-layout.col#coluna1_linha2": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual Vida 21 litros",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-vida-21l",
+      "flex-layout.row#link-ler-manual-vida-21l",
+      "flex-layout.row#link-baixar-manual-vida-21l"
+    ]
+  },
+  // LINHA VIDA 30-42-60-75 LITROS
+  "flex-layout.col#coluna2_linha2": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual Vida 30/42/60/75 litros",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-vida-30-42-60-75l",
+      "flex-layout.row#link-ler-manual-vida-30-42-60-75l",
+      "flex-layout.row#link-baixar-manual-vida-30-42-60-75l"
+    ]
+  },
+  // LINHA VIDA 75 LITROS VERTICAL
+  "flex-layout.col#coluna3_linha2": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual Vida 75 litros",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-vida-75l-vertical",
+      "flex-layout.row#link-ler-manual-vida-75l-vertical",
+      "flex-layout.row#link-baixar-manual-vida-75l-vertical"
+    ]
+  },
+  // LINHA OPTA 12 LITROS
+  "flex-layout.col#coluna4_linha2": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual Opta 12 litros",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-opta-12",
+      "flex-layout.row#link-ler-manual-opta-12",
+      "flex-layout.row#link-baixar-manual-opta-12"
+    ]
+  },
+  // COLUNA 1 LINHA 3 - MANUAL EXTRA
+  "flex-layout.col#coluna1-linha3": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual extra",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-extra",
+      "flex-layout.row#link-ler-manual-extra",
+      "flex-layout.row#link-baixar-manual-extra"
+    ]
+  },
+  // COLUNA 2 LINHA 3 - MANUAL FLEX
+  "flex-layout.col#coluna2-linha3": {
+    "props": {
+      "blockClass": "manuais-colunas",
+      "title": "Coluna manual flex",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#imagem-manual-flex",
+      "flex-layout.row#link-ler-manual-flex",
+      "flex-layout.row#link-baixar-manual-flex"
+    ]
+  },
   // SEÇÃO imagens
+  "flex-layout.row#imagem-manual-flex": {
+    "props": {
+      "blockClass": "manuais-imagem",
+      "title": "Linha thumbnail manuais flex"
+    },
+    "children": [
+      "image#manual-flex"
+    ]
+  },
   "flex-layout.row#imagem-manual-vida-21l": {
     "props": {
       "blockClass": "manuais-imagem",
@@ -242,7 +290,34 @@
       "image#manual-la-belle-8litros"
     ]
   },
+  "flex-layout.row#imagem-manual-extra": {
+    "props": {
+      "blockClass": "manuais-imagens",
+      "title": "Linha thumbnail manuais"
+    },
+    "children": [
+      "image#manual-extra"
+    ]
+  },
   // seção LINHA DOS links "ler manual"
+  "flex-layout.row#link-ler-manual-flex": {
+    "props": {
+      "blockClass": "mnuais-colunas",
+      "title": "Linha Ler manual Flex"
+    },
+    "children": [
+      "link#ler-manual-flex"
+    ]
+  },
+  "flex-layout.row#link-ler-manual-extra": {
+    "props": {
+      "blockClass": "mnuais-colunas",
+      "title": "Linha Ler manual Extra"
+    },
+    "children": [
+      "link#ler-manual-extra"
+    ]
+  },
   "flex-layout.row#link-ler-manual-vida-21l": {
     "props": {
       "blockClass": "manual-link-ler-manunal",
@@ -316,6 +391,24 @@
     ]
   },
   // SEÇÃO linhas DOS LINKS DOWNLOAD
+  "flex-layout.row#link-baixar-manual-flex": {
+    "props": {
+      "blockClass": "linha-link-baixar",
+      "title": "Linha botao baixar manual Flex"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-flex"
+    ]
+  },
+  "flex-layout.row#link-baixar-manual-extra": {
+    "props": {
+      "blockClass": "linha-link-baixar",
+      "title": "Linha botao baixar manual Extra"
+    },
+    "children": [
+      "flex-layout.row#baixar-manual-extra"
+    ]
+  },
   "flex-layout.row#link-baixar-manual-vida-21l": {
     "props": {
       "blockClass": "linha-link-baixar",
@@ -389,6 +482,22 @@
     ]
   },
   // SEÇÃO DAS IMAGENS
+  "image#manual-flex": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "title": "Imagem do manual flex",
+      "src": "assets/manual-flex.webp",
+      "alt": "Imagem de capa do manual"
+    }
+  },
+  "image#manual-extra": {
+    "props": {
+      "blockClass": "manual-imagem",
+      "title": "Imagem do manual",
+      "src": "assets/manual-extra.webp",
+      "alt": "Imagem de capa do manual"
+    }
+  },
   "image#manual-vida-21l": {
     "props": {
       "blockClass": "manual-imagem",
@@ -454,6 +563,24 @@
     }
   },
   // SEÇÃO DOS LINKS LER MANUAL
+  "link#ler-manual-flex": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "title": "Link ler manual flex",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual Linha FLEX.pdf",
+      "target": "_blank"
+    }
+  },
+  "link#ler-manual-extra": {
+    "props": {
+      "blockClass": "link-ler-manuais",
+      "title": "Link ler manual Extra",
+      "label": "LER MANUAL",
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL AUTOCLAVE EXTRA.pdf",
+      "target": "_blank"
+    }
+  },
   "link#ler-manual-vida-21l": {
     "props": {
       "blockClass": "link-ler-manuais",
@@ -520,6 +647,24 @@
     }
   },
   // SEÇÃO DOS LINKS PARA BAIXAR
+  "flex-layout.row#baixar-manual-flex": {
+    "props": {
+      "blockClass": "link-baixar-manuais",
+      "title": "Link baixar manuais - Flex"
+    },
+    "children": [
+      "btn-flex"
+    ]
+  },
+  "flex-layout.row#baixar-manual-extra": {
+    "props": {
+      "blockClass": "link-baixar-manuais",
+      "title": "Link baixar manuais - Extra"
+    },
+    "children": [
+      "btn-extra"
+    ]
+  },
   "flex-layout.row#baixar-manual-vida-21l": {
     "props": {
       "blockClass": "link-baixar-manuais",
