@@ -594,6 +594,7 @@
     "props": {
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
+      "target": "_blank",
       "label": "LER MANUAL",
       "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-VIDA-30L-42L-60L-E-75L_Rev-04.02.2025-compactado.pdf"
     }
@@ -602,6 +603,7 @@
     "props": {
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
+      "target": "_blank",
       "label": "LER MANUAL",
       "href": "https://stermax.com.br/images_idealine/manuais/MANUAL-VIDA75L-VERTICAL_Rev-14.02.2025-compactado.pdf"
     }
@@ -611,6 +613,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
+      "target": "_blank",
       "href": "https://stermax.com.br/images_idealine/manuais/MANUAL OPTA 12L_Rev 04.02.2025  1.pdf"
     }
   },
@@ -619,7 +622,8 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "https://stermax.com.br/images_idealine/manuais/Manual_ DIGITAL IDEALCLAVE_5L -Mai 25 4.pdf"
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual_ DIGITAL IDEALCLAVE_5L -AGOSTO 25.pdf"
     }
   },
   "link#ler-manual-idealclave": {
@@ -627,6 +631,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
+      "target": "_blank",
       "href": "https://stermax.com.br/images_idealine/manuais/Manual_-DIGITAL-IDEALCLAVE_8L-Nov-2024.pdf"
     }
   },
@@ -635,6 +640,7 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
+      "target": "_blank",
       "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-5L-2024.pdf"
     }
   },
@@ -643,7 +649,8 @@
       "blockClass": "link-ler-manuais",
       "title": "Link ler manuais",
       "label": "LER MANUAL",
-      "href": "https://stermax.com.br/images_idealine/manuais/STM-Manual-La-Belle-8L-2024.pdf"
+      "target": "_blank",
+      "href": "https://stermax.com.br/images_idealine/manuais/Manual_ DIGITAL IDEALCLAVE_8L - AGOSTO 25.pdf"
     }
   },
   // SEÇÃO DOS LINKS PARA BAIXAR
