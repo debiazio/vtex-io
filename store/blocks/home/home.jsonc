@@ -23,13 +23,12 @@
       "flex-layout.row#blog-home"
     ]
   },
-  "sandbox#cookie-script":{
+  "sandbox#cookie-script": {
     "props": {
       "initialContent": "<script type='text/javascript' charset='UPeadfa3f040b66.js'></script>",
       "allowCookies": true
     }
   },
-
   "list-context.image-list#home": {
     "children": [
       "slider-layout#demo-images"
@@ -936,18 +935,14 @@
     },
     "children": [
       // LIMITEI A 10
-      "link#site-seguro",
-      "link#frete-zero",
-      "link#sweet-black",
-      "link#feira",
-      "link#sweet-pink",
-      "link#promocional-evento",
-      // "link#poucas-unidades",
-      "link#beauty",
-      "link#elas-chegaram",
-      "link#live-lancamento",
-      "link#novos-lancamentos",
-      "link#contagem-regressiva"
+      "link#8",
+      "link#7",
+      "link#6",
+      "link#5",
+      "link#4",
+      "link#3",
+      "link#2",
+      "link#1"
     ]
   },
   // ICONES DO INSTAGRAM - MODELO
@@ -958,205 +953,142 @@
     }
   },
   // SITE SEGURO
-  "link#site-seguro": {
+  "link#1": {
     "props": {
-      "href": "https://www.instagram.com/idealine_autoclaves/p/DLXjg5CRoTp/?img_index=1",
+      "href": "https://www.instagram.com/p/DM-Zwq7PQja",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#site-seguro-instagram",
+      "image#1",
       "image#links-instagram"
     ]
   },
-  "image#site-seguro-instagram": {
+  "image#1": {
     "props": {
-      "src": "assets/site-seguro.webp",
+      "src": "assets/1.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // LINK FRETE ZERO
-  "link#frete-zero": {
+  "link#2": {
     "props": {
-      "href": "https://www.instagram.com/p/DLIFQfkxy6H/",
+      "href": "https://www.instagram.com/p/DM-x_PTBZCO",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#frete-zero",
+      "image#2",
       "image#links-instagram"
     ]
   },
-  "image#frete-zero": {
+  "image#2": {
     "props": {
-      "src": "assets/frete-zero.webp",
+      "src": "assets/2.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // SWEET BLACK
-  "link#sweet-black": {
+  "link#3": {
     "props": {
-      "href": "https://www.instagram.com/p/DLCwC-nRjeO/",
+      "href": "https://www.instagram.com/p/DNBRZT2Tb_D",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#sweet-black",
+      "image#3",
       "image#links-instagram"
     ]
   },
-  "image#sweet-black": {
+  "image#3": {
     "props": {
-      "src": "assets/sweet-black.webp",
+      "src": "assets/3.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // LINK FEIRA
-  "link#feira": {
+  "link#4": {
     "props": {
-      "href": "https://www.instagram.com/p/DK15PfGRMsZ/",
+      "href": "https://www.instagram.com/p/DNDfcgiTv9x",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#feira",
+      "image#4",
       "image#links-instagram"
     ]
   },
-  "image#feira": {
+  "image#4": {
     "props": {
-      "src": "assets/feira.webp",
+      "src": "assets/4.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 1
-  "link#sweet-pink": {
+  "link#5": {
     "props": {
-      "href": "https://www.instagram.com/p/DKZkIOjtm_E/",
+      "href": "https://www.instagram.com/p/DNQSHwdNUOf",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#sweet-pink",
+      "image#5",
       "image#links-instagram"
     ]
   },
-  "image#sweet-pink": {
+  "image#5": {
     "props": {
-      "src": "assets/sweet-pink.webp",
+      "src": "assets/5.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 2
-  "link#promocional-evento": {
+  "link#6": {
     "props": {
-      "href": "https://www.instagram.com/p/DKIIWaox2SE/",
+      "href": "https://www.instagram.com/p/DNTberMpovn",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#promocional-evento",
+      "image#6",
       "image#links-instagram"
     ]
   },
-  "image#promocional-evento": {
+  "image#6": {
     "props": {
-      "src": "assets/instagram-2.webp",
+      "src": "assets/6.webp",
       "blockClass": "imagem-instagram"
     }
   },
-
-  // INSTAGRAM 4
-  "link#beauty": {
+  "link#7": {
     "props": {
-      "href": "https://www.instagram.com/p/DKFIrA-N_99/",
+      "href": "https://www.instagram.com/idealine_autoclaves/p/DNV2QAnMjTZ",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#beauty",
+      "image#7",
       "image#links-instagram"
     ]
   },
-  "image#beauty": {
+  "image#7": {
     "props": {
-      "src": "assets/instagram-4.webp",
+      "src": "assets/7.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 5
-  "link#elas-chegaram": {
+  "link#8": {
     "props": {
-      "href": "https://www.instagram.com/p/DKCiwaOtWwf/",
+      "href": "https://www.instagram.com/p/DNZSBmjiwhc",
       "blockClass": "link-banner-home",
       "target": "_blank"
     },
     "children": [
-      "image#elas-chegaram",
+      "image#8",
       "image#links-instagram"
     ]
   },
-  "image#elas-chegaram": {
+  "image#8": {
     "props": {
-      "src": "assets/instagram-5.webp",
+      "src": "assets/8.webp",
       "blockClass": "imagem-instagram"
     }
   },
-  // INSTAGRAM 6
-  "link#live-lancamento": {
-    "props": {
-      "href": "https://www.instagram.com/p/DKCnnZVNhYj/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#live-lancamento",
-      "image#links-instagram"
-    ]
-  },
-  "image#live-lancamento": {
-    "props": {
-      "src": "assets/instagram-6.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  // INSTAGRAM 7
-  "link#novos-lancamentos": {
-    "props": {
-      "href": "https://www.instagram.com/p/DKAnIhit5fj/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#novos-lancamentos",
-      "image#links-instagram"
-    ]
-  },
-  "image#novos-lancamentos": {
-    "props": {
-      "src": "assets/instagram-7.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-  // INSTAGRAM 8
-  "link#contagem-regressiva": {
-    "props": {
-      "href": "https://www.instagram.com/p/DJ_57Q1t4EA/",
-      "blockClass": "link-banner-home",
-      "target": "_blank"
-    },
-    "children": [
-      "image#contagem-regressiva",
-      "image#links-instagram"
-    ]
-  },
-  "image#contagem-regressiva": {
-    "props": {
-      "src": "assets/instagram-8.webp",
-      "blockClass": "imagem-instagram"
-    }
-  },
-
   // BLOGO
   "flex-layout.row#titulo-blog-home": {
     "props": {

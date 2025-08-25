@@ -523,9 +523,16 @@
           "arguments": {
             "id": "2945" //sweet pink
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2946" //sweet pink - pronta entrega
+          }
         }
       ],
-      "Then": "flex-layout.row#visualizador-360" //visualizador 3d bellinha perola
+      "Then": "flex-layout.row#visualizador-360", //visualizador 3d bellinha perola
+      "matchType": "any"
     }
   },
 
@@ -554,9 +561,16 @@
           "arguments": {
             "id": "2948" //sweet black
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2947" //sweet black - pronta entrega
+          }
         }
       ],
-      "Then": "flex-layout.row#visualizador-360-black" //visualizador 3d bellinha perola
+      "Then": "flex-layout.row#visualizador-360-black", //visualizador 3d bellinha perola
+      "matchType": "any"
     }
   },
 
