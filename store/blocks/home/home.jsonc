@@ -249,7 +249,7 @@
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 40
+      "maxItems": 20
     }
   },
   "slider-layout#prateleira-mais-vendidos": {
